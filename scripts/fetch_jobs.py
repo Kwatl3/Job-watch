@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Fetch jobs for every company in companies.yml and merge them into docs/jobs.json.
+"""Fetch jobs for the companies in companies.yml and merge them into docs/jobs.json.
+
+Usage: python scripts/fetch_jobs.py [--tier fast|slow|all]
+
+Tiers: every company has a tier (default "fast"). The 30-minute schedule runs the
+"fast" tier, a 6-hourly schedule runs the "slow" tier, so hundreds of companies do
+not hammer the sources every half hour.
 
 State rules:
 - A job is identified by (company, id). First sighting sets first_seen.
@@ -7,15 +13,21 @@ State rules:
   "seed" so the dashboard does not shout "NEW" for everything on day one.
 - A job missing from a successful fetch is marked closed and dropped after
   closed_retention_days.
-- If a company fetch fails, its previous jobs are left untouched.
+- Companies that failed or were not part of this run keep their previous jobs.
 - The file is only rewritten when something real changed, so the repo history
   is not filled with one commit per run.
 """
 from __future__ import annotations
 
+import argparse
 import json
+import re
 import sys
+import threading
+import time
+import unicodedata
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -23,6 +35,8 @@ from urllib.parse import urljoin
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "companies.yml"
@@ -30,16 +44,98 @@ OUT_PATH = ROOT / "docs" / "jobs.json"
 UA = "Mozilla/5.0 (compatible; personal-job-dashboard/1.0)"
 TIMEOUT = 30
 
-session = requests.Session()
-session.headers.update({"User-Agent": UA, "Accept": "application/json, text/html, */*"})
+_tls = threading.local()
+
+
+def sess() -> requests.Session:
+    """One requests session per thread, with retries on 429/5xx."""
+    s = getattr(_tls, "s", None)
+    if s is None:
+        s = requests.Session()
+        s.headers.update({"User-Agent": UA, "Accept": "application/json, text/html, */*"})
+        retry = Retry(total=3, backoff_factor=1.0, status_forcelist=(429, 500, 502, 503, 504),
+                      allowed_methods=None)
+        s.mount("https://", HTTPAdapter(max_retries=retry))
+        _tls.s = s
+    return s
 
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
+# ----------------------------------------------------------- name matching ---
+
+def words(s: str) -> list[str]:
+    """Lower-case alphanumeric words with accents removed: 'Alfred Kärcher SE' -> [alfred, karcher, se]."""
+    s = unicodedata.normalize("NFKD", (s or "").lower().replace("ß", "ss"))
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    return re.findall(r"[a-z0-9]+", s)
+
+
+def employer_matches(found: str, wanted: list[str]) -> bool:
+    """True if the employer name returned by the source contains one of the wanted names
+    as whole words ('Winkel' does not match 'Winkelmann', 'Rolls Royce' matches 'Rolls-Royce Deutschland')."""
+    fw = words(found)
+    for w in wanted:
+        ww = words(w)
+        if not ww:
+            continue
+        for i in range(len(fw) - len(ww) + 1):
+            if fw[i:i + len(ww)] == ww:
+                return True
+    return False
+
+
 # ---------------------------------------------------------------- adapters ---
 # Every adapter returns a list of dicts: id, title, location, url, posted (optional).
+
+BA_URL = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"
+BA_HEADERS = {"X-API-Key": "jobboerse-jobsuche"}  # public key documented by the Bundesagentur
+
+
+def fetch_arbeitsagentur(c: dict) -> list[dict]:
+    """Official job-agency feed (arbeitsagentur.de Jobbörse): jobs in Germany by employer name."""
+    employer = c["employer"]
+    wanted = [employer] + list(c.get("employer_match", []))
+    size = 100
+    out: dict[str, dict] = {}
+    for page in range(1, int(c.get("max_pages", 3)) + 1):
+        params = {"arbeitgeber": employer, "page": page, "size": size,
+                  "veroeffentlichtseit": int(c.get("days", 100)),
+                  "angebotsart": 1}  # 1 = regular jobs (no apprenticeships / internships)
+        if c.get("keywords"):
+            params["was"] = c["keywords"]
+        if c.get("where"):
+            params["wo"] = c["where"]
+            params["umkreis"] = int(c.get("radius_km", 50))
+        r = sess().get(BA_URL, params=params, headers=BA_HEADERS, timeout=TIMEOUT)
+        if r.status_code == 400 and size == 100:  # some deployments cap page size at 50
+            size = 50
+            params["size"] = size
+            r = sess().get(BA_URL, params=params, headers=BA_HEADERS, timeout=TIMEOUT)
+        r.raise_for_status()
+        data = r.json()
+        items = data.get("stellenangebote") or []
+        for it in items:
+            if not employer_matches(it.get("arbeitgeber", ""), wanted):
+                continue
+            ref = it.get("refnr")
+            if not ref:
+                continue
+            ort = it.get("arbeitsort") or {}
+            out[ref] = {
+                "id": ref,
+                "title": (it.get("titel") or it.get("beruf") or "").strip(),
+                "location": ", ".join(x for x in (ort.get("ort"), ort.get("region")) if x),
+                "url": f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{ref}",
+                "posted": it.get("aktuelleVeroeffentlichungsdatum", "") or "",
+            }
+        if len(items) < size or page * size >= int(data.get("maxErgebnisse", 0) or 0):
+            break
+        time.sleep(0.2)
+    return list(out.values())
+
 
 def fetch_workday(c: dict) -> list[dict]:
     host, tenant, site = c["host"], c["tenant"], c["site"]
@@ -48,7 +144,7 @@ def fetch_workday(c: dict) -> list[dict]:
     for _ in range(int(c.get("max_pages", 15))):
         body = {"appliedFacets": {}, "limit": limit, "offset": offset,
                 "searchText": c.get("search", "")}
-        r = session.post(api, json=body, timeout=TIMEOUT)
+        r = sess().post(api, json=body, timeout=TIMEOUT)
         r.raise_for_status()
         data = r.json()
         postings = data.get("jobPostings", [])
@@ -68,7 +164,7 @@ def fetch_workday(c: dict) -> list[dict]:
 
 
 def fetch_greenhouse(c: dict) -> list[dict]:
-    r = session.get(f"https://boards-api.greenhouse.io/v1/boards/{c['board']}/jobs", timeout=TIMEOUT)
+    r = sess().get(f"https://boards-api.greenhouse.io/v1/boards/{c['board']}/jobs", timeout=TIMEOUT)
     r.raise_for_status()
     return [{
         "id": str(j["id"]),
@@ -80,7 +176,7 @@ def fetch_greenhouse(c: dict) -> list[dict]:
 
 
 def fetch_lever(c: dict) -> list[dict]:
-    r = session.get(f"https://api.lever.co/v0/postings/{c['site']}?mode=json", timeout=TIMEOUT)
+    r = sess().get(f"https://api.lever.co/v0/postings/{c['site']}?mode=json", timeout=TIMEOUT)
     r.raise_for_status()
     out = []
     for j in r.json():
@@ -99,8 +195,8 @@ def fetch_lever(c: dict) -> list[dict]:
 def fetch_smartrecruiters(c: dict) -> list[dict]:
     cid, out, offset = c["company_id"], [], 0
     while True:
-        r = session.get(f"https://api.smartrecruiters.com/v1/companies/{cid}/postings",
-                        params={"limit": 100, "offset": offset}, timeout=TIMEOUT)
+        r = sess().get(f"https://api.smartrecruiters.com/v1/companies/{cid}/postings",
+                       params={"limit": 100, "offset": offset}, timeout=TIMEOUT)
         r.raise_for_status()
         data = r.json()
         for p in data.get("content", []):
@@ -120,7 +216,7 @@ def fetch_smartrecruiters(c: dict) -> list[dict]:
 
 def fetch_personio(c: dict) -> list[dict]:
     sub = c["subdomain"]
-    r = session.get(f"https://{sub}.jobs.personio.de/xml", timeout=TIMEOUT)
+    r = sess().get(f"https://{sub}.jobs.personio.de/xml", timeout=TIMEOUT)
     r.raise_for_status()
     root = ET.fromstring(r.content)
     out = []
@@ -137,7 +233,7 @@ def fetch_personio(c: dict) -> list[dict]:
 
 
 def fetch_html(c: dict) -> list[dict]:
-    r = session.get(c["url"], timeout=TIMEOUT)
+    r = sess().get(c["url"], timeout=TIMEOUT)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     out = []
@@ -159,6 +255,7 @@ def fetch_html(c: dict) -> list[dict]:
 
 
 ADAPTERS = {
+    "arbeitsagentur": fetch_arbeitsagentur,
     "workday": fetch_workday,
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -170,6 +267,15 @@ ADAPTERS = {
 
 # ----------------------------------------------------------------- filters ---
 
+def title_has(term: str, title: str) -> bool:
+    """Keyword match on a lower-case title. Short terms (<= 4 letters) must start a word,
+    so 'lean' matches 'Lean Manager' but not 'Clean Room Engineer'."""
+    t = term.lower()
+    if len(t) <= 4:
+        return re.search(r"(?<![a-zäöüß])" + re.escape(t), title) is not None
+    return t in title
+
+
 def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
     def pick(key):
         return company.get(key, global_filters.get(key) or [])
@@ -177,9 +283,9 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
     title = job["title"].lower()
     loc = job["location"].lower()
     include, exclude, locations = pick("include"), pick("exclude"), pick("locations")
-    if include and not any(k.lower() in title for k in include):
+    if include and not any(title_has(k, title) for k in include):
         return False
-    if exclude and any(k.lower() in title for k in exclude):
+    if exclude and any(title_has(k, title) for k in exclude):
         return False
     if locations and loc and not any(k.lower() in loc for k in locations):
         return False
@@ -190,18 +296,18 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
 
 def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
           cfg: dict, now: str) -> dict:
-    """Pure function: old state + fetch results -> new state (no timestamps for 'checked')."""
+    """Pure function: old state + fetch results -> new state (no 'checked' timestamps)."""
     retention = timedelta(days=int(cfg.get("closed_retention_days", 14)))
     now_dt = datetime.fromisoformat(now)
     old_jobs = {(j["company"], j["id"]): j for j in old.get("jobs", [])}
-    known_companies = {j["company"] for j in old.get("jobs", [])} | set(old.get("baselined", []))
     baselined = set(old.get("baselined", []))
+    known_companies = {j["company"] for j in old.get("jobs", [])} | baselined
+    configured = {c["name"] for c in cfg["companies"]}
     result: dict[tuple, dict] = {}
 
-    # Keep everything for companies that failed or are no longer configured to be fetched.
-    configured = {c["name"] for c in cfg["companies"]}
+    # Companies that failed, or were not part of this run, keep their previous jobs.
     for key, job in old_jobs.items():
-        if job["company"] in errors or job["company"] not in configured:
+        if job["company"] not in fetched and job["company"] in configured:
             result[key] = job
 
     for company, jobs in fetched.items():
@@ -212,7 +318,7 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
             seen.add(key)
             prev = old_jobs.get(key)
             if prev:
-                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted")}}
+                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted", "match") if k in j}}
                 entry.pop("closed_at", None)  # reopened
             else:
                 entry = {"company": company, **j, "first_seen": now}
@@ -228,7 +334,9 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
                 if now_dt - closed <= retention:
                     result[key] = entry
 
-    jobs_sorted = sorted(result.values(), key=lambda j: (j["first_seen"], j["title"]), reverse=True)
+    jobs_sorted = sorted(result.values(),
+                         key=lambda j: (j["first_seen"], j.get("posted", ""), j["title"]),
+                         reverse=True)
     status = dict(old.get("companies", {}))
     for name, jobs in fetched.items():
         status[name] = {"ok": True, "count": len(jobs)}
@@ -241,36 +349,56 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
             "companies": status, "jobs": jobs_sorted}
 
 
+def run_company(c: dict, global_filters: dict, core: list[str]) -> tuple[str, list[dict] | None, str | None]:
+    name, ctype = c["name"], c.get("type")
+    adapter = ADAPTERS.get(ctype)
+    if not adapter:
+        return name, None, f"unknown type '{ctype}'"
+    try:
+        jobs = [j for j in adapter(c) if j["id"] and j["title"] and passes_filters(j, c, global_filters)]
+        for j in jobs:  # 2 = strong match for your profile ("core" words), 1 = related
+            j["match"] = 2 if any(title_has(k, j["title"].lower()) for k in core) else 1
+        return name, jobs, None
+    except Exception as exc:  # one broken company must not stop the others
+        return name, None, f"{type(exc).__name__}: {exc}"
+
+
 def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--tier", default="all", choices=["fast", "slow", "all"])
+    args = ap.parse_args()
+
     cfg = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8")) or {}
     companies = cfg.get("companies") or []
     if not companies:
         print("No companies configured in companies.yml")
         return 1
     global_filters = cfg.get("filters") or {}
+    profile = cfg.get("profile") or {}
+    core = profile.get("core") or []
+    if "include" not in global_filters and (core or profile.get("related")):
+        # a job must contain a core or related profile word in its title
+        global_filters = {**global_filters, "include": core + (profile.get("related") or [])}
+    todo =[c for c in companies if args.tier == "all" or c.get("tier", "fast") == args.tier]
+    print(f"Tier '{args.tier}': {len(todo)} of {len(companies)} companies")
 
     fetched: dict[str, list[dict]] = {}
     errors: dict[str, str] = {}
-    for c in companies:
-        name, ctype = c["name"], c.get("type")
-        adapter = ADAPTERS.get(ctype)
-        if not adapter:
-            errors[name] = f"unknown type '{ctype}'"
-            print(f"[{name}] unknown type {ctype!r}", file=sys.stderr)
-            continue
-        try:
-            jobs = [j for j in adapter(c) if j["id"] and j["title"] and passes_filters(j, c, global_filters)]
-            fetched[name] = jobs
-            print(f"[{name}] {len(jobs)} jobs")
-        except Exception as exc:  # one broken company must not stop the others
-            errors[name] = f"{type(exc).__name__}: {exc}"
-            print(f"[{name}] FAILED: {errors[name]}", file=sys.stderr)
+    with ThreadPoolExecutor(max_workers=int(cfg.get("workers", 4))) as pool:
+        for name, jobs, err in pool.map(lambda c: run_company(c, global_filters, core), todo):
+            if err:
+                errors[name] = err
+                print(f"[{name}] FAILED: {err}", file=sys.stderr)
+            else:
+                fetched[name] = jobs
+                print(f"[{name}] {len(jobs)} jobs")
 
     old = json.loads(OUT_PATH.read_text(encoding="utf-8")) if OUT_PATH.exists() else {}
     now = now_iso()
-    new_state = merge({k: v for k, v in old.items() if k != "updated"}, fetched, errors, cfg, now)
+    old_core = {k: v for k, v in old.items() if k != "updated"}
+    new_state = merge(old_core, fetched, errors, cfg, now)
 
-    if old and {k: v for k, v in old.items() if k != "updated"} == new_state:
+    if old and old_core == new_state:
         print("No changes.")
     else:
         new_state["updated"] = now
