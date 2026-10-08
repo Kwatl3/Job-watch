@@ -4,84 +4,142 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Job Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f27; --muted: #667085; --line: #e3e6ec;
-    --accent: #2457d6; --new: #0f8a4b; --new-bg: #e3f5ea; --closed: #98a2b3; --err: #c0392b;
+    --bg: #eaeef3; --panel: #f8fafc; --ink: #0e1a2b; --muted: #5d6b7e; --line: #d3dae4;
+    --navy: #0b2a55; --navy-ink: #ffffff; --best: #c98a00; --best-bg: #fff1c9; --best-ink: #6b4700;
+    --new: #0b7a47; --new-bg: #d9f3e5; --closed: #8a95a5; --err: #b3261e; --focus: #1d6fe0;
+    --display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+    --body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #12141a; --card: #1a1d25; --text: #e8eaf0; --muted: #8b93a5; --line: #2a2e39;
-            --accent: #7aa2ff; --new: #4ade80; --new-bg: #123423; --closed: #5b6275; --err: #ff7b6b; }
+    :root { --bg: #0b121c; --panel: #111b2a; --ink: #e6edf7; --muted: #8b9ab0; --line: #22304a;
+            --navy: #16345f; --best: #f0b429; --best-bg: #3a2d0c; --best-ink: #ffd36b;
+            --new: #4cd48a; --new-bg: #0f3324; --closed: #66758c; --err: #ff8a80; --focus: #6aa8ff; }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
-         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
-  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
-  h1 { font-size: 22px; margin: 0; }
-  .sub { color: var(--muted); font-size: 13px; }
-  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
-  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; min-width: 110px; }
-  .stat b { display: block; font-size: 22px; }
-  .stat span { color: var(--muted); font-size: 12px; }
-  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
-  input[type=search], select { background: var(--card); color: var(--text); border: 1px solid var(--line);
-         border-radius: 8px; padding: 8px 10px; font: inherit; }
-  input[type=search] { flex: 1 1 220px; }
-  label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
-  .job { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-         padding: 12px 14px; margin-bottom: 8px; color: inherit; text-decoration: none; }
-  .job:hover { border-color: var(--accent); }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+  a, button, input, select, summary { outline-offset: 2px; }
+  :focus-visible { outline: 2px solid var(--focus); }
+
+  .top { background: var(--navy); color: var(--navy-ink); }
+  .top .in { max-width: 1180px; margin: 0 auto; padding: 18px 20px 16px; display: flex; flex-wrap: wrap; gap: 14px 32px; align-items: flex-end; justify-content: space-between; }
+  h1 { font: 700 30px/1 var(--display); letter-spacing: .01em; margin: 0; }
+  .sub { color: #b9c8de; font-size: 13px; margin-top: 6px; }
+  .nums { display: flex; gap: 26px; }
+  .num b { display: block; font: 600 30px/1 var(--display); }
+  .num span { font-size: 12.5px; color: #b9c8de; }
+  .num.gold b { color: #ffcf5a; }
+
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--panel); border-bottom: 1px solid var(--line); }
+  .bar .in { max-width: 1180px; margin: 0 auto; padding: 10px 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  input[type=search], select { background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font: inherit; }
+  input[type=search] { flex: 1 1 240px; min-width: 0; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .seg label { cursor: pointer; }
+  .seg input { position: absolute; opacity: 0; pointer-events: none; }
+  .seg span { display: block; padding: 8px 12px; font-weight: 500; color: var(--muted); background: var(--bg); border-right: 1px solid var(--line); white-space: nowrap; }
+  .seg label:last-child span { border-right: 0; }
+  .seg input:checked + span { background: var(--navy); color: var(--navy-ink); }
+  .seg input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: -2px; }
+  .seg label.gold input:checked + span { background: var(--best); color: #1b1200; }
+  .seg label.green input:checked + span { background: var(--new); color: #fff; }
+  label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13.5px; cursor: pointer; }
+
+  .main { max-width: 1180px; margin: 0 auto; padding: 18px 20px 64px; display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 22px; align-items: start; }
+  .rail { position: sticky; top: 64px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: calc(100vh - 84px); display: flex; flex-direction: column; }
+  .rail summary { list-style: none; cursor: pointer; padding: 11px 14px; font: 600 16px var(--display); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
+  .rail summary::-webkit-details-marker { display: none; }
+  .rail summary small { font: 500 13px var(--body); color: var(--muted); }
+  .clear { font: 500 13px var(--body); color: var(--focus); background: none; border: 0; cursor: pointer; padding: 0; }
+  #companies { overflow: auto; padding: 4px 0; }
+  .co { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; text-align: left; background: none; border: 0; border-left: 3px solid transparent; padding: 7px 14px; cursor: pointer; color: inherit; font: inherit; }
+  .co:hover { background: var(--bg); }
+  .co[aria-pressed=true] { background: var(--bg); border-left-color: var(--navy); }
+  .co .n { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .co .c { font: 600 14px var(--display); color: var(--muted); }
+  .co .tags { grid-column: 1 / -1; font-size: 12px; display: flex; gap: 8px; }
+  .tg-best { color: var(--best-ink); } .tg-new { color: var(--new); }
+  @media (prefers-color-scheme: light) { .tg-best { color: #8a5a00; } }
+  .rail-empty { padding: 14px; color: var(--muted); font-size: 13.5px; }
+
+  .job { display: grid; grid-template-columns: 4px minmax(0, 1fr) auto; gap: 0 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; color: inherit; text-decoration: none; overflow: hidden; }
+  .job:hover { border-color: var(--navy); }
+  .stripe { background: var(--line); }
+  .job.b .stripe { background: var(--best); }
   .job.closed { opacity: .55; }
-  .row1 { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
-  .title { font-weight: 600; }
-  .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
-  .badge { font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 2px 7px; border-radius: 99px;
-           background: var(--new-bg); color: var(--new); white-space: nowrap; }
-  .badge.star { background: #fff3d6; color: #8a5a00; }
-  @media (prefers-color-scheme: dark) { .badge.star { background: #3a2e10; color: #ffc861; } }
+  .job .body { padding: 11px 0; min-width: 0; }
+  .title { font: 600 18px/1.25 var(--display); }
+  .meta { color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+  .meta b { color: var(--ink); font-weight: 500; }
+  .side { padding: 11px 14px 11px 0; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+  .badge { font: 600 12px var(--display); letter-spacing: .03em; padding: 2px 8px; border-radius: 4px; background: var(--new-bg); color: var(--new); white-space: nowrap; }
+  .badge.star { background: var(--best-bg); color: var(--best-ink); }
   .badge.closed { background: transparent; border: 1px solid var(--closed); color: var(--closed); }
-  .age { color: var(--muted); font-size: 12px; white-space: nowrap; }
-  details { margin-top: 18px; }
-  summary { cursor: pointer; color: var(--muted); font-size: 13px; }
-  .health { margin-top: 8px; font-size: 13px; }
-  .health div { padding: 3px 0; }
+  .age { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+
+  .empty { padding: 44px 16px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; }
+  .more { display: block; margin: 14px auto 0; padding: 9px 20px; border-radius: 6px; cursor: pointer; background: var(--panel); color: var(--ink); border: 1px solid var(--line); font: 500 14px var(--body); }
+  .more:hover { border-color: var(--navy); }
+  details.status { margin-top: 24px; }
+  details.status summary { cursor: pointer; color: var(--muted); font-size: 13.5px; }
+  .health { margin-top: 8px; font-size: 13px; columns: 2 280px; }
+  .health div { padding: 2px 0; break-inside: avoid; }
   .ok { color: var(--new); } .bad { color: var(--err); }
-  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
-  .more { display: block; margin: 12px auto; padding: 8px 18px; border-radius: 8px; cursor: pointer;
-          background: var(--card); color: var(--text); border: 1px solid var(--line); font: inherit; }
-  .more:hover { border-color: var(--accent); }
+
+  @media (max-width: 860px) {
+    .main { grid-template-columns: 1fr; gap: 14px; }
+    .rail { position: static; max-height: none; }
+    #companies { max-height: 46vh; }
+    .nums { gap: 18px; }
+    .bar { position: static; }
+    .bar .in { padding: 8px 14px; }
+  }
+  @media (max-width: 520px) {
+    .job { grid-template-columns: 4px minmax(0, 1fr); }
+    .side { grid-column: 2; flex-direction: row; justify-content: flex-start; align-items: center; padding: 0 14px 11px 0; flex-wrap: wrap; gap: 8px; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
+<header class="top"><div class="in">
+  <div>
     <h1>Job Watch</h1>
     <div class="sub" id="updated">Loading…</div>
-  </header>
-
-  <div class="stats" id="stats"></div>
-
-  <div class="controls">
-    <input type="search" id="q" placeholder="Search title or location…" autocomplete="off">
-    <select id="company"><option value="">All companies</option></select>
-    <label class="chk"><input type="checkbox" id="onlyBest"> ★ Best matches only</label>
-    <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
-    <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
   </div>
+  <div class="nums" id="stats"></div>
+</div></header>
 
-  <div id="list"></div>
+<div class="bar"><div class="in">
+  <input type="search" id="q" placeholder="Search title, company or location" autocomplete="off" aria-label="Search jobs">
+  <div class="seg" role="group" aria-label="Which jobs">
+    <label class="gold"><input type="checkbox" id="onlyBest"><span>★ Best matches</span></label>
+    <label class="green"><input type="checkbox" id="onlyNew"><span>New</span></label>
+  </div>
+  <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="best">Best match first</option></select>
+  <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
+</div></div>
 
-  <details>
-    <summary>Company status</summary>
-    <div class="health" id="health"></div>
+<div class="main">
+  <details class="rail" id="rail" open>
+    <summary><span>Companies <small id="coCount"></small></span><button class="clear" id="clearCo" hidden>Show all</button></summary>
+    <div id="companies"></div>
   </details>
+  <section>
+    <div id="list"></div>
+    <details class="status">
+      <summary id="healthSummary">Company status</summary>
+      <div class="health" id="health"></div>
+    </details>
+  </section>
 </div>
 
 <script>
 const $ = (id) => document.getElementById(id);
-let data = null;
-let limit = 300;   // rows shown at once; "Show more" adds 300
+let data = null, limit = 300, selected = "";
 
 function ago(iso) {
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -92,6 +150,7 @@ function ago(iso) {
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const isNew = (j) => !j.seed && !j.closed_at &&
   (Date.now() - new Date(j.first_seen).getTime()) < data.new_window_hours * 3600 * 1000;
+const dateOf = (j) => (j.posted && /^\d{4}-\d{2}-\d{2}/.test(j.posted) ? j.posted.slice(0, 10) : j.first_seen.slice(0, 10));
 
 async function load() {
   try {
@@ -99,63 +158,85 @@ async function load() {
     if (!r.ok) throw new Error(r.status);
     data = await r.json();
   } catch (e) {
-    $("updated").textContent = "No data yet. Run the “Fetch jobs” workflow once.";
+    $("updated").textContent = "No data yet. Open the Actions tab and run “Fetch jobs” once.";
     $("list").innerHTML = '<div class="empty">jobs.json not found</div>';
     return;
   }
-  const sel = $("company"), cur = sel.value;
-  const names = [...new Set(data.jobs.map((j) => j.company))].sort();
-  sel.innerHTML = '<option value="">All companies</option>' + names.map((n) => `<option>${esc(n)}</option>`).join("");
-  sel.value = cur;
-  $("updated").textContent = "Last change " + ago(data.updated) + " · page refreshes every 5 min";
+  $("updated").textContent = "Last change " + ago(data.updated) + ". This page reloads every 5 minutes.";
   render();
 }
 
 function render() {
   if (!data) return;
-  const q = $("q").value.trim().toLowerCase(), co = $("company").value;
-  const onlyNew = $("onlyNew").checked, showClosed = $("showClosed").checked, onlyBest = $("onlyBest").checked;
+  const q = $("q").value.trim().toLowerCase();
+  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, showClosed = $("showClosed").checked;
   const open = data.jobs.filter((j) => !j.closed_at);
 
   $("stats").innerHTML =
-    `<div class="stat"><b>${open.length}</b><span>open jobs</span></div>` +
-    `<div class="stat"><b>${open.filter((j) => j.match === 2).length}</b><span>★ best matches</span></div>` +
-    `<div class="stat"><b>${open.filter(isNew).length}</b><span>new (${data.new_window_hours} h)</span></div>` +
-    `<div class="stat"><b>${new Set(open.map((j) => j.company)).size}</b><span>companies with jobs</span></div>`;
+    `<div class="num gold"><b>${open.filter((j) => j.match === 2).length}</b><span>best matches</span></div>` +
+    `<div class="num"><b>${open.filter(isNew).length}</b><span>new in ${data.new_window_hours} h</span></div>` +
+    `<div class="num"><b>${open.length}</b><span>open jobs</span></div>`;
 
-  const all = data.jobs.filter((j) =>
+  // every filter except the company choice: this decides which companies appear in the list
+  const base = data.jobs.filter((j) =>
     (showClosed || !j.closed_at) &&
-    (!co || j.company === co) &&
     (!onlyNew || isNew(j)) &&
     (!onlyBest || j.match === 2) &&
     (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
+
+  const by = new Map();
+  for (const j of base) {
+    const e = by.get(j.company) || { n: 0, best: 0, nw: 0 };
+    e.n++; if (j.match === 2 && !j.closed_at) e.best++; if (isNew(j)) e.nw++;
+    by.set(j.company, e);
+  }
+  if (selected && !by.has(selected)) selected = "";
+  const cos = [...by.entries()].sort((a, b) => b[1].best - a[1].best || b[1].n - a[1].n || a[0].localeCompare(b[0]));
+  $("coCount").textContent = cos.length ? "(" + cos.length + ")" : "";
+  $("clearCo").hidden = !selected;
+  $("companies").innerHTML = cos.length ? cos.map(([n, e]) =>
+    `<button class="co" data-co="${esc(n)}" aria-pressed="${n === selected}">` +
+    `<span class="n">${esc(n)}</span><span class="c">${e.n}</span>` +
+    ((e.best || e.nw) ? `<span class="tags">${e.best ? `<span class="tg-best">★ ${e.best}</span>` : ""}${e.nw ? `<span class="tg-new">${e.nw} new</span>` : ""}</span>` : "") +
+    `</button>`).join("") : '<div class="rail-empty">No company has jobs for these filters.</div>';
+
+  let all = selected ? base.filter((j) => j.company === selected) : base.slice();
+  if ($("sort").value === "best") all.sort((a, b) => (b.match || 0) - (a.match || 0) || dateOf(b).localeCompare(dateOf(a)));
+  else all.sort((a, b) => dateOf(b).localeCompare(dateOf(a)) || (b.match || 0) - (a.match || 0));
   const rows = all.slice(0, limit);
 
   $("list").innerHTML = rows.length ? rows.map((j) => `
-    <a class="job ${j.closed_at ? "closed" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener">
-      <div class="row1">
-        <div>
-          <div class="title">${esc(j.title)}</div>
-          <div class="meta">${esc(j.company)}${j.location ? " · " + esc(j.location) : ""}</div>
-        </div>
-        <div style="text-align:right">
-          ${j.match === 2 && !j.closed_at ? '<span class="badge star">★ BEST MATCH</span> ' : ""}${j.closed_at ? '<span class="badge closed">CLOSED</span>' : isNew(j) ? '<span class="badge">NEW</span>' : ""}
-          <div class="age">${j.posted && /^\d{4}-\d{2}-\d{2}/.test(j.posted) ? "posted " + esc(j.posted.slice(0, 10)) : (j.seed ? "tracked since " : "found ") + ago(j.first_seen)}</div>
-        </div>
+    <a class="job ${j.match === 2 && !j.closed_at ? "b" : ""} ${j.closed_at ? "closed" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener">
+      <div class="stripe"></div>
+      <div class="body">
+        <div class="title">${esc(j.title)}</div>
+        <div class="meta"><b>${esc(j.company)}</b>${j.location ? " · " + esc(j.location) : ""}</div>
+      </div>
+      <div class="side">
+        ${j.match === 2 && !j.closed_at ? '<span class="badge star">★ BEST MATCH</span>' : ""}
+        ${j.closed_at ? '<span class="badge closed">CLOSED</span>' : isNew(j) ? '<span class="badge">NEW</span>' : ""}
+        <span class="age">${/^\d{4}-\d{2}-\d{2}/.test(j.posted || "") ? "posted " + esc(j.posted.slice(0, 10)) : (j.seed ? "tracked since " : "found ") + ago(j.first_seen)}</span>
       </div>
     </a>`).join("") + (all.length > rows.length
-      ? `<button id="more" class="more">Show more (${all.length - rows.length} hidden)</button>` : "")
-    : '<div class="empty">No jobs match.</div>';
+      ? `<button id="more" class="more">Show ${Math.min(300, all.length - rows.length)} more (${all.length - rows.length} hidden)</button>` : "")
+    : '<div class="empty">No jobs match. Switch off “New” or “Best matches”, or clear the search.</div>';
   const more = $("more");
   if (more) more.onclick = () => { limit += 300; render(); };
 
-  $("health").innerHTML = Object.entries(data.companies).map(([n, s]) =>
-    `<div>${s.ok ? '<span class="ok">●</span>' : '<span class="bad">●</span>'} <b>${esc(n)}</b> — ` +
-    (s.ok ? `${s.count} jobs matched` : `<span class="bad">last fetch failed: ${esc(s.error)}</span> (showing previous results)`) +
-    `</div>`).join("");
+  const st = Object.entries(data.companies), bad = st.filter(([, s]) => !s.ok);
+  $("healthSummary").innerHTML = "Company status: " + (bad.length ? `<span class="bad">${bad.length} failed</span>, ` : "") + `${st.length - bad.length} ok`;
+  $("health").innerHTML = st.map(([n, s]) =>
+    `<div>${s.ok ? '<span class="ok">●</span>' : '<span class="bad">●</span>'} <b>${esc(n)}</b> ` +
+    (s.ok ? `${s.count} matched` : `<span class="bad">failed: ${esc(s.error)}</span> (keeping previous results)`) + `</div>`).join("");
 }
 
-["q", "company", "onlyNew", "onlyBest", "showClosed"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
+$("companies").addEventListener("click", (ev) => {
+  const b = ev.target.closest(".co"); if (!b) return;
+  selected = selected === b.dataset.co ? "" : b.dataset.co; limit = 300; render();
+});
+$("clearCo").addEventListener("click", (ev) => { ev.preventDefault(); selected = ""; limit = 300; render(); });
+["q", "onlyNew", "onlyBest", "showClosed", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
+if (window.matchMedia("(max-width: 860px)").matches) $("rail").open = false;
 load();
 setInterval(load, 5 * 60 * 1000);
 </script>
