@@ -1,0 +1,64 @@
+# Companies to watch. Add or remove entries, commit, and the next run picks them up.
+#
+# type: workday | greenhouse | lever | smartrecruiters | personio | html
+#
+# Optional per company: include / exclude (title keywords), locations (substring match),
+# which override the global filters below.
+
+filters:
+  # Keep a job only if its title contains ANY of these (case-insensitive).
+  # Leave the list empty to keep every job.
+  include: []
+  # Drop a job if its title contains ANY of these.
+  exclude: []
+  # Keep a job only if its location contains ANY of these. Empty = keep all.
+  # Jobs with no location text are always kept.
+  locations: []
+
+# How long a job that disappeared stays on the dashboard as "closed".
+closed_retention_days: 14
+# A job counts as "new" on the dashboard for this many hours after it first appeared.
+new_window_hours: 48
+
+companies:
+  # Workday: take the URL of the career site, e.g.
+  #   https://ag.wd3.myworkdayjobs.com/en-US/Airbus  ->  host=ag.wd3.myworkdayjobs.com, tenant=ag, site=Airbus
+  - name: Airbus
+    type: workday
+    host: ag.wd3.myworkdayjobs.com
+    tenant: ag
+    site: Airbus
+    search: Hamburg        # optional Workday search text
+    max_pages: 15
+
+  # ---- Examples for other systems (uncomment and fill in) ----
+
+  # Greenhouse: https://boards.greenhouse.io/<board>
+  # - name: Example GH
+  #   type: greenhouse
+  #   board: examplecompany
+
+  # Lever: https://jobs.lever.co/<site>
+  # - name: Example Lever
+  #   type: lever
+  #   site: examplecompany
+
+  # SmartRecruiters: https://jobs.smartrecruiters.com/<company_id>
+  # - name: Example SR
+  #   type: smartrecruiters
+  #   company_id: ExampleCompany
+
+  # Personio: https://<subdomain>.jobs.personio.de
+  # - name: Example Personio
+  #   type: personio
+  #   subdomain: examplecompany
+
+  # Any other career page (static HTML only; no JavaScript rendering).
+  # CSS selectors: item = one job row, title / link / location are relative to the item.
+  # - name: Astos Solutions
+  #   type: html
+  #   url: https://www.astos.de/company/careers
+  #   item: "div.job"
+  #   title: "h3"
+  #   link: "a"
+  #   location: ".location"     # optional

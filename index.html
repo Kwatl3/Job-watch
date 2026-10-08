@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Watch</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f27; --muted: #667085; --line: #e3e6ec;
+    --accent: #2457d6; --new: #0f8a4b; --new-bg: #e3f5ea; --closed: #98a2b3; --err: #c0392b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #12141a; --card: #1a1d25; --text: #e8eaf0; --muted: #8b93a5; --line: #2a2e39;
+            --accent: #7aa2ff; --new: #4ade80; --new-bg: #123423; --closed: #5b6275; --err: #ff7b6b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
+  h1 { font-size: 22px; margin: 0; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; min-width: 110px; }
+  .stat b { display: block; font-size: 22px; }
+  .stat span { color: var(--muted); font-size: 12px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
+  input[type=search], select { background: var(--card); color: var(--text); border: 1px solid var(--line);
+         border-radius: 8px; padding: 8px 10px; font: inherit; }
+  input[type=search] { flex: 1 1 220px; }
+  label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+  .job { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+         padding: 12px 14px; margin-bottom: 8px; color: inherit; text-decoration: none; }
+  .job:hover { border-color: var(--accent); }
+  .job.closed { opacity: .55; }
+  .row1 { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+  .title { font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .badge { font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 2px 7px; border-radius: 99px;
+           background: var(--new-bg); color: var(--new); white-space: nowrap; }
+  .badge.closed { background: transparent; border: 1px solid var(--closed); color: var(--closed); }
+  .age { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  details { margin-top: 18px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  .health { margin-top: 8px; font-size: 13px; }
+  .health div { padding: 3px 0; }
+  .ok { color: var(--new); } .bad { color: var(--err); }
+  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job Watch</h1>
+    <div class="sub" id="updated">Loading…</div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title or location…" autocomplete="off">
+    <select id="company"><option value="">All companies</option></select>
+    <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
+    <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
+  </div>
+
+  <div id="list"></div>
+
+  <details>
+    <summary>Company status</summary>
+    <div class="health" id="health"></div>
+  </details>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let data = null;
+
+function ago(iso) {
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+  if (s < 86400) return Math.round(s / 3600) + " h ago";
+  return Math.round(s / 86400) + " d ago";
+}
+const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const isNew = (j) => !j.seed && !j.closed_at &&
+  (Date.now() - new Date(j.first_seen).getTime()) < data.new_window_hours * 3600 * 1000;
+
+async function load() {
+  try {
+    const r = await fetch("jobs.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch (e) {
+    $("updated").textContent = "No data yet. Run the “Fetch jobs” workflow once.";
+    $("list").innerHTML = '<div class="empty">jobs.json not found</div>';
+    return;
+  }
+  const sel = $("company"), cur = sel.value;
+  const names = [...new Set(data.jobs.map((j) => j.company))].sort();
+  sel.innerHTML = '<option value="">All companies</option>' + names.map((n) => `<option>${esc(n)}</option>`).join("");
+  sel.value = cur;
+  $("updated").textContent = "Last change " + ago(data.updated) + " · page refreshes every 5 min";
+  render();
+}
+
+function render() {
+  if (!data) return;
+  const q = $("q").value.trim().toLowerCase(), co = $("company").value;
+  const onlyNew = $("onlyNew").checked, showClosed = $("showClosed").checked;
+  const open = data.jobs.filter((j) => !j.closed_at);
+
+  $("stats").innerHTML =
+    `<div class="stat"><b>${open.length}</b><span>open jobs</span></div>` +
+    `<div class="stat"><b>${open.filter(isNew).length}</b><span>new (${data.new_window_hours} h)</span></div>` +
+    `<div class="stat"><b>${new Set(open.map((j) => j.company)).size}</b><span>companies with jobs</span></div>`;
+
+  const rows = data.jobs.filter((j) =>
+    (showClosed || !j.closed_at) &&
+    (!co || j.company === co) &&
+    (!onlyNew || isNew(j)) &&
+    (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
+
+  $("list").innerHTML = rows.length ? rows.map((j) => `
+    <a class="job ${j.closed_at ? "closed" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener">
+      <div class="row1">
+        <div>
+          <div class="title">${esc(j.title)}</div>
+          <div class="meta">${esc(j.company)}${j.location ? " · " + esc(j.location) : ""}</div>
+        </div>
+        <div style="text-align:right">
+          ${j.closed_at ? '<span class="badge closed">CLOSED</span>' : isNew(j) ? '<span class="badge">NEW</span>' : ""}
+          <div class="age">${j.seed ? "tracked since " : "found "}${ago(j.first_seen)}</div>
+        </div>
+      </div>
+    </a>`).join("") : '<div class="empty">No jobs match.</div>';
+
+  $("health").innerHTML = Object.entries(data.companies).map(([n, s]) =>
+    `<div>${s.ok ? '<span class="ok">●</span>' : '<span class="bad">●</span>'} <b>${esc(n)}</b> — ` +
+    (s.ok ? `${s.count} jobs matched` : `<span class="bad">last fetch failed: ${esc(s.error)}</span> (showing previous results)`) +
+    `</div>`).join("");
+}
+
+["q", "company", "onlyNew", "showClosed"].forEach((id) => $(id).addEventListener("input", render));
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
