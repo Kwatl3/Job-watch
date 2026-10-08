@@ -43,7 +43,7 @@ workers: 4
 companies:
   # ---- Your own career-system feeds -------------------------------------------------------
   - {name: "Airbus (Workday, Hamburg)", type: workday, host: "ag.wd3.myworkdayjobs.com", tenant: "ag", site: "Airbus", search: "Hamburg", max_pages: 15}
-  - {name: "Airbus (Germany, agency feed)", type: arbeitsagentur, employer: "Airbus", max_pages: 6}
+  - {name: "Airbus (Germany, agency feed)", type: arbeitsagentur, employer: "Airbus", max_pages: 19}
   - {name: "CERN", type: smartrecruiters, company_id: "CERN"}
   - {name: "Thales (Workday, Germany)", type: workday, host: "thales.wd3.myworkdayjobs.com", tenant: "thales", site: "Careers", search: "Germany", max_pages: 10}
   - {name: "ESA", type: arbeitsagentur, employer: "European Space Agency"}
