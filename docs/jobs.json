@@ -1150,7 +1150,7 @@
   },
   "compassio": {
    "ok": true,
-   "count": 4
+   "count": 3
   },
   "Conductix-Wampfler": {
    "ok": true,
@@ -1654,7 +1654,7 @@
   },
   "Leonhard Weiss": {
    "ok": true,
-   "count": 64
+   "count": 59
   },
   "LGI Logistics": {
    "ok": true,
@@ -1878,7 +1878,7 @@
   },
   "Röchling": {
    "ok": true,
-   "count": 7
+   "count": 8
   },
   "Röhm": {
    "ok": true,
@@ -2198,7 +2198,7 @@
   },
   "Waldburg-Zeil Kliniken": {
    "ok": true,
-   "count": 1
+   "count": 2
   },
   "Waldner": {
    "ok": true,
@@ -2206,7 +2206,7 @@
   },
   "Walter": {
    "ok": true,
-   "count": 36
+   "count": 35
   },
   "Weishaupt": {
    "ok": true,
@@ -2970,6 +2970,36 @@
   }
  },
  "jobs": [
+  {
+   "company": "Waldburg-Zeil Kliniken",
+   "id": "12288-4958508584-S",
+   "title": "Referent (m/w/d) Controlling & Prozessmanagement in Voll- oder Teilzeit",
+   "location": "Oberammergau, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4958508584-S",
+   "posted": "2026-10-08",
+   "match": 1,
+   "first_seen": "2026-10-08T19:08:53+00:00"
+  },
+  {
+   "company": "Röchling",
+   "id": "13638-064539831-S",
+   "title": "Mechatroniker / Elektroniker Betriebstechnik (m/w/d)",
+   "location": "Peine, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13638-064539831-S",
+   "posted": "2026-10-08",
+   "match": 1,
+   "first_seen": "2026-10-08T19:08:53+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4934579610-S",
+   "title": "Technischer Projektcontroller Konstruktiver Ingenieur- und Brückenbau (m/w/d)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934579610-S",
+   "posted": "2026-09-14",
+   "match": 1,
+   "first_seen": "2026-10-08T19:08:53+00:00"
+  },
   {
    "company": "Bertrandt",
    "id": "12288-4958511373-S",
@@ -7862,22 +7892,22 @@
    "seed": true
   },
   {
-   "company": "Sika",
-   "id": "14225-fd539fc6c826503f-S",
+   "company": "Hensoldt",
+   "id": "14225-cac06fc4142ae0b5-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Bad Urach, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
+   "location": "Ulm, Donau, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-cac06fc4142ae0b5-S",
    "posted": "2026-10-07",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "Hensoldt",
-   "id": "14225-cac06fc4142ae0b5-S",
+   "company": "Sika",
+   "id": "14225-fd539fc6c826503f-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-cac06fc4142ae0b5-S",
+   "location": "Bad Urach, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
    "posted": "2026-10-07",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -8280,22 +8310,22 @@
    "seed": true
   },
   {
-   "company": "SYNERGIE Personal",
-   "id": "12704-675Q3YE8KB0QOYFZ-S",
+   "company": "Bertrandt",
+   "id": "12288-4957116763-S",
    "title": "Konstrukteur (m/w/d)",
-   "location": "Loxstedt, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-675Q3YE8KB0QOYFZ-S",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
    "posted": "2026-10-07",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4957116763-S",
+   "company": "SYNERGIE Personal",
+   "id": "12704-675Q3YE8KB0QOYFZ-S",
    "title": "Konstrukteur (m/w/d)",
-   "location": "Frankfurt am Main, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
+   "location": "Loxstedt, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-675Q3YE8KB0QOYFZ-S",
    "posted": "2026-10-07",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -11966,7 +11996,8 @@
    "posted": "2026-10-02",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -13447,22 +13478,22 @@
    "seed": true
   },
   {
-   "company": "Gerhard Schubert",
-   "id": "14225-1dc89fab6543278e-S",
+   "company": "KNDS",
+   "id": "14225-77634770ee9cb232-S",
    "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
-   "location": "Crailsheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-1dc89fab6543278e-S",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
    "posted": "2026-10-01",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "KNDS",
-   "id": "14225-77634770ee9cb232-S",
+   "company": "Gerhard Schubert",
+   "id": "14225-1dc89fab6543278e-S",
    "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
+   "location": "Crailsheim, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-1dc89fab6543278e-S",
    "posted": "2026-10-01",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -13568,22 +13599,22 @@
    "seed": true
   },
   {
-   "company": "SYNERGIE Personal",
-   "id": "12704-7P3NGX1K589QUDY4-S",
+   "company": "KNDS",
+   "id": "14225-0df45bd407e315da-S",
    "title": "Konstruktionsmechaniker (m/w/d)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-7P3NGX1K589QUDY4-S",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
    "posted": "2026-10-01",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "KNDS",
-   "id": "14225-0df45bd407e315da-S",
+   "company": "SYNERGIE Personal",
+   "id": "12704-7P3NGX1K589QUDY4-S",
    "title": "Konstruktionsmechaniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-7P3NGX1K589QUDY4-S",
    "posted": "2026-10-01",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -14914,22 +14945,22 @@
    "seed": true
   },
   {
-   "company": "Schunk",
-   "id": "10000-1208059897-S",
+   "company": "Bertrandt",
+   "id": "12288-4951160341-S",
    "title": "Mechatroniker (m/w/d)",
-   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
+   "location": "Kaiserslautern, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4951160341-S",
    "posted": "2026-09-29",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4951160341-S",
+   "company": "Schunk",
+   "id": "10000-1208059897-S",
    "title": "Mechatroniker (m/w/d)",
-   "location": "Kaiserslautern, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4951160341-S",
+   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
    "posted": "2026-09-29",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -17794,7 +17825,8 @@
    "posted": "2026-09-21",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -17904,7 +17936,8 @@
    "posted": "2026-09-21",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -18623,22 +18656,22 @@
    "seed": true
   },
   {
-   "company": "Cronimet",
-   "id": "17672-0067478322-S",
+   "company": "TKMS",
+   "id": "16604-971111-008-S",
    "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
+   "location": "Kiel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971111-008-S",
    "posted": "2026-09-17",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "TKMS",
-   "id": "16604-971111-008-S",
+   "company": "Cronimet",
+   "id": "17672-0067478322-S",
    "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
-   "location": "Kiel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971111-008-S",
+   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
    "posted": "2026-09-17",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -19144,7 +19177,8 @@
    "posted": "2026-09-15",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Sew-eurodrive",
@@ -19474,7 +19508,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "KNDS",
@@ -19705,7 +19740,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "TKMS",
@@ -19760,7 +19796,8 @@
    "posted": "2026-09-14",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Walter",
@@ -19881,7 +19918,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-08T19:08:53+00:00"
   },
   {
    "company": "Rommelag",
@@ -23383,7 +23421,7 @@
    "seed": true
   },
   {
-   "company": "Rolls-Royce Power Systems",
+   "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -23394,7 +23432,7 @@
    "seed": true
   },
   {
-   "company": "Rolls-Royce",
+   "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -25011,22 +25049,22 @@
    "seed": true
   },
   {
-   "company": "Pneuhage Management",
-   "id": "10001-1003423262-S",
+   "company": "KNDS",
+   "id": "10000-1207277265-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Heidenau, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
+   "location": "Freisen, Saarland",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true
   },
   {
-   "company": "KNDS",
-   "id": "10000-1207277265-S",
+   "company": "Pneuhage Management",
+   "id": "10001-1003423262-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Freisen, Saarland",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
+   "location": "Heidenau, Sachsen, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -28916,17 +28954,6 @@
    "seed": true
   },
   {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true
-  },
-  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -28943,6 +28970,17 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true
+  },
+  {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -31989,5 +32027,5 @@
    "seed": true
   }
  ],
- "updated": "2026-10-08T18:45:48+00:00"
+ "updated": "2026-10-08T19:08:53+00:00"
 }
