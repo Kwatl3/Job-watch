@@ -219,7 +219,8 @@ def fetch_smartrecruiters(c: dict) -> list[dict]:
 
 def fetch_personio(c: dict) -> list[dict]:
     sub = c["subdomain"]
-    r = sess().get(f"https://{sub}.jobs.personio.de/xml", timeout=TIMEOUT)
+    tld = c.get("tld", "de")
+    r = sess().get(f"https://{sub}.jobs.personio.{tld}/xml", timeout=TIMEOUT)
     r.raise_for_status()
     root = ET.fromstring(r.content)
     out = []
@@ -229,7 +230,7 @@ def fetch_personio(c: dict) -> list[dict]:
             "id": pid,
             "title": (pos.findtext("name") or "").strip(),
             "location": (pos.findtext("office") or "").strip(),
-            "url": f"https://{sub}.jobs.personio.de/job/{pid}",
+            "url": f"https://{sub}.jobs.personio.{tld}/job/{pid}",
             "posted": (pos.findtext("createdAt") or "")[:10],
         })
     return out
@@ -239,22 +240,118 @@ def fetch_html(c: dict) -> list[dict]:
     r = sess().get(c["url"], timeout=TIMEOUT)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
-    out = []
+    out: dict[str, dict] = {}
     for item in soup.select(c["item"]):
-        t = item.select_one(c["title"])
+        t = item.select_one(c["title"]) if c.get("title") and c["title"] != "self" else item
         a = item.select_one(c["link"]) if c.get("link") else (item if item.name == "a" else item.find("a"))
         if not t or not a or not a.get("href"):
             continue
         loc = item.select_one(c["location"]) if c.get("location") else None
         url = urljoin(c["url"], a["href"])
-        out.append({
+        out[url] = {
             "id": url,
-            "title": t.get_text(" ", strip=True),
-            "location": loc.get_text(" ", strip=True) if loc else "",
+            "title": re.sub(r"\s*\((?:DE|EN)\)\s*$", "", t.get_text(" ", strip=True)),
+            "location": loc.get_text(" ", strip=True) if loc else c.get("location_text", ""),
             "url": url,
             "posted": "",
-        })
-    return out
+        }
+    return list(out.values())
+
+
+def fetch_onlyfy(c: dict) -> list[dict]:
+    """Career pages run on onlyfy (Stepstone), e.g. https://eumetsat.onlyfy.jobs"""
+    base = f"https://{c['subdomain']}.onlyfy.jobs"
+    out: dict[str, dict] = {}
+    for page in range(1, int(c.get("max_pages", 15)) + 1):
+        r = sess().get(f"{base}/en", params={"page": page} if page > 1 else None, timeout=TIMEOUT)
+        r.raise_for_status()
+        cards = BeautifulSoup(r.text, "html.parser").select('a[data-testid="job-card"]')
+        added = 0
+        for a in cards:
+            jid = a.get("href", "").rstrip("/").rsplit("/", 1)[-1]
+            if not jid or jid in out:
+                continue
+            t = a.select_one('[data-testid="job-title"]')
+            info = a.select_one('[data-testid="job-more-info"]')
+            out[jid] = {
+                "id": jid,
+                "title": (t.get_text(" ", strip=True) if t else a.get("aria-label", "")).strip(),
+                "location": (info.get_text(" ", strip=True).split("|")[0].strip() if info else ""),
+                "url": urljoin(base, a["href"]),
+                "posted": "",
+            }
+            added += 1
+        if not added:
+            break
+    return list(out.values())
+
+
+def fetch_successfactors(c: dict) -> list[dict]:
+    """SAP SuccessFactors career sites (e.g. https://jobs.esa.int): /search/ lists 25 jobs per page."""
+    base = c["url"].rstrip("/")
+    out: dict[str, dict] = {}
+    for page in range(int(c.get("max_pages", 20))):
+        r = sess().get(f"{base}/search/", params={"q": c.get("search", ""), "startrow": page * 25,
+                                                  "sortColumn": "referencedate", "sortDirection": "desc"}, timeout=TIMEOUT)
+        r.raise_for_status()
+        tiles = BeautifulSoup(r.text, "html.parser").select("li.job-tile, tr.data-row")
+        added = 0
+        for tile in tiles:
+            a = tile.select_one("a.jobTitle-link")
+            if not a or not a.get("href"):
+                continue
+            url = urljoin(base + "/", a["href"].split("?")[0])
+            if url in out:
+                continue
+            loc = tile.select_one('[id$="section-location-value"], .jobLocation, [class*=location] .section-value')
+            date = tile.select_one('[id$="section-date-value"], .jobDate, [class*=date] .section-value')
+            out[url] = {
+                "id": url,
+                "title": a.get_text(" ", strip=True),
+                "location": loc.get_text(" ", strip=True) if loc else "",
+                "url": url,
+                "posted": date.get_text(" ", strip=True)[:10] if date and re.match(r"\d{4}-\d{2}-\d{2}", date.get_text(strip=True)) else "",
+            }
+            added += 1
+        if added < 1 or len(tiles) < 5:
+            break
+    return list(out.values())
+
+
+def fetch_recruitee(c: dict) -> list[dict]:
+    r = sess().get(f"https://{c['subdomain']}.recruitee.com/api/offers/", timeout=TIMEOUT)
+    r.raise_for_status()
+    return [{
+        "id": str(o["id"]),
+        "title": (o.get("title") or "").strip(),
+        "location": ", ".join(x for x in (o.get("city"), o.get("country")) if x),
+        "url": o.get("careers_url", ""),
+        "posted": (o.get("published_at") or "")[:10],
+    } for o in r.json().get("offers", [])]
+
+
+def fetch_workable(c: dict) -> list[dict]:
+    r = sess().get(f"https://apply.workable.com/api/v1/widget/accounts/{c['account']}", timeout=TIMEOUT)
+    r.raise_for_status()
+    return [{
+        "id": j.get("shortcode") or j.get("url", ""),
+        "title": (j.get("title") or "").strip(),
+        "location": ", ".join(x for x in (j.get("city"), j.get("country")) if x),
+        "url": j.get("url", ""),
+        "posted": (j.get("created_at") or "")[:10],
+    } for j in r.json().get("jobs", [])]
+
+
+def fetch_ashby(c: dict) -> list[dict]:
+    r = sess().get(f"https://api.ashbyhq.com/posting-api/job-board/{c['board']}", timeout=TIMEOUT)
+    r.raise_for_status()
+    return [{
+        "id": j["id"],
+        "title": (j.get("title") or "").strip(),
+        "location": j.get("location") or "",
+        "url": j.get("jobUrl", ""),
+        "posted": (j.get("publishedAt") or "")[:10],
+    } for j in r.json().get("jobs", [])]
 
 
 ADAPTERS = {
@@ -265,6 +362,11 @@ ADAPTERS = {
     "smartrecruiters": fetch_smartrecruiters,
     "personio": fetch_personio,
     "html": fetch_html,
+    "onlyfy": fetch_onlyfy,
+    "successfactors": fetch_successfactors,
+    "recruitee": fetch_recruitee,
+    "workable": fetch_workable,
+    "ashby": fetch_ashby,
 }
 
 
@@ -321,7 +423,7 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
             seen.add(key)
             prev = old_jobs.get(key)
             if prev:
-                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted", "match") if k in j}}
+                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted", "match", "src") if k in j}}
                 entry.pop("closed_at", None)  # reopened
             else:
                 entry = {"company": company, **j, "first_seen": now}
@@ -361,6 +463,7 @@ def run_company(c: dict, global_filters: dict, core: list[str]) -> tuple[str, li
         jobs = [j for j in adapter(c) if j["id"] and j["title"] and passes_filters(j, c, global_filters)]
         for j in jobs:  # 2 = strong match for your profile ("core" words), 1 = related
             j["match"] = 2 if any(title_has(k, j["title"].lower()) for k in core) else 1
+            j["src"] = "agency" if ctype == "arbeitsagentur" else "site"  # own career site vs. job-agency feed
         return name, jobs, None
     except Exception as exc:  # one broken company must not stop the others
         return name, None, f"{type(exc).__name__}: {exc}"
