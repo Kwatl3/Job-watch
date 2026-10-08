@@ -2,8 +2,13 @@ name: Fetch jobs
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes (GitHub may delay runs under load)
+    - cron: "*/30 * * * *"   # every 30 minutes: companies with tier "fast" (GitHub may delay runs under load)
+    - cron: "17 */6 * * *"   # every 6 hours: companies with tier "slow"
   workflow_dispatch:          # "Run workflow" button in the Actions tab
+    inputs:
+      tier:
+        description: "Which companies to check: all, fast or slow"
+        default: "all"
   push:
     paths:
       - companies.yml
@@ -19,7 +24,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +36,15 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Fetch jobs
-        run: python scripts/fetch_jobs.py
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_TIER: ${{ github.event.inputs.tier }}
+        run: |
+          TIER=all
+          if [ "$SCHEDULE" = "*/30 * * * *" ]; then TIER=fast; fi
+          if [ "$SCHEDULE" = "17 */6 * * *" ]; then TIER=slow; fi
+          if [ -n "$INPUT_TIER" ]; then TIER="$INPUT_TIER"; fi
+          python scripts/fetch_jobs.py --tier "$TIER"
 
       - name: Commit changes
         run: |
