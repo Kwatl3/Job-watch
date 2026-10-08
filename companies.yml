@@ -1,64 +1,581 @@
-# Companies to watch. Add or remove entries, commit, and the next run picks them up.
+# Companies to watch. Edit this file on GitHub (pencil icon), commit, and the next run picks it up.
 #
-# type: workday | greenhouse | lever | smartrecruiters | personio | html
+# Feed types:
+#   arbeitsagentur  German job-agency feed (arbeitsagentur.de): jobs located in Germany, found by
+#                   employer name. Works for most German employers, including those whose own career
+#                   site cannot be read automatically. It only contains jobs the employer posts there.
+#   workday | greenhouse | lever | smartrecruiters | personio | html   a company's own career system
 #
-# Optional per company: include / exclude (title keywords), locations (substring match),
-# which override the global filters below.
+# tier: fast = checked every 30 minutes (default), slow = every 6 hours.
+# Per company you can add: include / exclude (title keywords), keywords, where + radius_km (arbeitsagentur),
+# max_pages (how many pages of 100 jobs to read).
+
+# Your profile: process / manufacturing / production engineering, product development, quality,
+# configuration management. A job is kept only if its TITLE contains a core or related word.
+# Core words give the job a star badge and the dashboard's "Best matches only" filter.
+# (Words of 4 letters or fewer must start a word, so "lean" matches "Lean Manager" but not "Clean Room".)
+profile:
+  core: [prozessingenieur, process engineer, prozessentwickl, process development, manufacturing,
+         fertigungsingenieur, produktionsingenieur, production engineer, industrial engineer, industriali,
+         fertigungsplan, produktionsplan, arbeitsvorbereitung, arbeitsplanung, produktionstechnik,
+         fertigungstechnik, montageplan, konfigurationsmanag, configuration manag, änderungsmanag,
+         change manag, fmea, lean, kvp, kaizen, mtm, produktentwickl, product development, product developer,
+         entwicklungsingenieur, development engineer, konstrukteur, konstruktion, design engineer,
+         product engineer, catia, solidworks, solid works, 3dx, 3dexperience, 3d experience, plm,
+         fertigungsentwickl, produktionsentwickl, manufacturing development, product design,
+         produktdesign, mechanical design, design engineering, r&d, f&e, forschung und entwicklung]
+  related: [ingenieur, engineer, prozess, process, fertigung, produktion, production, industrial, qualit,
+            technolog, mechanical, maschinenbau, mechatronik, systemingenieur, systems engineer,
+            system engineer, projektingenieur, project engineer, entwicklung, development,
+            montageingenieur, assembly engineer, aerospace, luftfahrt, raumfahrt, prüfingenieur, test engineer]
 
 filters:
-  # Keep a job only if its title contains ANY of these (case-insensitive).
-  # Leave the list empty to keep every job.
-  include: []
-  # Drop a job if its title contains ANY of these.
-  exclude: []
-  # Keep a job only if its location contains ANY of these. Empty = keep all.
-  # Jobs with no location text are always kept.
+  # Jobs whose title contains one of these words are dropped (checked after the profile words above).
+  exclude: [werkstudent, praktikum, internship, student, thesis, abschlussarbeit, ausbildung, azubi, minijob,
+            software, devops, administrator, sales, vertrieb, marketing, recruit, personalentwicklung,
+            business development, buchhalt, finanz]
   locations: []
 
-# How long a job that disappeared stays on the dashboard as "closed".
-closed_retention_days: 14
-# A job counts as "new" on the dashboard for this many hours after it first appeared.
-new_window_hours: 48
+closed_retention_days: 14   # closed jobs stay visible (greyed out) this long
+new_window_hours: 48        # how long a job carries the NEW badge
+workers: 4
 
 companies:
-  # Workday: take the URL of the career site, e.g.
-  #   https://ag.wd3.myworkdayjobs.com/en-US/Airbus  ->  host=ag.wd3.myworkdayjobs.com, tenant=ag, site=Airbus
-  - name: Airbus
-    type: workday
-    host: ag.wd3.myworkdayjobs.com
-    tenant: ag
-    site: Airbus
-    search: Hamburg        # optional Workday search text
-    max_pages: 15
+  # ---- Your own career-system feeds -------------------------------------------------------
+  - {name: "Airbus (Workday, Hamburg)", type: workday, host: "ag.wd3.myworkdayjobs.com", tenant: "ag", site: "Airbus", search: "Hamburg", max_pages: 15}
+  - {name: "Airbus (Germany, agency feed)", type: arbeitsagentur, employer: "Airbus", max_pages: 6}
+  - {name: "CERN", type: smartrecruiters, company_id: "CERN"}
+  - {name: "Thales (Workday, Germany)", type: workday, host: "thales.wd3.myworkdayjobs.com", tenant: "thales", site: "Careers", search: "Germany", max_pages: 10}
+  - {name: "ESA", type: arbeitsagentur, employer: "European Space Agency"}
+  - {name: "EUMETSAT", type: arbeitsagentur, employer: "EUMETSAT"}
+  - {name: "Astos Solutions", type: arbeitsagentur, employer: "Astos Solutions"}
 
-  # ---- Examples for other systems (uncomment and fill in) ----
 
-  # Greenhouse: https://boards.greenhouse.io/<board>
-  # - name: Example GH
-  #   type: greenhouse
-  #   board: examplecompany
+  # ---- European defence companies (FRS panel) ---------------------------------------------------
+  - {name: "Roxel", type: arbeitsagentur, employer: "ROXEL"}
+  - {name: "KNDS", type: arbeitsagentur, employer: "KNDS"}
+  - {name: "John Cockerill", type: arbeitsagentur, employer: "JOHN COCKERILL", tier: slow}
+  - {name: "FN Browning", type: arbeitsagentur, employer: "FN BROWNING", tier: slow}
+  - {name: "Groupe Sonaca", type: arbeitsagentur, employer: "GROUPE SONACA", tier: slow}
+  - {name: "Orizio", type: arbeitsagentur, employer: "ORIZIO", tier: slow}
+  - {name: "RHEA", type: arbeitsagentur, employer: "RHEA", tier: slow}
+  - {name: "VMZ", type: arbeitsagentur, employer: "VMZ", tier: slow}
+  - {name: "Pilatus", type: arbeitsagentur, employer: "PILATUS"}
+  - {name: "CSG", type: arbeitsagentur, employer: "CSG", tier: slow}
+  - {name: "Colt CZ", type: arbeitsagentur, employer: "COLT CZ", tier: slow}
+  - {name: "Aero Vodochody Aerospace", type: arbeitsagentur, employer: "AERO VODOCHODY AEROSPACE", tier: slow}
+  - {name: "STV", type: arbeitsagentur, employer: "STV", tier: slow}
+  - {name: "Explosia", type: arbeitsagentur, employer: "EXPLOSIA", tier: slow}
+  - {name: "LOM Praha", type: arbeitsagentur, employer: "LOM PRAHA", tier: slow}
+  - {name: "VOP CZ", type: arbeitsagentur, employer: "VOP CZ", tier: slow}
+  - {name: "Rheinmetall", type: arbeitsagentur, employer: "RHEINMETALL"}
+  - {name: "MTU Aero Engines", type: arbeitsagentur, employer: "MTU Aero Engines"}
+  - {name: "Diehl", type: arbeitsagentur, employer: "DIEHL"}
+  - {name: "Rohde & Schwarz", type: arbeitsagentur, employer: "Rohde & Schwarz"}
+  - {name: "Hensoldt", type: arbeitsagentur, employer: "HENSOLDT"}
+  - {name: "TKMS", type: arbeitsagentur, employer: "TKMS", employer_match: ["thyssenkrupp Marine Systems"]}
+  - {name: "RENK", type: arbeitsagentur, employer: "RENK"}
+  - {name: "OHB", type: arbeitsagentur, employer: "OHB"}
+  - {name: "Heckler & Koch", type: arbeitsagentur, employer: "Heckler & Koch"}
+  - {name: "Quantum Systems", type: arbeitsagentur, employer: "QUANTUM SYSTEMS"}
+  - {name: "Terma", type: arbeitsagentur, employer: "TERMA"}
+  - {name: "SH", type: arbeitsagentur, employer: "SH", tier: slow}
+  - {name: "Baltic Workboats", type: arbeitsagentur, employer: "BALTIC WORKBOATS", tier: slow}
+  - {name: "Milrem", type: arbeitsagentur, employer: "MILREM", tier: slow}
+  - {name: "Indra Sistemas", type: arbeitsagentur, employer: "INDRA SISTEMAS"}
+  - {name: "Navantia", type: arbeitsagentur, employer: "NAVANTIA", tier: slow}
+  - {name: "GMV", type: arbeitsagentur, employer: "GMV"}
+  - {name: "Sener", type: arbeitsagentur, employer: "SENER"}
+  - {name: "Oesia", type: arbeitsagentur, employer: "OESIA", tier: slow}
+  - {name: "Patria", type: arbeitsagentur, employer: "PATRIA", tier: slow}
+  - {name: "Safran", type: arbeitsagentur, employer: "SAFRAN"}
+  - {name: "Dassault Aviation", type: arbeitsagentur, employer: "DASSAULT AVIATION"}
+  - {name: "Sopra Steria", type: arbeitsagentur, employer: "SOPRA STERIA", tier: slow}
+  - {name: "Naval", type: arbeitsagentur, employer: "NAVAL"}
+  - {name: "Chantiers de l'Atlantique", type: arbeitsagentur, employer: "Chantiers de l'Atlantique", tier: slow}
+  - {name: "ArianeGroup", type: arbeitsagentur, employer: "ArianeGroup"}
+  - {name: "Thales Alenia Space", type: arbeitsagentur, employer: "THALES ALENIA SPACE"}
+  - {name: "Eurenco", type: arbeitsagentur, employer: "EURENCO", tier: slow}
+  - {name: "Exosens", type: arbeitsagentur, employer: "EXOSENS", tier: slow}
+  - {name: "Exail", type: arbeitsagentur, employer: "EXAIL"}
+  - {name: "Piriou", type: arbeitsagentur, employer: "PIRIOU", tier: slow}
+  - {name: "Lynred", type: arbeitsagentur, employer: "LYNRED", tier: slow}
+  - {name: "Texelis", type: arbeitsagentur, employer: "TEXELIS", tier: slow}
+  - {name: "Space Hellas", type: arbeitsagentur, employer: "SPACE HELLAS", tier: slow}
+  - {name: "Hellenic Aerospace Industry", type: arbeitsagentur, employer: "HELLENIC AEROSPACE INDUSTRY", tier: slow}
+  - {name: "Intracom Defense", type: arbeitsagentur, employer: "INTRACOM DEFENSE", tier: slow}
+  - {name: "Hellenic Defence Systems", type: arbeitsagentur, employer: "HELLENIC DEFENCE SYSTEMS", tier: slow}
+  - {name: "HS Produkt", type: arbeitsagentur, employer: "HS PRODUKT", tier: slow}
+  - {name: "Duro Dakovic", type: arbeitsagentur, employer: "DURO DAKOVIC", tier: slow}
+  - {name: "Leonardo", type: arbeitsagentur, employer: "LEONARDO"}
+  - {name: "Fincantieri", type: arbeitsagentur, employer: "FINCANTIERI", tier: slow}
+  - {name: "GE Avio Aero", type: arbeitsagentur, employer: "Avio"}
+  - {name: "Iveco Defence Vehicles", type: arbeitsagentur, employer: "Iveco Defence", tier: slow}
+  - {name: "ELT", type: arbeitsagentur, employer: "ELT", tier: slow}
+  - {name: "Damen Shipyards", type: arbeitsagentur, employer: "DAMEN SHIPYARDS", tier: slow}
+  - {name: "Nammo", type: arbeitsagentur, employer: "NAMMO"}
+  - {name: "PGZ", type: arbeitsagentur, employer: "PGZ", tier: slow}
+  - {name: "WB", type: arbeitsagentur, employer: "WB", tier: slow}
+  - {name: "Tekever", type: arbeitsagentur, employer: "TEKEVER", tier: slow}
+  - {name: "Arsenal DO Alfeite", type: arbeitsagentur, employer: "ARSENAL DO ALFEITE", tier: slow}
+  - {name: "Romarm", type: arbeitsagentur, employer: "ROMARM", tier: slow}
+  - {name: "Aerostar", type: arbeitsagentur, employer: "AEROSTAR", tier: slow}
+  - {name: "Avioane Craiova", type: arbeitsagentur, employer: "AVIOANE CRAIOVA", tier: slow}
+  - {name: "Romaero", type: arbeitsagentur, employer: "ROMAERO", tier: slow}
+  - {name: "Scania", type: arbeitsagentur, employer: "Scania", tier: slow}
+  - {name: "Saab", type: arbeitsagentur, employer: "Saab"}
+  - {name: "DMD", type: arbeitsagentur, employer: "DMD", tier: slow}
+  - {name: "ZVS", type: arbeitsagentur, employer: "ZVS", tier: slow}
+  - {name: "EVPU", type: arbeitsagentur, employer: "EVPU", tier: slow}
+  - {name: "BAE Systems", type: arbeitsagentur, employer: "BAE Systems"}
+  - {name: "Rolls-Royce", type: arbeitsagentur, employer: "Rolls-Royce"}
+  - {name: "Babcock", type: arbeitsagentur, employer: "BABCOCK", tier: slow}
+  - {name: "GKN", type: arbeitsagentur, employer: "GKN"}
+  - {name: "Qinetiq", type: arbeitsagentur, employer: "QINETIQ", tier: slow}
+  - {name: "Meggitt", type: arbeitsagentur, employer: "MEGGITT", tier: slow}
+  - {name: "Chemring", type: arbeitsagentur, employer: "CHEMRING", tier: slow}
 
-  # Lever: https://jobs.lever.co/<site>
-  # - name: Example Lever
-  #   type: lever
-  #   site: examplecompany
+  # ---- Largest companies in Baden-Württemberg (IHK) ---------------------------------------------------
+  - {name: "A. Raymond", type: arbeitsagentur, employer: "A. Raymond", tier: slow}
+  - {name: "ABB", type: arbeitsagentur, employer: "ABB", tier: slow}
+  - {name: "ADK", type: arbeitsagentur, employer: "ADK", tier: slow}
+  - {name: "ADM WILD Europe", type: arbeitsagentur, employer: "ADM WILD Europe", tier: slow}
+  - {name: "Aesculap", type: arbeitsagentur, employer: "Aesculap", tier: slow}
+  - {name: "Agilent Technologies", type: arbeitsagentur, employer: "Agilent Technologies", tier: slow}
+  - {name: "Akkodis", type: arbeitsagentur, employer: "Akkodis"}
+  - {name: "ALB Fils Klinikum", type: arbeitsagentur, employer: "ALB FILS KLINIKUM", tier: slow}
+  - {name: "Albert Ziegler", type: arbeitsagentur, employer: "Albert Ziegler", tier: slow}
+  - {name: "Alexander Bürkle", type: arbeitsagentur, employer: "Alexander Bürkle", tier: slow}
+  - {name: "Alfred Ritter", type: arbeitsagentur, employer: "Alfred Ritter", tier: slow}
+  - {name: "Amann & Söhne", type: arbeitsagentur, employer: "Amann & Söhne", tier: slow}
+  - {name: "Amcor Flexibles Singen", type: arbeitsagentur, employer: "Amcor Flexibles Singen", tier: slow}
+  - {name: "Anton Häring", type: arbeitsagentur, employer: "Anton Häring", tier: slow}
+  - {name: "Aptar Radolfzell", type: arbeitsagentur, employer: "Aptar Radolfzell", tier: slow}
+  - {name: "Arburg", type: arbeitsagentur, employer: "ARBURG", tier: slow}
+  - {name: "Atruvia", type: arbeitsagentur, employer: "Atruvia", tier: slow}
+  - {name: "AZO", type: arbeitsagentur, employer: "AZO", tier: slow}
+  - {name: "badenova", type: arbeitsagentur, employer: "badenova", tier: slow}
+  - {name: "Bardusch", type: arbeitsagentur, employer: "Bardusch", tier: slow}
+  - {name: "Bauhaus", type: arbeitsagentur, employer: "BAUHAUS", tier: slow}
+  - {name: "Bausch+Ströbel", type: arbeitsagentur, employer: "Bausch+Ströbel", tier: slow}
+  - {name: "BBBank", type: arbeitsagentur, employer: "BBBank", tier: slow}
+  - {name: "Bechtle", type: arbeitsagentur, employer: "Bechtle", max_pages: 6, tier: slow}
+  - {name: "Berner", type: arbeitsagentur, employer: "BERNER", tier: slow}
+  - {name: "Bertrandt", type: arbeitsagentur, employer: "Bertrandt"}
+  - {name: "Beurer", type: arbeitsagentur, employer: "Beurer", tier: slow}
+  - {name: "Bilfinger", type: arbeitsagentur, employer: "Bilfinger", tier: slow}
+  - {name: "Biologische Heilmittel Heel", type: arbeitsagentur, employer: "Biologische Heilmittel Heel", tier: slow}
+  - {name: "Bizerba", type: arbeitsagentur, employer: "Bizerba", tier: slow}
+  - {name: "Blanc & Fischer Familienholding", type: arbeitsagentur, employer: "Blanc & Fischer Familienholding", tier: slow}
+  - {name: "Blanco", type: arbeitsagentur, employer: "BLANCO", tier: slow}
+  - {name: "Boehinger Ingelheim", type: arbeitsagentur, employer: "Boehinger Ingelheim", tier: slow}
+  - {name: "Bosch Engineering", type: arbeitsagentur, employer: "Bosch Engineering", max_pages: 6, tier: slow}
+  - {name: "Boysen", type: arbeitsagentur, employer: "Boysen", tier: slow}
+  - {name: "Braun Möbel-Center", type: arbeitsagentur, employer: "Braun Möbel-Center", tier: slow}
+  - {name: "Breer Gebäudedienste Heidelberg", type: arbeitsagentur, employer: "Breer Gebäudedienste Heidelberg", tier: slow}
+  - {name: "Brucklacher", type: arbeitsagentur, employer: "Brucklacher", tier: slow}
+  - {name: "Bucher Hydraulics", type: arbeitsagentur, employer: "Bucher Hydraulics", tier: slow}
+  - {name: "Bürger", type: arbeitsagentur, employer: "BÜRGER", tier: slow}
+  - {name: "Bürkert Fluid Control Systems", type: arbeitsagentur, employer: "Bürkert Fluid Control Systems", tier: slow}
+  - {name: "C.E. Noerpel", type: arbeitsagentur, employer: "C.E. Noerpel", tier: slow}
+  - {name: "Carl Stahl", type: arbeitsagentur, employer: "Carl Stahl", tier: slow}
+  - {name: "CeramTec", type: arbeitsagentur, employer: "CeramTec", tier: slow}
+  - {name: "CGI", type: arbeitsagentur, employer: "CGI", tier: slow}
+  - {name: "Chemoform", type: arbeitsagentur, employer: "Chemoform", tier: slow}
+  - {name: "Chiron", type: arbeitsagentur, employer: "CHIRON", tier: slow}
+  - {name: "Christophsbad", type: arbeitsagentur, employer: "Christophsbad", tier: slow}
+  - {name: "CHT", type: arbeitsagentur, employer: "CHT", tier: slow}
+  - {name: "compassio", type: arbeitsagentur, employer: "compassio", tier: slow}
+  - {name: "Conductix-Wampfler", type: arbeitsagentur, employer: "Conductix-Wampfler", tier: slow}
+  - {name: "confern Möbeltransportbetriebe", type: arbeitsagentur, employer: "confern Möbeltransportbetriebe", tier: slow}
+  - {name: "Constellium Singen", type: arbeitsagentur, employer: "Constellium Singen", tier: slow}
+  - {name: "Continental Aktiengesellschaft", type: arbeitsagentur, employer: "Continental Aktiengesellschaft", tier: slow}
+  - {name: "Cronimet", type: arbeitsagentur, employer: "CRONIMET", tier: slow}
+  - {name: "Daimler Buses", type: arbeitsagentur, employer: "Daimler Buses", max_pages: 6, tier: slow}
+  - {name: "Daimler Truck", type: arbeitsagentur, employer: "Daimler Truck", max_pages: 6, tier: slow}
+  - {name: "Datagroup", type: arbeitsagentur, employer: "DATAGROUP", tier: slow}
+  - {name: "Dekra", type: arbeitsagentur, employer: "DEKRA", tier: slow}
+  - {name: "Deutsche Bahn", type: arbeitsagentur, employer: "Deutsche Bahn", tier: slow}
+  - {name: "Deutsche Bausparkasse Badenia", type: arbeitsagentur, employer: "Deutsche Bausparkasse Badenia", tier: slow}
+  - {name: "Diakonie in Baden-Württemberg, Stuttgart", type: arbeitsagentur, employer: "Diakonie in Baden-Württemberg, Stuttgart", tier: slow}
+  - {name: "diconium", type: arbeitsagentur, employer: "diconium", tier: slow}
+  - {name: "Dieffenbacher", type: arbeitsagentur, employer: "DIEFFENBACHER", tier: slow}
+  - {name: "Diehl Aviation Laupheim", type: arbeitsagentur, employer: "Diehl Aviation Laupheim"}
+  - {name: "DIRINGER & SCHEIDEL Unternehmensgruppe", type: arbeitsagentur, employer: "DIRINGER & SCHEIDEL Unternehmensgruppe", tier: slow}
+  - {name: "dm-drogerie markt", type: arbeitsagentur, employer: "dm-drogerie markt", tier: slow}
+  - {name: "Dr. Ing. h.c. F. Porsche Aktiengesellschaft", type: arbeitsagentur, employer: "Dr. Ing. h.c. F. Porsche Aktiengesellschaft", max_pages: 6, tier: slow}
+  - {name: "Drees & Sommer", type: arbeitsagentur, employer: "Drees & Sommer", tier: slow}
+  - {name: "DSV", type: arbeitsagentur, employer: "DSV", tier: slow}
+  - {name: "Dunkermotoren", type: arbeitsagentur, employer: "Dunkermotoren", tier: slow}
+  - {name: "Duravit", type: arbeitsagentur, employer: "Duravit", tier: slow}
+  - {name: "Dürr Aktiengesellschaft", type: arbeitsagentur, employer: "Dürr Aktiengesellschaft", tier: slow}
+  - {name: "Dussmann Service", type: arbeitsagentur, employer: "Dussmann Service", tier: slow}
+  - {name: "E. Breuninger", type: arbeitsagentur, employer: "E. Breuninger", tier: slow}
+  - {name: "Eberspächer", type: arbeitsagentur, employer: "Eberspächer", tier: slow}
+  - {name: "ebm-papst", type: arbeitsagentur, employer: "ebm-papst", tier: slow}
+  - {name: "Ed. Züblin", type: arbeitsagentur, employer: "Ed. Züblin", tier: slow}
+  - {name: "EDEKA Südwest e.G", type: arbeitsagentur, employer: "EDEKA Südwest e.G", tier: slow}
+  - {name: "ElringKlinger", type: arbeitsagentur, employer: "ElringKlinger", tier: slow}
+  - {name: "EMAG", type: arbeitsagentur, employer: "EMAG", tier: slow}
+  - {name: "EnBW Energie Baden-Württemberg", type: arbeitsagentur, employer: "EnBW Energie Baden-Württemberg", tier: slow}
+  - {name: "Endress + Hauser", type: arbeitsagentur, employer: "Endress + Hauser", tier: slow}
+  - {name: "Engelhorn", type: arbeitsagentur, employer: "Engelhorn", tier: slow}
+  - {name: "Ensinger", type: arbeitsagentur, employer: "Ensinger", tier: slow}
+  - {name: "Erbe Elektromedizin", type: arbeitsagentur, employer: "Erbe Elektromedizin", tier: slow}
+  - {name: "Ernst Klett", type: arbeitsagentur, employer: "Ernst Klett", tier: slow}
+  - {name: "Erwin Hymer", type: arbeitsagentur, employer: "Erwin Hymer", tier: slow}
+  - {name: "Essity", type: arbeitsagentur, employer: "Essity", tier: slow}
+  - {name: "ETO Technologies", type: arbeitsagentur, employer: "ETO TECHNOLOGIES", tier: slow}
+  - {name: "Eugen Kieffer Gebäudereinigung", type: arbeitsagentur, employer: "Eugen Kieffer Gebäudereinigung", tier: slow}
+  - {name: "Euronics", type: arbeitsagentur, employer: "EURONICS", tier: slow}
+  - {name: "Europa-Park Erlebnis-Resort", type: arbeitsagentur, employer: "Europa-Park Erlebnis-Resort", tier: slow}
+  - {name: "Exyte", type: arbeitsagentur, employer: "Exyte", tier: slow}
+  - {name: "EY", type: arbeitsagentur, employer: "EY", tier: slow}
+  - {name: "Faulhaber", type: arbeitsagentur, employer: "Faulhaber", tier: slow}
+  - {name: "Festo", type: arbeitsagentur, employer: "FESTO", max_pages: 6, tier: slow}
+  - {name: "Fichtner", type: arbeitsagentur, employer: "FICHTNER"}
+  - {name: "Firmengruppe Liebherr", type: arbeitsagentur, employer: "Firmengruppe Liebherr", max_pages: 6, tier: slow}
+  - {name: "Flughafen Stuttgart", type: arbeitsagentur, employer: "Flughafen Stuttgart", tier: slow}
+  - {name: "FONDIUM Singen", type: arbeitsagentur, employer: "FONDIUM Singen", tier: slow}
+  - {name: "Franz & Wach Personalservice", type: arbeitsagentur, employer: "Franz & Wach Personalservice", tier: slow}
+  - {name: "Franz Binder", type: arbeitsagentur, employer: "Franz Binder", tier: slow}
+  - {name: "Freudenberg internationaler Technologiekonzern", type: arbeitsagentur, employer: "Freudenberg internationaler Technologiekonzern", tier: slow}
+  - {name: "Friedrich Scharr", type: arbeitsagentur, employer: "Friedrich Scharr", tier: slow}
+  - {name: "Fuchs", type: arbeitsagentur, employer: "FUCHS", tier: slow}
+  - {name: "G.rau", type: arbeitsagentur, employer: "G.RAU", tier: slow}
+  - {name: "Gardena", type: arbeitsagentur, employer: "GARDENA", tier: slow}
+  - {name: "Geberit", type: arbeitsagentur, employer: "Geberit", tier: slow}
+  - {name: "Gebr. Lotter", type: arbeitsagentur, employer: "Gebr. Lotter", tier: slow}
+  - {name: "Gelita", type: arbeitsagentur, employer: "GELITA", tier: slow}
+  - {name: "GEMÜ Gebr. Müller Apparatebau", type: arbeitsagentur, employer: "GEMÜ Gebr. Müller Apparatebau", tier: slow}
+  - {name: "Gerhard Schubert", type: arbeitsagentur, employer: "Gerhard Schubert", tier: slow}
+  - {name: "Gesundheitsholding Tauberfranken", type: arbeitsagentur, employer: "Gesundheitsholding Tauberfranken", tier: slow}
+  - {name: "Getinge", type: arbeitsagentur, employer: "Getinge", tier: slow}
+  - {name: "GFT Technologies", type: arbeitsagentur, employer: "GFT Technologies", tier: slow}
+  - {name: "grenke", type: arbeitsagentur, employer: "grenke", tier: slow}
+  - {name: "groninger & co", type: arbeitsagentur, employer: "groninger & co", tier: slow}
+  - {name: "Groupe SEB WMF Shared Services", type: arbeitsagentur, employer: "Groupe SEB WMF Shared Services", tier: slow}
+  - {name: "Groz-Beckert", type: arbeitsagentur, employer: "Groz-Beckert", tier: slow}
+  - {name: "Gühring", type: arbeitsagentur, employer: "Gühring", tier: slow}
+  - {name: "Häfele", type: arbeitsagentur, employer: "Häfele", tier: slow}
+  - {name: "HALLESCHE Krankenversicherung auf Gegenseitigkeit", type: arbeitsagentur, employer: "HALLESCHE Krankenversicherung auf Gegenseitigkeit", tier: slow}
+  - {name: "Handtmann Unternehmensgruppe", type: arbeitsagentur, employer: "Handtmann Unternehmensgruppe", tier: slow}
+  - {name: "Hansgrohe", type: arbeitsagentur, employer: "Hansgrohe", tier: slow}
+  - {name: "Harro Höfliger Verpackungsmaschinen", type: arbeitsagentur, employer: "Harro Höfliger Verpackungsmaschinen", tier: slow}
+  - {name: "Hartmetall-Werkzeugfabrik Paul Horn", type: arbeitsagentur, employer: "Hartmetall-Werkzeugfabrik Paul Horn", tier: slow}
+  - {name: "Haufe", type: arbeitsagentur, employer: "Haufe", tier: slow}
+  - {name: "Heidelberg Materials", type: arbeitsagentur, employer: "Heidelberg Materials", tier: slow}
+  - {name: "Heidelberger Druckmaschinen", type: arbeitsagentur, employer: "Heidelberger Druckmaschinen", tier: slow}
+  - {name: "HELIOS Klinikum Pforzheim", type: arbeitsagentur, employer: "HELIOS Klinikum Pforzheim", tier: slow}
+  - {name: "Helukabel", type: arbeitsagentur, employer: "HELUKABEL", tier: slow}
+  - {name: "Herrenknecht", type: arbeitsagentur, employer: "Herrenknecht", tier: slow}
+  - {name: "Hofmann Menü-Manufaktur", type: arbeitsagentur, employer: "Hofmann Menü-Manufaktur", tier: slow}
+  - {name: "Hofmeister Wohnzentren", type: arbeitsagentur, employer: "Hofmeister Wohnzentren", tier: slow}
+  - {name: "Hohenstein", type: arbeitsagentur, employer: "Hohenstein", tier: slow}
+  - {name: "Homag", type: arbeitsagentur, employer: "HOMAG", tier: slow}
+  - {name: "HP", type: arbeitsagentur, employer: "HP", tier: slow}
+  - {name: "Hubert Burda Media Kommanditgesellschaft", type: arbeitsagentur, employer: "Hubert Burda Media Kommanditgesellschaft", tier: slow}
+  - {name: "Hugo Boss", type: arbeitsagentur, employer: "HUGO BOSS", tier: slow}
+  - {name: "Hugo Kern und Liebers", type: arbeitsagentur, employer: "Hugo Kern und Liebers", tier: slow}
+  - {name: "IBM Corporation", type: arbeitsagentur, employer: "IBM Corporation", tier: slow}
+  - {name: "Impact", type: arbeitsagentur, employer: "IMPACT", tier: slow}
+  - {name: "IMS Gear", type: arbeitsagentur, employer: "IMS Gear", tier: slow}
+  - {name: "INTER Krankenversicherung", type: arbeitsagentur, employer: "INTER Krankenversicherung", tier: slow}
+  - {name: "Intersport", type: arbeitsagentur, employer: "INTERSPORT", tier: slow}
+  - {name: "John Deere", type: arbeitsagentur, employer: "John Deere", tier: slow}
+  - {name: "KACO", type: arbeitsagentur, employer: "KACO", tier: slow}
+  - {name: "Karl Storz", type: arbeitsagentur, employer: "KARL STORZ", tier: slow}
+  - {name: "KaVo Dental", type: arbeitsagentur, employer: "KaVo Dental", tier: slow}
+  - {name: "Kemmler Baustoffe", type: arbeitsagentur, employer: "Kemmler Baustoffe", tier: slow}
+  - {name: "KION Warehouse Systems", type: arbeitsagentur, employer: "KION Warehouse Systems", tier: slow}
+  - {name: "Kleeblatt Pflegeheime gGmbH", type: arbeitsagentur, employer: "Kleeblatt Pflegeheime gGmbH", tier: slow}
+  - {name: "Kliniken des Landkreises Lörrach", type: arbeitsagentur, employer: "Kliniken des Landkreises Lörrach", tier: slow}
+  - {name: "Klinikum am Weissenhof", type: arbeitsagentur, employer: "Klinikum am Weissenhof", tier: slow}
+  - {name: "Klinikum Esslingen", type: arbeitsagentur, employer: "Klinikum Esslingen", tier: slow}
+  - {name: "Klinikum Mittelbaden gGmbH", type: arbeitsagentur, employer: "Klinikum Mittelbaden gGmbH", tier: slow}
+  - {name: "Klinikverbund Südwest", type: arbeitsagentur, employer: "Klinikverbund Südwest", tier: slow}
+  - {name: "Koehler Paper", type: arbeitsagentur, employer: "Koehler Paper", tier: slow}
+  - {name: "Kreiskliniken Reutlingen gGmbH", type: arbeitsagentur, employer: "Kreiskliniken Reutlingen gGmbH", tier: slow}
+  - {name: "Kreissparkasse Biberach", type: arbeitsagentur, employer: "Kreissparkasse Biberach", tier: slow}
+  - {name: "Kreissparkasse Böblingen", type: arbeitsagentur, employer: "Kreissparkasse Böblingen", tier: slow}
+  - {name: "Kreissparkasse Esslingen-Nürtingen", type: arbeitsagentur, employer: "Kreissparkasse Esslingen-Nürtingen", tier: slow}
+  - {name: "Kreissparkasse Göppingen", type: arbeitsagentur, employer: "Kreissparkasse Göppingen", tier: slow}
+  - {name: "Kreissparkasse Heilbronn", type: arbeitsagentur, employer: "Kreissparkasse Heilbronn", tier: slow}
+  - {name: "Kreissparkasse Ludwigsburg", type: arbeitsagentur, employer: "Kreissparkasse Ludwigsburg", tier: slow}
+  - {name: "Kreissparkasse Ostalb", type: arbeitsagentur, employer: "Kreissparkasse Ostalb", tier: slow}
+  - {name: "Kreissparkasse Ravensburg", type: arbeitsagentur, employer: "Kreissparkasse Ravensburg", tier: slow}
+  - {name: "Kreissparkasse Reutlingen", type: arbeitsagentur, employer: "Kreissparkasse Reutlingen", tier: slow}
+  - {name: "Kreissparkasse Tübingen", type: arbeitsagentur, employer: "Kreissparkasse Tübingen", tier: slow}
+  - {name: "Kreissparkasse Waiblingen", type: arbeitsagentur, employer: "Kreissparkasse Waiblingen", tier: slow}
+  - {name: "Lapp", type: arbeitsagentur, employer: "Lapp", tier: slow}
+  - {name: "Läpple", type: arbeitsagentur, employer: "LÄPPLE", tier: slow}
+  - {name: "LBBW", type: arbeitsagentur, employer: "LBBW", tier: slow}
+  - {name: "LBS Landesbausparkasse Süd", type: arbeitsagentur, employer: "LBS Landesbausparkasse Süd", tier: slow}
+  - {name: "Leonhard Weiss", type: arbeitsagentur, employer: "LEONHARD WEISS", tier: slow}
+  - {name: "LGI Logistics", type: arbeitsagentur, employer: "LGI Logistics", tier: slow}
+  - {name: "Liqui Moly", type: arbeitsagentur, employer: "LIQUI MOLY", tier: slow}
+  - {name: "Magirus", type: arbeitsagentur, employer: "Magirus", tier: slow}
+  - {name: "Mahle", type: arbeitsagentur, employer: "MAHLE", max_pages: 6, tier: slow}
+  - {name: "Mann+hummel", type: arbeitsagentur, employer: "MANN+HUMMEL", tier: slow}
+  - {name: "Mannheimer Versicherung", type: arbeitsagentur, employer: "Mannheimer Versicherung", tier: slow}
+  - {name: "Manz", type: arbeitsagentur, employer: "Manz", tier: slow}
+  - {name: "MAPAL Fabrik für Präzisionswerkzeuge Dr. Kress", type: arbeitsagentur, employer: "MAPAL Fabrik für Präzisionswerkzeuge Dr. Kress", tier: slow}
+  - {name: "Marelli", type: arbeitsagentur, employer: "Marelli", tier: slow}
+  - {name: "Marquardt", type: arbeitsagentur, employer: "Marquardt", tier: slow}
+  - {name: "Maschinenfabrik ALFING Kessler", type: arbeitsagentur, employer: "Maschinenfabrik ALFING Kessler", tier: slow}
+  - {name: "Maschinenfabrik Berthold Hermle", type: arbeitsagentur, employer: "Maschinenfabrik Berthold Hermle", tier: slow}
+  - {name: "MEIKO Maschinenbau", type: arbeitsagentur, employer: "MEIKO Maschinenbau", tier: slow}
+  - {name: "Mercedes", type: arbeitsagentur, employer: "Mercedes", max_pages: 6, tier: slow}
+  - {name: "Mercedes-Benz Bank", type: arbeitsagentur, employer: "Mercedes-Benz Bank", max_pages: 6, tier: slow}
+  - {name: "MHP Management- und IT-Beratung", type: arbeitsagentur, employer: "MHP Management- und IT-Beratung", tier: slow}
+  - {name: "MHZ Hachtel", type: arbeitsagentur, employer: "MHZ Hachtel", tier: slow}
+  - {name: "Michael Weinig Aktiengesellschaft", type: arbeitsagentur, employer: "Michael Weinig Aktiengesellschaft", tier: slow}
+  - {name: "Michelin , Clermont-Ferrand", type: arbeitsagentur, employer: "Michelin , Clermont-Ferrand", tier: slow}
+  - {name: "MiRO Mineraloelraffinerie Oberrhein", type: arbeitsagentur, employer: "MiRO Mineraloelraffinerie Oberrhein", tier: slow}
+  - {name: "MLP", type: arbeitsagentur, employer: "MLP", tier: slow}
+  - {name: "Mosca", type: arbeitsagentur, employer: "Mosca", tier: slow}
+  - {name: "Mosolf", type: arbeitsagentur, employer: "MOSOLF", tier: slow}
+  - {name: "Müller", type: arbeitsagentur, employer: "Müller", tier: slow}
+  - {name: "Murrelektronik", type: arbeitsagentur, employer: "Murrelektronik", tier: slow}
+  - {name: "MVV Energie", type: arbeitsagentur, employer: "MVV Energie", tier: slow}
+  - {name: "Neff", type: arbeitsagentur, employer: "Neff", tier: slow}
+  - {name: "Neue Pressegesellschaft", type: arbeitsagentur, employer: "Neue Pressegesellschaft", tier: slow}
+  - {name: "Nokia", type: arbeitsagentur, employer: "Nokia", tier: slow}
+  - {name: "Oberschwabenklinik gGmbH", type: arbeitsagentur, employer: "Oberschwabenklinik gGmbH", tier: slow}
+  - {name: "OPTIMA packaging", type: arbeitsagentur, employer: "OPTIMA packaging", tier: slow}
+  - {name: "Papierfabrik Palm", type: arbeitsagentur, employer: "Papierfabrik Palm", tier: slow}
+  - {name: "Paul Hartmann", type: arbeitsagentur, employer: "Paul Hartmann", tier: slow}
+  - {name: "Paulinenpflege Winnenden e. V", type: arbeitsagentur, employer: "Paulinenpflege Winnenden e. V", tier: slow}
+  - {name: "Pepperl+Fuchs", type: arbeitsagentur, employer: "Pepperl+Fuchs", tier: slow}
+  - {name: "pfenning logistics", type: arbeitsagentur, employer: "pfenning logistics", tier: slow}
+  - {name: "Pilz", type: arbeitsagentur, employer: "Pilz", tier: slow}
+  - {name: "Pneuhage Management", type: arbeitsagentur, employer: "Pneuhage Management", tier: slow}
+  - {name: "Prettl Unternehmensgruppe", type: arbeitsagentur, employer: "Prettl Unternehmensgruppe", tier: slow}
+  - {name: "ProServ Produktionsservice und Personaldienste", type: arbeitsagentur, employer: "ProServ Produktionsservice und Personaldienste", tier: slow}
+  - {name: "Putzmeister", type: arbeitsagentur, employer: "Putzmeister", tier: slow}
+  - {name: "PWO", type: arbeitsagentur, employer: "PWO", tier: slow}
+  - {name: "R. Stahl Aktiengesellschaft", type: arbeitsagentur, employer: "R. Stahl Aktiengesellschaft", tier: slow}
+  - {name: "RAFI", type: arbeitsagentur, employer: "RAFI", tier: slow}
+  - {name: "Ravensburger", type: arbeitsagentur, employer: "Ravensburger", tier: slow}
+  - {name: "RECARO Aircraft Seating", type: arbeitsagentur, employer: "RECARO Aircraft Seating", tier: slow}
+  - {name: "Reisser", type: arbeitsagentur, employer: "REISSER", tier: slow}
+  - {name: "Rems-Murr-Kliniken gGmbH", type: arbeitsagentur, employer: "Rems-Murr-Kliniken gGmbH", tier: slow}
+  - {name: "Rheinmetall Automotive", type: arbeitsagentur, employer: "Rheinmetall Automotive", tier: slow}
+  - {name: "Rhein-Neckar-Verkehr", type: arbeitsagentur, employer: "Rhein-Neckar-Verkehr", tier: slow}
+  - {name: "Richard Wolf", type: arbeitsagentur, employer: "RICHARD WOLF", tier: slow}
+  - {name: "RKH Regionale Kliniken und Services", type: arbeitsagentur, employer: "RKH Regionale Kliniken und Services", tier: slow}
+  - {name: "Robert-Bosch-Krankenhaus", type: arbeitsagentur, employer: "Robert-Bosch-Krankenhaus", max_pages: 6, tier: slow}
+  - {name: "Roche", type: arbeitsagentur, employer: "Roche", tier: slow}
+  - {name: "Roche Diagnostics", type: arbeitsagentur, employer: "Roche Diagnostics", tier: slow}
+  - {name: "Röchling", type: arbeitsagentur, employer: "Röchling", tier: slow}
+  - {name: "Röhm", type: arbeitsagentur, employer: "Röhm", tier: slow}
+  - {name: "Rolls-Royce Power Systems", type: arbeitsagentur, employer: "Rolls-Royce Power Systems", tier: slow}
+  - {name: "Rommelag", type: arbeitsagentur, employer: "Rommelag", tier: slow}
+  - {name: "Röther Beteiligungs", type: arbeitsagentur, employer: "Röther Beteiligungs", tier: slow}
+  - {name: "Roto Frank", type: arbeitsagentur, employer: "Roto Frank", tier: slow}
+  - {name: "RUD Ketten Rieger & Dietz", type: arbeitsagentur, employer: "RUD Ketten Rieger & Dietz", tier: slow}
+  - {name: "Rud. Otto Meyer Technik", type: arbeitsagentur, employer: "Rud. Otto Meyer Technik"}
+  - {name: "Rutronik Elektronische Bauelemente", type: arbeitsagentur, employer: "Rutronik Elektronische Bauelemente", tier: slow}
+  - {name: "SAP", type: arbeitsagentur, employer: "SAP", max_pages: 6, tier: slow}
+  - {name: "Schaeffler Automotive Buehl", type: arbeitsagentur, employer: "Schaeffler Automotive Buehl", max_pages: 6, tier: slow}
+  - {name: "Scholz Recycling", type: arbeitsagentur, employer: "Scholz Recycling", tier: slow}
+  - {name: "Schuler", type: arbeitsagentur, employer: "Schuler", tier: slow}
+  - {name: "Schunk", type: arbeitsagentur, employer: "SCHUNK", tier: slow}
+  - {name: "Schwäbisch Hall", type: arbeitsagentur, employer: "Schwäbisch Hall", tier: slow}
+  - {name: "SchwörerHaus", type: arbeitsagentur, employer: "SchwörerHaus", tier: slow}
+  - {name: "Seifert Logistics", type: arbeitsagentur, employer: "Seifert Logistics", tier: slow}
+  - {name: "Sew-eurodrive", type: arbeitsagentur, employer: "SEW-EURODRIVE", tier: slow}
+  - {name: "SHW", type: arbeitsagentur, employer: "SHW", tier: slow}
+  - {name: "SICK", type: arbeitsagentur, employer: "SICK", tier: slow}
+  - {name: "Sika", type: arbeitsagentur, employer: "Sika", tier: slow}
+  - {name: "Simon Hegele Gesellschaft für Logistik und Service", type: arbeitsagentur, employer: "Simon Hegele Gesellschaft für Logistik und Service", tier: slow}
+  - {name: "SLK-Kliniken Heilbronn", type: arbeitsagentur, employer: "SLK-Kliniken Heilbronn", tier: slow}
+  - {name: "SMP", type: arbeitsagentur, employer: "SMP", tier: slow}
+  - {name: "Sparda-Bank Baden-Württemberg", type: arbeitsagentur, employer: "Sparda-Bank Baden-Württemberg", tier: slow}
+  - {name: "Sparkasse Freiburg-Nördlicher Breisgau", type: arbeitsagentur, employer: "Sparkasse Freiburg-Nördlicher Breisgau", tier: slow}
+  - {name: "Sparkasse Heidelberg", type: arbeitsagentur, employer: "Sparkasse Heidelberg", tier: slow}
+  - {name: "Sparkasse Karlsruhe", type: arbeitsagentur, employer: "Sparkasse Karlsruhe", tier: slow}
+  - {name: "Sparkasse Pforzheim Calw", type: arbeitsagentur, employer: "Sparkasse Pforzheim Calw", tier: slow}
+  - {name: "Sparkasse Rhein Neckar Nord", type: arbeitsagentur, employer: "Sparkasse Rhein Neckar Nord", tier: slow}
+  - {name: "Sparkasse Ulm", type: arbeitsagentur, employer: "Sparkasse Ulm", tier: slow}
+  - {name: "Sparkasse Zollernalb", type: arbeitsagentur, employer: "Sparkasse Zollernalb", tier: slow}
+  - {name: "Städtisches Klinikum Karlsruhe gGmbH", type: arbeitsagentur, employer: "Städtisches Klinikum Karlsruhe gGmbH", tier: slow}
+  - {name: "Stadtwerke Heidelberg", type: arbeitsagentur, employer: "Stadtwerke Heidelberg", tier: slow}
+  - {name: "Stadtwerke Karlsruhe", type: arbeitsagentur, employer: "Stadtwerke Karlsruhe", tier: slow}
+  - {name: "Steinbeis", type: arbeitsagentur, employer: "Steinbeis", tier: slow}
+  - {name: "Sto", type: arbeitsagentur, employer: "Sto", tier: slow}
+  - {name: "Stuttgarter Gebäudereinigung Venter", type: arbeitsagentur, employer: "Stuttgarter Gebäudereinigung Venter", tier: slow}
+  - {name: "Stuttgarter Straßenbahnen", type: arbeitsagentur, employer: "Stuttgarter Straßenbahnen", tier: slow}
+  - {name: "Süddeutsche Krankenversicherung a. G", type: arbeitsagentur, employer: "Süddeutsche Krankenversicherung a. G", tier: slow}
+  - {name: "SÜDPACK Verpackungen", type: arbeitsagentur, employer: "SÜDPACK Verpackungen", tier: slow}
+  - {name: "Südwestdeutsche Medien", type: arbeitsagentur, employer: "Südwestdeutsche Medien", tier: slow}
+  - {name: "Südzucker", type: arbeitsagentur, employer: "Südzucker", tier: slow}
+  - {name: "SV SparkassenVersicherung", type: arbeitsagentur, employer: "SV SparkassenVersicherung", tier: slow}
+  - {name: "SWEG Südwestdeutsche Landesverkehrs", type: arbeitsagentur, employer: "SWEG Südwestdeutsche Landesverkehrs", tier: slow}
+  - {name: "SWU Stadtwerke Ulm/Neu-Ulm", type: arbeitsagentur, employer: "SWU Stadtwerke Ulm/Neu-Ulm", tier: slow}
+  - {name: "SYNERGIE Personal", type: arbeitsagentur, employer: "SYNERGIE Personal", tier: slow}
+  - {name: "Takeda", type: arbeitsagentur, employer: "Takeda", tier: slow}
+  - {name: "Takkt", type: arbeitsagentur, employer: "TAKKT", tier: slow}
+  - {name: "TDK Micronas", type: arbeitsagentur, employer: "TDK Micronas", tier: slow}
+  - {name: "TeamViewer", type: arbeitsagentur, employer: "TeamViewer", tier: slow}
+  - {name: "Tesat", type: arbeitsagentur, employer: "TESAT"}
+  - {name: "Testo", type: arbeitsagentur, employer: "Testo", tier: slow}
+  - {name: "Teva", type: arbeitsagentur, employer: "Teva", tier: slow}
+  - {name: "TGS Teegen Gebäudedienstleistungen", type: arbeitsagentur, employer: "TGS Teegen Gebäudedienstleistungen", tier: slow}
+  - {name: "Thales", type: arbeitsagentur, employer: "Thales", tier: slow}
+  - {name: "Theo Förch", type: arbeitsagentur, employer: "Theo Förch", tier: slow}
+  - {name: "Trelleborg Sealing Solutions", type: arbeitsagentur, employer: "Trelleborg Sealing Solutions", tier: slow}
+  - {name: "Trigema W. Grupp", type: arbeitsagentur, employer: "Trigema W. Grupp", tier: slow}
+  - {name: "Uhlmann Pac-Systeme", type: arbeitsagentur, employer: "Uhlmann Pac-Systeme", tier: slow}
+  - {name: "Universitätsklinikum Mannheim", type: arbeitsagentur, employer: "Universitätsklinikum Mannheim", tier: slow}
+  - {name: "Universitätsklinikum Tübingen A.ö.R", type: arbeitsagentur, employer: "Universitätsklinikum Tübingen A.ö.R", tier: slow}
+  - {name: "Universitätsklinikum Ulm", type: arbeitsagentur, employer: "Universitätsklinikum Ulm", tier: slow}
+  - {name: "Unternehmensgruppe Dr. Willmar Schwabe", type: arbeitsagentur, employer: "Unternehmensgruppe Dr. Willmar Schwabe", tier: slow}
+  - {name: "Unternehmensgruppe fischer", type: arbeitsagentur, employer: "Unternehmensgruppe fischer", tier: slow}
+  - {name: "Uzin Utz Aktiengesellschaft, Ulm", type: arbeitsagentur, employer: "Uzin Utz Aktiengesellschaft, Ulm", tier: slow}
+  - {name: "Varta", type: arbeitsagentur, employer: "VARTA", tier: slow}
+  - {name: "VBK", type: arbeitsagentur, employer: "VBK", tier: slow}
+  - {name: "Verallia", type: arbeitsagentur, employer: "Verallia", tier: slow}
+  - {name: "Vereinigte Volksbanken", type: arbeitsagentur, employer: "Vereinigte Volksbanken", tier: slow}
+  - {name: "Verlagsgruppe Georg von Holtzbrinck", type: arbeitsagentur, employer: "Verlagsgruppe Georg von Holtzbrinck", tier: slow}
+  - {name: "Vetter Pharma-Fertigung", type: arbeitsagentur, employer: "Vetter Pharma-Fertigung", tier: slow}
+  - {name: "ViDia Christliche Kliniken", type: arbeitsagentur, employer: "ViDia Christliche Kliniken", tier: slow}
+  - {name: "Vinzenz von Paul Hospital gGmbH", type: arbeitsagentur, employer: "Vinzenz von Paul Hospital gGmbH", tier: slow}
+  - {name: "Vinzenz von Paul Kliniken gGmbH", type: arbeitsagentur, employer: "Vinzenz von Paul Kliniken gGmbH", tier: slow}
+  - {name: "Voith", type: arbeitsagentur, employer: "Voith", max_pages: 6, tier: slow}
+  - {name: "Volksbank pur", type: arbeitsagentur, employer: "Volksbank pur", tier: slow}
+  - {name: "Volksbank Stuttgart", type: arbeitsagentur, employer: "Volksbank Stuttgart", tier: slow}
+  - {name: "VPV Versicherungen", type: arbeitsagentur, employer: "VPV Versicherungen", tier: slow}
+  - {name: "VS Vereinigte Spezialmöbelfabriken", type: arbeitsagentur, employer: "VS Vereinigte Spezialmöbelfabriken", tier: slow}
+  - {name: "Waldburg-Zeil Kliniken", type: arbeitsagentur, employer: "Waldburg-Zeil Kliniken", tier: slow}
+  - {name: "Waldner", type: arbeitsagentur, employer: "Waldner", tier: slow}
+  - {name: "Walter", type: arbeitsagentur, employer: "Walter", tier: slow}
+  - {name: "Weishaupt", type: arbeitsagentur, employer: "Weishaupt", tier: slow}
+  - {name: "Weleda", type: arbeitsagentur, employer: "Weleda", tier: slow}
+  - {name: "WGV Versicherungen", type: arbeitsagentur, employer: "WGV Versicherungen", tier: slow}
+  - {name: "Wieland-Werke Aktiengesellschaft", type: arbeitsagentur, employer: "Wieland-Werke Aktiengesellschaft", tier: slow}
+  - {name: "Wilhem Layher", type: arbeitsagentur, employer: "Wilhem Layher", tier: slow}
+  - {name: "Winterhalter Gastronom", type: arbeitsagentur, employer: "Winterhalter Gastronom", tier: slow}
+  - {name: "Wirthwein", type: arbeitsagentur, employer: "Wirthwein", tier: slow}
+  - {name: "Wittenstein", type: arbeitsagentur, employer: "WITTENSTEIN", tier: slow}
+  - {name: "Witzenmann", type: arbeitsagentur, employer: "Witzenmann", tier: slow}
+  - {name: "Wolff & Müller", type: arbeitsagentur, employer: "WOLFF & MÜLLER", tier: slow}
+  - {name: "Wörwag Pharma", type: arbeitsagentur, employer: "Wörwag Pharma", tier: slow}
+  - {name: "Würth", type: arbeitsagentur, employer: "Würth", max_pages: 6, tier: slow}
+  - {name: "Wüstenrot & Württembergische", type: arbeitsagentur, employer: "Wüstenrot & Württembergische", tier: slow}
+  - {name: "Zehnder", type: arbeitsagentur, employer: "Zehnder", tier: slow}
+  - {name: "Zeiss", type: arbeitsagentur, employer: "ZEISS", tier: slow}
+  - {name: "Bau- und Landmaschinen, Baulogistik und Baustellenmanagement", type: arbeitsagentur, employer: "Bau- und Landmaschinen, Baulogistik und Baustellenmanagement", tier: slow}
+  - {name: "ZF Friedrichshafen", type: arbeitsagentur, employer: "ZF Friedrichshafen", max_pages: 6, tier: slow}
+  - {name: "ZF Lifetec", type: arbeitsagentur, employer: "ZF LIFETEC", max_pages: 6, tier: slow}
+  - {name: "Ziehl-abegg", type: arbeitsagentur, employer: "ZIEHL-ABEGG"}
+  - {name: "Zollern", type: arbeitsagentur, employer: "Zollern", tier: slow}
+  - {name: "Zollernalb Klinikum gGmbH", type: arbeitsagentur, employer: "Zollernalb Klinikum gGmbH", tier: slow}
+  - {name: "ZwickRoell", type: arbeitsagentur, employer: "ZwickRoell", tier: slow}
 
-  # SmartRecruiters: https://jobs.smartrecruiters.com/<company_id>
-  # - name: Example SR
-  #   type: smartrecruiters
-  #   company_id: ExampleCompany
-
-  # Personio: https://<subdomain>.jobs.personio.de
-  # - name: Example Personio
-  #   type: personio
-  #   subdomain: examplecompany
-
-  # Any other career page (static HTML only; no JavaScript rendering).
-  # CSS selectors: item = one job row, title / link / location are relative to the item.
-  # - name: Astos Solutions
-  #   type: html
-  #   url: https://www.astos.de/company/careers
-  #   item: "div.job"
-  #   title: "h3"
-  #   link: "a"
-  #   location: ".location"     # optional
+  # ---- DHBW Stuttgart dual partners (Maschinenbau) ---------------------------------------------------
+  - {name: "ACPS Automotive", type: arbeitsagentur, employer: "ACPS Automotive", tier: slow}
+  - {name: "Adolf Föhl", type: arbeitsagentur, employer: "Adolf Föhl", tier: slow}
+  - {name: "Adolf Würth", type: arbeitsagentur, employer: "Adolf Würth", max_pages: 6, tier: slow}
+  - {name: "Alfred Kärcher", type: arbeitsagentur, employer: "Alfred Kärcher", tier: slow}
+  - {name: "Andreas Stihl", type: arbeitsagentur, employer: "ANDREAS STIHL", max_pages: 6, tier: slow}
+  - {name: "ANDRITZ Schuler Pressen", type: arbeitsagentur, employer: "ANDRITZ Schuler Pressen", tier: slow}
+  - {name: "Armaturenfabrik Franz Schneider", type: arbeitsagentur, employer: "Armaturenfabrik Franz Schneider", tier: slow}
+  - {name: "Bauer Gear Motor", type: arbeitsagentur, employer: "Bauer Gear Motor", tier: slow}
+  - {name: "BBS Automation Stuttgart", type: arbeitsagentur, employer: "BBS Automation Stuttgart", tier: slow}
+  - {name: "Bentley InnoMed", type: arbeitsagentur, employer: "Bentley InnoMed", tier: slow}
+  - {name: "Bharat Forge Daun", type: arbeitsagentur, employer: "Bharat Forge Daun", tier: slow}
+  - {name: "Bilz Werkzeugfabrik", type: arbeitsagentur, employer: "BILZ WERKZEUGFABRIK", tier: slow}
+  - {name: "BITZER Kühlmaschinenbau", type: arbeitsagentur, employer: "BITZER Kühlmaschinenbau", tier: slow}
+  - {name: "Bock", type: arbeitsagentur, employer: "Bock", tier: slow}
+  - {name: "botek Präzisionsbohrtechnik", type: arbeitsagentur, employer: "botek Präzisionsbohrtechnik", tier: slow}
+  - {name: "BOWA", type: arbeitsagentur, employer: "BOWA", tier: slow}
+  - {name: "Brückner Trockentechnik", type: arbeitsagentur, employer: "Brückner Trockentechnik", tier: slow}
+  - {name: "BSB Metallverformung", type: arbeitsagentur, employer: "BSB Metallverformung", tier: slow}
+  - {name: "BW Papersystems Stuttgart", type: arbeitsagentur, employer: "BW Papersystems Stuttgart", tier: slow}
+  - {name: "CEMO", type: arbeitsagentur, employer: "CEMO", tier: slow}
+  - {name: "Christian Bauer", type: arbeitsagentur, employer: "CHRISTIAN BAUER", tier: slow}
+  - {name: "CLAAS Industrietechnik", type: arbeitsagentur, employer: "CLAAS Industrietechnik", tier: slow}
+  - {name: "CLAAS Saulgau", type: arbeitsagentur, employer: "CLAAS Saulgau", tier: slow}
+  - {name: "CLAAS Selbstfahrende Erntemaschinen", type: arbeitsagentur, employer: "CLAAS Selbstfahrende Erntemaschinen", tier: slow}
+  - {name: "Coperion", type: arbeitsagentur, employer: "Coperion", tier: slow}
+  - {name: "DAIKIN Manufacturing", type: arbeitsagentur, employer: "DAIKIN Manufacturing", tier: slow}
+  - {name: "Diamant-gesellschaft Tesch", type: arbeitsagentur, employer: "DIAMANT-GESELLSCHAFT TESCH", tier: slow}
+  - {name: "DLR Deutsches Zentrum f. Luft-und Raumfahrt e.V", type: arbeitsagentur, employer: "DLR Deutsches Zentrum f. Luft-und Raumfahrt e.V", tier: slow}
+  - {name: "Dr. Ing. h.c. F. Porsche", type: arbeitsagentur, employer: "Dr. Ing. h.c. F. Porsche", max_pages: 6, tier: slow}
+  - {name: "E. Zoller", type: arbeitsagentur, employer: "E. Zoller", tier: slow}
+  - {name: "EDAG Production Solutions", type: arbeitsagentur, employer: "EDAG Production Solutions", tier: slow}
+  - {name: "Eisele", type: arbeitsagentur, employer: "EISELE", tier: slow}
+  - {name: "Elektror airsystems", type: arbeitsagentur, employer: "Elektror airsystems", tier: slow}
+  - {name: "Emil Schmid Maschinenbau", type: arbeitsagentur, employer: "Emil Schmid Maschinenbau", tier: slow}
+  - {name: "ERNI", type: arbeitsagentur, employer: "ERNI", tier: slow}
+  - {name: "Fessmann", type: arbeitsagentur, employer: "Fessmann", tier: slow}
+  - {name: "Festool", type: arbeitsagentur, employer: "Festool", max_pages: 6, tier: slow}
+  - {name: "Gebr. Heller Maschinenfabrik", type: arbeitsagentur, employer: "Gebr. Heller Maschinenfabrik", tier: slow}
+  - {name: "Gehring Technologies", type: arbeitsagentur, employer: "Gehring Technologies", tier: slow}
+  - {name: "GEZE", type: arbeitsagentur, employer: "GEZE", tier: slow}
+  - {name: "Gleason-Pfauter Maschinenfabrik", type: arbeitsagentur, employer: "Gleason-Pfauter Maschinenfabrik", tier: slow}
+  - {name: "Goetze", type: arbeitsagentur, employer: "Goetze", tier: slow}
+  - {name: "Gretsch-Unitas", type: arbeitsagentur, employer: "Gretsch-Unitas", tier: slow}
+  - {name: "H.P. Kaysser", type: arbeitsagentur, employer: "H.P. Kaysser", tier: slow}
+  - {name: "HAHN Gasfedern", type: arbeitsagentur, employer: "HAHN Gasfedern", tier: slow}
+  - {name: "Hainbuch", type: arbeitsagentur, employer: "Hainbuch", tier: slow}
+  - {name: "Hans Schröder Maschinenbau", type: arbeitsagentur, employer: "Hans Schröder Maschinenbau", tier: slow}
+  - {name: "HAYER Handling Solutions", type: arbeitsagentur, employer: "HAYER Handling Solutions", tier: slow}
+  - {name: "Heidelberg Postpress", type: arbeitsagentur, employer: "Heidelberg Postpress", tier: slow}
+  - {name: "Herma", type: arbeitsagentur, employer: "HERMA", tier: slow}
+  - {name: "Hermann Bilz", type: arbeitsagentur, employer: "HERMANN BILZ", tier: slow}
+  - {name: "HES Präzisionsteile Hermann Erkert", type: arbeitsagentur, employer: "HES Präzisionsteile Hermann Erkert", tier: slow}
+  - {name: "Hidria Bausch", type: arbeitsagentur, employer: "Hidria Bausch", tier: slow}
+  - {name: "HLS Produktions- und Automatisierungstechnik", type: arbeitsagentur, employer: "HLS Produktions- und Automatisierungstechnik", tier: slow}
+  - {name: "hofer powertrain", type: arbeitsagentur, employer: "hofer powertrain", tier: slow}
+  - {name: "Hoffmann", type: arbeitsagentur, employer: "Hoffmann", tier: slow}
+  - {name: "INDEX-Werke", type: arbeitsagentur, employer: "INDEX-Werke", tier: slow}
+  - {name: "invenio", type: arbeitsagentur, employer: "invenio", tier: slow}
+  - {name: "JOYSONQUIN Automotive Systems", type: arbeitsagentur, employer: "JOYSONQUIN Automotive Systems", tier: slow}
+  - {name: "KADIA Produktion", type: arbeitsagentur, employer: "KADIA Produktion", tier: slow}
+  - {name: "Karl Dungs", type: arbeitsagentur, employer: "Karl Dungs", tier: slow}
+  - {name: "Karl Klein Ventilatorenbau", type: arbeitsagentur, employer: "Karl Klein Ventilatorenbau", tier: slow}
+  - {name: "Karl Marbach", type: arbeitsagentur, employer: "Karl Marbach", tier: slow}
+  - {name: "Keller Lufttechnik", type: arbeitsagentur, employer: "Keller Lufttechnik", tier: slow}
+  - {name: "Kleemann", type: arbeitsagentur, employer: "Kleemann", tier: slow}
+  - {name: "Koenig & Bauer MetalPrint", type: arbeitsagentur, employer: "Koenig & Bauer MetalPrint", tier: slow}
+  - {name: "Konzelmann", type: arbeitsagentur, employer: "Konzelmann", tier: slow}
+  - {name: "Lechler", type: arbeitsagentur, employer: "Lechler", tier: slow}
+  - {name: "Leuze electronic", type: arbeitsagentur, employer: "Leuze electronic", tier: slow}
+  - {name: "Matec", type: arbeitsagentur, employer: "MATEC", tier: slow}
+  - {name: "MEEH Pulverbeschichtungs- und Staubfilteranlagen", type: arbeitsagentur, employer: "MEEH Pulverbeschichtungs- und Staubfilteranlagen", tier: slow}
+  - {name: "Mercedes-Benz", type: arbeitsagentur, employer: "Mercedes-Benz", max_pages: 6, tier: slow}
+  - {name: "Metabowerke", type: arbeitsagentur, employer: "Metabowerke", tier: slow}
+  - {name: "MEZ", type: arbeitsagentur, employer: "MEZ", tier: slow}
+  - {name: "MLOG Logistics", type: arbeitsagentur, employer: "MLOG Logistics", tier: slow}
+  - {name: "Nagel Technologies", type: arbeitsagentur, employer: "Nagel Technologies", tier: slow}
+  - {name: "Nidec Graessner", type: arbeitsagentur, employer: "Nidec Graessner", tier: slow}
+  - {name: "Otto Egelhof", type: arbeitsagentur, employer: "OTTO EGELHOF", tier: slow}
+  - {name: "Porsche Leipzig", type: arbeitsagentur, employer: "Porsche Leipzig", max_pages: 6, tier: slow}
+  - {name: "Prettl", type: arbeitsagentur, employer: "PRETTL", tier: slow}
+  - {name: "PRETTL Produktions", type: arbeitsagentur, employer: "PRETTL Produktions", tier: slow}
+  - {name: "Putzmeister Concrete Pumps", type: arbeitsagentur, employer: "Putzmeister Concrete Pumps", tier: slow}
+  - {name: "RAS Reinhardt Maschinenbau", type: arbeitsagentur, employer: "RAS Reinhardt Maschinenbau", tier: slow}
+  - {name: "Rau", type: arbeitsagentur, employer: "Rau", tier: slow}
+  - {name: "Reutter", type: arbeitsagentur, employer: "Reutter", tier: slow}
+  - {name: "Robert Bosch", type: arbeitsagentur, employer: "Robert Bosch", max_pages: 6, tier: slow}
+  - {name: "Rolf Benz", type: arbeitsagentur, employer: "Rolf Benz", tier: slow}
+  - {name: "ndvik Tooling Supply Renningen ZN der Sandvik Tooling", type: arbeitsagentur, employer: "ndvik Tooling Supply Renningen ZN der Sandvik Tooling", tier: slow}
+  - {name: "Syntegon Technology", type: arbeitsagentur, employer: "Syntegon Technology", tier: slow}
+  - {name: "teamtechnik Automation", type: arbeitsagentur, employer: "teamtechnik Automation", tier: slow}
+  - {name: "Telegärtner Karl Gärtner", type: arbeitsagentur, employer: "Telegärtner Karl Gärtner", tier: slow}
+  - {name: "Thermal Management Solutions DE Oberboihingen", type: arbeitsagentur, employer: "Thermal Management Solutions DE Oberboihingen", tier: slow}
+  - {name: "TK Aufzugswerke", type: arbeitsagentur, employer: "TK Aufzugswerke", tier: slow}
+  - {name: "Trumpf", type: arbeitsagentur, employer: "TRUMPF", max_pages: 6, tier: slow}
+  - {name: "TTS Tooltechnic Systems", type: arbeitsagentur, employer: "TTS Tooltechnic Systems", tier: slow}
+  - {name: "Uraca", type: arbeitsagentur, employer: "URACA", tier: slow}
+  - {name: "vhf camfacture", type: arbeitsagentur, employer: "vhf camfacture", tier: slow}
+  - {name: "Volkswagen Osnabrück", type: arbeitsagentur, employer: "Volkswagen Osnabrück", tier: slow}
+  - {name: "W. Gessmann", type: arbeitsagentur, employer: "W. Gessmann", tier: slow}
+  - {name: "Weber-hydraulik", type: arbeitsagentur, employer: "WEBER-HYDRAULIK", tier: slow}
+  - {name: "WEIMA Maschinenbau", type: arbeitsagentur, employer: "WEIMA Maschinenbau", tier: slow}
+  - {name: "Winkel", type: arbeitsagentur, employer: "Winkel", tier: slow}
+  - {name: "Wohlhaupter", type: arbeitsagentur, employer: "Wohlhaupter", tier: slow}
+  - {name: "Woodward L`Orange", type: arbeitsagentur, employer: "Woodward L`Orange", tier: slow}
+  - {name: "Zedler", type: arbeitsagentur, employer: "Zedler", tier: slow}
