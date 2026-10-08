@@ -121,6 +121,7 @@
   </div>
   <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="best">Best match first</option></select>
   <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
+  <label class="chk" title="Listings from the job agency (Bundesagentur), used only for companies whose own career site cannot be read"><input type="checkbox" id="showAgency"> Include agency listings</label>
 </div></div>
 
 <div class="main">
@@ -169,8 +170,9 @@ async function load() {
 function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase();
-  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, showClosed = $("showClosed").checked;
-  const open = data.jobs.filter((j) => !j.closed_at);
+  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
+  const pool = data.jobs.filter((j) => showAgency || j.src !== "agency");
+  const open = pool.filter((j) => !j.closed_at);
 
   $("stats").innerHTML =
     `<div class="num gold"><b>${open.filter((j) => j.match === 2).length}</b><span>best matches</span></div>` +
@@ -178,7 +180,7 @@ function render() {
     `<div class="num"><b>${open.length}</b><span>open jobs</span></div>`;
 
   // every filter except the company choice: this decides which companies appear in the list
-  const base = data.jobs.filter((j) =>
+  const base = pool.filter((j) =>
     (showClosed || !j.closed_at) &&
     (!onlyNew || isNew(j)) &&
     (!onlyBest || j.match === 2) &&
@@ -210,7 +212,7 @@ function render() {
       <div class="stripe"></div>
       <div class="body">
         <div class="title">${esc(j.title)}</div>
-        <div class="meta"><b>${esc(j.company)}</b>${j.location ? " · " + esc(j.location) : ""}</div>
+        <div class="meta"><b>${esc(j.company)}</b>${j.location ? " · " + esc(j.location) : ""}${j.src === "agency" ? " · <i>agency listing</i>" : ""}</div>
       </div>
       <div class="side">
         ${j.match === 2 && !j.closed_at ? '<span class="badge star">★ BEST MATCH</span>' : ""}
@@ -235,7 +237,7 @@ $("companies").addEventListener("click", (ev) => {
   selected = selected === b.dataset.co ? "" : b.dataset.co; limit = 300; render();
 });
 $("clearCo").addEventListener("click", (ev) => { ev.preventDefault(); selected = ""; limit = 300; render(); });
-["q", "onlyNew", "onlyBest", "showClosed", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
+["q", "onlyNew", "onlyBest", "showClosed", "showAgency", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
 if (window.matchMedia("(max-width: 860px)").matches) $("rail").open = false;
 load();
 setInterval(load, 5 * 60 * 1000);
