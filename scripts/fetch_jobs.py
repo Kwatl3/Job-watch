@@ -90,22 +90,23 @@ def employer_matches(found: str, wanted: list[str]) -> bool:
 # ---------------------------------------------------------------- adapters ---
 # Every adapter returns a list of dicts: id, title, location, url, posted (optional).
 
-BA_URL = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"
+BA_URL = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs"
 BA_HEADERS = {"X-API-Key": "jobboerse-jobsuche"}  # public key documented by the Bundesagentur
 
 
 def fetch_arbeitsagentur(c: dict) -> list[dict]:
-    """Official job-agency feed (arbeitsagentur.de Jobbörse): jobs in Germany by employer name."""
+    """Official job-agency feed (arbeitsagentur.de Jobbörse): jobs in Germany by employer name.
+
+    The feed's own employer filter needs the exact registered name, so we search the company
+    name as free text and keep only results whose employer name contains it as whole words."""
     employer = c["employer"]
     wanted = [employer] + list(c.get("employer_match", []))
     size = 100
     out: dict[str, dict] = {}
     for page in range(1, int(c.get("max_pages", 3)) + 1):
-        params = {"arbeitgeber": employer, "page": page, "size": size,
+        params = {"was": (employer + " " + c.get("keywords", "")).strip(), "page": page, "size": size,
                   "veroeffentlichtseit": int(c.get("days", 100)),
                   "angebotsart": 1}  # 1 = regular jobs (no apprenticeships / internships)
-        if c.get("keywords"):
-            params["was"] = c["keywords"]
         if c.get("where"):
             params["wo"] = c["where"]
             params["umkreis"] = int(c.get("radius_km", 50))
@@ -116,20 +117,22 @@ def fetch_arbeitsagentur(c: dict) -> list[dict]:
             r = sess().get(BA_URL, params=params, headers=BA_HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
         data = r.json()
-        items = data.get("stellenangebote") or []
+        items = data.get("ergebnisliste") or []
         for it in items:
-            if not employer_matches(it.get("arbeitgeber", ""), wanted):
+            if not employer_matches(it.get("firma", ""), wanted):
                 continue
-            ref = it.get("refnr")
+            ref = it.get("referenznummer")
             if not ref:
                 continue
-            ort = it.get("arbeitsort") or {}
+            adr = ((it.get("stellenlokationen") or [{}])[0].get("adresse")) or {}
+            region = (adr.get("region") or "").replace("_", " ").title()
             out[ref] = {
                 "id": ref,
-                "title": (it.get("titel") or it.get("beruf") or "").strip(),
-                "location": ", ".join(x for x in (ort.get("ort"), ort.get("region")) if x),
+                "title": (it.get("stellenangebotsTitel") or it.get("hauptberuf") or "").strip(),
+                "location": ", ".join(x for x in (adr.get("ort"), region) if x),
                 "url": f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{ref}",
-                "posted": it.get("aktuelleVeroeffentlichungsdatum", "") or "",
+                "posted": it.get("datumErsteVeroeffentlichung")
+                          or (it.get("veroeffentlichungszeitraum") or {}).get("von", "") or "",
             }
         if len(items) < size or page * size >= int(data.get("maxErgebnisse", 0) or 0):
             break
