@@ -38,6 +38,8 @@
   .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
   .badge { font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 2px 7px; border-radius: 99px;
            background: var(--new-bg); color: var(--new); white-space: nowrap; }
+  .badge.star { background: #fff3d6; color: #8a5a00; }
+  @media (prefers-color-scheme: dark) { .badge.star { background: #3a2e10; color: #ffc861; } }
   .badge.closed { background: transparent; border: 1px solid var(--closed); color: var(--closed); }
   .age { color: var(--muted); font-size: 12px; white-space: nowrap; }
   details { margin-top: 18px; }
@@ -46,6 +48,9 @@
   .health div { padding: 3px 0; }
   .ok { color: var(--new); } .bad { color: var(--err); }
   .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  .more { display: block; margin: 12px auto; padding: 8px 18px; border-radius: 8px; cursor: pointer;
+          background: var(--card); color: var(--text); border: 1px solid var(--line); font: inherit; }
+  .more:hover { border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -60,6 +65,7 @@
   <div class="controls">
     <input type="search" id="q" placeholder="Search title or location…" autocomplete="off">
     <select id="company"><option value="">All companies</option></select>
+    <label class="chk"><input type="checkbox" id="onlyBest"> ★ Best matches only</label>
     <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
     <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
   </div>
@@ -75,6 +81,7 @@
 <script>
 const $ = (id) => document.getElementById(id);
 let data = null;
+let limit = 300;   // rows shown at once; "Show more" adds 300
 
 function ago(iso) {
   const s = (Date.now() - new Date(iso).getTime()) / 1000;
@@ -107,19 +114,22 @@ async function load() {
 function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase(), co = $("company").value;
-  const onlyNew = $("onlyNew").checked, showClosed = $("showClosed").checked;
+  const onlyNew = $("onlyNew").checked, showClosed = $("showClosed").checked, onlyBest = $("onlyBest").checked;
   const open = data.jobs.filter((j) => !j.closed_at);
 
   $("stats").innerHTML =
     `<div class="stat"><b>${open.length}</b><span>open jobs</span></div>` +
+    `<div class="stat"><b>${open.filter((j) => j.match === 2).length}</b><span>★ best matches</span></div>` +
     `<div class="stat"><b>${open.filter(isNew).length}</b><span>new (${data.new_window_hours} h)</span></div>` +
     `<div class="stat"><b>${new Set(open.map((j) => j.company)).size}</b><span>companies with jobs</span></div>`;
 
-  const rows = data.jobs.filter((j) =>
+  const all = data.jobs.filter((j) =>
     (showClosed || !j.closed_at) &&
     (!co || j.company === co) &&
     (!onlyNew || isNew(j)) &&
+    (!onlyBest || j.match === 2) &&
     (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
+  const rows = all.slice(0, limit);
 
   $("list").innerHTML = rows.length ? rows.map((j) => `
     <a class="job ${j.closed_at ? "closed" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener">
@@ -129,11 +139,15 @@ function render() {
           <div class="meta">${esc(j.company)}${j.location ? " · " + esc(j.location) : ""}</div>
         </div>
         <div style="text-align:right">
-          ${j.closed_at ? '<span class="badge closed">CLOSED</span>' : isNew(j) ? '<span class="badge">NEW</span>' : ""}
-          <div class="age">${j.seed ? "tracked since " : "found "}${ago(j.first_seen)}</div>
+          ${j.match === 2 && !j.closed_at ? '<span class="badge star">★ BEST MATCH</span> ' : ""}${j.closed_at ? '<span class="badge closed">CLOSED</span>' : isNew(j) ? '<span class="badge">NEW</span>' : ""}
+          <div class="age">${j.posted && /^\d{4}-\d{2}-\d{2}/.test(j.posted) ? "posted " + esc(j.posted.slice(0, 10)) : (j.seed ? "tracked since " : "found ") + ago(j.first_seen)}</div>
         </div>
       </div>
-    </a>`).join("") : '<div class="empty">No jobs match.</div>';
+    </a>`).join("") + (all.length > rows.length
+      ? `<button id="more" class="more">Show more (${all.length - rows.length} hidden)</button>` : "")
+    : '<div class="empty">No jobs match.</div>';
+  const more = $("more");
+  if (more) more.onclick = () => { limit += 300; render(); };
 
   $("health").innerHTML = Object.entries(data.companies).map(([n, s]) =>
     `<div>${s.ok ? '<span class="ok">●</span>' : '<span class="bad">●</span>'} <b>${esc(n)}</b> — ` +
@@ -141,7 +155,7 @@ function render() {
     `</div>`).join("");
 }
 
-["q", "company", "onlyNew", "showClosed"].forEach((id) => $(id).addEventListener("input", render));
+["q", "company", "onlyNew", "onlyBest", "showClosed"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
 load();
 setInterval(load, 5 * 60 * 1000);
 </script>
