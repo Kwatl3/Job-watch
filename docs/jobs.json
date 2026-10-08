@@ -1,475 +1,3056 @@
 {
  "new_window_hours": 48,
  "baselined": [
-  "Airbus"
+  "Airbus (Workday, Hamburg)",
+  "CERN",
+  "Thales (Workday, Germany)"
  ],
  "companies": {
-  "Airbus": {
+  "Airbus (Workday, Hamburg)": {
    "ok": true,
-   "count": 40
+   "count": 4
+  },
+  "CERN": {
+   "ok": true,
+   "count": 22
+  },
+  "Thales (Workday, Germany)": {
+   "ok": true,
+   "count": 10
+  },
+  "Airbus (Germany, agency feed)": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Airbus&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "ESA": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=European+Space+Agency&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "EUMETSAT": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EUMETSAT&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Astos Solutions": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Astos+Solutions&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Roxel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ROXEL&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "KNDS": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KNDS&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "John Cockerill": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=JOHN+COCKERILL&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "FN Browning": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FN+BROWNING&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Groupe Sonaca": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GROUPE+SONACA&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Orizio": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ORIZIO&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "RHEA": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RHEA&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "VMZ": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VMZ&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Pilatus": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PILATUS&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "CSG": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CSG&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Colt CZ": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=COLT+CZ&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Aero Vodochody Aerospace": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=AERO+VODOCHODY+AEROSPACE&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "STV": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=STV&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Explosia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EXPLOSIA&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "LOM Praha": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LOM+PRAHA&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "VOP CZ": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VOP+CZ&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Rheinmetall": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RHEINMETALL&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "MTU Aero Engines": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MTU+Aero+Engines&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Diehl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DIEHL&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Rohde & Schwarz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rohde+%26+Schwarz&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Hensoldt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HENSOLDT&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "TKMS": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TKMS&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "RENK": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RENK&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "OHB": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=OHB&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Heckler & Koch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Heckler+%26+Koch&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Quantum Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=QUANTUM+SYSTEMS&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Terma": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TERMA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "SH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SH&page=1&size=100&veroeffentlichtseit=100&angebotsart",
+   "count": 0
+  },
+  "Baltic Workboats": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BALTIC+WORKBOATS&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Milrem": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MILREM&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Indra Sistemas": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=INDRA+SISTEMAS&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Navantia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=NAVANTIA&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "GMV": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GMV&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Sener": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SENER&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Oesia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=OESIA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Patria": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PATRIA&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Safran": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SAFRAN&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Dassault Aviation": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DASSAULT+AVIATION&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Sopra Steria": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SOPRA+STERIA&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Naval": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=NAVAL&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Chantiers de l'Atlantique": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Chantiers+de+l%27Atlantique&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "ArianeGroup": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ArianeGroup&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Thales Alenia Space": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=THALES+ALENIA+SPACE&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Eurenco": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EURENCO&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Exosens": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EXOSENS&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Exail": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EXAIL&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Piriou": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PIRIOU&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Lynred": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LYNRED&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Texelis": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TEXELIS&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Space Hellas": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SPACE+HELLAS&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Hellenic Aerospace Industry": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HELLENIC+AEROSPACE+INDUSTRY&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Intracom Defense": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=INTRACOM+DEFENSE&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Hellenic Defence Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HELLENIC+DEFENCE+SYSTEMS&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "HS Produkt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HS+PRODUKT&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Duro Dakovic": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DURO+DAKOVIC&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Leonardo": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LEONARDO&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Fincantieri": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FINCANTIERI&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "GE Avio Aero": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Avio&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Iveco Defence Vehicles": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Iveco+Defence&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "ELT": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ELT&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Damen Shipyards": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DAMEN+SHIPYARDS&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Nammo": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=NAMMO&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "PGZ": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PGZ&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "WB": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WB&page=1&size=100&veroeffentlichtseit=100&angebotsart",
+   "count": 0
+  },
+  "Tekever": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TEKEVER&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Arsenal DO Alfeite": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ARSENAL+DO+ALFEITE&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Romarm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ROMARM&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Aerostar": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=AEROSTAR&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Avioane Craiova": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=AVIOANE+CRAIOVA&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Romaero": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ROMAERO&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Scania": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Scania&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Saab": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Saab&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "DMD": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DMD&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "ZVS": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZVS&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "EVPU": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EVPU&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "BAE Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BAE+Systems&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Rolls-Royce": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rolls-Royce&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Babcock": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BABCOCK&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "GKN": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GKN&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Qinetiq": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=QINETIQ&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Meggitt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MEGGITT&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Chemring": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CHEMRING&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "A. Raymond": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=A.+Raymond&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "ABB": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ABB&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "ADK": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ADK&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "ADM WILD Europe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ADM+WILD+Europe&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Aesculap": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Aesculap&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Agilent Technologies": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Agilent+Technologies&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Akkodis": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Akkodis&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "ALB Fils Klinikum": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ALB+FILS+KLINIKUM&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Albert Ziegler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Albert+Ziegler&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Alexander Bürkle": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Alexander+B%C3%BCrkle&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "Alfred Ritter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Alfred+Ritter&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Amann & Söhne": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Amann+%26+S%C3%B6hne&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Amcor Flexibles Singen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Amcor+Flexibles+Singen&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Anton Häring": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Anton+H%C3%A4ring&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Aptar Radolfzell": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Aptar+Radolfzell&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Arburg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ARBURG&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Atruvia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Atruvia&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "AZO": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=AZO&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "badenova": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=badenova&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Bardusch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bardusch&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Bauhaus": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BAUHAUS&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Bausch+Ströbel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bausch%2BStr%C3%B6bel&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "BBBank": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BBBank&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Bechtle": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bechtle&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Berner": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BERNER&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Bertrandt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bertrandt&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Beurer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Beurer&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Bilfinger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bilfinger&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Biologische Heilmittel Heel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Biologische+Heilmittel+Heel&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Bizerba": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bizerba&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Blanc & Fischer Familienholding": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Blanc+%26+Fischer+Familienholding&page=1&size=100&vero",
+   "count": 0
+  },
+  "Blanco": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BLANCO&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Boehinger Ingelheim": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Boehinger+Ingelheim&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Bosch Engineering": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bosch+Engineering&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Boysen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Boysen&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Braun Möbel-Center": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Braun+M%C3%B6bel-Center&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Breer Gebäudedienste Heidelberg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Breer+Geb%C3%A4udedienste+Heidelberg&page=1&size=100&v",
+   "count": 0
+  },
+  "Brucklacher": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Brucklacher&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Bucher Hydraulics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bucher+Hydraulics&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Bürger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=B%C3%9CRGER&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Bürkert Fluid Control Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=B%C3%BCrkert+Fluid+Control+Systems&page=1&size=100&ver",
+   "count": 0
+  },
+  "C.E. Noerpel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=C.E.+Noerpel&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Carl Stahl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Carl+Stahl&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "CeramTec": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CeramTec&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "CGI": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CGI&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Chemoform": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Chemoform&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Chiron": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CHIRON&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Christophsbad": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Christophsbad&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "CHT": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CHT&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "compassio": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=compassio&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Conductix-Wampfler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Conductix-Wampfler&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "confern Möbeltransportbetriebe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=confern+M%C3%B6beltransportbetriebe&page=1&size=100&ve",
+   "count": 0
+  },
+  "Constellium Singen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Constellium+Singen&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Continental Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Continental+Aktiengesellschaft&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Cronimet": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CRONIMET&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Daimler Buses": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Daimler+Buses&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Daimler Truck": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Daimler+Truck&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Datagroup": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DATAGROUP&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Dekra": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DEKRA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Deutsche Bahn": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Deutsche+Bahn&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Deutsche Bausparkasse Badenia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Deutsche+Bausparkasse+Badenia&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "Diakonie in Baden-Württemberg, Stuttgart": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Diakonie+in+Baden-W%C3%BCrttemberg%2C+Stuttgart&page=1",
+   "count": 0
+  },
+  "diconium": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=diconium&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Dieffenbacher": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DIEFFENBACHER&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Diehl Aviation Laupheim": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Diehl+Aviation+Laupheim&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "DIRINGER & SCHEIDEL Unternehmensgruppe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DIRINGER+%26+SCHEIDEL+Unternehmensgruppe&page=1&size=1",
+   "count": 0
+  },
+  "dm-drogerie markt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=dm-drogerie+markt&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Dr. Ing. h.c. F. Porsche Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Dr.+Ing.+h.c.+F.+Porsche+Aktiengesellschaft&page=1&siz",
+   "count": 0
+  },
+  "Drees & Sommer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Drees+%26+Sommer&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "DSV": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DSV&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Dunkermotoren": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Dunkermotoren&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Duravit": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Duravit&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Dürr Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=D%C3%BCrr+Aktiengesellschaft&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Dussmann Service": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Dussmann+Service&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "E. Breuninger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=E.+Breuninger&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Eberspächer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Ebersp%C3%A4cher&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "ebm-papst": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ebm-papst&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Ed. Züblin": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Ed.+Z%C3%BCblin&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "EDEKA Südwest e.G": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EDEKA+S%C3%BCdwest+e.G&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "ElringKlinger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ElringKlinger&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "EMAG": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EMAG&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "EnBW Energie Baden-Württemberg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EnBW+Energie+Baden-W%C3%BCrttemberg&page=1&size=100&ve",
+   "count": 0
+  },
+  "Endress + Hauser": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Endress+%2B+Hauser&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Engelhorn": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Engelhorn&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Ensinger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Ensinger&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Erbe Elektromedizin": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Erbe+Elektromedizin&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Ernst Klett": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Ernst+Klett&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Erwin Hymer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Erwin+Hymer&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Essity": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Essity&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "ETO Technologies": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ETO+TECHNOLOGIES&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Eugen Kieffer Gebäudereinigung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Eugen+Kieffer+Geb%C3%A4udereinigung&page=1&size=100&ve",
+   "count": 0
+  },
+  "Euronics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EURONICS&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Europa-Park Erlebnis-Resort": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Europa-Park+Erlebnis-Resort&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Exyte": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Exyte&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "EY": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EY&page=1&size=100&veroeffentlichtseit=100&angebotsart",
+   "count": 0
+  },
+  "Faulhaber": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Faulhaber&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Festo": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FESTO&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Fichtner": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FICHTNER&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Firmengruppe Liebherr": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Firmengruppe+Liebherr&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "Flughafen Stuttgart": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Flughafen+Stuttgart&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "FONDIUM Singen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FONDIUM+Singen&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Franz & Wach Personalservice": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Franz+%26+Wach+Personalservice&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Franz Binder": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Franz+Binder&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Freudenberg internationaler Technologiekonzern": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Freudenberg+internationaler+Technologiekonzern&page=1&",
+   "count": 0
+  },
+  "Friedrich Scharr": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Friedrich+Scharr&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Fuchs": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=FUCHS&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "G.rau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=G.RAU&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Gardena": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GARDENA&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Geberit": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Geberit&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Gebr. Lotter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gebr.+Lotter&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Gelita": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GELITA&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "GEMÜ Gebr. Müller Apparatebau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GEM%C3%9C+Gebr.+M%C3%BCller+Apparatebau&page=1&size=10",
+   "count": 0
+  },
+  "Gerhard Schubert": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gerhard+Schubert&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Gesundheitsholding Tauberfranken": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gesundheitsholding+Tauberfranken&page=1&size=100&veroe",
+   "count": 0
+  },
+  "Getinge": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Getinge&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "GFT Technologies": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GFT+Technologies&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "grenke": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=grenke&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "groninger & co": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=groninger+%26+co&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Groupe SEB WMF Shared Services": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Groupe+SEB+WMF+Shared+Services&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Groz-Beckert": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Groz-Beckert&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Gühring": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=G%C3%BChring&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Häfele": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=H%C3%A4fele&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "HALLESCHE Krankenversicherung auf Gegenseitigkeit": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HALLESCHE+Krankenversicherung+auf+Gegenseitigkeit&page",
+   "count": 0
+  },
+  "Handtmann Unternehmensgruppe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Handtmann+Unternehmensgruppe&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Hansgrohe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hansgrohe&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Harro Höfliger Verpackungsmaschinen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Harro+H%C3%B6fliger+Verpackungsmaschinen&page=1&size=1",
+   "count": 0
+  },
+  "Hartmetall-Werkzeugfabrik Paul Horn": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hartmetall-Werkzeugfabrik+Paul+Horn&page=1&size=100&ve",
+   "count": 0
+  },
+  "Haufe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Haufe&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Heidelberg Materials": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Heidelberg+Materials&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Heidelberger Druckmaschinen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Heidelberger+Druckmaschinen&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "HELIOS Klinikum Pforzheim": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HELIOS+Klinikum+Pforzheim&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Helukabel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HELUKABEL&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Herrenknecht": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Herrenknecht&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Hofmann Menü-Manufaktur": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hofmann+Men%C3%BC-Manufaktur&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Hofmeister Wohnzentren": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hofmeister+Wohnzentren&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Hohenstein": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hohenstein&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Homag": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HOMAG&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "HP": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HP&page=1&size=100&veroeffentlichtseit=100&angebotsart",
+   "count": 0
+  },
+  "Hubert Burda Media Kommanditgesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hubert+Burda+Media+Kommanditgesellschaft&page=1&size=1",
+   "count": 0
+  },
+  "Hugo Boss": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HUGO+BOSS&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Hugo Kern und Liebers": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hugo+Kern+und+Liebers&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "IBM Corporation": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=IBM+Corporation&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Impact": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=IMPACT&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "IMS Gear": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=IMS+Gear&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "INTER Krankenversicherung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=INTER+Krankenversicherung&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Intersport": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=INTERSPORT&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "John Deere": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=John+Deere&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "KACO": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KACO&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Karl Storz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KARL+STORZ&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "KaVo Dental": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KaVo+Dental&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Kemmler Baustoffe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kemmler+Baustoffe&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "KION Warehouse Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KION+Warehouse+Systems&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Kleeblatt Pflegeheime gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kleeblatt+Pflegeheime+gGmbH&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Kliniken des Landkreises Lörrach": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kliniken+des+Landkreises+L%C3%B6rrach&page=1&size=100&",
+   "count": 0
+  },
+  "Klinikum am Weissenhof": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Klinikum+am+Weissenhof&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Klinikum Esslingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Klinikum+Esslingen&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Klinikum Mittelbaden gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Klinikum+Mittelbaden+gGmbH&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Klinikverbund Südwest": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Klinikverbund+S%C3%BCdwest&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Koehler Paper": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Koehler+Paper&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Kreiskliniken Reutlingen gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreiskliniken+Reutlingen+gGmbH&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Kreissparkasse Biberach": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Biberach&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Kreissparkasse Böblingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+B%C3%B6blingen&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "Kreissparkasse Esslingen-Nürtingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Esslingen-N%C3%BCrtingen&page=1&size=10",
+   "count": 0
+  },
+  "Kreissparkasse Göppingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+G%C3%B6ppingen&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "Kreissparkasse Heilbronn": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Heilbronn&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Kreissparkasse Ludwigsburg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Ludwigsburg&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Kreissparkasse Ostalb": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Ostalb&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "Kreissparkasse Ravensburg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Ravensburg&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Kreissparkasse Reutlingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Reutlingen&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Kreissparkasse Tübingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+T%C3%BCbingen&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Kreissparkasse Waiblingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kreissparkasse+Waiblingen&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Lapp": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Lapp&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Läpple": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=L%C3%84PPLE&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "LBBW": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LBBW&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "LBS Landesbausparkasse Süd": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LBS+Landesbausparkasse+S%C3%BCd&page=1&size=100&veroef",
+   "count": 0
+  },
+  "Leonhard Weiss": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LEONHARD+WEISS&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "LGI Logistics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LGI+Logistics&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Liqui Moly": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=LIQUI+MOLY&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Magirus": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Magirus&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Mahle": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MAHLE&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Mann+hummel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MANN%2BHUMMEL&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Mannheimer Versicherung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Mannheimer+Versicherung&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Manz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Manz&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "MAPAL Fabrik für Präzisionswerkzeuge Dr. Kress": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MAPAL+Fabrik+f%C3%BCr+Pr%C3%A4zisionswerkzeuge+Dr.+Kre",
+   "count": 0
+  },
+  "Marelli": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Marelli&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Marquardt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Marquardt&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Maschinenfabrik ALFING Kessler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Maschinenfabrik+ALFING+Kessler&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Maschinenfabrik Berthold Hermle": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Maschinenfabrik+Berthold+Hermle&page=1&size=100&veroef",
+   "count": 0
+  },
+  "MEIKO Maschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MEIKO+Maschinenbau&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Mercedes": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Mercedes&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Mercedes-Benz Bank": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Mercedes-Benz+Bank&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "MHP Management- und IT-Beratung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MHP+Management-+und+IT-Beratung&page=1&size=100&veroef",
+   "count": 0
+  },
+  "MHZ Hachtel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MHZ+Hachtel&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Michael Weinig Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Michael+Weinig+Aktiengesellschaft&page=1&size=100&vero",
+   "count": 0
+  },
+  "Michelin , Clermont-Ferrand": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Michelin+%2C+Clermont-Ferrand&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "MiRO Mineraloelraffinerie Oberrhein": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MiRO+Mineraloelraffinerie+Oberrhein&page=1&size=100&ve",
+   "count": 0
+  },
+  "MLP": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MLP&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Mosca": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Mosca&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Mosolf": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MOSOLF&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Müller": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=M%C3%BCller&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Murrelektronik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Murrelektronik&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "MVV Energie": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MVV+Energie&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Neff": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Neff&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Neue Pressegesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Neue+Pressegesellschaft&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Nokia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Nokia&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Oberschwabenklinik gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Oberschwabenklinik+gGmbH&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "OPTIMA packaging": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=OPTIMA+packaging&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Papierfabrik Palm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Papierfabrik+Palm&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Paul Hartmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Paul+Hartmann&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Paulinenpflege Winnenden e. V": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Paulinenpflege+Winnenden+e.+V&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "Pepperl+Fuchs": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Pepperl%2BFuchs&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "pfenning logistics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=pfenning+logistics&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Pilz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Pilz&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Pneuhage Management": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Pneuhage+Management&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Prettl Unternehmensgruppe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Prettl+Unternehmensgruppe&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "ProServ Produktionsservice und Personaldienste": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ProServ+Produktionsservice+und+Personaldienste&page=1&",
+   "count": 0
+  },
+  "Putzmeister": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Putzmeister&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "PWO": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PWO&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "R. Stahl Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=R.+Stahl+Aktiengesellschaft&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "RAFI": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RAFI&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Ravensburger": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Ravensburger&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "RECARO Aircraft Seating": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RECARO+Aircraft+Seating&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Reisser": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=REISSER&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Rems-Murr-Kliniken gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rems-Murr-Kliniken+gGmbH&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Rheinmetall Automotive": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rheinmetall+Automotive&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Rhein-Neckar-Verkehr": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rhein-Neckar-Verkehr&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Richard Wolf": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RICHARD+WOLF&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "RKH Regionale Kliniken und Services": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RKH+Regionale+Kliniken+und+Services&page=1&size=100&ve",
+   "count": 0
+  },
+  "Robert-Bosch-Krankenhaus": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Robert-Bosch-Krankenhaus&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Roche": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Roche&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Roche Diagnostics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Roche+Diagnostics&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Röchling": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=R%C3%B6chling&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Röhm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=R%C3%B6hm&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Rolls-Royce Power Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rolls-Royce+Power+Systems&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Rommelag": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rommelag&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Röther Beteiligungs": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=R%C3%B6ther+Beteiligungs&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Roto Frank": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Roto+Frank&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "RUD Ketten Rieger & Dietz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RUD+Ketten+Rieger+%26+Dietz&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Rud. Otto Meyer Technik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rud.+Otto+Meyer+Technik&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Rutronik Elektronische Bauelemente": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rutronik+Elektronische+Bauelemente&page=1&size=100&ver",
+   "count": 0
+  },
+  "SAP": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SAP&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Schaeffler Automotive Buehl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Schaeffler+Automotive+Buehl&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Scholz Recycling": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Scholz+Recycling&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Schuler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Schuler&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Schunk": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SCHUNK&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Schwäbisch Hall": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Schw%C3%A4bisch+Hall&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "SchwörerHaus": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Schw%C3%B6rerHaus&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Seifert Logistics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Seifert+Logistics&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Sew-eurodrive": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SEW-EURODRIVE&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "SHW": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SHW&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "SICK": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SICK&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Sika": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sika&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Simon Hegele Gesellschaft für Logistik und Service": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Simon+Hegele+Gesellschaft+f%C3%BCr+Logistik+und+Servic",
+   "count": 0
+  },
+  "SLK-Kliniken Heilbronn": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SLK-Kliniken+Heilbronn&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "SMP": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SMP&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Sparda-Bank Baden-Württemberg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparda-Bank+Baden-W%C3%BCrttemberg&page=1&size=100&ver",
+   "count": 0
+  },
+  "Sparkasse Freiburg-Nördlicher Breisgau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Freiburg-N%C3%B6rdlicher+Breisgau&page=1&siz",
+   "count": 0
+  },
+  "Sparkasse Heidelberg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Heidelberg&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Sparkasse Karlsruhe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Karlsruhe&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Sparkasse Pforzheim Calw": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Pforzheim+Calw&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Sparkasse Rhein Neckar Nord": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Rhein+Neckar+Nord&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Sparkasse Ulm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Ulm&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Sparkasse Zollernalb": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sparkasse+Zollernalb&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Städtisches Klinikum Karlsruhe gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=St%C3%A4dtisches+Klinikum+Karlsruhe+gGmbH&page=1&size=",
+   "count": 0
+  },
+  "Stadtwerke Heidelberg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Stadtwerke+Heidelberg&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "Stadtwerke Karlsruhe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Stadtwerke+Karlsruhe&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Steinbeis": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Steinbeis&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Sto": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Sto&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Stuttgarter Gebäudereinigung Venter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Stuttgarter+Geb%C3%A4udereinigung+Venter&page=1&size=1",
+   "count": 0
+  },
+  "Stuttgarter Straßenbahnen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Stuttgarter+Stra%C3%9Fenbahnen&page=1&size=100&veroeff",
+   "count": 0
+  },
+  "Süddeutsche Krankenversicherung a. G": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=S%C3%BCddeutsche+Krankenversicherung+a.+G&page=1&size=",
+   "count": 0
+  },
+  "SÜDPACK Verpackungen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=S%C3%9CDPACK+Verpackungen&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Südwestdeutsche Medien": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=S%C3%BCdwestdeutsche+Medien&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Südzucker": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=S%C3%BCdzucker&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "SV SparkassenVersicherung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SV+SparkassenVersicherung&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "SWEG Südwestdeutsche Landesverkehrs": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SWEG+S%C3%BCdwestdeutsche+Landesverkehrs&page=1&size=1",
+   "count": 0
+  },
+  "SWU Stadtwerke Ulm/Neu-Ulm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SWU+Stadtwerke+Ulm%2FNeu-Ulm&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "SYNERGIE Personal": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=SYNERGIE+Personal&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Takeda": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Takeda&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Takkt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TAKKT&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "TDK Micronas": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TDK+Micronas&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "TeamViewer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TeamViewer&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Tesat": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TESAT&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Testo": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Testo&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Teva": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Teva&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "TGS Teegen Gebäudedienstleistungen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TGS+Teegen+Geb%C3%A4udedienstleistungen&page=1&size=10",
+   "count": 0
+  },
+  "Thales": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Thales&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Theo Förch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Theo+F%C3%B6rch&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Trelleborg Sealing Solutions": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Trelleborg+Sealing+Solutions&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Trigema W. Grupp": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Trigema+W.+Grupp&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Uhlmann Pac-Systeme": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Uhlmann+Pac-Systeme&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Universitätsklinikum Mannheim": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Universit%C3%A4tsklinikum+Mannheim&page=1&size=100&ver",
+   "count": 0
+  },
+  "Universitätsklinikum Tübingen A.ö.R": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Universit%C3%A4tsklinikum+T%C3%BCbingen+A.%C3%B6.R&pag",
+   "count": 0
+  },
+  "Universitätsklinikum Ulm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Universit%C3%A4tsklinikum+Ulm&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "Unternehmensgruppe Dr. Willmar Schwabe": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Unternehmensgruppe+Dr.+Willmar+Schwabe&page=1&size=100",
+   "count": 0
+  },
+  "Unternehmensgruppe fischer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Unternehmensgruppe+fischer&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Uzin Utz Aktiengesellschaft, Ulm": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Uzin+Utz+Aktiengesellschaft%2C+Ulm&page=1&size=100&ver",
+   "count": 0
+  },
+  "Varta": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VARTA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "VBK": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VBK&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Verallia": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Verallia&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Vereinigte Volksbanken": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Vereinigte+Volksbanken&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Verlagsgruppe Georg von Holtzbrinck": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Verlagsgruppe+Georg+von+Holtzbrinck&page=1&size=100&ve",
+   "count": 0
+  },
+  "Vetter Pharma-Fertigung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Vetter+Pharma-Fertigung&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "ViDia Christliche Kliniken": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ViDia+Christliche+Kliniken&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Vinzenz von Paul Hospital gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Vinzenz+von+Paul+Hospital+gGmbH&page=1&size=100&veroef",
+   "count": 0
+  },
+  "Vinzenz von Paul Kliniken gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Vinzenz+von+Paul+Kliniken+gGmbH&page=1&size=100&veroef",
+   "count": 0
+  },
+  "Voith": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Voith&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Volksbank pur": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Volksbank+pur&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Volksbank Stuttgart": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Volksbank+Stuttgart&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "VPV Versicherungen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VPV+Versicherungen&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "VS Vereinigte Spezialmöbelfabriken": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=VS+Vereinigte+Spezialm%C3%B6belfabriken&page=1&size=10",
+   "count": 0
+  },
+  "Waldburg-Zeil Kliniken": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Waldburg-Zeil+Kliniken&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Waldner": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Waldner&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Walter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Walter&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Weishaupt": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Weishaupt&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Weleda": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Weleda&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "WGV Versicherungen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WGV+Versicherungen&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Wieland-Werke Aktiengesellschaft": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Wieland-Werke+Aktiengesellschaft&page=1&size=100&veroe",
+   "count": 0
+  },
+  "Wilhem Layher": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Wilhem+Layher&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Winterhalter Gastronom": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Winterhalter+Gastronom&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Wirthwein": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Wirthwein&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "Wittenstein": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WITTENSTEIN&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Witzenmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Witzenmann&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Wolff & Müller": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WOLFF+%26+M%C3%9CLLER&page=1&size=100&veroeffentlichts",
+   "count": 0
+  },
+  "Wörwag Pharma": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=W%C3%B6rwag+Pharma&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Würth": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=W%C3%BCrth&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Wüstenrot & Württembergische": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=W%C3%BCstenrot+%26+W%C3%BCrttembergische&page=1&size=1",
+   "count": 0
+  },
+  "Zehnder": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Zehnder&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Zeiss": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZEISS&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Bau- und Landmaschinen, Baulogistik und Baustellenmanagement": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bau-+und+Landmaschinen%2C+Baulogistik+und+Baustellenma",
+   "count": 0
+  },
+  "ZF Friedrichshafen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZF+Friedrichshafen&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "ZF Lifetec": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZF+LIFETEC&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Ziehl-abegg": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZIEHL-ABEGG&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Zollern": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Zollern&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Zollernalb Klinikum gGmbH": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Zollernalb+Klinikum+gGmbH&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "ZwickRoell": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ZwickRoell&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "ACPS Automotive": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ACPS+Automotive&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Adolf Föhl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Adolf+F%C3%B6hl&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Adolf Würth": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Adolf+W%C3%BCrth&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Alfred Kärcher": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Alfred+K%C3%A4rcher&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Andreas Stihl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ANDREAS+STIHL&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "ANDRITZ Schuler Pressen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ANDRITZ+Schuler+Pressen&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Armaturenfabrik Franz Schneider": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Armaturenfabrik+Franz+Schneider&page=1&size=100&veroef",
+   "count": 0
+  },
+  "Bauer Gear Motor": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bauer+Gear+Motor&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "BBS Automation Stuttgart": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BBS+Automation+Stuttgart&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Bentley InnoMed": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bentley+InnoMed&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Bharat Forge Daun": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bharat+Forge+Daun&page=1&size=100&veroeffentlichtseit=",
+   "count": 0
+  },
+  "Bilz Werkzeugfabrik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BILZ+WERKZEUGFABRIK&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "BITZER Kühlmaschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BITZER+K%C3%BChlmaschinenbau&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Bock": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Bock&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "botek Präzisionsbohrtechnik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=botek+Pr%C3%A4zisionsbohrtechnik&page=1&size=100&veroe",
+   "count": 0
+  },
+  "BOWA": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BOWA&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Brückner Trockentechnik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Br%C3%BCckner+Trockentechnik&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "BSB Metallverformung": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BSB+Metallverformung&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "BW Papersystems Stuttgart": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=BW+Papersystems+Stuttgart&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "CEMO": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CEMO&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Christian Bauer": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CHRISTIAN+BAUER&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "CLAAS Industrietechnik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CLAAS+Industrietechnik&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "CLAAS Saulgau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CLAAS+Saulgau&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "CLAAS Selbstfahrende Erntemaschinen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=CLAAS+Selbstfahrende+Erntemaschinen&page=1&size=100&ve",
+   "count": 0
+  },
+  "Coperion": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Coperion&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "DAIKIN Manufacturing": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DAIKIN+Manufacturing&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Diamant-gesellschaft Tesch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DIAMANT-GESELLSCHAFT+TESCH&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "DLR Deutsches Zentrum f. Luft-und Raumfahrt e.V": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=DLR+Deutsches+Zentrum+f.+Luft-und+Raumfahrt+e.V&page=1",
+   "count": 0
+  },
+  "Dr. Ing. h.c. F. Porsche": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Dr.+Ing.+h.c.+F.+Porsche&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "E. Zoller": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=E.+Zoller&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "EDAG Production Solutions": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EDAG+Production+Solutions&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "Eisele": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=EISELE&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Elektror airsystems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Elektror+airsystems&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Emil Schmid Maschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Emil+Schmid+Maschinenbau&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "ERNI": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ERNI&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Fessmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Fessmann&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Festool": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Festool&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Gebr. Heller Maschinenfabrik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gebr.+Heller+Maschinenfabrik&page=1&size=100&veroeffen",
+   "count": 0
+  },
+  "Gehring Technologies": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gehring+Technologies&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "GEZE": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=GEZE&page=1&size=100&veroeffentlichtseit=100&angebotsa",
+   "count": 0
+  },
+  "Gleason-Pfauter Maschinenfabrik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gleason-Pfauter+Maschinenfabrik&page=1&size=100&veroef",
+   "count": 0
+  },
+  "Goetze": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Goetze&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Gretsch-Unitas": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Gretsch-Unitas&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "H.P. Kaysser": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=H.P.+Kaysser&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "HAHN Gasfedern": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HAHN+Gasfedern&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Hainbuch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hainbuch&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Hans Schröder Maschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hans+Schr%C3%B6der+Maschinenbau&page=1&size=100&veroef",
+   "count": 0
+  },
+  "HAYER Handling Solutions": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HAYER+Handling+Solutions&page=1&size=100&veroeffentlic",
+   "count": 0
+  },
+  "Heidelberg Postpress": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Heidelberg+Postpress&page=1&size=100&veroeffentlichtse",
+   "count": 0
+  },
+  "Herma": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HERMA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "Hermann Bilz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HERMANN+BILZ&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "HES Präzisionsteile Hermann Erkert": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HES+Pr%C3%A4zisionsteile+Hermann+Erkert&page=1&size=10",
+   "count": 0
+  },
+  "Hidria Bausch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hidria+Bausch&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "HLS Produktions- und Automatisierungstechnik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=HLS+Produktions-+und+Automatisierungstechnik&page=1&si",
+   "count": 0
+  },
+  "hofer powertrain": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=hofer+powertrain&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Hoffmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Hoffmann&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "INDEX-Werke": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=INDEX-Werke&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "invenio": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=invenio&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "JOYSONQUIN Automotive Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=JOYSONQUIN+Automotive+Systems&page=1&size=100&veroeffe",
+   "count": 0
+  },
+  "KADIA Produktion": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=KADIA+Produktion&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Karl Dungs": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Karl+Dungs&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Karl Klein Ventilatorenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Karl+Klein+Ventilatorenbau&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Karl Marbach": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Karl+Marbach&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Keller Lufttechnik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Keller+Lufttechnik&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Kleemann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Kleemann&page=1&size=100&veroeffentlichtseit=100&angeb",
+   "count": 0
+  },
+  "Koenig & Bauer MetalPrint": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Koenig+%26+Bauer+MetalPrint&page=1&size=100&veroeffent",
+   "count": 0
+  },
+  "Konzelmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Konzelmann&page=1&size=100&veroeffentlichtseit=100&ang",
+   "count": 0
+  },
+  "Lechler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Lechler&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Leuze electronic": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Leuze+electronic&page=1&size=100&veroeffentlichtseit=1",
+   "count": 0
+  },
+  "Matec": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MATEC&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "MEEH Pulverbeschichtungs- und Staubfilteranlagen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MEEH+Pulverbeschichtungs-+und+Staubfilteranlagen&page=",
+   "count": 0
+  },
+  "Mercedes-Benz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Mercedes-Benz&page=1&size=100&veroeffentlichtseit=100&",
+   "count": 0
+  },
+  "Metabowerke": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Metabowerke&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "MEZ": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MEZ&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "MLOG Logistics": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=MLOG+Logistics&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Nagel Technologies": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Nagel+Technologies&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Nidec Graessner": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Nidec+Graessner&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Otto Egelhof": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=OTTO+EGELHOF&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Porsche Leipzig": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Porsche+Leipzig&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Prettl": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PRETTL&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "PRETTL Produktions": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=PRETTL+Produktions&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Putzmeister Concrete Pumps": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Putzmeister+Concrete+Pumps&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "RAS Reinhardt Maschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=RAS+Reinhardt+Maschinenbau&page=1&size=100&veroeffentl",
+   "count": 0
+  },
+  "Rau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rau&page=1&size=100&veroeffentlichtseit=100&angebotsar",
+   "count": 0
+  },
+  "Reutter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Reutter&page=1&size=100&veroeffentlichtseit=100&angebo",
+   "count": 0
+  },
+  "Robert Bosch": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Robert+Bosch&page=1&size=100&veroeffentlichtseit=100&a",
+   "count": 0
+  },
+  "Rolf Benz": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Rolf+Benz&page=1&size=100&veroeffentlichtseit=100&ange",
+   "count": 0
+  },
+  "ndvik Tooling Supply Renningen ZN der Sandvik Tooling": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=ndvik+Tooling+Supply+Renningen+ZN+der+Sandvik+Tooling&",
+   "count": 0
+  },
+  "Syntegon Technology": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Syntegon+Technology&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "teamtechnik Automation": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=teamtechnik+Automation&page=1&size=100&veroeffentlicht",
+   "count": 0
+  },
+  "Telegärtner Karl Gärtner": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Teleg%C3%A4rtner+Karl+G%C3%A4rtner&page=1&size=100&ver",
+   "count": 0
+  },
+  "Thermal Management Solutions DE Oberboihingen": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Thermal+Management+Solutions+DE+Oberboihingen&page=1&s",
+   "count": 0
+  },
+  "TK Aufzugswerke": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TK+Aufzugswerke&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "Trumpf": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TRUMPF&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "TTS Tooltechnic Systems": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=TTS+Tooltechnic+Systems&page=1&size=100&veroeffentlich",
+   "count": 0
+  },
+  "Uraca": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=URACA&page=1&size=100&veroeffentlichtseit=100&angebots",
+   "count": 0
+  },
+  "vhf camfacture": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=vhf+camfacture&page=1&size=100&veroeffentlichtseit=100",
+   "count": 0
+  },
+  "Volkswagen Osnabrück": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Volkswagen+Osnabr%C3%BCck&page=1&size=100&veroeffentli",
+   "count": 0
+  },
+  "W. Gessmann": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=W.+Gessmann&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Weber-hydraulik": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WEBER-HYDRAULIK&page=1&size=100&veroeffentlichtseit=10",
+   "count": 0
+  },
+  "WEIMA Maschinenbau": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=WEIMA+Maschinenbau&page=1&size=100&veroeffentlichtseit",
+   "count": 0
+  },
+  "Winkel": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Winkel&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
+  },
+  "Wohlhaupter": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Wohlhaupter&page=1&size=100&veroeffentlichtseit=100&an",
+   "count": 0
+  },
+  "Woodward L`Orange": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Woodward+L%60Orange&page=1&size=100&veroeffentlichtsei",
+   "count": 0
+  },
+  "Zedler": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: No match found for request for url: https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs?arbeitgeber=Zedler&page=1&size=100&veroeffentlichtseit=100&angebot",
+   "count": 0
   }
  },
  "jobs": [
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werkstudent--m-w-d---im-Bereich-Logistik_JR10447194",
-   "title": "Werkstudent (m/w/d)  im Bereich Logistik",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--m-w-d---im-Bereich-Logistik_JR10447194",
-   "posted": "Posted Today",
-   "match": 1,
-   "first_seen": "2026-10-08T13:28:50+00:00"
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Head-of-Global-Transport-Network---Design--d-f-m-_JR10441484",
-   "title": "Head of Global Transport Network & Design (d/f/m)",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Head-of-Global-Transport-Network---Design--d-f-m-_JR10441484",
-   "posted": "Posted Today",
-   "match": 1,
-   "first_seen": "2026-10-08T13:28:50+00:00"
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Working-student--d-f-m--within-Controlling_JR10445409",
-   "title": "Working student (d/f/m) within Controlling",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Working-student--d-f-m--within-Controlling_JR10445409",
-   "posted": "Posted Yesterday",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Working-Student--d-f-m--in-Cabin---Cargo-Architecture---Technology-_JR10444820",
-   "title": "Working Student (d/f/m) in Cabin & Cargo Architecture & Technology",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Working-Student--d-f-m--in-Cabin---Cargo-Architecture---Technology-_JR10444820",
-   "posted": "Posted Yesterday",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Toulouse-Area/SAP-Sales---Services--includ-Asset-Manag--Architect--F-M-_JR10433358-1",
-   "title": "SAP Sales & Services (includ. Asset Manag.) Architect (F/M)",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/SAP-Sales---Services--includ-Asset-Manag--Architect--F-M-_JR10433358-1",
-   "posted": "Posted Yesterday",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
+   "company": "Airbus (Workday, Hamburg)",
    "id": "/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
    "title": "ERP Specialist Manufacturing Engineering and Schopfloor (H/F)",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
    "posted": "Posted Yesterday",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "match": 2,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Buxtehude/Working-Student--d-f-m--as-Software-Development-Assistant_JR10445193",
-   "title": "Working Student (d/f/m) as Software Development Assistant",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Buxtehude/Working-Student--d-f-m--as-Software-Development-Assistant_JR10445193",
-   "posted": "Posted Today",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Mitarbeiter-im-Housekeeping--D-M-W--fr-Lagerarbeiten-bei-der-Airbus-Logisitk-GmbH_JR10436602",
-   "title": "Lagerhelfer (D/M/W) mit Staplertätigkeit für die Airbus Logistik GmbH",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Mitarbeiter-im-Housekeeping--D-M-W--fr-Lagerarbeiten-bei-der-Airbus-Logisitk-GmbH_JR10436602",
-   "posted": "Posted Today",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Transport-Specialist--m-f-d-_JR10436110-1",
-   "title": "Transport Specialist (m/f/d)",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Transport-Specialist--m-f-d-_JR10436110-1",
-   "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Prfer--D-M-W--fr-Funktionstests-Final-Assembly-Line_JR10411181-1",
-   "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Prfer--D-M-W--fr-Funktionstests-Final-Assembly-Line_JR10411181-1",
-   "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Maler-und-Lackierer--d-w-m--fr-die-A320-Single-Aisle---Final-Assembly-Line-in-Hamburg_JR10420078-1",
-   "title": "Maler und Lackierer (d/w/m) für die A320 Single Aisle / Final Assembly Line in Hamburg",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Maler-und-Lackierer--d-w-m--fr-die-A320-Single-Aisle---Final-Assembly-Line-in-Hamburg_JR10420078-1",
-   "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Head-of--D-M-W--Inbound-fr-die-Airbus-Logistik-GmbH_JR10419270",
-   "title": "Head of (D/M/W) Inbound für die Airbus Logistik GmbH",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Head-of--D-M-W--Inbound-fr-die-Airbus-Logistik-GmbH_JR10419270",
-   "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
+   "company": "Airbus (Workday, Hamburg)",
    "id": "/job/Toulouse-Area/DataLink-and-Communication-Systems-Test-Engineer--m-f-_JR10438951-1",
    "title": "Datalink Systems Test Engineer (h/f)",
    "location": "Toulouse Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/DataLink-and-Communication-Systems-Test-Engineer--m-f-_JR10438951-1",
    "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Ausbildung-Fluggertelektroniker--d-m-w--zum-01092027_JR10422224",
-   "title": "Ausbildung Fluggerätelektroniker (d/m/w) zum 01.09.2027",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Ausbildung-Fluggertelektroniker--d-m-w--zum-01092027_JR10422224",
-   "posted": "Posted 8 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
+   "title": "System Test Engineer / IVVQ Engineer (m/f/d) Radar",
+   "location": "DITZINGEN SRA OME",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
+   "posted": "Posted 7 Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-504---16042027_JR10447762",
-   "title": "Schulpraktikum Airbus Hamburg 5.04. - 16.04.2027",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-504---16042027_JR10447762",
-   "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-1904---30042027_JR10447770",
-   "title": "Schulpraktikum Airbus Hamburg 19.04. - 30.04.2027",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-1904---30042027_JR10447770",
-   "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-1204---23042027_JR10447767",
-   "title": "Schulpraktikum Airbus Hamburg 12.04. - 23.04.2027",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Schulpraktikum-Airbus-Hamburg-1204---23042027_JR10447767",
-   "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
+   "company": "Airbus (Workday, Hamburg)",
    "id": "/job/Toulouse-Area/Lab-test-means-integration-tests-engineer--m-f-_JR10429821-1",
    "title": "Lab test means integration tests engineer (m/f)",
    "location": "Toulouse Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Lab-test-means-integration-tests-engineer--m-f-_JR10429821-1",
    "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Fuel-Mechaniker---m-w-d-----Dein-Revier--die-Tanks-_JR10447691-1",
-   "title": "Fuel Mechaniker​ (m/w/d) – ​Dein Revier, die Tanks!",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Fuel-Mechaniker---m-w-d-----Dein-Revier--die-Tanks-_JR10447691-1",
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Gorgonzola/FPGA-Engineer--Open-also-to-Protected-Categories--Law-68-99-_R0331429",
+   "title": "FPGA Engineer (Open also to Protected Categories, Law 68/99)",
+   "location": "Gorgonzola",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/FPGA-Engineer--Open-also-to-Protected-Categories--Law-68-99-_R0331429",
    "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Toulouse-Area/Flight-Operations-Support---Meteorologist--f-m-_JR10442735",
-   "title": "Flight Operations Support – Meteorologist (f/m)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Flight-Operations-Support---Meteorologist--f-m-_JR10442735",
-   "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Toulouse-Area/ARP-Value-Management-Office-Lead--m-f-_JR10437794",
-   "title": "ARP Value Management Office Lead (m/f)",
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Berlin/Technical-Support-Engineer--w-m-d-_R0329779",
+   "title": "Technical Support Engineer (w/m/d)",
    "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ARP-Value-Management-Office-Lead--m-f-_JR10437794",
-   "posted": "Posted 6 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Berlin/Technical-Support-Engineer--w-m-d-_R0329779",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werkstudent--d-m-w--im-FAL-Ground-Test_JR10437158",
-   "title": "Werkstudent (d/m/w) im FAL Ground Test",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--d-m-w--im-FAL-Ground-Test_JR10437158",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Berlin/Senior-Site-Reliability-Engineer---Cloud-Operations-Engineer--m-f-d-_R0331266",
+   "title": "Senior Site Reliability Engineer / Cloud Operations Engineer (m/f/d)",
+   "location": "Berlin",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Berlin/Senior-Site-Reliability-Engineer---Cloud-Operations-Engineer--m-f-d-_R0331266",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werksstudent--d-m-w--Tool-Center-Management_JR10397640",
-   "title": "Werksstudent (d/m/w) Tool Center Management",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werksstudent--d-m-w--Tool-Center-Management_JR10397640",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/DITZINGEN-SRA-OME/Industrial-Engineering-Manager---Prfmittelentwickler--m-w-d-_R0313731",
+   "title": "Prüfmittelentwickler / Test Bench Engineer (m/w/d)",
+   "location": "DITZINGEN SRA OME",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/Industrial-Engineering-Manager---Prfmittelentwickler--m-w-d-_R0313731",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Montreal-Area/Responsable-de-la-comptitivit-achats-A220---Competitiveness---Business-Improvement-Manager-Equipment---Systems_JR10447841",
-   "title": "Responsable de la compétitivité achats A220 / Competitiveness & Business Improvement Manager Equipment & Systems",
-   "location": "Montreal Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Montreal-Area/Responsable-de-la-comptitivit-achats-A220---Competitiveness---Business-Improvement-Manager-Equipment---Systems_JR10447841",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Gorgonzola/Navaids-Project-Engineer---French-Speaker_R0327932-1",
+   "title": "Navaids Project Engineer (Open also to Protected Categories, Law 68/99)",
+   "location": "Gorgonzola",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/Navaids-Project-Engineer---French-Speaker_R0327932-1",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Bremen-Area/Master-Thesis--d-f-m---Materials---Processes-characterization-for-future-aircraft-_JR10440901",
-   "title": "Master Thesis (d/f/m) \"Materials & Processes characterization for future aircraft\"",
-   "location": "Bremen Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Master-Thesis--d-f-m---Materials---Processes-characterization-for-future-aircraft-_JR10440901",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Stuttgart/FPGA-Design-Engineer--m-w-d-_R0321506",
+   "title": "FPGA Design Engineer (m/w/d)",
+   "location": "Stuttgart",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Stuttgart/FPGA-Design-Engineer--m-w-d-_R0321506",
+   "posted": "Posted 30+ Days Ago",
+   "match": 2,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Kommissionierer-mit-Staplerttigkeit--D-M-W--fr-die-Airbus-Logistik-GmbH_JR10429328",
-   "title": "Kommissionierer mit Staplertätigkeit (D/M/W) für die Airbus Logistik GmbH",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Kommissionierer-mit-Staplerttigkeit--D-M-W--fr-die-Airbus-Logistik-GmbH_JR10429328",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Herstal/Engineering-Tools-Manager_R0338015",
+   "title": "Engineering Tools Manager",
+   "location": "Herstal",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Herstal/Engineering-Tools-Manager_R0338015",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Internship--d-f-m--on-High-Temperature-Fuel-Cell_JR10437341",
-   "title": "Internship (d/f/m) on High Temperature Fuel Cell",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Internship--d-f-m--on-High-Temperature-Fuel-Cell_JR10437341",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Stuttgart/ERP-Engineer---SAP-HCM--m-w-d--befristet-fr-2-Jahre_R0335160",
+   "title": "ERP Engineer - SAP HCM (m/w/d) befristet für 2 Jahre",
+   "location": "Stuttgart",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Stuttgart/ERP-Engineer---SAP-HCM--m-w-d--befristet-fr-2-Jahre_R0335160",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Erfahrene-Elektroniker--d-m-w--fr-die-Instandhaltung-bei-Airbus-in-Hamburg_JR10438552-1",
-   "title": "Erfahrene Elektroniker (d/m/w) für die Instandhaltung bei Airbus in Hamburg",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Erfahrene-Elektroniker--d-m-w--fr-die-Instandhaltung-bei-Airbus-in-Hamburg_JR10438552-1",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Elektroniker--d-m-w--fr-die-Instandhaltung_JR10444634-1",
-   "title": "Elektroniker (d/m/w) für die Instandhaltung",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Elektroniker--d-m-w--fr-die-Instandhaltung_JR10444634-1",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Bristol-Area/Craft-Apprenticeship---Structures-Test_JR10428267",
-   "title": "Craft Apprenticeship - Structures Test",
-   "location": "Bristol Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Craft-Apprenticeship---Structures-Test_JR10428267",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg---Finkenwerder/Airplane-Doors-Retrofit-Mitarbeiter-am-Standort-Hamburg--m-w-d----2-Jahre-befristet_JR10440875-1",
-   "title": "Airplane Doors Retrofit Mitarbeiter am Standort Hamburg (m/w/d) - 2 Jahre befristet",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg---Finkenwerder/Airplane-Doors-Retrofit-Mitarbeiter-am-Standort-Hamburg--m-w-d----2-Jahre-befristet_JR10440875-1",
-   "posted": "Posted 3 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-Tool-Center---Calibration----Logistics-Services_JR10445424",
-   "title": "Werkstudent (d/m/w) im Bereich Tool Center-, Calibration- & Logistics Services",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-Tool-Center---Calibration----Logistics-Services_JR10445424",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-HR-Payroll_JR10444770",
-   "title": "Werkstudent (d/m/w) im Bereich HR/Payroll",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-HR-Payroll_JR10444770",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/VIE---2027--Germany-Hamburg---Business-Manager-Cabin-Upgrades--d-f-m-_JR10402938",
-   "title": "VIE - 2027- Germany/Hamburg - Business Manager Cabin Upgrades (d/f/m)",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/VIE---2027--Germany-Hamburg---Business-Manager-Cabin-Upgrades--d-f-m-_JR10402938",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/V-V-Solution-Architect--d-f-m-_JR10439969",
-   "title": "V&V Solution Architect (d/f/m)",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/V-V-Solution-Architect--d-f-m-_JR10439969",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
-  },
-  {
-   "company": "Airbus",
+   "company": "Airbus (Workday, Hamburg)",
    "id": "/job/Mobile-Area-AL/Retrofit-Solutions-Engineer--Contract-_JR10444763",
    "title": "Retrofit Solutions Engineer (Contract)",
    "location": "Mobile Area, AL",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mobile-Area-AL/Retrofit-Solutions-Engineer--Contract-_JR10444763",
    "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Rechtsreferendar--d-m-w--in-der-Rechtsabteilung_JR10440708",
-   "title": "Rechtsreferendar (d/m/w) in der Rechtsabteilung",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Rechtsreferendar--d-m-w--in-der-Rechtsabteilung_JR10440708",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
+   "title": "Navaids System Engineer (Open also To Protected Categories, Law 68/99)",
+   "location": "Gorgonzola",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Internship--d-f-m--within-Technology--Innovation---Services-Flight-Physics_JR10443231",
-   "title": "Internship (d/f/m) within Technology, Innovation & Services Flight Physics",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Internship--d-f-m--within-Technology--Innovation---Services-Flight-Physics_JR10443231",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "CERN",
+   "id": "744000154415529",
+   "title": "Mechanical Technician  (BE-GM-HPA-2026-243-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000154415529",
+   "posted": "2026-10-08",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Internship--d-f-m--within-Project-Management-in-the-A320-Family-Program_JR10438602",
-   "title": "Internship (d/f/m) within Project Management in the A320 Family Program",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Internship--d-f-m--within-Project-Management-in-the-A320-Family-Program_JR10438602",
-   "posted": "Posted 2 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "CERN",
+   "id": "744000154363379",
+   "title": "Machine Learning Engineer (IT-CD-2026-239-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000154363379",
+   "posted": "2026-10-08",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Werkstudent--d-m-w---im-Quality-Procurement_JR10443551",
-   "title": "Werkstudent (d/m/w)  im Quality Procurement",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Werkstudent--d-m-w---im-Quality-Procurement_JR10443551",
-   "posted": "Posted 10 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "match": 1
+   "company": "CERN",
+   "id": "744000154429914",
+   "title": "Instrumentation Engineer (TE-CRG-IC-2026-94-GRAP)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000154429914",
+   "posted": "2026-10-08",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Broughton/Single-Aisle-Wing-Value-Stream-Management-Placement--125-months-_JR10425628",
-   "title": "Single Aisle Wing Value Stream Management Placement (12.5 months)",
-   "location": "Broughton",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Broughton/Single-Aisle-Wing-Value-Stream-Management-Placement--125-months-_JR10425628",
-   "posted": "Posted 10 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "closed_at": "2026-10-08T13:28:50+00:00"
+   "company": "CERN",
+   "id": "744000154015101",
+   "title": "ATLAS Detector Cooling Engineer (EP-ATL-PO-2026-240-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000154015101",
+   "posted": "2026-10-07",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   },
   {
-   "company": "Airbus",
-   "id": "/job/Hamburg-Area/Internship-within-Aerodynamic-Machine-Learning--d-f-m-_JR10441101",
-   "title": "Internship within Aerodynamic Machine Learning (d/f/m)",
-   "location": "Hamburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Internship-within-Aerodynamic-Machine-Learning--d-f-m-_JR10441101",
-   "posted": "Posted 10 Days Ago",
-   "first_seen": "2026-10-08T11:45:10+00:00",
-   "seed": true,
-   "closed_at": "2026-10-08T13:28:50+00:00"
+   "company": "CERN",
+   "id": "744000153737459",
+   "title": "Full-Stack Web Engineer (IT-PW-WDA-2026-108-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000153737459",
+   "posted": "2026-10-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000153738539",
+   "title": "Electrical Cabling Engineer (BE-EA-EC-2026-237-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000153738539",
+   "posted": "2026-10-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000153506507",
+   "title": "Systems and Digital ASIC Engineer (EP-ESE-ME-2026-160-GRAP)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000153506507",
+   "posted": "2026-10-05",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000153482109",
+   "title": "Planning Engineer (EP-ATL-PO-2026-200-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000153482109",
+   "posted": "2026-10-05",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000153179264",
+   "title": "Controls and Automation Engineer (EN-CV-CL-2026-199-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000153179264",
+   "posted": "2026-10-02",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000152705180",
+   "title": "Vacuum / Thin film coating Technical Engineer (TE-VSC-SCC-2026-234-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000152705180",
+   "posted": "2026-09-30",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000152115319",
+   "title": "Mechanical Engineer for Vacuum Technology (TE-VSC-BVO-2026-155-GRAP)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000152115319",
+   "posted": "2026-09-28",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000152088859",
+   "title": "Mechanical Design Engineer for LHCb (EP-LCB-TC-2026-233-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000152088859",
+   "posted": "2026-09-28",
+   "match": 2,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000152085674",
+   "title": "Controls and Automation Engineer (EN-CV-CL-2026-230-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000152085674",
+   "posted": "2026-09-28",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000151579759",
+   "title": "Firmware & FPGA Development Engineer (SY-BI-BP-2026-154-GRAP)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000151579759",
+   "posted": "2026-09-24",
+   "match": 2,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000151535090",
+   "title": "Distributed Storage Engineer (IT-SD-GSS-2026-96-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000151535090",
+   "posted": "2026-09-24",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000151026764",
+   "title": "IT Support Engineer (FAP-BC-IQS-2026-229-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000151026764",
+   "posted": "2026-09-22",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000150323889",
+   "title": "Mechanical Technician for CMS (EP-CMS-IC-2026-226-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000150323889",
+   "posted": "2026-09-18",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000150283118",
+   "title": "Electrical Design Engineer (EP-DT-DI-2026-225-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000150283118",
+   "posted": "2026-09-18",
+   "match": 2,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000150038179",
+   "title": "Safety Engineer (EP-CMS-SSI-2026-224-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000150038179",
+   "posted": "2026-09-17",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000149834269",
+   "title": "Mechanical CAD Designer (TE-MSC-SMT-2026-195-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000149834269",
+   "posted": "2026-09-16",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000149008789",
+   "title": "Mechanical Technician (TE-MSC-HSD-2026-193-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000149008789",
+   "posted": "2026-09-11",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
+  },
+  {
+   "company": "CERN",
+   "id": "744000149003539",
+   "title": "Electromechanical Technical Engineer (TE-MSC-HSD-2026-194-LD)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000149003539",
+   "posted": "2026-09-11",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true
   }
  ],
- "updated": "2026-10-08T13:28:50+00:00"
+ "updated": "2026-10-08T13:32:28+00:00"
 }
