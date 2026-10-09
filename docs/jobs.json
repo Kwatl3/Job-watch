@@ -146,7 +146,6 @@
   "Daimler Buses",
   "Daimler Truck",
   "Damen Shipyards",
-  "Dassault Aviation",
   "Dassault Systèmes",
   "Datagroup",
   "Dedrone",
@@ -557,7 +556,6 @@
   "SWU Stadtwerke Ulm/Neu-Ulm",
   "SYNERGIE Personal",
   "Saab",
-  "Safran",
   "Safran Electronics",
   "Safran Landing Systems",
   "Salzgitter",
@@ -756,7 +754,7 @@
   "KNDS": {
    "ok": true,
    "count": 98,
-   "raw": 258
+   "raw": 259
   },
   "John Cockerill": {
    "ok": true,
@@ -830,8 +828,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 145,
-   "raw": 1050
+   "count": 142,
+   "raw": 1005
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -927,16 +925,6 @@
    "ok": true,
    "count": 0,
    "raw": 3
-  },
-  "Safran": {
-   "ok": false,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.safran-group.com/jobs?countries%5B%5D=1023-germany&page=0",
-   "count": 5
-  },
-  "Dassault Aviation": {
-   "ok": true,
-   "count": 11,
-   "raw": 91
   },
   "Sopra Steria": {
    "ok": true,
@@ -1746,7 +1734,7 @@
   "groninger & co": {
    "ok": true,
    "count": 6,
-   "raw": 28
+   "raw": 29
   },
   "Groupe SEB WMF Shared Services": {
    "ok": true,
@@ -2106,7 +2094,7 @@
   "Mercedes": {
    "ok": true,
    "count": 35,
-   "raw": 90
+   "raw": 91
   },
   "Mercedes-Benz Bank": {
    "ok": true,
@@ -3696,7 +3684,7 @@
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 88
+   "raw": 89
   },
   "CoreWeave": {
    "ok": true,
@@ -4076,7 +4064,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 245
+   "raw": 246
   },
   "Saronic": {
    "ok": true,
@@ -4392,17 +4380,6 @@
    "first_seen": "2026-10-09T17:10:08+00:00"
   },
   {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-technicien-qualite-fournisseurs-electroniques-f-h_15687.aspx",
-   "title": "Technicien qualité fournisseurs électroniques F/H",
-   "location": "Argonay",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-technicien-qualite-fournisseurs-electroniques-f-h_15687.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
    "company": "Siemens",
    "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/520207",
    "title": "Teamleitung (w/m/d) Gerätefertigung",
@@ -4452,17 +4429,6 @@
    "title": "Supplier Quality Manager",
    "location": "Berlin , Berlin , Germany",
    "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/524216",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-supplier-development-manager-f-h_15522.aspx",
-   "title": "Supplier Development Manager F/H",
-   "location": "Mérignac",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-supplier-development-manager-f-h_15522.aspx",
    "posted": "",
    "match": 1,
    "src": "site",
@@ -4573,17 +4539,6 @@
    "title": "Schichtleitung (w/m/d) Fertigung",
    "location": "Berlin , Berlin , Germany",
    "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/520249",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-responsable-controle-de-gestion-production-f-h_15419.aspx",
-   "title": "Responsable contrôle de gestion - Production F/H",
-   "location": "Martignas",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-responsable-controle-de-gestion-production-f-h_15419.aspx",
    "posted": "",
    "match": 1,
    "src": "site",
@@ -4942,39 +4897,6 @@
    "first_seen": "2026-10-09T17:10:08+00:00"
   },
   {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-produit-fournisseur-aerostructure-f-h_15678.aspx",
-   "title": "Ingénieur qualité produit/fournisseur - Aérostructure F/H",
-   "location": "Mérignac",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-produit-fournisseur-aerostructure-f-h_15678.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-produit-produits-metalliques-f-h_15576.aspx",
-   "title": "Ingénieur qualité produit - Produits Métalliques F/H",
-   "location": "Mérignac",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-produit-produits-metalliques-f-h_15576.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-f-h_15769.aspx",
-   "title": "Ingénieur qualité F/H",
-   "location": "Saint-Cloud",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-qualite-f-h_15769.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
    "company": "Siemens",
    "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/516938",
    "title": "Ingenieur (w/m/d) für Niederspannungsschaltanlagen",
@@ -5090,39 +5012,6 @@
    "title": "Global Lead (f/m/d) Quality Management in Projects",
    "location": "Erlangen , Bayern , Germany",
    "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/514910",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-principal-f-h_15548.aspx",
-   "title": "Gestionnaire de production principal F/H",
-   "location": "Mérignac",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-principal-f-h_15548.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-ligne-f-h_15748.aspx",
-   "title": "Gestionnaire de production ligne F/H",
-   "location": "CERGY",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-ligne-f-h_15748.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-f-h_15642.aspx",
-   "title": "Gestionnaire de production F/H",
-   "location": "Argonay",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-gestionnaire-de-production-f-h_15642.aspx",
    "posted": "",
    "match": 1,
    "src": "site",
@@ -5382,33 +5271,11 @@
    "first_seen": "2026-10-09T17:10:08+00:00"
   },
   {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-amelioration-continue-qualite-stage-f-h_15028.aspx",
-   "title": "Amélioration continue - Qualité - Stage F/H",
-   "location": "",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-amelioration-continue-qualite-stage-f-h_15028.aspx",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
    "company": "Siemens",
    "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/524459",
    "title": "Advanced Digital Engineer (w/m/d) – Autonomous Adaptive AI Factory (Process Expert)",
    "location": "Erlangen , Bayern , Germany",
    "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/524459",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Dassault Aviation",
-   "id": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-acheteur-hors-production-f-h_15653.aspx",
-   "title": "Acheteur Hors Production F/H",
-   "location": "Mérignac",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-acheteur-hors-production-f-h_15653.aspx",
    "posted": "",
    "match": 1,
    "src": "site",
@@ -11775,7 +11642,7 @@
   {
    "company": "OHB",
    "id": "8450",
-   "title": "System Engineer for Exploration, In Space Transportation and Servicing (m/f/d)",
+   "title": "System Engineer Space System Studies (m/f/d)",
    "location": "Bremen, DE",
    "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8450?c=career-ohb",
    "posted": "2026-09-21",
@@ -16556,7 +16423,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16578,7 +16446,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16622,8 +16491,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17441,8 +17309,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17453,8 +17320,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17465,7 +17331,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17510,8 +17377,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17522,7 +17388,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17544,7 +17411,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17610,7 +17478,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17633,8 +17502,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17667,8 +17535,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17690,7 +17557,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17701,8 +17569,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17900,7 +17767,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17911,8 +17779,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17945,8 +17812,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17979,7 +17845,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17990,7 +17857,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18012,7 +17880,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18079,7 +17948,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18112,8 +17982,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18124,7 +17993,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18201,8 +18071,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18213,8 +18082,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18236,8 +18104,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18305,8 +18172,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18362,8 +18228,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18430,8 +18295,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18442,7 +18306,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18453,8 +18318,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18465,7 +18329,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18487,7 +18352,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18531,8 +18397,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18554,7 +18419,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18598,8 +18464,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18610,7 +18475,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18621,7 +18487,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18643,8 +18510,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18677,8 +18543,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18689,7 +18554,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18744,8 +18610,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18756,7 +18621,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18867,7 +18733,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18878,7 +18745,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18900,8 +18768,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24071,8 +23938,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:19:04+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24083,7 +23949,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24116,7 +23983,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24127,8 +23995,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24150,7 +24017,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24161,8 +24029,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24250,7 +24117,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "ESA",
@@ -24294,8 +24162,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24310,17 +24177,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1086125",
-   "title": "Projektqualitätsmanager (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1086125",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1030334",
    "title": "Projektqualitätsmanager (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -24328,8 +24184,19 @@
    "posted": "",
    "match": 1,
    "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1086125",
+   "title": "Projektqualitätsmanager (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1086125",
+   "posted": "",
+   "match": 1,
+   "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24340,7 +24207,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24362,7 +24230,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24483,8 +24352,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -24561,7 +24429,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24572,7 +24441,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24583,8 +24453,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24650,7 +24519,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24661,8 +24531,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:40:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -24706,7 +24575,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:57:49+00:00"
   },
   {
    "company": "Dekra",
@@ -41856,18 +41726,6 @@
    "closed_at": "2026-10-08T18:45:48+00:00"
   },
   {
-   "company": "Safran",
-   "id": "13651-JOB-841824-S",
-   "title": "Service Produktionsplaner/-steuerer (M/W/D)",
-   "location": "Herborn, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13651-JOB-841824-S",
-   "posted": "2026-09-16",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Lapp",
    "id": "13644-312269-S",
    "title": "Senior Product Developer (m/w/d) Kabel und Leitungen",
@@ -51536,18 +51394,6 @@
    "src": "agency"
   },
   {
-   "company": "Safran",
-   "id": "10000-1206473285-S",
-   "title": "Produktionsmitarbeiter/in - Mechanik (m/w/d)",
-   "location": "Bergisch Gladbach, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206473285-S",
-   "posted": "2026-05-11",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Rud. Otto Meyer Technik",
    "id": "18041-0064670089-S",
    "title": "CAD-Konstrukteur (m/w/d), Technischer Systemplaner (m/w/d) für elektronische Systeme",
@@ -52658,30 +52504,6 @@
    "src": "agency"
   },
   {
-   "company": "Safran",
-   "id": "10000-1205310973-S",
-   "title": "Stellvertretender Leiter Qualitätsmanagement (m/w/d)",
-   "location": "Murr, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205310973-S",
-   "posted": "2026-03-25",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Safran",
-   "id": "10000-1205311019-S",
-   "title": "Obsoleszenzmanager Entwicklung (m/w/d)",
-   "location": "Murr, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205311019-S",
-   "posted": "2026-03-25",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Sika",
    "id": "11959-103602-S",
    "title": "Konstruktionsingenieur / Techniker (m/w/d)",
@@ -53206,18 +53028,6 @@
    "location": "Bochum, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205599733-S",
    "posted": "2026-02-24",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Safran",
-   "id": "10000-1205311301-S",
-   "title": "Produktions- und Servicemitarbeiter Optronik (w/m/d)",
-   "location": "Murr, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205311301-S",
-   "posted": "2026-02-23",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
@@ -56290,5 +56100,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-09T17:48:14+00:00"
+ "updated": "2026-10-09T17:57:49+00:00"
 }
