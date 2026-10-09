@@ -610,7 +610,7 @@
   },
   "Airbus (Germany, agency feed)": {
    "ok": true,
-   "count": 66
+   "count": 65
   },
   "ESA": {
    "ok": true,
@@ -630,7 +630,7 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 99
+   "count": 98
   },
   "John Cockerill": {
    "ok": true,
@@ -706,7 +706,7 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 25
+   "count": 22
   },
   "TKMS": {
    "ok": true,
@@ -846,7 +846,7 @@
   },
   "Leonardo": {
    "ok": true,
-   "count": 9
+   "count": 10
   },
   "Fincantieri": {
    "ok": true,
@@ -978,7 +978,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 133
+   "count": 135
   },
   "ALB Fils Klinikum": {
    "ok": true,
@@ -2938,7 +2938,7 @@
   },
   "Airbus Defence and Space": {
    "ok": true,
-   "count": 58
+   "count": 57
   },
   "Dornier": {
    "ok": true,
@@ -2970,6 +2970,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Leonardo",
+   "id": "10001-1003820821-S",
+   "title": "Mechatroniker / Elektroniker / Elektriker (m/w/d) Instandhaltung - Direktvermittlung",
+   "location": "Bad Camberg, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003820821-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T05:48:23+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "19627-44474468-108-S",
+   "title": "Development Project Manager (w/m/d)",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44474468-108-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T05:48:23+00:00"
+  },
   {
    "company": "Waldburg-Zeil Kliniken",
    "id": "12288-4958508584-S",
@@ -4361,7 +4383,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -6791,7 +6814,8 @@
    "posted": "2026-09-25",
    "match": 1,
    "first_seen": "2026-10-08T13:41:06+00:00",
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Airbus (Germany, agency feed)",
@@ -7291,10 +7315,10 @@
   },
   {
    "company": "KNDS",
-   "id": "14225-17dc4d21bad2393b-S",
+   "id": "14225-69acd22a5a3d79c4-S",
    "title": "Wirtschaftsingenieur - Projektleiter (m/w/d)",
    "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-17dc4d21bad2393b-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-69acd22a5a3d79c4-S",
    "posted": "2026-10-08",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -7303,10 +7327,10 @@
   },
   {
    "company": "KNDS",
-   "id": "14225-69acd22a5a3d79c4-S",
+   "id": "14225-17dc4d21bad2393b-S",
    "title": "Wirtschaftsingenieur - Projektleiter (m/w/d)",
    "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-69acd22a5a3d79c4-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-17dc4d21bad2393b-S",
    "posted": "2026-10-08",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -13147,18 +13171,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "19146-100015115219-S",
-   "title": "Industriemechaniker / Mechatroniker (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100015115219-S",
-   "posted": "2026-10-02",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
    "id": "19146-100015115218-S",
    "title": "Industriemechaniker / Mechatroniker (w/m/d)",
    "location": "Oberkochen, Baden Wuerttemberg",
@@ -13168,6 +13180,19 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "19146-100015115219-S",
+   "title": "Industriemechaniker / Mechatroniker (w/m/d)",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100015115219-S",
+   "posted": "2026-10-02",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Akkodis",
@@ -14872,7 +14897,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "KNDS",
@@ -15484,7 +15510,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "closed_at": "2026-10-08T15:38:14+00:00"
+   "src": "agency"
   },
   {
    "company": "TKMS",
@@ -15988,7 +16014,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "closed_at": "2026-10-08T15:38:14+00:00"
+   "src": "agency"
   },
   {
    "company": "Diehl",
@@ -21977,7 +22003,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Hensoldt",
@@ -21989,7 +22016,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -22110,7 +22138,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T05:48:23+00:00"
   },
   {
    "company": "Rolls-Royce",
@@ -34632,5 +34661,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-08T23:42:41+00:00"
+ "updated": "2026-10-09T05:48:23+00:00"
 }
