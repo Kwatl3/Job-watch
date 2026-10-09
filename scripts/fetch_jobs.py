@@ -400,7 +400,50 @@ def fetch_ashby(c: dict) -> list[dict]:
     } for j in r.json().get("jobs", [])]
 
 
+def fetch_csod(c: dict) -> list[dict]:
+    """Cornerstone career sites (e.g. https://career-ohb.csod.com): the public home page embeds an
+    anonymous token that the site's own job search call uses."""
+    corp, site = c["corp"], int(c.get("site", 1))
+    home = f"https://{corp}.csod.com/ux/ats/careersite/{site}/home?c={corp}"
+    h = sess().get(home, timeout=TIMEOUT)
+    h.raise_for_status()
+    tok = re.search(r'"token"\s*:\s*"([^"]+)"', h.text)
+    api = re.search(r"https://[a-z0-9-]+\.api\.csod\.com", h.text)
+    if not tok:
+        raise RuntimeError("csod: no anonymous token on career page")
+    base = api.group(0) if api else "https://eu-fra.api.csod.com"
+    hdr = {"Authorization": "Bearer " + tok.group(1), "Content-Type": "application/json"}
+    out: dict[str, dict] = {}
+    total = None
+    for page in range(1, int(c.get("max_pages", 30)) + 1):
+        body = {"careerSiteId": site, "careerSitePageId": site, "pageNumber": page, "pageSize": 25,
+                "cultureId": 4, "searchText": c.get("search", ""), "cultureName": "de-DE", "states": [],
+                "countryCodes": [], "cities": [], "placeID": "", "radius": None, "postingsWithinDays": None,
+                "customFieldCheckboxKeys": [], "customFieldDropdowns": [], "customFieldRadios": []}
+        r = sess().post(f"{base}/rec-job-search/external/jobs", json=body, headers=hdr, timeout=TIMEOUT)
+        r.raise_for_status()
+        d = r.json().get("data") or {}
+        total = d.get("totalCount", total)
+        reqs = d.get("requisitions") or []
+        for q in reqs:
+            rid = str(q["requisitionId"])
+            locs = q.get("locations") or []
+            loc = ", ".join(dict.fromkeys(
+                x for l in locs for x in (l.get("city"), l.get("country")) if x))
+            out[rid] = {
+                "id": rid,
+                "title": (q.get("displayJobTitle") or "").strip(),
+                "location": loc,
+                "url": f"https://{corp}.csod.com/ux/ats/careersite/{site}/home/requisition/{rid}?c={corp}",
+                "posted": sf_date(q.get("postingEffectiveDate") or ""),
+            }
+        if not reqs or (total is not None and len(out) >= total):
+            break
+    return list(out.values())
+
+
 ADAPTERS = {
+    "csod": fetch_csod,
     "arbeitsagentur": fetch_arbeitsagentur,
     "workday": fetch_workday,
     "greenhouse": fetch_greenhouse,
