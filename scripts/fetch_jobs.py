@@ -443,7 +443,7 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
 # ------------------------------------------------------------------- merge ---
 
 def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
-          cfg: dict, now: str) -> dict:
+          cfg: dict, now: str, raw: dict[str, int] | None = None) -> dict:
     """Pure function: old state + fetch results -> new state (no 'checked' timestamps)."""
     retention = timedelta(days=int(cfg.get("closed_retention_days", 14)))
     now_dt = datetime.fromisoformat(now)
@@ -488,6 +488,8 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
     status = dict(old.get("companies", {}))
     for name, jobs in fetched.items():
         status[name] = {"ok": True, "count": len(jobs)}
+        if raw and name in raw:
+            status[name]["raw"] = raw[name]  # jobs the career site returned before the profile filters
     for name, msg in errors.items():
         status[name] = {"ok": False, "error": msg[:200],
                         "count": status.get(name, {}).get("count", 0)}
@@ -497,13 +499,18 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
             "companies": status, "jobs": jobs_sorted}
 
 
+RAW: dict[str, int] = {}
+
+
 def run_company(c: dict, global_filters: dict, core: list[str]) -> tuple[str, list[dict] | None, str | None]:
     name, ctype = c["name"], c.get("type")
     adapter = ADAPTERS.get(ctype)
     if not adapter:
         return name, None, f"unknown type '{ctype}'"
     try:
-        jobs = [j for j in adapter(c) if j["id"] and j["title"] and passes_filters(j, c, global_filters)]
+        found = [j for j in adapter(c) if j["id"] and j["title"]]
+        RAW[name] = len(found)
+        jobs = [j for j in found if passes_filters(j, c, global_filters)]
         for j in jobs:  # 2 = strong match for your profile ("core" words), 1 = related
             j["match"] = 2 if any(title_has(k, j["title"].lower()) for k in core) else 1
             j["src"] = "agency" if ctype == "arbeitsagentur" else "site"  # own career site vs. job-agency feed
@@ -545,7 +552,7 @@ def main() -> int:
     old = json.loads(OUT_PATH.read_text(encoding="utf-8")) if OUT_PATH.exists() else {}
     now = now_iso()
     old_core = {k: v for k, v in old.items() if k != "updated"}
-    new_state = merge(old_core, fetched, errors, cfg, now)
+    new_state = merge(old_core, fetched, errors, cfg, now, RAW)
 
     if old and old_core == new_state:
         print("No changes.")
