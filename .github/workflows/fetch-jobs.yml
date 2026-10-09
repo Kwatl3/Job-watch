@@ -55,6 +55,6 @@ jobs:
             echo "Nothing to commit"
           else
             git commit -m "Update jobs"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}"
             git push
           fi
