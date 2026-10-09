@@ -442,8 +442,74 @@ def fetch_csod(c: dict) -> list[dict]:
     return list(out.values())
 
 
+def fetch_phenom(c: dict) -> list[dict]:
+    """Phenom People career sites (e.g. careers.geaerospace.com): the page's own search endpoint /widgets."""
+    base = c["url"].rstrip("/")
+    country = c.get("country", "Germany")
+    out: dict[str, dict] = {}
+    frm, size = 0, 100
+    while True:
+        body = {"lang": c.get("lang", "en_global"), "deviceType": "desktop", "country": c.get("site_country", "global"),
+                "pageName": "search-results", "ddoKey": "refineSearch", "sortBy": "", "subsearch": "", "from": frm,
+                "jobs": True, "counts": True, "all_fields": ["category", "country", "state", "city", "type"],
+                "size": size, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
+                "pageId": c.get("page_id", "page15"), "siteType": "external", "keywords": c.get("search", ""),
+                "global": True, "selected_fields": {"country": [country]} if country else {}, "locationData": {}}
+        r = sess().post(base + "/widgets", json=body, timeout=TIMEOUT)
+        r.raise_for_status()
+        d = r.json().get("refineSearch") or {}
+        jobs = (d.get("data") or {}).get("jobs") or []
+        for j in jobs:
+            jid = str(j.get("jobId") or j.get("reqId"))
+            url = (j.get("jobUrl") or j.get("applyUrl") or "").removesuffix("/apply") or f"{base}/job/{jid}"
+            out[jid] = {
+                "id": jid,
+                "title": (j.get("title") or "").strip(),
+                "location": j.get("cityStateCountry") or j.get("location") or "",
+                "url": url,
+                "posted": (j.get("postedDate") or "")[:10],
+            }
+        frm += size
+        if not jobs or frm >= int(d.get("totalHits") or 0):
+            break
+    return list(out.values())
+
+
+def fetch_avature(c: dict) -> list[dict]:
+    """Avature career sites (e.g. jobs.siemens.com): server-rendered result pages of 6 jobs."""
+    base = c["url"].rstrip("/")  # .../SearchJobs
+    out: dict[str, dict] = {}
+    step, offset, empty = 6, 0, 0
+    for _ in range(int(c.get("max_pages", 120))):
+        r = sess().get(base + "/", params={"search": c.get("search", ""), "folderRecordsPerPage": step,
+                                          "folderOffset": offset}, timeout=TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        arts = soup.select("article")
+        added = 0
+        for art in arts:
+            a = art.select_one("a.link[href]")
+            if not a:
+                continue
+            url = urljoin(base + "/", a["href"])
+            if url in out:
+                continue
+            title = a.get_text(" ", strip=True)
+            txt = re.sub(r"\s+", " ", art.get_text(" ", strip=True))
+            loc = txt.split(title, 1)[-1].split("•")[0].strip()
+            out[url] = {"id": url, "title": title, "location": loc, "url": url, "posted": ""}
+            added += 1
+        empty = 0 if added else empty + 1
+        if not arts or empty >= 2:
+            break
+        offset += step
+    return list(out.values())
+
+
 ADAPTERS = {
     "csod": fetch_csod,
+    "phenom": fetch_phenom,
+    "avature": fetch_avature,
     "arbeitsagentur": fetch_arbeitsagentur,
     "workday": fetch_workday,
     "greenhouse": fetch_greenhouse,
@@ -482,7 +548,7 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
     if exclude and any(title_has(k, title) for k in exclude):
         return False
     if locations == "de":  # "Germany": country words, or one of the German places listed under filters.de_locations
-        if loc and not (re.match(r"\d+ (standorte|locations)", loc)  # Workday: several places, not named
+        if loc and not (re.match(r"(\d+|mehrere|multiple) (standorte|locations)", loc)  # several places, not named
                         or re.search(r"(?<![a-zäöü])(de|deutschland|germany)(?![a-zäöü])", loc)
                         or any(k.lower() in loc for k in global_filters.get("de_locations", []))):
             return False
