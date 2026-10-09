@@ -81,7 +81,7 @@ companies:
   - {name: "Hensoldt", type: successfactors, url: "https://jobs.hensoldt.net", max_pages: 30, locations: de}
   - {name: "TKMS", type: arbeitsagentur, employer: "TKMS", employer_match: ["thyssenkrupp Marine Systems"]}
   - {name: "RENK", type: arbeitsagentur, employer: "RENK"}
-  - {name: "OHB", type: arbeitsagentur, employer: "OHB"}
+  - {name: "OHB", type: csod, corp: "career-ohb", site: 4, locations: de}
   - {name: "Heckler & Koch", type: arbeitsagentur, employer: "Heckler & Koch"}
   - {name: "Quantum Systems", type: arbeitsagentur, employer: "QUANTUM SYSTEMS"}
   - {name: "Terma", type: arbeitsagentur, employer: "TERMA"}
