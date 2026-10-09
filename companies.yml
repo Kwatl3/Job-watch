@@ -650,3 +650,51 @@ companies:
   - {name: "Safran Landing Systems", type: arbeitsagentur, employer: "Safran Landing Systems"}
   - {name: "ITP Aero", type: arbeitsagentur, employer: "ITP Aero"}
   - {name: "Aerospace Cologne", type: arbeitsagentur, employer: "Aerospace Cologne"}
+
+  # ---- Semiconductor and AI-infrastructure companies (own career sites first) ----
+  - {name: "NXP Semiconductors", type: workday, host: "nxp.wd3.myworkdayjobs.com", tenant: "nxp", site: "careers", search: [Germany, Hamburg], max_pages: 15, locations: de}
+  - {name: "Cerebras", type: ashby, board: "cerebras", locations: de}
+  - {name: "Lambda", type: ashby, board: "lambda", locations: de}
+  - {name: "CoreWeave", type: greenhouse, board: "coreweave", locations: de}
+  # agency fallback only (hidden unless "Include agency listings" is ticked)
+  - {name: "Infineon Technologies", type: arbeitsagentur, employer: "Infineon Technologies", tier: slow}
+  - {name: "GlobalFoundries", type: arbeitsagentur, employer: "GlobalFoundries", tier: slow}
+  - {name: "Siltronic", type: arbeitsagentur, employer: "Siltronic", tier: slow}
+  - {name: "X-FAB", type: arbeitsagentur, employer: "X-FAB", tier: slow}
+  - {name: "AIXTRON", type: arbeitsagentur, employer: "AIXTRON", tier: slow}
+  - {name: "Carl Zeiss SMT", type: arbeitsagentur, employer: "Carl Zeiss SMT", tier: slow}
+  - {name: "JENOPTIK", type: arbeitsagentur, employer: "JENOPTIK", tier: slow}
+  - {name: "SUSS MicroTec", type: arbeitsagentur, employer: "SUSS MicroTec", tier: slow}
+  - {name: "ASML", type: arbeitsagentur, employer: "ASML", tier: slow}
+  - {name: "Applied Materials", type: arbeitsagentur, employer: "Applied Materials", tier: slow}
+  - {name: "Lam Research", type: arbeitsagentur, employer: "Lam Research", tier: slow}
+  - {name: "KLA", type: arbeitsagentur, employer: "KLA", tier: slow}
+  - {name: "Entegris", type: arbeitsagentur, employer: "Entegris", tier: slow}
+  - {name: "Heraeus", type: arbeitsagentur, employer: "Heraeus", tier: slow}
+  - {name: "TRUMPF", type: arbeitsagentur, employer: "TRUMPF", tier: slow}
+  - {name: "NVIDIA", type: arbeitsagentur, employer: "NVIDIA", tier: slow}
+  - {name: "Advanced Micro Devices", type: arbeitsagentur, employer: "Advanced Micro Devices", tier: slow}
+  - {name: "Intel Deutschland", type: arbeitsagentur, employer: "Intel Deutschland", tier: slow}
+  - {name: "Qualcomm", type: arbeitsagentur, employer: "Qualcomm", tier: slow}
+  - {name: "Micron", type: arbeitsagentur, employer: "Micron", tier: slow}
+  - {name: "Texas Instruments", type: arbeitsagentur, employer: "Texas Instruments", tier: slow}
+  - {name: "onsemi", type: arbeitsagentur, employer: "onsemi", tier: slow}
+  - {name: "STMicroelectronics", type: arbeitsagentur, employer: "STMicroelectronics", tier: slow}
+  - {name: "Vishay", type: arbeitsagentur, employer: "Vishay", tier: slow}
+  - {name: "Northern Data", type: arbeitsagentur, employer: "Northern Data", tier: slow}
+  - {name: "IONOS", type: arbeitsagentur, employer: "IONOS", tier: slow}
+  - {name: "Hetzner", type: arbeitsagentur, employer: "Hetzner", tier: slow}
+  - {name: "Bosch Sensortec", type: arbeitsagentur, employer: "Bosch Sensortec", tier: slow}
+  - {name: "Elmos Semiconductor", type: arbeitsagentur, employer: "Elmos Semiconductor", tier: slow}
+  - {name: "Nexperia", type: arbeitsagentur, employer: "Nexperia", tier: slow}
+  - {name: "Semikron Danfoss", type: arbeitsagentur, employer: "Semikron Danfoss", tier: slow}
+  - {name: "Mattson Technology", type: arbeitsagentur, employer: "Mattson Technology", tier: slow}
+  - {name: "Pfeiffer Vacuum", type: arbeitsagentur, employer: "Pfeiffer Vacuum", tier: slow}
+  - {name: "VDL", type: arbeitsagentur, employer: "VDL", tier: slow}
+  - {name: "Brooks Automation", type: arbeitsagentur, employer: "Brooks Automation", tier: slow}
+  - {name: "FormFactor", type: arbeitsagentur, employer: "FormFactor", tier: slow}
+  - {name: "Zollner Elektronik", type: arbeitsagentur, employer: "Zollner Elektronik", tier: slow}
+  - {name: "Rehm Thermal Systems", type: arbeitsagentur, employer: "Rehm Thermal Systems", tier: slow}
+  - {name: "Schmid Group", type: arbeitsagentur, employer: "Schmid Group", tier: slow}
+  - {name: "Jabil", type: arbeitsagentur, employer: "Jabil", tier: slow}
+  - {name: "Flex", type: arbeitsagentur, employer: "Flex", tier: slow}
