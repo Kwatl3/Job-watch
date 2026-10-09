@@ -756,7 +756,7 @@
   "KNDS": {
    "ok": true,
    "count": 98,
-   "raw": 258
+   "raw": 259
   },
   "John Cockerill": {
    "ok": true,
@@ -830,8 +830,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 141,
-   "raw": 1043
+   "count": 125,
+   "raw": 1057
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -1275,7 +1275,7 @@
   },
   "Bechtle": {
    "ok": true,
-   "count": 57,
+   "count": 56,
    "raw": 379
   },
   "Berner": {
@@ -1746,7 +1746,7 @@
   "groninger & co": {
    "ok": true,
    "count": 6,
-   "raw": 29
+   "raw": 28
   },
   "Groupe SEB WMF Shared Services": {
    "ok": true,
@@ -2386,7 +2386,7 @@
   "Schwäbisch Hall": {
    "ok": true,
    "count": 8,
-   "raw": 279
+   "raw": 278
   },
   "SchwörerHaus": {
    "ok": true,
@@ -3906,7 +3906,7 @@
   "Flex": {
    "ok": true,
    "count": 17,
-   "raw": 212
+   "raw": 213
   },
   "Nikon SLM Solutions": {
    "ok": true,
@@ -4036,7 +4036,7 @@
   "Wabtec": {
    "ok": true,
    "count": 13,
-   "raw": 776
+   "raw": 780
   },
   "Tenstorrent": {
    "ok": true,
@@ -4056,7 +4056,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 572
+   "raw": 570
   },
   "Lightmatter": {
    "ok": true,
@@ -4076,7 +4076,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 247
+   "raw": 245
   },
   "Saronic": {
    "ok": true,
@@ -4090,8 +4090,8 @@
   },
   "Siemens": {
    "ok": true,
-   "count": 86,
-   "raw": 399
+   "count": 87,
+   "raw": 400
   },
   "KUKA": {
    "ok": true,
@@ -4325,6 +4325,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Siemens",
+   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/522651",
+   "title": "Mitarbeiter Qualitätsentwicklung / Quality Engineer (m/w/d)",
+   "location": "Flensburg , Schleswig-Holstein , Germany",
+   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/522651",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T17:19:04+00:00"
+  },
   {
    "company": "GE Aerospace",
    "id": "R5041199",
@@ -12553,7 +12564,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16579,7 +16591,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16590,7 +16603,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16681,7 +16695,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16692,7 +16707,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16703,7 +16719,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16714,7 +16731,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -17459,17 +17477,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
-   "title": "Systemingenieur IT Solutions (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
    "title": "Systemingenieur IT Solutions (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -17478,6 +17485,18 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
+   "title": "Systemingenieur IT Solutions (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17499,8 +17518,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T16:50:46+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17534,7 +17552,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17545,7 +17564,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17556,7 +17576,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17567,7 +17588,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17589,7 +17611,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17611,8 +17634,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17645,7 +17667,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17667,7 +17690,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17843,8 +17867,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17866,7 +17889,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17900,8 +17924,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17912,7 +17935,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17935,7 +17959,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -17979,8 +18004,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18002,8 +18026,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18014,7 +18037,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18058,7 +18082,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18091,8 +18116,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18125,7 +18149,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18136,8 +18161,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18148,8 +18172,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18160,7 +18183,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18193,7 +18217,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18204,7 +18229,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18226,7 +18252,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18261,8 +18288,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18273,8 +18299,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18285,7 +18310,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18296,7 +18322,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18304,6 +18331,18 @@
    "title": "Qualitätsinspektor Schweißen (m/w/d)",
    "location": "Rheinmetall Landsysteme GmbH | Kassel",
    "url": "https://www.rheinmetall.com/de/job/qualitaetsinspektor_schweissen__m_w_d_/1083521",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1138787",
+   "title": "Projektqualitätsmanager (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1138787",
    "posted": "",
    "match": 1,
    "src": "site",
@@ -18318,18 +18357,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1138787",
-   "title": "Projektqualitätsmanager (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1138787",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18363,7 +18392,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18374,7 +18404,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18452,7 +18483,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18485,8 +18517,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18530,8 +18561,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18586,7 +18616,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18608,8 +18639,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18653,8 +18683,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18665,7 +18694,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18733,7 +18763,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18777,7 +18808,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18810,8 +18842,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18822,8 +18853,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18834,8 +18864,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18857,8 +18886,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -18869,7 +18897,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24050,7 +24079,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24061,7 +24091,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24094,7 +24125,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24105,8 +24137,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24227,8 +24258,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24272,7 +24302,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24327,8 +24358,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24339,8 +24369,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24351,8 +24380,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24363,7 +24391,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "ESA",
@@ -24506,7 +24535,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "ESA",
@@ -24514,6 +24544,17 @@
    "title": "Estonian National Graduate Trainee in Advanced Materials and Process Engineering",
    "location": "Harwell, GB",
    "url": "https://jobs.esa.int/job/Harwell-Estonian-National-Graduate-Trainee-in-Advanced-Materials-and-Process-Engineering/1437024433/",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektrik__m_w_d_/1103156",
+   "title": "Entwicklungsingenieur Elektrik (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektrik__m_w_d_/1103156",
    "posted": "",
    "match": 2,
    "src": "site",
@@ -24532,18 +24573,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektrik__m_w_d_/1103156",
-   "title": "Entwicklungsingenieur Elektrik (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektrik__m_w_d_/1103156",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/entwicklungsingenieur___techniker_elektromechanik__m_w_d_/947429",
    "title": "Entwicklungsingenieur / -Techniker Elektromechanik (m/w/d)",
    "location": "Rheinmetall Landsysteme GmbH | Kiel",
@@ -24551,8 +24580,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24563,8 +24591,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24598,7 +24625,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "ESA",
@@ -24631,7 +24659,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24642,8 +24671,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24698,8 +24726,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Dekra",
@@ -47946,7 +47973,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T17:19:04+00:00"
   },
   {
    "company": "OHB",
@@ -56283,5 +56311,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-09T17:10:08+00:00"
+ "updated": "2026-10-09T17:19:04+00:00"
 }
