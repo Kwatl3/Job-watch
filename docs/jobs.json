@@ -602,8 +602,8 @@
   },
   "CERN": {
    "ok": true,
-   "count": 22,
-   "raw": 56
+   "count": 21,
+   "raw": 54
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -707,8 +707,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 131,
-   "raw": 923
+   "count": 42,
+   "raw": 312
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -718,7 +718,7 @@
   "Diehl": {
    "ok": true,
    "count": 109,
-   "raw": 614
+   "raw": 613
   },
   "Rohde & Schwarz": {
    "ok": true,
@@ -943,7 +943,7 @@
   "WB": {
    "ok": true,
    "count": 3,
-   "raw": 19
+   "raw": 20
   },
   "Tekever": {
    "ok": true,
@@ -1962,8 +1962,8 @@
   },
   "Marquardt": {
    "ok": true,
-   "count": 4,
-   "raw": 48
+   "count": 7,
+   "raw": 53
   },
   "Maschinenfabrik ALFING Kessler": {
    "ok": true,
@@ -1998,7 +1998,7 @@
   "MHZ Hachtel": {
    "ok": true,
    "count": 5,
-   "raw": 28
+   "raw": 29
   },
   "Michael Weinig Aktiengesellschaft": {
    "ok": true,
@@ -2083,7 +2083,7 @@
   "Paulinenpflege Winnenden e. V": {
    "ok": true,
    "count": 0,
-   "raw": 16
+   "raw": 17
   },
   "Pepperl+Fuchs": {
    "ok": true,
@@ -2483,7 +2483,7 @@
   "Trigema W. Grupp": {
    "ok": true,
    "count": 1,
-   "raw": 11
+   "raw": 12
   },
   "Uhlmann Pac-Systeme": {
    "ok": true,
@@ -2603,7 +2603,7 @@
   "Walter": {
    "ok": true,
    "count": 35,
-   "raw": 294
+   "raw": 293
   },
   "Weishaupt": {
    "ok": true,
@@ -2733,7 +2733,7 @@
   "Alfred Kärcher": {
    "ok": true,
    "count": 4,
-   "raw": 22
+   "raw": 21
   },
   "Andreas Stihl": {
    "ok": true,
@@ -2993,7 +2993,7 @@
   "Hoffmann": {
    "ok": true,
    "count": 21,
-   "raw": 296
+   "raw": 297
   },
   "INDEX-Werke": {
    "ok": true,
@@ -3142,8 +3142,8 @@
   },
   "Robert Bosch": {
    "ok": true,
-   "count": 69,
-   "raw": 297
+   "count": 71,
+   "raw": 299
   },
   "Rolf Benz": {
    "ok": true,
@@ -3318,7 +3318,7 @@
   "Moog": {
    "ok": true,
    "count": 9,
-   "raw": 34
+   "raw": 32
   },
   "Spirit AeroSystems": {
    "ok": true,
@@ -3558,6 +3558,61 @@
  },
  "jobs": [
   {
+   "company": "Marquardt",
+   "id": "10001-1003829790-S",
+   "title": "Schichtleiter Produktion (m/w/d)",
+   "location": "Amt Wachsenburg, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003829790-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:32:55+00:00"
+  },
+  {
+   "company": "Marquardt",
+   "id": "10001-1003829891-S",
+   "title": "Qualitätsingenieur Kundenreklamation (m/w/d)",
+   "location": "Amt Wachsenburg, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003829891-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:32:55+00:00"
+  },
+  {
+   "company": "Robert Bosch",
+   "id": "15986-REF298056K-38d359d-S",
+   "title": "Maintenance Engineer Wet Chemistry (w/m/div.)",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298056K-38d359d-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:32:55+00:00"
+  },
+  {
+   "company": "Robert Bosch",
+   "id": "15986-REF298061M-37bb1ee-S",
+   "title": "Maintenance Engineer Metrology / Defect Density Engineering (w/m/div.)",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298061M-37bb1ee-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:32:55+00:00"
+  },
+  {
+   "company": "Marquardt",
+   "id": "10001-1003829884-S",
+   "title": "Ingenieur Qualitätssicherung (m/w/d)",
+   "location": "Amt Wachsenburg, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003829884-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:32:55+00:00"
+  },
+  {
    "company": "SYNERGIE Personal",
    "id": "12704-VHO1YGJ09JBTB5V9-S",
    "title": "Produktionshelfer (m/w/d) Pharmaindustrie",
@@ -3610,7 +3665,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3621,7 +3677,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3632,7 +3689,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3643,7 +3701,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3654,7 +3713,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3665,7 +3725,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3676,7 +3737,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3687,7 +3749,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3698,7 +3761,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3709,7 +3773,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3720,7 +3785,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3731,7 +3797,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3742,7 +3809,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3753,7 +3821,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3764,7 +3833,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3775,7 +3845,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3786,7 +3857,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3797,7 +3869,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3808,7 +3881,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3819,7 +3893,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3830,7 +3905,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3841,7 +3917,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3852,7 +3929,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3863,7 +3941,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3874,7 +3953,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3885,7 +3965,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3896,7 +3977,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3907,7 +3989,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3918,7 +4001,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3929,7 +4013,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3940,7 +4025,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3951,7 +4037,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3962,7 +4049,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3973,7 +4061,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3984,7 +4073,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3995,7 +4085,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4006,7 +4097,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4017,7 +4109,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4028,7 +4121,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4039,7 +4133,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4050,7 +4145,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4061,7 +4157,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4072,7 +4169,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4083,7 +4181,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4094,7 +4193,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4105,7 +4205,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4116,7 +4217,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4127,7 +4229,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4138,7 +4241,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4149,7 +4253,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4160,7 +4265,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4171,7 +4277,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4182,7 +4289,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4193,7 +4301,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4204,7 +4313,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4215,7 +4325,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4226,7 +4337,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4237,7 +4349,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4248,7 +4361,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4259,7 +4373,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4270,7 +4385,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4281,7 +4397,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4292,7 +4409,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4303,7 +4421,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4314,7 +4433,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4325,7 +4445,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4336,7 +4457,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4347,7 +4469,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4358,7 +4481,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4369,7 +4493,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4380,7 +4505,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4391,7 +4517,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4402,7 +4529,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4413,7 +4541,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4424,7 +4553,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4435,7 +4565,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4446,7 +4577,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4457,7 +4589,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4468,7 +4601,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4479,7 +4613,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4490,7 +4625,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4501,7 +4637,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4512,7 +4649,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4523,7 +4661,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4534,7 +4673,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4545,7 +4685,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4556,7 +4697,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4567,7 +4709,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4578,7 +4721,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4589,7 +4733,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4600,7 +4745,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4611,7 +4757,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4622,7 +4769,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4633,7 +4781,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4644,7 +4793,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4655,7 +4805,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4666,7 +4817,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -9793,8 +9945,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9838,8 +9989,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9883,8 +10033,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9983,8 +10132,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -10017,8 +10165,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10249,8 +10396,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -10338,8 +10484,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -10394,8 +10539,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "ESA",
@@ -41821,7 +41965,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
-   "src": "site"
+   "src": "site",
+   "closed_at": "2026-10-09T06:32:55+00:00"
   },
   {
    "company": "CERN",
@@ -41860,5 +42005,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-09T06:15:45+00:00"
+ "updated": "2026-10-09T06:32:55+00:00"
 }
