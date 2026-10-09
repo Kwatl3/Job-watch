@@ -18,7 +18,7 @@
   "Aerostar",
   "Aesculap",
   "Agilent Technologies",
-  "Airbus (Workday, Hamburg)",
+  "Airbus (Workday, Germany)",
   "Airbus Defence and Space",
   "Airbus Helicopters",
   "Akkodis",
@@ -595,11 +595,6 @@
   "vhf camfacture"
  ],
  "companies": {
-  "Airbus (Workday, Hamburg)": {
-   "ok": true,
-   "count": 3,
-   "raw": 40
-  },
   "CERN": {
    "ok": true,
    "count": 21,
@@ -707,8 +702,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 42,
-   "raw": 312
+   "count": 137,
+   "raw": 1053
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -717,8 +712,8 @@
   },
   "Diehl": {
    "ok": true,
-   "count": 109,
-   "raw": 613
+   "count": 108,
+   "raw": 615
   },
   "Rohde & Schwarz": {
    "ok": true,
@@ -727,8 +722,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 141,
-   "raw": 546
+   "count": 140,
+   "raw": 545
   },
   "TKMS": {
    "ok": true,
@@ -1382,7 +1377,7 @@
   },
   "DSV": {
    "ok": true,
-   "count": 12,
+   "count": 11,
    "raw": 300
   },
   "Dunkermotoren": {
@@ -1712,8 +1707,8 @@
   },
   "Hohenstein": {
    "ok": true,
-   "count": 1,
-   "raw": 17
+   "count": 0,
+   "raw": 18
   },
   "Homag": {
    "ok": true,
@@ -1927,8 +1922,8 @@
   },
   "Magirus": {
    "ok": true,
-   "count": 1,
-   "raw": 1
+   "count": 3,
+   "raw": 24
   },
   "Mahle": {
    "ok": true,
@@ -2083,7 +2078,7 @@
   "Paulinenpflege Winnenden e. V": {
    "ok": true,
    "count": 0,
-   "raw": 17
+   "raw": 18
   },
   "Pepperl+Fuchs": {
    "ok": true,
@@ -2148,7 +2143,7 @@
   "Reisser": {
    "ok": true,
    "count": 3,
-   "raw": 37
+   "raw": 38
   },
   "Rems-Murr-Kliniken gGmbH": {
    "ok": true,
@@ -2253,7 +2248,7 @@
   "Schuler": {
    "ok": true,
    "count": 27,
-   "raw": 102
+   "raw": 101
   },
   "Schunk": {
    "ok": true,
@@ -2422,7 +2417,7 @@
   },
   "SYNERGIE Personal": {
    "ok": true,
-   "count": 43,
+   "count": 42,
    "raw": 300
   },
   "Takeda": {
@@ -2603,7 +2598,7 @@
   "Walter": {
    "ok": true,
    "count": 35,
-   "raw": 293
+   "raw": 294
   },
   "Weishaupt": {
    "ok": true,
@@ -2993,7 +2988,7 @@
   "Hoffmann": {
    "ok": true,
    "count": 21,
-   "raw": 297
+   "raw": 299
   },
   "INDEX-Werke": {
    "ok": true,
@@ -3518,7 +3513,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 57,
-   "raw": 144
+   "raw": 143
   },
   "Dornier": {
    "ok": true,
@@ -3554,9 +3549,1014 @@
    "ok": true,
    "count": 0,
    "raw": 0
+  },
+  "Airbus (Workday, Germany)": {
+   "ok": true,
+   "count": 54,
+   "raw": 262
   }
  },
  "jobs": [
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/System-Engineer--d-m-f-_JR10445730",
+   "title": "System Engineer (d/m/f)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/System-Engineer--d-m-f-_JR10445730",
+   "posted": "Posted Yesterday",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
+   "title": "Supply Chain Quality Manager for service provider (m/w/d)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
+   "posted": "Posted Yesterday",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
+   "title": "Produktsicherheits- und Konformitätsingenieur (m/f/d)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
+   "posted": "Posted Yesterday",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
+   "title": "Mechanism Drive Electronics System Engineer for Space Mechanisms (d/m/w)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
+   "posted": "Posted Yesterday",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
+   "title": "ERP Specialist Manufacturing Engineering and Schopfloor (H/F)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
+   "posted": "Posted Yesterday",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
+   "title": "Structural Analysis Engineer Static/Fatigue (d/m/f)",
+   "location": "Augsburg Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
+   "posted": "Posted Today",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
+   "title": "Spezialist für Qualitätssicherungszertifikate (d/w/m)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
+   "posted": "Posted Today",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
+   "title": "Flight Operations Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
+   "posted": "Posted 9 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/XMLNAME--ET20-System-Engineer--d-f-m--in-Self-Protection-System_JR10432872",
+   "title": "Electronic Warfare System Engineer (d/f/m)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20-System-Engineer--d-f-m--in-Self-Protection-System_JR10432872",
+   "posted": "Posted 9 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
+   "title": "DOA Management Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
+   "posted": "Posted 9 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
+   "title": "Cyber-Security-Engineer (d/m/w)",
+   "location": "3 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
+   "posted": "Posted 9 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
+   "title": "Testability Engineer Eurodrone (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
+   "posted": "Posted 8 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Procurement-Manager---Aerostructures-Development---NPI-Integration_JR10434735",
+   "title": "Procurement Manager – Aerostructures Development & NPI Integration",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Procurement-Manager---Aerostructures-Development---NPI-Integration_JR10434735",
+   "posted": "Posted 8 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Electronics-and-or-military-Avionics-Designated-Airworthiness-Engineer--d-f-m-_JR10429162",
+   "title": "Electronics and/or military Avionics Designated Airworthiness Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Electronics-and-or-military-Avionics-Designated-Airworthiness-Engineer--d-f-m-_JR10429162",
+   "posted": "Posted 8 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Development-Responsible-Optical-Subsystems--d-f-m-_JR10430561-1",
+   "title": "Development Responsible Optical Subsystems (d/f/m)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Development-Responsible-Optical-Subsystems--d-f-m-_JR10430561-1",
+   "posted": "Posted 7 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/New-Connectivity-Design-Hub-Engineer--d-f-m-_JR10405162",
+   "title": "New Connectivity Design Hub Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/New-Connectivity-Design-Hub-Engineer--d-f-m-_JR10405162",
+   "posted": "Posted 6 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Supportability-Engineer--d-m-w-_JR10414448",
+   "title": "Supportability Engineer (d/m/w)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Supportability-Engineer--d-m-w-_JR10414448",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Study-Engineer--d-f-m----Operational-Analysis---Concept-of-Operations_JR10350616",
+   "title": "Study Engineer / Data Scientist (d/f/m) – AI & Operations Research",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Study-Engineer--d-f-m----Operational-Analysis---Concept-of-Operations_JR10350616",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Studieningenieur-SAR-System-und-Performance--m-w-d-_JR10427166",
+   "title": "Study Engineer - SAR System and Performance (d/f/m)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Studieningenieur-SAR-System-und-Performance--m-w-d-_JR10427166",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Satellite-Ground-Segment-Crypto-AIT---Operations-Engineer--d-m-w--fr-nationale-Kryptoverifizierung_JR10396098",
+   "title": "Satellite Ground Segment Crypto AIT & Operations Engineer (d/m/w) für nationale Kryptoverifizierung",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Satellite-Ground-Segment-Crypto-AIT---Operations-Engineer--d-m-w--fr-nationale-Kryptoverifizierung_JR10396098",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Satellite-Chief-Engineer-for-large-Telecom-Space-Architectures--m-f-d--in-Germany_JR10431928",
+   "title": "Satellite Chief Engineer for large Telecom Space Architectures (m/f/d) in Germany",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Satellite-Chief-Engineer-for-large-Telecom-Space-Architectures--m-f-d--in-Germany_JR10431928",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/SAP-Spezialist--m-w-d--fr-Fertigungssteuerung_JR10431855",
+   "title": "SAP Spezialist (m/w/d) für Fertigungssteuerung",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/SAP-Spezialist--m-w-d--fr-Fertigungssteuerung_JR10431855",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/SAP-BI-Technology-Specialist-in-Germany---d-f-m-_JR10426822",
+   "title": "SAP BI Technology Specialist in Germany  (d/f/m)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/SAP-BI-Technology-Specialist-in-Germany---d-f-m-_JR10426822",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/Prototypen-Quality-Prfer---Level-3---Bereich-Mechanik--d-m-w-_JR10433618",
+   "title": "Prototypen Quality Prüfer - Level 3 - Bereich Mechanik (d/m/w)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Prototypen-Quality-Prfer---Level-3---Bereich-Mechanik--d-m-w-_JR10433618",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Mechatroniker--D-M-W--in-Lbeck_JR10417682-1",
+   "title": "Mechatroniker (D/M/W) in Lübeck",
+   "location": "4 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Mechatroniker--D-M-W--in-Lbeck_JR10417682-1",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Lead-System-Engineer--d-f-m-_JR10434227-1",
+   "title": "Lead System Engineer (d/f/m)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Lead-System-Engineer--d-f-m-_JR10434227-1",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Hamburg-Area/JIGS-AND-TOOLS-ENGINEER--D-F-M-_JR10426247",
+   "title": "JIGS AND TOOLS ENGINEER (D/F/M)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/JIGS-AND-TOOLS-ENGINEER--D-F-M-_JR10426247",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
+   "title": "Duales Studium B.Sc. Wirtschaftsinformatik - Business Engineering (d/m/w) zum 01.09.2027",
+   "location": "München Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Duales-Studium-BEng--d-m-w--Maschinenbau---Allgemeiner-Maschinenbau--zum-01092027_JR10423237",
+   "title": "Duales Studium B.Eng. (d/m/w) Maschinenbau / Allgemeiner Maschinenbau  zum 01.09.2027",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Duales-Studium-BEng--d-m-w--Maschinenbau---Allgemeiner-Maschinenbau--zum-01092027_JR10423237",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Duales-Master-Studium-M-Eng--d-m-w--Systems-Engineering-zum-01102027_JR10423256",
+   "title": "Duales Master-Studium M. Eng. (d/m/w) Systems Engineering zum 01.10.2027",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Duales-Master-Studium-M-Eng--d-m-w--Systems-Engineering-zum-01102027_JR10423256",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Data-Handling-System-Engineer--d-m-w-_JR10433693-1",
+   "title": "Data Handling System Engineer (d/m/w)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Data-Handling-System-Engineer--d-m-w-_JR10433693-1",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Cyber-Security-Test-Engineer--d-f-m-_JR10370011",
+   "title": "Cyber Security Test Engineer (d/f/m)",
+   "location": "3 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Cyber-Security-Test-Engineer--d-f-m-_JR10370011",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Cyber-Detection-Engineering-Lead--d-f-m-_JR10428030",
+   "title": "Cyber Detection Engineering Lead (d/f/m)",
+   "location": "4 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Cyber-Detection-Engineering-Lead--d-f-m-_JR10428030",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Cloud-Platform-Engineer---KI---Simulation--d-f-m-_JR10387858-1",
+   "title": "Platform & MLOps Engineer (d/m/w) – KI- und Simulationsplattformen",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Cloud-Platform-Engineer---KI---Simulation--d-f-m-_JR10387858-1",
+   "posted": "Posted 30 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Supply-Chain---Quality-Manager---EFA-Ram-Up--m-f-d-_JR10440992",
+   "title": "Supply Chain & Quality Manager - EFA Ram Up (m/f/d)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Supply-Chain---Quality-Manager---EFA-Ram-Up--m-f-d-_JR10440992",
+   "posted": "Posted 3 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w-_JR10423038-1",
+   "title": "Simulation & Modelling Engineer (d/f/m)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w-_JR10423038-1",
+   "posted": "Posted 3 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Qualittsprfer-fr-Luftfahrzeuge-im-Wareneingang--d-w-m-_JR10443835",
+   "title": "Qualitätsprüfer für Luftfahrzeuge im Wareneingang (d/w/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Qualittsprfer-fr-Luftfahrzeuge-im-Wareneingang--d-w-m-_JR10443835",
+   "posted": "Posted 3 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Quality-Inspector-Elektrik-Avionik-fr-Eurodrone-Eurofighter-Produktion--d-m-w-_JR10431765-1",
+   "title": "Quality Inspector Elektrik/Avionik für Eurodrone/Eurofighter Produktion (d/m/w)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Quality-Inspector-Elektrik-Avionik-fr-Eurodrone-Eurofighter-Produktion--d-m-w-_JR10431765-1",
+   "posted": "Posted 3 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/System-Engineer-Modelling---Simulation--d-f-m-_JR10416188",
+   "title": "System Engineer Modelling & Simulation (d/f/m)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/System-Engineer-Modelling---Simulation--d-f-m-_JR10416188",
+   "posted": "Posted 29 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Optical-Instruments-Performance-Engineer--d-f-m-_JR10434476-1",
+   "title": "Optical Instruments Performance Engineer (d/f/m)",
+   "location": "München Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Optical-Instruments-Performance-Engineer--d-f-m-_JR10434476-1",
+   "posted": "Posted 23 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Lead-Systems-Engineer--d-f-m--Ground-Support-Systems_JR10445222",
+   "title": "Lead Systems Engineer (d/f/m) Ground Support Systems",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Lead-Systems-Engineer--d-f-m--Ground-Support-Systems_JR10445222",
+   "posted": "Posted 2 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Lead-Engineer--d-f-m----Defence-Digital-Engineering--Offen-_JR10438925",
+   "title": "Lead Engineer (d/f/m) – Defence Digital Engineering (Offen)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Lead-Engineer--d-f-m----Defence-Digital-Engineering--Offen-_JR10438925",
+   "posted": "Posted 2 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/XMLNAME--ET20R-Flight-Test-Engineer-----d-f-m-_JR10432538-1",
+   "title": "#ET20R Flight Test Engineer -  (d/f/m)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20R-Flight-Test-Engineer-----d-f-m-_JR10432538-1",
+   "posted": "Posted 2 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/XMLNAME--ET20A-Production-Lead-Flight-Test-Engineer--d-f-m-_JR10432544-1",
+   "title": "#ET20A Production Lead Flight Test Engineer (d/f/m)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Production-Lead-Flight-Test-Engineer--d-f-m-_JR10432544-1",
+   "posted": "Posted 2 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Programme-Project-Quality-Assurance_JR10402206-1",
+   "title": "Programme/Project Quality Assurance",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Programme-Project-Quality-Assurance_JR10402206-1",
+   "posted": "Posted 17 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---Teamleitung-Electronics-Engineering--d-m-w-_JR10444172-1",
+   "title": "Airbus DS Airborne Solutions GmbH – Teamleitung Electronics Engineering (d/m/w)",
+   "location": "Bremen Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---Teamleitung-Electronics-Engineering--d-m-w-_JR10444172-1",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---In-Service-Support-Engineer--d-m-w-_JR10444262-1",
+   "title": "Airbus DS Airborne Solutions GmbH – In-Service-Support Engineer (d/m/w)",
+   "location": "Bremen Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---In-Service-Support-Engineer--d-m-w-_JR10444262-1",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Junior-Entwicklungsingenieur--d-m-w--Digitale-High-Speed-Elektronik-fr-Raumfahrtanwendungen_JR10442343",
+   "title": "Junior Entwicklungsingenieur (d/m/w) Digitale High-Speed Elektronik für Raumfahrtanwendungen",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Junior-Entwicklungsingenieur--d-m-w--Digitale-High-Speed-Elektronik-fr-Raumfahrtanwendungen_JR10442343",
+   "posted": "Posted 15 Days Ago",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/XMLNAME--ET20A-Certification---Qualification-Engineer-Tiger-Programm--d-f-m-_JR10439405",
+   "title": "#ET20A_Certification - Qualification Engineer Tiger Programm (d/f/m)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Certification---Qualification-Engineer-Tiger-Programm--d-f-m-_JR10439405",
+   "posted": "Posted 14 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/Technical-Data-Production-Management-and-Project-Management--m-w-d-_JR10426849",
+   "title": "Technical Data Production Management and Project Management (m/f/d)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Technical-Data-Production-Management-and-Project-Management--m-w-d-_JR10426849",
+   "posted": "Posted 13 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Nordenham/Projektmanager-Transformation---Industrialisierung--m-w-d-_JR10438508-1",
+   "title": "Projektmanager Transformation & Industrialisierung (m/w/d)",
+   "location": "Nordenham",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nordenham/Projektmanager-Transformation---Industrialisierung--m-w-d-_JR10438508-1",
+   "posted": "Posted 13 Days Ago",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Nordenham/Projektleiter-Transformation-und-Industrialisierung--m-w-d-_JR10438830-1",
+   "title": "Projektleiter Transformation und Industrialisierung (m/w/d)",
+   "location": "Nordenham",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nordenham/Projektleiter-Transformation-und-Industrialisierung--m-w-d-_JR10438830-1",
+   "posted": "Posted 13 Days Ago",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/System-Engineer-Simulation---Knstliche-Intelligenz--KI---d-f-m-_JR10295603",
+   "title": "Study Engineer - GenAI & Agentic AI (KI) (d/f/m)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/System-Engineer-Simulation---Knstliche-Intelligenz--KI---d-f-m-_JR10295603",
+   "posted": "Posted 10 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Bremen-Area/Engineer-for-Rapid-Decompression-Analysis--d-f-m--_JR10440955-1",
+   "title": "Engineer for Rapid Decompression Analysis (d/f/m)",
+   "location": "Bremen Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Engineer-for-Rapid-Decompression-Analysis--d-f-m--_JR10440955-1",
+   "posted": "Posted 10 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "SYNERGIE Personal",
+   "id": "12704-F7Y48Y04AAW27CTW-S",
+   "title": "Zerspanungsmechaniker (m/w/d) Marinetechnologien",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-F7Y48Y04AAW27CTW-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Eletronic-Warfare-im-Weltraum-%28wmd%29-89077/1370059255/",
+   "title": "Systemingenieur Produktentwicklung für Eletronic Warfare im Weltraum (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Eletronic-Warfare-im-Weltraum-%28wmd%29-89077/1370059255/",
+   "posted": "2026-09-30",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Magirus",
+   "id": "2693329",
+   "title": "Elektrokonstrukteur (m/w/d)",
+   "location": "Ulm",
+   "url": "https://magirus.jobs.personio.de/job/2693329",
+   "posted": "2026-07-01",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Magirus",
+   "id": "2690350",
+   "title": "Entwicklungsingenieur E/E Drehleiter (m/w/d)",
+   "location": "Ulm",
+   "url": "https://magirus.jobs.personio.de/job/2690350",
+   "posted": "2026-06-29",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Magirus",
+   "id": "2686669",
+   "title": "Versuchsingenieur Steuerungstechnik - Drehleiter und Löschfahrzeuge (m/w/d)",
+   "location": "Ulm",
+   "url": "https://magirus.jobs.personio.de/job/2686669",
+   "posted": "2026-06-25",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/technik_manager_entwicklungssteuerung__m_w_d_/1097450",
+   "title": "Technik Manager - Entwicklungssteuerung (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/technik_manager_entwicklungssteuerung__m_w_d_/1097450",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/teamleiter_engineering___control__m_w_d_/1150016",
+   "title": "Teamleiter Engineering & Control (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/teamleiter_engineering___control__m_w_d_/1150016",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_ueberlebensfaehigkeit__m_w_d_/1060130",
+   "title": "Systemingenieur Überlebensfähigkeit (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Hamburg, Kassel, Kiel",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_ueberlebensfaehigkeit__m_w_d_/1060130",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "title": "Systemingenieur IT Solutions (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
+   "title": "Systemingenieur IT Solutions (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_e_e_architektur_digitale_systeme_m_w_d_/1050989",
+   "title": "Systemingenieur E/E Architektur Digitale Systeme(m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_e_e_architektur_digitale_systeme_m_w_d_/1050989",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_component_systems__m_w_d_/1061309",
+   "title": "Systemingenieur Component Systems (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_component_systems__m_w_d_/1061309",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_analyse___funktionales_design_digitaler_systeme__m_w_d_/1061219",
+   "title": "Systemingenieur Analyse & Funktionales Design Digitaler Systeme (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_analyse___funktionales_design_digitaler_systeme__m_w_d_/1061219",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/system_engineer_ils__m_w_d_/1110656",
+   "title": "System Engineer ILS (m/w/d)",
+   "location": "Rheinmetall Technical Publications GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/system_engineer_ils__m_w_d_/1110656",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/specialist_technology_and_innovation__m_w_d_/1137383",
+   "title": "Specialist Technology and Innovation (m/w/d)",
+   "location": "Rheinmetall AG | Düsseldorf",
+   "url": "https://www.rheinmetall.com/de/job/specialist_technology_and_innovation__m_w_d_/1137383",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/senior_systems_engineer_space__m_w_d_/1149932",
+   "title": "Senior Systems Engineer Space (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | München, Bremen",
+   "url": "https://www.rheinmetall.com/de/job/senior_systems_engineer_space__m_w_d_/1149932",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/senior_systems___network_engineer_taktische_netze__m_w_d_/1149929",
+   "title": "Senior Systems & Network Engineer — Taktische Netze (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | München, Bremen",
+   "url": "https://www.rheinmetall.com/de/job/senior_systems___network_engineer_taktische_netze__m_w_d_/1149929",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/senior_engineer_uav_systems___datalink_integration__m_w_d_/1149935",
+   "title": "Senior Engineer UAV Systems & Datalink Integration (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | München, Bremen",
+   "url": "https://www.rheinmetall.com/de/job/senior_engineer_uav_systems___datalink_integration__m_w_d_/1149935",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/sap_signavio_process_expert__m_w_d_/1145837",
+   "title": "SAP Signavio Process Expert (m/w/d)",
+   "location": "Rheinmetall IT Solutions GmbH | Düsseldorf, Berlin, Bremen, Unterlüß, Kassel, Kiel",
+   "url": "https://www.rheinmetall.com/de/job/sap_signavio_process_expert__m_w_d_/1145837",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/qualitaetsmanager_fertigung_waffenanlagen__m_w_d_/1151255",
+   "title": "Qualitätsmanager Fertigung Waffenanlagen (m/w/d)",
+   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/qualitaetsmanager_fertigung_waffenanlagen__m_w_d_/1151255",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/prozess_und_methodendesigner__m_w_d_/1119446",
+   "title": "Prozess- und Methodendesigner (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/prozess_und_methodendesigner__m_w_d_/1119446",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/production_engineer_surface_technology__m_w_d_/1155419",
+   "title": "Production Engineer Surface Technology (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/production_engineer_surface_technology__m_w_d_/1155419",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/praktikant_corporate_development__m_w_d_/1151225",
+   "title": "Praktikant Corporate Development (m/w/d)",
+   "location": "Rheinmetall Digital GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/praktikant_corporate_development__m_w_d_/1151225",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/lead_engineer_mechanical__m_w_d_/1176200",
+   "title": "Lead Engineer Mechanical (m/w/d)",
+   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/lead_engineer_mechanical__m_w_d_/1176200",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/klebfachingenieur__m_w_d_/1164986",
+   "title": "Klebfachingenieur (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kassel",
+   "url": "https://www.rheinmetall.com/de/job/klebfachingenieur__m_w_d_/1164986",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/ingenieur___konstrukteur_im_bereich_systemintegration__m_w_d_/1001453",
+   "title": "Ingenieur / Konstrukteur im Bereich Systemintegration (m/w/d)",
+   "location": "NVL B.V. & Co. KG | Hamburg, Lemwerder",
+   "url": "https://www.rheinmetall.com/de/job/ingenieur___konstrukteur_im_bereich_systemintegration__m_w_d_/1001453",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/globaler_prozess_manager_accounting__m_w_d_/961499",
+   "title": "Globaler Prozess Manager Accounting (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Unterlüß, Kassel, Kiel",
+   "url": "https://www.rheinmetall.com/de/job/globaler_prozess_manager_accounting__m_w_d_/961499",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/fertigungspruefer_artilleriewerk__m_w_d_/1058825",
+   "title": "Fertigungsprüfer Artilleriewerk (m/w/d)",
+   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/fertigungspruefer_artilleriewerk__m_w_d_/1058825",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektromechanik__m_w_d_/1081205",
+   "title": "Entwicklungsingenieur Elektromechanik (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kiel",
+   "url": "https://www.rheinmetall.com/de/job/entwicklungsingenieur_elektromechanik__m_w_d_/1081205",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/entwicklungsingenieur__m_w_d_/1176185",
+   "title": "Entwicklungsingenieur (m/w/d)",
+   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/entwicklungsingenieur__m_w_d_/1176185",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/central_packaging_planning_engineer__m_w_d_/1177622",
+   "title": "Central Packaging Planning Engineer (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Unterlüß, Kassel, Kiel",
+   "url": "https://www.rheinmetall.com/de/job/central_packaging_planning_engineer__m_w_d_/1177622",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/berechnungsingenieur__m_w_d_/1176182",
+   "title": "Berechnungsingenieur  (m/w/d)",
+   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/berechnungsingenieur__m_w_d_/1176182",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00"
+  },
   {
    "company": "Marquardt",
    "id": "10001-1003829790-S",
@@ -3654,7 +4654,8 @@
    "posted": "2026-07-24",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3665,8 +4666,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3677,8 +4677,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3689,8 +4688,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3749,8 +4747,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3773,8 +4770,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3785,8 +4781,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3797,8 +4792,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3809,8 +4803,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3821,8 +4814,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3833,8 +4825,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3845,8 +4836,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3857,8 +4847,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3893,8 +4882,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3905,8 +4893,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3917,8 +4904,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3929,8 +4915,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -3977,8 +4962,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4001,8 +4985,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4013,8 +4996,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4025,8 +5007,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4037,8 +5018,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4061,8 +5041,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4073,8 +5052,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4085,8 +5063,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4097,8 +5074,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4109,8 +5085,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4121,8 +5096,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4133,8 +5107,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4145,8 +5118,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4169,20 +5141,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1112291",
-   "title": "Projektqualitätsmanager (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1112291",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4193,8 +5152,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4205,8 +5163,18 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1112291",
+   "title": "Projektqualitätsmanager (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1112291",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4229,8 +5197,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4241,8 +5208,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4253,8 +5219,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4265,8 +5230,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4277,8 +5241,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4289,8 +5252,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4301,8 +5263,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4313,8 +5274,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4325,8 +5285,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4337,8 +5296,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4361,8 +5319,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4385,8 +5342,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4397,8 +5353,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4409,8 +5364,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4421,8 +5375,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4433,8 +5386,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4457,8 +5409,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4469,8 +5420,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4481,8 +5431,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4493,8 +5442,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4505,8 +5453,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4517,8 +5464,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4529,8 +5475,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4553,8 +5498,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4565,8 +5509,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4577,8 +5520,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4589,8 +5531,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4601,8 +5542,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4649,8 +5589,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4661,8 +5600,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4673,8 +5611,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4685,8 +5622,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4697,8 +5633,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4709,8 +5644,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4721,8 +5655,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4733,8 +5666,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4745,8 +5677,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4757,8 +5688,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4769,8 +5699,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4781,8 +5710,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4793,8 +5721,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4805,8 +5732,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-09T06:32:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -4861,6 +5787,17 @@
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-HF-Entwicklungsingenieur-f%C3%BCr-AESA-Systeme-%28wmd%29-89077/1331012355/",
    "posted": "2026-10-09",
    "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Diehl",
+   "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/projektleitung-m-w-d-weiterentwicklung-ram-essm",
+   "title": "Projektleitung (m/w/d) Weiterentwicklung RAM & ESSM",
+   "location": "Überlingen am Bodensee",
+   "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/projektleitung-m-w-d-weiterentwicklung-ram-essm",
+   "posted": "2026-10-09",
+   "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
@@ -5038,7 +5975,8 @@
    "posted": "2026-10-08",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Continental Aktiengesellschaft",
@@ -5973,7 +6911,8 @@
    "posted": "2026-09-30",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -7481,7 +8420,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Diehl",
@@ -8656,17 +9596,6 @@
    "location": "Überlingen am Bodensee",
    "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/it-security-architekt-engineer-m-w-d",
    "posted": "2026-08-11",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Diehl",
-   "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/projektleitung-m-w-d-weiterentwicklung-ram-essm",
-   "title": "Projektleitung (m/w/d) Weiterentwicklung RAM & ESSM",
-   "location": "Überlingen am Bodensee",
-   "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/projektleitung-m-w-d-weiterentwicklung-ram-essm",
-   "posted": "2026-08-10",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
@@ -9978,7 +10907,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9989,7 +10919,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10033,7 +10964,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10081,17 +11013,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
-   "title": "Systementwickler Konstruktion & Signalverarbeitung (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040417",
    "title": "Systementwickler Konstruktion & Signalverarbeitung (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -10100,6 +11021,18 @@
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
+   "title": "Systementwickler Konstruktion & Signalverarbeitung (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10154,7 +11087,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10165,7 +11099,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -10191,17 +11126,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1030334",
-   "title": "Projektqualitätsmanager (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1030334",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1086125",
    "title": "Projektqualitätsmanager (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -10210,6 +11134,18 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1030334",
+   "title": "Projektqualitätsmanager (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1030334",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -16309,7 +17245,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "TKMS",
@@ -20386,7 +21323,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Robert Bosch",
@@ -35315,7 +36253,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Bürger",
@@ -40169,7 +41108,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Bardusch",
@@ -41572,48 +42512,12 @@
    "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Airbus (Workday, Hamburg)",
-   "id": "/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
-   "title": "ERP Specialist Manufacturing Engineering and Schopfloor (H/F)",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
-   "posted": "Posted Yesterday",
-   "match": 2,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site"
-  },
-  {
-   "company": "Airbus (Workday, Hamburg)",
-   "id": "/job/Toulouse-Area/DataLink-and-Communication-Systems-Test-Engineer--m-f-_JR10438951-1",
-   "title": "Datalink Systems Test Engineer (h/f)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/DataLink-and-Communication-Systems-Test-Engineer--m-f-_JR10438951-1",
-   "posted": "Posted 8 Days Ago",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "closed_at": "2026-10-08T15:38:14+00:00"
-  },
-  {
    "company": "Thales (Workday, Germany)",
    "id": "/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
    "title": "System Test Engineer / IVVQ Engineer (m/f/d) Radar",
    "location": "DITZINGEN SRA OME",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
    "posted": "Posted 7 Days Ago",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site"
-  },
-  {
-   "company": "Airbus (Workday, Hamburg)",
-   "id": "/job/Toulouse-Area/Lab-test-means-integration-tests-engineer--m-f-_JR10429821-1",
-   "title": "Lab test means integration tests engineer (m/f)",
-   "location": "Toulouse Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/Lab-test-means-integration-tests-engineer--m-f-_JR10429821-1",
-   "posted": "Posted 6 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -41710,18 +42614,6 @@
    "location": "Stuttgart",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Stuttgart/ERP-Engineer---SAP-HCM--m-w-d--befristet-fr-2-Jahre_R0335160",
    "posted": "Posted 30+ Days Ago",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site"
-  },
-  {
-   "company": "Airbus (Workday, Hamburg)",
-   "id": "/job/Mobile-Area-AL/Retrofit-Solutions-Engineer--Contract-_JR10444763",
-   "title": "Retrofit Solutions Engineer (Contract)",
-   "location": "Mobile Area, AL",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mobile-Area-AL/Retrofit-Solutions-Engineer--Contract-_JR10444763",
-   "posted": "Posted 2 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -42005,5 +42897,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-09T06:32:55+00:00"
+ "updated": "2026-10-09T06:46:00+00:00"
 }
