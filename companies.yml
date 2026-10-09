@@ -49,7 +49,7 @@ workers: 4
 
 companies:
   # ---- Your own career-system feeds -------------------------------------------------------
-  - {name: "Airbus (Workday, Hamburg)", type: workday, host: "ag.wd3.myworkdayjobs.com", tenant: "ag", site: "Airbus", search: "Hamburg", max_pages: 15}
+  - {name: "Airbus (Workday, Germany)", type: workday, host: "ag.wd3.myworkdayjobs.com", tenant: "ag", site: "Airbus", search: [Germany, Hamburg, Bremen, Manching, Ottobrunn, Friedrichshafen, Stade, Donauwörth, Immenstaad], max_pages: 30, locations: de}
   - {name: "CERN", type: smartrecruiters, company_id: "CERN"}
   - {name: "Thales (Workday, Germany)", type: workday, host: "thales.wd3.myworkdayjobs.com", tenant: "thales", site: "Careers", search: "Germany", max_pages: 10}
   - {name: "ESA", type: successfactors, url: "https://jobs.esa.int", max_pages: 10}
@@ -277,7 +277,7 @@ companies:
   - {name: "Herrenknecht", type: arbeitsagentur, employer: "Herrenknecht", tier: slow}
   - {name: "Hofmann Menü-Manufaktur", type: arbeitsagentur, employer: "Hofmann Menü-Manufaktur", tier: slow}
   - {name: "Hofmeister Wohnzentren", type: arbeitsagentur, employer: "Hofmeister Wohnzentren", tier: slow}
-  - {name: "Hohenstein", type: arbeitsagentur, employer: "Hohenstein", tier: slow}
+  - {name: "Hohenstein", type: personio, subdomain: "hohenstein", tier: slow}
   - {name: "Homag", type: arbeitsagentur, employer: "HOMAG", tier: slow}
   - {name: "HP", type: arbeitsagentur, employer: "HP", tier: slow}
   - {name: "Hubert Burda Media Kommanditgesellschaft", type: arbeitsagentur, employer: "Hubert Burda Media Kommanditgesellschaft", tier: slow}
@@ -320,7 +320,7 @@ companies:
   - {name: "Leonhard Weiss", type: arbeitsagentur, employer: "LEONHARD WEISS", tier: slow}
   - {name: "LGI Logistics", type: arbeitsagentur, employer: "LGI Logistics", tier: slow}
   - {name: "Liqui Moly", type: arbeitsagentur, employer: "LIQUI MOLY", tier: slow}
-  - {name: "Magirus", type: arbeitsagentur, employer: "Magirus", tier: slow}
+  - {name: "Magirus", type: personio, subdomain: "magirus", tier: slow}
   - {name: "Mahle", type: arbeitsagentur, employer: "MAHLE", max_pages: 6, tier: slow}
   - {name: "Mann+hummel", type: arbeitsagentur, employer: "MANN+HUMMEL", tier: slow}
   - {name: "Mannheimer Versicherung", type: arbeitsagentur, employer: "Mannheimer Versicherung", tier: slow}
