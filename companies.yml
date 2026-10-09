@@ -724,3 +724,67 @@ companies:
   - {name: "APWorks", type: arbeitsagentur, employer: "APWorks", tier: slow}
   - {name: "Fraunhofer IAPT", type: arbeitsagentur, employer: "Fraunhofer", keywords: "additive", tier: slow}
   - {name: "Lufthansa Technik (additive)", type: arbeitsagentur, employer: "Lufthansa Technik", keywords: "additive", tier: slow}
+
+  # ---- More own-site readers --------------------------------------------------------------------
+  - {name: "Bosch", type: smartrecruiters, company_id: "BoschGroup", locations: de, tier: slow}
+  - {name: "Aumovio", type: smartrecruiters, company_id: "Aumovio", locations: de, tier: slow}
+  - {name: "Wabtec", type: smartrecruiters, company_id: "Wabtec", locations: de, tier: slow}
+  - {name: "Tenstorrent", type: greenhouse, board: "tenstorrent", locations: de}
+  - {name: "Nebius", type: greenhouse, board: "nebius", locations: de}
+  - {name: "Together AI", type: greenhouse, board: "togetherai", locations: de}
+  - {name: "Rocket Lab", type: greenhouse, board: "rocketlab", locations: de}
+  - {name: "Lightmatter", type: greenhouse, board: "lightmatter", locations: de}
+  - {name: "Crusoe", type: ashby, board: "crusoe", locations: de}
+  - {name: "Etched", type: ashby, board: "etched", locations: de}
+  - {name: "Fluidstack", type: ashby, board: "fluidstack", locations: de}
+  - {name: "Saronic", type: ashby, board: "saronic", locations: de}
+
+  # ---- More employers via agency fallback (hidden unless "Include agency listings" is on) ----------
+  - {name: "Siemens Energy", type: arbeitsagentur, employer: "Siemens Energy", tier: slow}
+  - {name: "Siemens", type: arbeitsagentur, employer: "Siemens", tier: slow}
+  - {name: "KUKA", type: arbeitsagentur, employer: "KUKA", tier: slow}
+  - {name: "Dassault Systèmes", type: arbeitsagentur, employer: "Dassault Systèmes", tier: slow}
+  - {name: "Volocopter", type: arbeitsagentur, employer: "Volocopter", tier: slow}
+  - {name: "Lilium", type: arbeitsagentur, employer: "Lilium", tier: slow}
+  - {name: "Magna", type: arbeitsagentur, employer: "Magna", tier: slow}
+  - {name: "Knorr-Bremse", type: arbeitsagentur, employer: "Knorr-Bremse", tier: slow}
+  - {name: "Dräger", type: arbeitsagentur, employer: "Dräger", tier: slow}
+  - {name: "Linde", type: arbeitsagentur, employer: "Linde", tier: slow}
+  - {name: "MAN Energy Solutions", type: arbeitsagentur, employer: "MAN Energy Solutions", tier: slow}
+  - {name: "Beyond Gravity", type: arbeitsagentur, employer: "Beyond Gravity", tier: slow}
+  - {name: "Teledyne", type: arbeitsagentur, employer: "Teledyne", tier: slow}
+  - {name: "Parker Hannifin", type: arbeitsagentur, employer: "Parker Hannifin", tier: slow}
+  - {name: "AVL", type: arbeitsagentur, employer: "AVL", tier: slow}
+  - {name: "Alstom", type: arbeitsagentur, employer: "Alstom", tier: slow}
+  - {name: "Stadler", type: arbeitsagentur, employer: "Stadler", tier: slow}
+  - {name: "Hitachi Energy", type: arbeitsagentur, employer: "Hitachi Energy", tier: slow}
+  - {name: "Phoenix Contact", type: arbeitsagentur, employer: "Phoenix Contact", tier: slow}
+  - {name: "Sulzer", type: arbeitsagentur, employer: "Sulzer", tier: slow}
+  - {name: "thyssenkrupp", type: arbeitsagentur, employer: "thyssenkrupp", tier: slow}
+  - {name: "Salzgitter", type: arbeitsagentur, employer: "Salzgitter", tier: slow}
+  - {name: "Aurubis", type: arbeitsagentur, employer: "Aurubis", tier: slow}
+  - {name: "Wacker", type: arbeitsagentur, employer: "Wacker", tier: slow}
+  - {name: "SGL Carbon", type: arbeitsagentur, employer: "SGL Carbon", tier: slow}
+  - {name: "MT Aerospace", type: arbeitsagentur, employer: "MT Aerospace", tier: slow}
+  - {name: "Jena-Optronik", type: arbeitsagentur, employer: "Jena-Optronik", tier: slow}
+  - {name: "Coherent", type: arbeitsagentur, employer: "Coherent", tier: slow}
+  - {name: "LPKF", type: arbeitsagentur, employer: "LPKF", tier: slow}
+  - {name: "Renesas", type: arbeitsagentur, employer: "Renesas", tier: slow}
+  - {name: "Microchip", type: arbeitsagentur, employer: "Microchip", tier: slow}
+  - {name: "Analog Devices", type: arbeitsagentur, employer: "Analog Devices", tier: slow}
+  - {name: "Synopsys", type: arbeitsagentur, employer: "Synopsys", tier: slow}
+  - {name: "Cadence", type: arbeitsagentur, employer: "Cadence", tier: slow}
+  - {name: "Elbe Flugzeugwerke", type: arbeitsagentur, employer: "Elbe Flugzeugwerke", tier: slow}
+  - {name: "Fokker", type: arbeitsagentur, employer: "Fokker", tier: slow}
+  - {name: "Mynaric", type: arbeitsagentur, employer: "Mynaric", tier: slow}
+  - {name: "Constellr", type: arbeitsagentur, employer: "Constellr", tier: slow}
+  - {name: "OroraTech", type: arbeitsagentur, employer: "OroraTech", tier: slow}
+  - {name: "Reflex Aerospace", type: arbeitsagentur, employer: "Reflex Aerospace", tier: slow}
+  - {name: "Polaris Raumflugzeuge", type: arbeitsagentur, employer: "Polaris Raumflugzeuge", tier: slow}
+  - {name: "HyImpulse", type: arbeitsagentur, employer: "HyImpulse", tier: slow}
+  - {name: "Auterion", type: arbeitsagentur, employer: "Auterion", tier: slow}
+  - {name: "Dedrone", type: arbeitsagentur, employer: "Dedrone", tier: slow}
+  - {name: "Alpine Eagle", type: arbeitsagentur, employer: "Alpine Eagle", tier: slow}
+  - {name: "Max Planck", type: arbeitsagentur, employer: "Max Planck", tier: slow}
+  - {name: "Bombardier", type: arbeitsagentur, employer: "Bombardier", tier: slow}
+  - {name: "Embraer", type: arbeitsagentur, employer: "Embraer", tier: slow}
