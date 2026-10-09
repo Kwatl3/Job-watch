@@ -35,6 +35,13 @@ filters:
             software, devops, administrator, sales, vertrieb, marketing, recruit, personalentwicklung,
             business development, buchhalt, finanz]
   locations: []
+  # Used by companies with "locations: de" (Germany only): a job passes if its location says DE / Germany /
+  # Deutschland, or contains one of these places.
+  de_locations: [Hamburg, Bremen, Berlin, München, Munich, Ottobrunn, Taufkirchen, Manching, Augsburg, Stuttgart,
+                 Ulm, Friedrichshafen, Überlingen, Oberkochen, Koblenz, Kiel, Rostock, Lemwerder, Varel, Stade,
+                 Buxtehude, Nordenham, Donauwörth, Immenstaad, Bonn, Köln, Cologne, Düsseldorf, Unterlüß, Kassel,
+                 Nürnberg, Nuremberg, Erlangen, Karlsruhe, Mannheim, Frankfurt, Hannover, Darmstadt, Dresden, Leipzig,
+                 Jena, Oberpfaffenhofen, Weßling, Wessling, Aachen, Dortmund, Essen, Neuburg, Laupheim, Speyer, Wetzlar]
 
 closed_retention_days: 14   # closed jobs stay visible (greyed out) this long
 new_window_hours: 48        # how long a job carries the NEW badge
@@ -43,12 +50,11 @@ workers: 4
 companies:
   # ---- Your own career-system feeds -------------------------------------------------------
   - {name: "Airbus (Workday, Hamburg)", type: workday, host: "ag.wd3.myworkdayjobs.com", tenant: "ag", site: "Airbus", search: "Hamburg", max_pages: 15}
-  - {name: "Airbus (Germany, agency feed)", type: arbeitsagentur, employer: "Airbus", max_pages: 19}
   - {name: "CERN", type: smartrecruiters, company_id: "CERN"}
   - {name: "Thales (Workday, Germany)", type: workday, host: "thales.wd3.myworkdayjobs.com", tenant: "thales", site: "Careers", search: "Germany", max_pages: 10}
-  - {name: "ESA", type: arbeitsagentur, employer: "European Space Agency"}
-  - {name: "EUMETSAT", type: arbeitsagentur, employer: "EUMETSAT"}
-  - {name: "Astos Solutions", type: arbeitsagentur, employer: "Astos Solutions"}
+  - {name: "ESA", type: successfactors, url: "https://jobs.esa.int", max_pages: 10}
+  - {name: "EUMETSAT", type: onlyfy, subdomain: "eumetsat"}
+  - {name: "Astos Solutions", type: html, url: "https://www.astos.de/company/careers", item: 'a[href^="/company/careers/"]', title: self, location_text: "Stuttgart"}
 
 
   # ---- European defence companies (FRS panel) ---------------------------------------------------
@@ -68,11 +74,11 @@ companies:
   - {name: "Explosia", type: arbeitsagentur, employer: "EXPLOSIA", tier: slow}
   - {name: "LOM Praha", type: arbeitsagentur, employer: "LOM PRAHA", tier: slow}
   - {name: "VOP CZ", type: arbeitsagentur, employer: "VOP CZ", tier: slow}
-  - {name: "Rheinmetall", type: arbeitsagentur, employer: "RHEINMETALL"}
-  - {name: "MTU Aero Engines", type: arbeitsagentur, employer: "MTU Aero Engines"}
-  - {name: "Diehl", type: arbeitsagentur, employer: "DIEHL"}
+  - {name: "Rheinmetall", type: html, url: "https://www.rheinmetall.com/de/karriere/aktuelle-stellenangebote", item: "div.group:has(a.flex-grow)", link: "a.flex-grow", title: lines, drop: ["Job"], strip_prefix: "Job ", page_param: page, max_pages: 150, locations: de, tier: slow}
+  - {name: "MTU Aero Engines", type: html, url: "https://www.mtu.de/careers/online-job-market/s/all/all/all/all/", item: "div.jobs-list__item", link: 'a[href*="/job-posting/"]', title: lines, locations: de}
+  - {name: "Diehl", type: html, url: "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse", item: "ul.vacancies li", link: 'a[href*="/vacancies/"]', title: "h3.headline", location: span, location_index: -1, date: "p.date", page_param: p, max_pages: 60, locations: de, tier: slow}
   - {name: "Rohde & Schwarz", type: arbeitsagentur, employer: "Rohde & Schwarz"}
-  - {name: "Hensoldt", type: arbeitsagentur, employer: "HENSOLDT"}
+  - {name: "Hensoldt", type: successfactors, url: "https://jobs.hensoldt.net", max_pages: 30, locations: de}
   - {name: "TKMS", type: arbeitsagentur, employer: "TKMS", employer_match: ["thyssenkrupp Marine Systems"]}
   - {name: "RENK", type: arbeitsagentur, employer: "RENK"}
   - {name: "OHB", type: arbeitsagentur, employer: "OHB"}
@@ -189,7 +195,7 @@ companies:
   - {name: "Conductix-Wampfler", type: arbeitsagentur, employer: "Conductix-Wampfler", tier: slow}
   - {name: "confern Möbeltransportbetriebe", type: arbeitsagentur, employer: "confern Möbeltransportbetriebe", tier: slow}
   - {name: "Constellium Singen", type: arbeitsagentur, employer: "Constellium Singen", tier: slow}
-  - {name: "Continental Aktiengesellschaft", type: arbeitsagentur, employer: "Continental Aktiengesellschaft", tier: slow}
+  - {name: "Continental Aktiengesellschaft", type: smartrecruiters, company_id: "continental", locations: de, tier: slow}
   - {name: "Cronimet", type: arbeitsagentur, employer: "CRONIMET", tier: slow}
   - {name: "Daimler Buses", type: arbeitsagentur, employer: "Daimler Buses", max_pages: 6, tier: slow}
   - {name: "Daimler Truck", type: arbeitsagentur, employer: "Daimler Truck", max_pages: 6, tier: slow}
@@ -562,7 +568,7 @@ companies:
   - {name: "Robert Bosch", type: arbeitsagentur, employer: "Robert Bosch", max_pages: 6, tier: slow}
   - {name: "Rolf Benz", type: arbeitsagentur, employer: "Rolf Benz", tier: slow}
   - {name: "ndvik Tooling Supply Renningen ZN der Sandvik Tooling", type: arbeitsagentur, employer: "ndvik Tooling Supply Renningen ZN der Sandvik Tooling", tier: slow}
-  - {name: "Syntegon Technology", type: arbeitsagentur, employer: "Syntegon Technology", tier: slow}
+  - {name: "Syntegon Technology", type: smartrecruiters, company_id: "syntegon", locations: de, tier: slow}
   - {name: "teamtechnik Automation", type: arbeitsagentur, employer: "teamtechnik Automation", tier: slow}
   - {name: "Telegärtner Karl Gärtner", type: arbeitsagentur, employer: "Telegärtner Karl Gärtner", tier: slow}
   - {name: "Thermal Management Solutions DE Oberboihingen", type: arbeitsagentur, employer: "Thermal Management Solutions DE Oberboihingen", tier: slow}
@@ -627,13 +633,13 @@ companies:
   - {name: "Hagenuk Marinekommunikation", type: arbeitsagentur, employer: "Hagenuk Marinekommunikation"}
   - {name: "Elbit Systems", type: arbeitsagentur, employer: "Elbit Systems"}
   - {name: "Kongsberg", type: arbeitsagentur, employer: "Kongsberg"}
-  - {name: "Helsing", type: arbeitsagentur, employer: "Helsing"}
-  - {name: "Stark Defence", type: arbeitsagentur, employer: "Stark Defence"}
+  - {name: "Helsing", type: greenhouse, board: "helsing", locations: de}
+  - {name: "Stark Defence", type: personio, subdomain: "stark"}
   - {name: "ARX Robotics", type: arbeitsagentur, employer: "ARX Robotics"}
   - {name: "Tytan Technologies", type: arbeitsagentur, employer: "Tytan Technologies"}
-  - {name: "Isar Aerospace", type: arbeitsagentur, employer: "Isar Aerospace"}
+  - {name: "Isar Aerospace", type: greenhouse, board: "isaraerospace"}
   - {name: "Rocket Factory Augsburg", type: arbeitsagentur, employer: "Rocket Factory Augsburg"}
-  - {name: "The Exploration Company", type: arbeitsagentur, employer: "The Exploration Company"}
+  - {name: "The Exploration Company", type: ashby, board: "the-exploration-company"}
   - {name: "Autoflug", type: arbeitsagentur, employer: "Autoflug"}
   - {name: "Cobham", type: arbeitsagentur, employer: "Cobham"}
   - {name: "Airbus Defence and Space", type: arbeitsagentur, employer: "Airbus Defence and Space"}
