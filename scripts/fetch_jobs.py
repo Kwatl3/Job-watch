@@ -44,6 +44,14 @@ OUT_PATH = ROOT / "docs" / "jobs.json"
 UA = "Mozilla/5.0 (compatible; personal-job-dashboard/1.0)"
 TIMEOUT = 30
 
+BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"}
+
+
+def snip(t: str, n: int = 100) -> str:
+    return re.sub(r"\s+", " ", t[:n])
+
+
 _tls = threading.local()
 
 
@@ -250,10 +258,12 @@ def fetch_html(c: dict) -> list[dict]:
     empty = 0
     for page in range(int(c.get("start_page", 1)), int(c.get("start_page", 1)) + pages):
         params = {c["page_param"]: page} if c.get("page_param") else None
-        r = sess().get(c["url"], params=params, timeout=TIMEOUT)
+        r = sess().get(c["url"], params=params, headers=BROWSER if c.get("browser") else None, timeout=TIMEOUT)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         added = 0
+        if c.get("strict") and page == int(c.get("start_page", 1)) and not soup.select(c["item"]):
+            raise RuntimeError(f"no items on first page (HTTP {r.status_code}, {len(r.text)} bytes, starts: {snip(r.text)})")
         for item in soup.select(c["item"]):
             a = item.select_one(c["link"]) if c.get("link") else (item if item.name == "a" else item.find("a"))
             if not a or not a.get("href"):
@@ -455,9 +465,14 @@ def fetch_phenom(c: dict) -> list[dict]:
                 "size": size, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
                 "pageId": c.get("page_id", "page15"), "siteType": "external", "keywords": c.get("search", ""),
                 "global": True, "selected_fields": {"country": [country]} if country else {}, "locationData": {}}
-        r = sess().post(base + "/widgets", json=body, timeout=TIMEOUT)
+        r = sess().post(base + "/widgets", json=body, headers=BROWSER, timeout=TIMEOUT)
         r.raise_for_status()
-        d = r.json().get("refineSearch") or {}
+        try:
+            d = r.json().get("refineSearch") or {}
+        except ValueError:
+            raise RuntimeError(f"phenom: not JSON (HTTP {r.status_code}, {len(r.text)} bytes, starts: {snip(r.text)})")
+        if frm == 0 and not d:
+            raise RuntimeError(f"phenom: no refineSearch in reply ({snip(r.text, 150)})")
         jobs = (d.get("data") or {}).get("jobs") or []
         for j in jobs:
             jid = str(j.get("jobId") or j.get("reqId"))
@@ -482,11 +497,13 @@ def fetch_avature(c: dict) -> list[dict]:
     step, offset, empty = 6, 0, 0
     for _ in range(int(c.get("max_pages", 120))):
         r = sess().get(base + "/", params={"search": c.get("search", ""), "folderRecordsPerPage": step,
-                                          "folderOffset": offset}, timeout=TIMEOUT)
+                                          "folderOffset": offset}, headers=BROWSER, timeout=TIMEOUT)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         arts = soup.select("article")
         added = 0
+        if offset == 0 and not arts:
+            raise RuntimeError(f"avature: no results (HTTP {r.status_code}, {len(r.text)} bytes)")
         for art in arts:
             a = art.select_one("a.link[href]")
             if not a:
@@ -499,6 +516,8 @@ def fetch_avature(c: dict) -> list[dict]:
             loc = txt.split(title, 1)[-1].split("•")[0].strip()
             out[url] = {"id": url, "title": title, "location": loc, "url": url, "posted": ""}
             added += 1
+        if offset == step and not added:
+            raise RuntimeError(f"avature: page 2 repeats page 1 (offset ignored?) after {len(out)} jobs")
         empty = 0 if added else empty + 1
         if not arts or empty >= 2:
             break
