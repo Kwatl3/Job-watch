@@ -94,8 +94,6 @@ companies:
   - {name: "Sener", type: arbeitsagentur, employer: "SENER"}
   - {name: "Oesia", type: arbeitsagentur, employer: "OESIA", tier: slow}
   - {name: "Patria", type: arbeitsagentur, employer: "PATRIA", tier: slow}
-  - {name: "Safran", type: arbeitsagentur, employer: "SAFRAN"}
-  - {name: "Dassault Aviation", type: arbeitsagentur, employer: "DASSAULT AVIATION"}
   - {name: "Sopra Steria", type: arbeitsagentur, employer: "SOPRA STERIA", tier: slow}
   - {name: "Naval", type: arbeitsagentur, employer: "NAVAL"}
   - {name: "Chantiers de l'Atlantique", type: arbeitsagentur, employer: "Chantiers de l'Atlantique", tier: slow}
@@ -593,7 +591,6 @@ companies:
   - {name: "Liebherr-Aerospace", type: arbeitsagentur, employer: "Liebherr-Aerospace"}
   - {name: "Collins Aerospace", type: arbeitsagentur, employer: "Collins Aerospace"}
   - {name: "Honeywell Aerospace", type: arbeitsagentur, employer: "Honeywell Aerospace"}
-  - {name: "GE Aerospace", type: arbeitsagentur, employer: "GE Aerospace"}
   - {name: "Pratt & Whitney", type: arbeitsagentur, employer: "Pratt & Whitney"}
   - {name: "Boeing", type: arbeitsagentur, employer: "Boeing"}
   - {name: "Northrop Grumman", type: arbeitsagentur, employer: "Northrop Grumman"}
@@ -741,7 +738,7 @@ companies:
 
   # ---- More employers via agency fallback (hidden unless "Include agency listings" is on) ----------
   - {name: "Siemens Energy", type: arbeitsagentur, employer: "Siemens Energy", tier: slow}
-  - {name: "Siemens", type: arbeitsagentur, employer: "Siemens", tier: slow}
+  - {name: "Siemens", type: avature, url: "https://jobs.siemens.com/de_DE/externaljobs/SearchJobs", search: "Germany", max_pages: 120, locations: de, tier: slow}
   - {name: "KUKA", type: arbeitsagentur, employer: "KUKA", tier: slow}
   - {name: "Dassault Systèmes", type: arbeitsagentur, employer: "Dassault Systèmes", tier: slow}
   - {name: "Volocopter", type: arbeitsagentur, employer: "Volocopter", tier: slow}
@@ -788,3 +785,8 @@ companies:
   - {name: "Max Planck", type: arbeitsagentur, employer: "Max Planck", tier: slow}
   - {name: "Bombardier", type: arbeitsagentur, employer: "Bombardier", tier: slow}
   - {name: "Embraer", type: arbeitsagentur, employer: "Embraer", tier: slow}
+
+  # ---- From links you sent (own career sites) ---------------------------------------------------
+  - {name: "GE Aerospace", type: phenom, url: "https://careers.geaerospace.com/global/en", country: "Germany", tier: slow}
+  - {name: "Safran", type: html, url: "https://www.safran-group.com/jobs?countries%5B%5D=1023-germany", item: ".c-offer-item", link: "a.c-offer-item__title", title: lines, page_param: page, start_page: 0, max_pages: 10, locations: de, tier: slow}
+  - {name: "Dassault Aviation", type: html, url: "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-toutes-offres.aspx?LCID=1033", item: "li.ts-offer-list-item", link: "a.ts-offer-list-item__title-link", title: "a.ts-offer-list-item__title-link", location: ".noBorder", page_param: page, start_page: 1, max_pages: 14, tier: slow}
