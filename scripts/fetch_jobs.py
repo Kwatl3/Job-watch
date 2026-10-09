@@ -237,24 +237,52 @@ def fetch_personio(c: dict) -> list[dict]:
 
 
 def fetch_html(c: dict) -> list[dict]:
-    r = sess().get(c["url"], timeout=TIMEOUT)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    """Generic list page. Options: item (CSS), title (CSS | self | lines), link, location (CSS),
+    location_text, page_param + max_pages (for paged lists), drop (words to ignore in lines mode).
+    title: lines -> the first text line of the item is the title, the remaining lines the location."""
     out: dict[str, dict] = {}
-    for item in soup.select(c["item"]):
-        t = item.select_one(c["title"]) if c.get("title") and c["title"] != "self" else item
-        a = item.select_one(c["link"]) if c.get("link") else (item if item.name == "a" else item.find("a"))
-        if not t or not a or not a.get("href"):
-            continue
-        loc = item.select_one(c["location"]) if c.get("location") else None
-        url = urljoin(c["url"], a["href"])
-        out[url] = {
-            "id": url,
-            "title": re.sub(r"\s*\((?:DE|EN)\)\s*$", "", t.get_text(" ", strip=True)),
-            "location": loc.get_text(" ", strip=True) if loc else c.get("location_text", ""),
-            "url": url,
-            "posted": "",
-        }
+    pages = int(c.get("max_pages", 1)) if c.get("page_param") else 1
+    for page in range(int(c.get("start_page", 1)), int(c.get("start_page", 1)) + pages):
+        params = {c["page_param"]: page} if c.get("page_param") else None
+        r = sess().get(c["url"], params=params, timeout=TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        added = 0
+        for item in soup.select(c["item"]):
+            a = item.select_one(c["link"]) if c.get("link") else (item if item.name == "a" else item.find("a"))
+            if not a or not a.get("href"):
+                continue
+            url = urljoin(c["url"], a["href"])
+            if url in out:
+                continue
+            if c.get("title") == "lines":
+                drop = {w.lower() for w in c.get("drop", [])} | {"new", "read more"}
+                lines = [x for x in item.get_text("\n", strip=True).split("\n") if x.lower() not in drop]
+                if not lines:
+                    continue
+                title, loc_txt = lines[0], " | ".join(lines[1:])
+            else:
+                t = item.select_one(c["title"]) if c.get("title") and c["title"] != "self" else item
+                if not t:
+                    continue
+                title = t.get_text(" ", strip=True)
+                locs = item.select(c["location"]) if c.get("location") else []
+                loc = locs[int(c.get("location_index", 0))] if len(locs) > abs(int(c.get("location_index", 0))) - (1 if int(c.get("location_index", 0)) < 0 else 0) else None
+                loc_txt = loc.get_text(" ", strip=True) if loc else c.get("location_text", "")
+            if c.get("strip_prefix") and title.startswith(c["strip_prefix"]):
+                title = title[len(c["strip_prefix"]):]
+            out[url] = {
+                "id": url,
+                "title": re.sub(r"\s*\((?:DE|EN)\)\s*$", "", title),
+                "location": loc_txt,
+                "url": url,
+                "posted": "",
+            }
+            if c.get("date") and item.select_one(c["date"]):
+                out[url]["posted"] = sf_date(item.select_one(c["date"]).get_text(" ", strip=True))
+            added += 1
+        if c.get("page_param") and not added:
+            break
     return list(out.values())
 
 
@@ -286,6 +314,17 @@ def fetch_onlyfy(c: dict) -> list[dict]:
     return list(out.values())
 
 
+def sf_date(txt: str) -> str:
+    """'2026-10-09' or 'Oct 9, 2026' or '09.10.2026' -> '2026-10-09' ('' if unknown)."""
+    txt = txt.strip()
+    for fmt in ("%Y-%m-%d", "%b %d, %Y", "%d.%m.%Y", "%d %b %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(txt[:10] if fmt == "%Y-%m-%d" else txt, fmt).date().isoformat()
+        except ValueError:
+            continue
+    return ""
+
+
 def fetch_successfactors(c: dict) -> list[dict]:
     """SAP SuccessFactors career sites (e.g. https://jobs.esa.int): /search/ lists 25 jobs per page."""
     base = c["url"].rstrip("/")
@@ -303,14 +342,14 @@ def fetch_successfactors(c: dict) -> list[dict]:
             url = urljoin(base + "/", a["href"].split("?")[0])
             if url in out:
                 continue
-            loc = tile.select_one('[id$="section-location-value"], .jobLocation, [class*=location] .section-value')
+            loc = tile.select_one('[id$="section-location-value"], [id$="section-multilocation-value"], .jobLocation, [class*=location] .section-value')
             date = tile.select_one('[id$="section-date-value"], .jobDate, [class*=date] .section-value')
             out[url] = {
                 "id": url,
                 "title": a.get_text(" ", strip=True),
                 "location": loc.get_text(" ", strip=True) if loc else "",
                 "url": url,
-                "posted": date.get_text(" ", strip=True)[:10] if date and re.match(r"\d{4}-\d{2}-\d{2}", date.get_text(strip=True)) else "",
+                "posted": sf_date(date.get_text(" ", strip=True)) if date else "",
             }
             added += 1
         if added < 1 or len(tiles) < 5:
@@ -392,7 +431,11 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
         return False
     if exclude and any(title_has(k, title) for k in exclude):
         return False
-    if locations and loc and not any(k.lower() in loc for k in locations):
+    if locations == "de":  # "Germany": country words, or one of the German places listed under filters.de_locations
+        if loc and not (re.search(r"(?<![a-zäöü])(de|deutschland|germany)(?![a-zäöü])", loc)
+                        or any(k.lower() in loc for k in global_filters.get("de_locations", []))):
+            return False
+    elif locations and loc and not any(k.lower() in loc for k in locations):
         return False
     return True
 
