@@ -19,7 +19,7 @@ profile:
          fertigungsingenieur, produktionsingenieur, production engineer, industrial engineer, industriali,
          fertigungsplan, produktionsplan, arbeitsvorbereitung, arbeitsplanung, produktionstechnik,
          fertigungstechnik, montageplan, konfigurationsmanag, configuration manag, änderungsmanag,
-         change manag, fmea, lean, kvp, kaizen, mtm, produktentwickl, product development, product developer,
+         change manag, fmea, additive, additiv, 3d-druck, 3d druck, 3d print, generativ, lpbf, slm, l-pbf, powder bed, lean, kvp, kaizen, mtm, produktentwickl, product development, product developer,
          entwicklungsingenieur, development engineer, konstrukteur, konstruktion, design engineer,
          product engineer, catia, solidworks, solid works, 3dx, 3dexperience, 3d experience, plm,
          fertigungsentwickl, produktionsentwickl, manufacturing development, product design,
@@ -698,3 +698,29 @@ companies:
   - {name: "Schmid Group", type: arbeitsagentur, employer: "Schmid Group", tier: slow}
   - {name: "Jabil", type: arbeitsagentur, employer: "Jabil", tier: slow}
   - {name: "Flex", type: arbeitsagentur, employer: "Flex", tier: slow}
+
+  # ---- Additive manufacturing (3D printing) --------------------------------------------------------
+  # Own career sites first; the rest use the agency fallback (hidden unless "Include agency listings" is on).
+  - {name: "Nikon SLM Solutions", type: html, url: "https://hr.slm-solutions.com/job-offers.html", item: "div.joboffer_title_text", title: "a", link: "a", location_text: "Lübeck"}
+  - {name: "Formlabs", type: greenhouse, board: "formlabs", locations: de}
+  - {name: "Carbon", type: greenhouse, board: "carbon", locations: de}
+  - {name: "Markforged", type: greenhouse, board: "markforged", locations: de}
+  - {name: "Protolabs", type: lever, site: "protolabs", locations: de}
+  - {name: "EOS (additive)", type: arbeitsagentur, employer: "EOS", employer_match: ["EOS Electro Optical Systems"], tier: slow}
+  - {name: "AMCM", type: arbeitsagentur, employer: "AMCM", tier: slow}
+  - {name: "voxeljet", type: arbeitsagentur, employer: "voxeljet", tier: slow}
+  - {name: "BigRep", type: arbeitsagentur, employer: "BigRep", tier: slow}
+  - {name: "Aconity3D", type: arbeitsagentur, employer: "Aconity3D", employer_match: ["Aconity"], tier: slow}
+  - {name: "Additive Industries", type: arbeitsagentur, employer: "Additive Industries", tier: slow}
+  - {name: "Materialise", type: arbeitsagentur, employer: "Materialise", tier: slow}
+  - {name: "Stratasys", type: arbeitsagentur, employer: "Stratasys", tier: slow}
+  - {name: "3D Systems", type: arbeitsagentur, employer: "3D Systems", tier: slow}
+  - {name: "Colibrium Additive (GE)", type: arbeitsagentur, employer: "Colibrium Additive", employer_match: ["Concept Laser", "GE Additive"], tier: slow}
+  - {name: "Oerlikon AM", type: arbeitsagentur, employer: "Oerlikon", tier: slow}
+  - {name: "Headmade Materials", type: arbeitsagentur, employer: "Headmade Materials", tier: slow}
+  - {name: "DyeMansion", type: arbeitsagentur, employer: "DyeMansion", tier: slow}
+  - {name: "Kumovis", type: arbeitsagentur, employer: "Kumovis", tier: slow}
+  - {name: "Rosswag Engineering", type: arbeitsagentur, employer: "Rosswag", tier: slow}
+  - {name: "APWorks", type: arbeitsagentur, employer: "APWorks", tier: slow}
+  - {name: "Fraunhofer IAPT", type: arbeitsagentur, employer: "Fraunhofer", keywords: "additive", tier: slow}
+  - {name: "Lufthansa Technik (additive)", type: arbeitsagentur, employer: "Lufthansa Technik", keywords: "additive", tier: slow}
