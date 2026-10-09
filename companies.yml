@@ -788,5 +788,3 @@ companies:
 
   # ---- From links you sent (own career sites) ---------------------------------------------------
   - {name: "GE Aerospace", type: phenom, url: "https://careers.geaerospace.com/global/en", country: "Germany", tier: slow}
-  - {name: "Safran", type: html, url: "https://www.safran-group.com/jobs?countries%5B%5D=1023-germany", item: ".c-offer-item", link: "a.c-offer-item__title", title: lines, strict: true, page_param: page, start_page: 0, max_pages: 10, locations: de, tier: slow}
-  - {name: "Dassault Aviation", type: html, url: "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-toutes-offres.aspx?LCID=1033", item: "li.ts-offer-list-item", browser: true, strict: true, link: "a.ts-offer-list-item__title-link", title: "a.ts-offer-list-item__title-link", location: ".noBorder", page_param: page, start_page: 1, max_pages: 14, tier: slow}
