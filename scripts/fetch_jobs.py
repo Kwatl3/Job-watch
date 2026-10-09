@@ -242,6 +242,7 @@ def fetch_html(c: dict) -> list[dict]:
     title: lines -> the first text line of the item is the title, the remaining lines the location."""
     out: dict[str, dict] = {}
     pages = int(c.get("max_pages", 1)) if c.get("page_param") else 1
+    empty = 0
     for page in range(int(c.get("start_page", 1)), int(c.get("start_page", 1)) + pages):
         params = {c["page_param"]: page} if c.get("page_param") else None
         r = sess().get(c["url"], params=params, timeout=TIMEOUT)
@@ -281,7 +282,8 @@ def fetch_html(c: dict) -> list[dict]:
             if c.get("date") and item.select_one(c["date"]):
                 out[url]["posted"] = sf_date(item.select_one(c["date"]).get_text(" ", strip=True))
             added += 1
-        if c.get("page_param") and not added:
+        empty = 0 if added else empty + 1
+        if c.get("page_param") and empty >= 3:  # three pages in a row with nothing new = end of the list
             break
     return list(out.values())
 
