@@ -50,12 +50,13 @@
   label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13.5px; cursor: pointer; }
 
   .main { max-width: 1180px; margin: 0 auto; padding: 18px 20px 64px; display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 22px; align-items: start; }
-  .rail { position: sticky; top: 64px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: calc(100vh - 84px); display: flex; flex-direction: column; }
+  .rail { position: sticky; top: 64px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
   .rail summary { list-style: none; cursor: pointer; padding: 11px 14px; font: 600 16px var(--display); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
   .rail summary::-webkit-details-marker { display: none; }
   .rail summary small { font: 500 13px var(--body); color: var(--muted); }
   .clear { font: 500 13px var(--body); color: var(--focus); background: none; border: 0; cursor: pointer; padding: 0; }
-  #companies { overflow: auto; padding: 4px 0; }
+  #companies { overflow-y: auto; padding: 4px 0; max-height: calc(100vh - 150px); overscroll-behavior: contain; }
+  .co.zero { opacity: .5; }
   .co { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; text-align: left; background: none; border: 0; border-left: 3px solid transparent; padding: 7px 14px; cursor: pointer; color: inherit; font: inherit; }
   .co:hover { background: var(--bg); }
   .co[aria-pressed=true] { background: var(--bg); border-left-color: var(--navy); }
@@ -118,6 +119,7 @@
   <div class="seg" role="group" aria-label="Which jobs">
     <label class="gold"><input type="checkbox" id="onlyBest"><span>★ Best matches</span></label>
     <label class="green"><input type="checkbox" id="onlyNew"><span>New</span></label>
+    <label class="gold"><input type="checkbox" id="onlySenior"><span>Senior roles</span></label>
   </div>
   <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="best">Best match first</option></select>
   <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
@@ -151,6 +153,9 @@ function ago(iso) {
 const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const isNew = (j) => !j.seed && !j.closed_at &&
   (Date.now() - new Date(j.first_seen).getTime()) < data.new_window_hours * 3600 * 1000;
+const SENIOR = /senior|\blead\b|leiter|head of|principal|\bstaff\b|manager|expert|spezialist|specialist|projektleit|teamleit|abteilungsleit|gruppenleit|fachexpert|architect|chief|director|referent|\bsr\.?\b/i;
+const JUNIOR = /junior|trainee|berufseinsteig|einsteiger|\bjr\.?\b|graduate|nachwuchs/i;
+const isSenior = (t) => SENIOR.test(t) && !JUNIOR.test(t);
 const dateOf = (j) => (j.posted && /^\d{4}-\d{2}-\d{2}/.test(j.posted) ? j.posted.slice(0, 10) : j.first_seen.slice(0, 10));
 
 async function load() {
@@ -170,7 +175,7 @@ async function load() {
 function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase();
-  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
+  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, onlySenior = $("onlySenior").checked, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
   const pool = data.jobs.filter((j) => showAgency || j.src !== "agency");
   const open = pool.filter((j) => !j.closed_at);
 
@@ -184,6 +189,7 @@ function render() {
     (showClosed || !j.closed_at) &&
     (!onlyNew || isNew(j)) &&
     (!onlyBest || j.match === 2) &&
+    (!onlySenior || isSenior(j.title)) &&
     (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
 
   const by = new Map();
@@ -192,13 +198,15 @@ function render() {
     e.n++; if (j.match === 2 && !j.closed_at) e.best++; if (isNew(j)) e.nw++;
     by.set(j.company, e);
   }
-  if (selected && !by.has(selected)) selected = "";
+  if (selected && !by.has(selected) && !(data.companies && data.companies[selected])) selected = "";
+  if (!q && !onlyNew && !onlyBest && !onlySenior)
+    for (const n of Object.keys(data.companies || {})) if (!by.has(n)) by.set(n, { n: 0, best: 0, nw: 0 });
   const cos = [...by.entries()].sort((a, b) => b[1].best - a[1].best || b[1].n - a[1].n || a[0].localeCompare(b[0]));
   $("coCount").textContent = cos.length ? "(" + cos.length + ")" : "";
   $("clearCo").hidden = !selected;
   $("companies").innerHTML = cos.length ? cos.map(([n, e]) =>
-    `<button class="co" data-co="${esc(n)}" aria-pressed="${n === selected}">` +
-    `<span class="n">${esc(n)}</span><span class="c">${e.n}</span>` +
+    `<button class="co${e.n ? "" : " zero"}" data-co="${esc(n)}" aria-pressed="${n === selected}">` +
+    `<span class="n">${esc(n)}</span><span class="c">${e.n || "–"}</span>` +
     ((e.best || e.nw) ? `<span class="tags">${e.best ? `<span class="tg-best">★ ${e.best}</span>` : ""}${e.nw ? `<span class="tg-new">${e.nw} new</span>` : ""}</span>` : "") +
     `</button>`).join("") : '<div class="rail-empty">No company has jobs for these filters.</div>';
 
@@ -237,7 +245,7 @@ $("companies").addEventListener("click", (ev) => {
   selected = selected === b.dataset.co ? "" : b.dataset.co; limit = 300; render();
 });
 $("clearCo").addEventListener("click", (ev) => { ev.preventDefault(); selected = ""; limit = 300; render(); });
-["q", "onlyNew", "onlyBest", "showClosed", "showAgency", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
+["q", "onlyNew", "onlyBest", "onlySenior", "showClosed", "showAgency", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
 if (window.matchMedia("(max-width: 860px)").matches) $("rail").open = false;
 load();
 setInterval(load, 5 * 60 * 1000);
