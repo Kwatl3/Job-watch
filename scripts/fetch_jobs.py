@@ -141,29 +141,34 @@ def fetch_arbeitsagentur(c: dict) -> list[dict]:
 
 
 def fetch_workday(c: dict) -> list[dict]:
+    """Workday career site. `search` may be one text or a list of texts (results are merged)."""
     host, tenant, site = c["host"], c["tenant"], c["site"]
     api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
-    jobs, offset, limit = [], 0, 20
-    for _ in range(int(c.get("max_pages", 15))):
-        body = {"appliedFacets": {}, "limit": limit, "offset": offset,
-                "searchText": c.get("search", "")}
-        r = sess().post(api, json=body, timeout=TIMEOUT)
-        r.raise_for_status()
-        data = r.json()
-        postings = data.get("jobPostings", [])
-        for p in postings:
-            path = p.get("externalPath", "")
-            jobs.append({
-                "id": path or p.get("title", ""),
-                "title": p.get("title", "").strip(),
-                "location": p.get("locationsText", "") or "",
-                "url": f"https://{host}/en-US/{site}{path}",
-                "posted": p.get("postedOn", "") or "",
-            })
-        offset += limit
-        if not postings or offset >= data.get("total", 0):
-            break
-    return jobs
+    searches = c.get("search", "")
+    searches = searches if isinstance(searches, list) else [searches]
+    jobs: dict[str, dict] = {}
+    for text in searches:
+        offset, limit = 0, 20
+        for _ in range(int(c.get("max_pages", 15))):
+            body = {"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": text}
+            r = sess().post(api, json=body, timeout=TIMEOUT)
+            r.raise_for_status()
+            data = r.json()
+            postings = data.get("jobPostings", [])
+            for p in postings:
+                path = p.get("externalPath", "")
+                jid = path or p.get("title", "")
+                jobs[jid] = {
+                    "id": jid,
+                    "title": p.get("title", "").strip(),
+                    "location": p.get("locationsText", "") or "",
+                    "url": f"https://{host}/en-US/{site}{path}",
+                    "posted": p.get("postedOn", "") or "",
+                }
+            offset += limit
+            if not postings or offset >= data.get("total", 0):
+                break
+    return list(jobs.values())
 
 
 def fetch_greenhouse(c: dict) -> list[dict]:
@@ -434,7 +439,8 @@ def passes_filters(job: dict, company: dict, global_filters: dict) -> bool:
     if exclude and any(title_has(k, title) for k in exclude):
         return False
     if locations == "de":  # "Germany": country words, or one of the German places listed under filters.de_locations
-        if loc and not (re.search(r"(?<![a-zäöü])(de|deutschland|germany)(?![a-zäöü])", loc)
+        if loc and not (re.match(r"\d+ (standorte|locations)", loc)  # Workday: several places, not named
+                        or re.search(r"(?<![a-zäöü])(de|deutschland|germany)(?![a-zäöü])", loc)
                         or any(k.lower() in loc for k in global_filters.get("de_locations", []))):
             return False
     elif locations and loc and not any(k.lower() in loc for k in locations):
