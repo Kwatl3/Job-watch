@@ -123,7 +123,7 @@
     <label class="gold"><input type="checkbox" id="onlyBest"><span>★ Best matches</span></label>
     <label class="green"><input type="checkbox" id="onlyNew"><span>New</span></label>
     <label class="gold"><input type="checkbox" id="onlySenior"><span>Senior roles</span></label>
-    <label class="green"><input type="checkbox" id="only3d"><span>Last 3 days</span></label>
+    <label class="green"><input type="checkbox" id="only3d"><span title="Includes job-agency listings, posted within 3 days">Last 3 days</span></label>
   </div>
   <select id="field" aria-label="Field">
     <option value="">Any field</option>
@@ -175,6 +175,7 @@ const SEMI = /infineon|nxp|globalfoundries|siltronic|x-fab|aixtron|asml|zeiss sm
 const AERO = /airbus|mtu|hensoldt|ohb|isar|exploration company|esa$|^esa|eumetsat|cern|astos|rocket|ariane|rolls|lufthansa technik|premium aerotec|ge aerospace|thales|mbda|diehl|rheinmetall|helsing|stark|quantum systems|volocopter|lilium|mynaric|constellr|orora|reflex|polaris|hyimpulse|mt aerospace|jena-optronik|beyond gravity|safran|liebherr|spirit|fokker|elbe flug|pfw|dlr|aerospace|aviation|space/i;
 const DEV = /produktentwickl|product development|product engineer|entwicklung|development|konstruk|design|r&d|f&e|fahrzeug|vehicle|systemingenieur|systems engineer|entwickler|developer/i;
 const inField = (j, f) => !f || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "dev" && DEV.test(j.title));
+const STAFF = /personal|personnel|akkodis|randstad|adecco|manpower|hays|gulp|zeitarbeit|synergie|franz & wach|tempton|orizon|persona service|dis ag|timepartner|piening|amadeus fire/i;
 const isRecent = (j) => {
   const age = (d) => (Date.now() - new Date(d).getTime()) / 86400000;
   if (/^\d{4}-\d{2}-\d{2}/.test(j.posted || "")) return age(j.posted.slice(0, 10)) <= 3.5;
@@ -200,7 +201,7 @@ function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase();
   const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, onlySenior = $("onlySenior").checked, only3d = $("only3d").checked, field = $("field").value, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
-  const pool = data.jobs.filter((j) => showAgency || j.src !== "agency");
+  const pool = data.jobs.filter((j) => showAgency || only3d || j.src !== "agency");
   const open = pool.filter((j) => !j.closed_at);
 
   $("stats").innerHTML =
@@ -214,7 +215,7 @@ function render() {
     (!onlyNew || isNew(j)) &&
     (!onlyBest || j.match === 2) &&
     (!onlySenior || isSenior(j.title)) &&
-    (!only3d || isRecent(j)) &&
+    (!only3d || (isRecent(j) && !STAFF.test(j.company))) &&
     inField(j, field) &&
     (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
 
