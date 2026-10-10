@@ -49,6 +49,9 @@
   .seg label.green input:checked + span { background: var(--new); color: #fff; }
   label.chk { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13.5px; cursor: pointer; }
 
+  .boards { background: var(--panel); border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  .boards .in { max-width: 1180px; margin: 0 auto; padding: 6px 20px; }
+  .boards a { color: var(--focus); }
   .main { max-width: 1180px; margin: 0 auto; padding: 18px 20px 64px; display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 22px; align-items: start; }
   .rail { position: sticky; top: 64px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
   .rail summary { list-style: none; cursor: pointer; padding: 11px 14px; font: 600 16px var(--display); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
@@ -120,10 +123,22 @@
     <label class="gold"><input type="checkbox" id="onlyBest"><span>★ Best matches</span></label>
     <label class="green"><input type="checkbox" id="onlyNew"><span>New</span></label>
     <label class="gold"><input type="checkbox" id="onlySenior"><span>Senior roles</span></label>
+    <label class="green"><input type="checkbox" id="only3d"><span>Last 3 days</span></label>
   </div>
+  <select id="field" aria-label="Field">
+    <option value="">Any field</option>
+    <option value="semi">Semiconductor / AI hardware</option>
+    <option value="aero">Aerospace &amp; space</option>
+    <option value="dev">Product / vehicle development roles</option>
+  </select>
   <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="best">Best match first</option></select>
   <label class="chk"><input type="checkbox" id="showClosed"> Show closed</label>
   <label class="chk" title="Listings from the job agency (Bundesagentur), used only for companies whose own career site cannot be read"><input type="checkbox" id="showAgency"> Include agency listings</label>
+</div></div>
+
+<div class="boards"><div class="in">Also search by hand (opens the board, last 3 days):
+  <a target="_blank" rel="noopener" href="https://www.linkedin.com/jobs/search/?keywords=process%20OR%20manufacturing%20OR%20product%20development%20engineer%20aerospace%20OR%20semiconductor&location=Germany&f_TPR=r259200&sortBy=DD">LinkedIn</a> ·
+  <a target="_blank" rel="noopener" href="https://de.indeed.com/jobs?q=Prozessingenieur+OR+Produktentwicklung+OR+Fahrzeugentwicklung+Luftfahrt+OR+Halbleiter&l=Deutschland&fromage=3&sort=date">Indeed</a>
 </div></div>
 
 <div class="main">
@@ -156,6 +171,15 @@ const isNew = (j) => !j.seed && !j.closed_at &&
 const SENIOR = /senior|\blead\b|leiter|head of|principal|\bstaff\b|manager|expert|spezialist|specialist|projektleit|teamleit|abteilungsleit|gruppenleit|fachexpert|architect|chief|director|referent|\bsr\.?\b/i;
 const JUNIOR = /junior|trainee|berufseinsteig|einsteiger|\bjr\.?\b|graduate|nachwuchs/i;
 const isSenior = (t) => SENIOR.test(t) && !JUNIOR.test(t);
+const SEMI = /infineon|nxp|globalfoundries|siltronic|x-fab|aixtron|asml|zeiss smt|applied materials|lam research|kla|nvidia|amd|intel|micron|texas instruments|stmicro|vishay|tenstorrent|cerebras|lambda|coreweave|nebius|crusoe|etched|lightmatter|together ai|fluidstack|renesas|microchip|analog devices|synopsys|cadence|elmos|lpkf|suss|jenoptik|northern data|ionos|hetzner|semicon|semiconductor/i;
+const AERO = /airbus|mtu|hensoldt|ohb|isar|exploration company|esa$|^esa|eumetsat|cern|astos|rocket|ariane|rolls|lufthansa technik|premium aerotec|ge aerospace|thales|mbda|diehl|rheinmetall|helsing|stark|quantum systems|volocopter|lilium|mynaric|constellr|orora|reflex|polaris|hyimpulse|mt aerospace|jena-optronik|beyond gravity|safran|liebherr|spirit|fokker|elbe flug|pfw|dlr|aerospace|aviation|space/i;
+const DEV = /produktentwickl|product development|product engineer|entwicklung|development|konstruk|design|r&d|f&e|fahrzeug|vehicle|systemingenieur|systems engineer|entwickler|developer/i;
+const inField = (j, f) => !f || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "dev" && DEV.test(j.title));
+const isRecent = (j) => {
+  const age = (d) => (Date.now() - new Date(d).getTime()) / 86400000;
+  if (/^\d{4}-\d{2}-\d{2}/.test(j.posted || "")) return age(j.posted.slice(0, 10)) <= 3.5;
+  return !j.seed && age(j.first_seen) <= 3;
+};
 const dateOf = (j) => (j.posted && /^\d{4}-\d{2}-\d{2}/.test(j.posted) ? j.posted.slice(0, 10) : j.first_seen.slice(0, 10));
 
 async function load() {
@@ -175,7 +199,7 @@ async function load() {
 function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase();
-  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, onlySenior = $("onlySenior").checked, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
+  const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, onlySenior = $("onlySenior").checked, only3d = $("only3d").checked, field = $("field").value, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
   const pool = data.jobs.filter((j) => showAgency || j.src !== "agency");
   const open = pool.filter((j) => !j.closed_at);
 
@@ -190,6 +214,8 @@ function render() {
     (!onlyNew || isNew(j)) &&
     (!onlyBest || j.match === 2) &&
     (!onlySenior || isSenior(j.title)) &&
+    (!only3d || isRecent(j)) &&
+    inField(j, field) &&
     (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
 
   const by = new Map();
@@ -199,7 +225,7 @@ function render() {
     by.set(j.company, e);
   }
   if (selected && !by.has(selected) && !(data.companies && data.companies[selected])) selected = "";
-  if (!q && !onlyNew && !onlyBest && !onlySenior)
+  if (!q && !onlyNew && !onlyBest && !onlySenior && !only3d && !field)
     for (const n of Object.keys(data.companies || {})) if (!by.has(n)) by.set(n, { n: 0, best: 0, nw: 0 });
   const cos = [...by.entries()].sort((a, b) => b[1].best - a[1].best || b[1].n - a[1].n || a[0].localeCompare(b[0]));
   $("coCount").textContent = cos.length ? "(" + cos.length + ")" : "";
@@ -245,7 +271,7 @@ $("companies").addEventListener("click", (ev) => {
   selected = selected === b.dataset.co ? "" : b.dataset.co; limit = 300; render();
 });
 $("clearCo").addEventListener("click", (ev) => { ev.preventDefault(); selected = ""; limit = 300; render(); });
-["q", "onlyNew", "onlyBest", "onlySenior", "showClosed", "showAgency", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
+["q", "onlyNew", "onlyBest", "onlySenior", "only3d", "field", "showClosed", "showAgency", "sort"].forEach((id) => $(id).addEventListener("input", () => { limit = 300; render(); }));
 if (window.matchMedia("(max-width: 860px)").matches) $("rail").open = false;
 load();
 setInterval(load, 5 * 60 * 1000);
