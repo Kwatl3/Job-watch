@@ -788,3 +788,44 @@ companies:
 
   # ---- From links you sent (own career sites) ---------------------------------------------------
   - {name: "GE Aerospace", type: phenom, url: "https://careers.geaerospace.com/global/en", country: "Germany", tier: slow}
+
+  # ---- Optics / photonics and AI infrastructure (trend focus) -----------------------------------
+  - {name: "Astera Labs", type: greenhouse, board: "asteralabs", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Black Semiconductor", type: ashby, board: "blacksemiconductor", locations: de}
+  - {name: "d-Matrix", type: ashby, board: "d-matrix", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Eliyan", type: lever, site: "eliyan", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Submer", type: greenhouse, board: "submer", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Vast Data", type: greenhouse, board: "vast", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Vantage Data Centers", type: ashby, board: "vantage", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Aligned Data Centers", type: greenhouse, board: "aligned", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Runpod", type: ashby, board: "runpod", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "Pure Storage", type: greenhouse, board: "purestorage", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  - {name: "EdgeConnex", type: greenhouse, board: "edgeconnex", locations: [germany, deutschland, europe, emea, munich, münchen, berlin, hamburg, aachen, dresden, stuttgart]}
+  # Agency fallback (shown with "Include agency listings" or in the Last 3 days view):
+  - {name: "Ciena", type: arbeitsagentur, employer: "Ciena", tier: slow}
+  - {name: "Lumentum", type: arbeitsagentur, employer: "Lumentum", tier: slow}
+  - {name: "Marvell", type: arbeitsagentur, employer: "Marvell", tier: slow}
+  - {name: "Adtran", type: arbeitsagentur, employer: "Adtran", tier: slow}
+  - {name: "Infinera", type: arbeitsagentur, employer: "Infinera", tier: slow}
+  - {name: "Sicoya", type: arbeitsagentur, employer: "Sicoya", tier: slow}
+  - {name: "Q.ANT", type: arbeitsagentur, employer: "Q.ANT", tier: slow}
+  - {name: "Smart Photonics", type: arbeitsagentur, employer: "Smart Photonics", tier: slow}
+  - {name: "Teradyne", type: arbeitsagentur, employer: "Teradyne", tier: slow}
+  - {name: "Vertiv", type: arbeitsagentur, employer: "Vertiv", tier: slow}
+  - {name: "Supermicro", type: arbeitsagentur, employer: "Supermicro", tier: slow}
+  - {name: "Dell Technologies", type: arbeitsagentur, employer: "Dell Technologies", tier: slow}
+  - {name: "Hewlett Packard Enterprise", type: arbeitsagentur, employer: "Hewlett Packard Enterprise", tier: slow}
+  - {name: "Broadcom", type: arbeitsagentur, employer: "Broadcom", tier: slow}
+  - {name: "Cisco", type: arbeitsagentur, employer: "Cisco", tier: slow}
+  - {name: "Arista Networks", type: arbeitsagentur, employer: "Arista Networks", tier: slow}
+  - {name: "SiPearl", type: arbeitsagentur, employer: "SiPearl", tier: slow}
+  - {name: "Aleph Alpha", type: arbeitsagentur, employer: "Aleph Alpha", tier: slow}
+  - {name: "Equinix", type: arbeitsagentur, employer: "Equinix", tier: slow}
+  - {name: "Digital Realty", type: arbeitsagentur, employer: "Digital Realty", tier: slow}
+  - {name: "Schneider Electric", type: arbeitsagentur, employer: "Schneider Electric", tier: slow}
+  - {name: "Rittal", type: arbeitsagentur, employer: "Rittal", tier: slow}
+  - {name: "Lenovo", type: arbeitsagentur, employer: "Lenovo", tier: slow}
+  - {name: "Excelitas", type: arbeitsagentur, employer: "Excelitas", tier: slow}
+  - {name: "Thorlabs", type: arbeitsagentur, employer: "Thorlabs", tier: slow}
+  - {name: "nVent", type: arbeitsagentur, employer: "nVent", tier: slow}
+  - {name: "Legrand", type: arbeitsagentur, employer: "Legrand", tier: slow}
