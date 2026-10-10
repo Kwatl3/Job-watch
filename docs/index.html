@@ -52,6 +52,7 @@
   .boards { background: var(--panel); border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
   .boards .in { max-width: 1180px; margin: 0 auto; padding: 6px 20px; }
   .boards a { color: var(--focus); }
+  .theme { font: 600 11.5px var(--display); letter-spacing: .03em; padding: 1px 7px; border-radius: 4px; background: var(--navy); color: var(--navy-ink); white-space: nowrap; }
   .main { max-width: 1180px; margin: 0 auto; padding: 18px 20px 64px; display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 22px; align-items: start; }
   .rail { position: sticky; top: 64px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
   .rail summary { list-style: none; cursor: pointer; padding: 11px 14px; font: 600 16px var(--display); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
@@ -129,6 +130,7 @@
     <option value="">Any field</option>
     <option value="semi">Semiconductor / AI hardware</option>
     <option value="aero">Aerospace &amp; space</option>
+    <option value="theme">Optics / photonics &amp; AI infrastructure</option>
     <option value="dev">Product / vehicle development roles</option>
   </select>
   <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="best">Best match first</option></select>
@@ -174,7 +176,8 @@ const isSenior = (t) => SENIOR.test(t) && !JUNIOR.test(t);
 const SEMI = /infineon|nxp|globalfoundries|siltronic|x-fab|aixtron|asml|zeiss smt|applied materials|lam research|kla|nvidia|amd|intel|micron|texas instruments|stmicro|vishay|tenstorrent|cerebras|lambda|coreweave|nebius|crusoe|etched|lightmatter|together ai|fluidstack|renesas|microchip|analog devices|synopsys|cadence|elmos|lpkf|suss|jenoptik|northern data|ionos|hetzner|semicon|semiconductor/i;
 const AERO = /airbus|mtu|hensoldt|ohb|isar|exploration company|esa$|^esa|eumetsat|cern|astos|rocket|ariane|rolls|lufthansa technik|premium aerotec|ge aerospace|thales|mbda|diehl|rheinmetall|helsing|stark|quantum systems|volocopter|lilium|mynaric|constellr|orora|reflex|polaris|hyimpulse|mt aerospace|jena-optronik|beyond gravity|safran|liebherr|spirit|fokker|elbe flug|pfw|dlr|aerospace|aviation|space/i;
 const DEV = /produktentwickl|product development|product engineer|entwicklung|development|konstruk|design|r&d|f&e|fahrzeug|vehicle|systemingenieur|systems engineer|entwickler|developer/i;
-const inField = (j, f) => !f || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "dev" && DEV.test(j.title));
+const THEME = /ciena|lumentum|coherent|marvell|broadcom|cisco|arista|adtran|infinera|nokia|sicoya|q\.ant|smart photonics|black semiconductor|astera|eliyan|d-matrix|celestial|ayar|lightmatter|excelitas|thorlabs|jenoptik|fabrinet|credo|applied opto|aaoi|sivers|alphawave|sipearl|cerebras|lambda|coreweave|nebius|crusoe|together ai|fluidstack|runpod|tenstorrent|etched|vast data|pure storage|submer|vantage|aligned|edgeconnex|equinix|digital realty|northern data|ionos|hetzner|aleph alpha|supermicro|dell tech|hewlett packard|lenovo|vertiv|rittal|schneider|nvent|legrand|nvidia|amd|teradyne/i;
+const inField = (j, f) => !f || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "theme" && THEME.test(j.company)) || (f === "dev" && DEV.test(j.title));
 const STAFF = /personal|personnel|akkodis|randstad|adecco|manpower|hays|gulp|zeitarbeit|synergie|franz & wach|tempton|orizon|persona service|dis ag|timepartner|piening|amadeus fire/i;
 const isRecent = (j) => {
   const age = (d) => (Date.now() - new Date(d).getTime()) / 86400000;
@@ -247,7 +250,7 @@ function render() {
       <div class="stripe"></div>
       <div class="body">
         <div class="title">${esc(j.title)}</div>
-        <div class="meta"><b>${esc(j.company)}</b>${j.location ? " · " + esc(j.location) : ""}${j.src === "agency" ? " · <i>agency listing</i>" : ""}</div>
+        <div class="meta"><b>${esc(j.company)}</b>${j.location ? " · " + esc(j.location) : ""}${j.src === "agency" ? " · <i>agency listing</i>" : ""}${THEME.test(j.company) ? ' · <span class="theme">AI infra / optics</span>' : ""}</div>
       </div>
       <div class="side">
         ${j.match === 2 && !j.closed_at ? '<span class="badge star">★ BEST MATCH</span>' : ""}
