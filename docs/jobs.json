@@ -804,9 +804,9 @@
    "raw": 40
   },
   "ESA": {
-   "ok": true,
-   "count": 11,
-   "raw": 34
+   "ok": false,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='jobs.esa.int', port=443): Max retries exceeded with url: /search/?q=&startrow=0&sortColumn=referencedate&sortDirection=desc (Caused by ConnectTimeoutError(<HT",
+   "count": 11
   },
   "EUMETSAT": {
    "ok": true,
@@ -825,8 +825,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 98,
-   "raw": 258
+   "count": 97,
+   "raw": 257
   },
   "John Cockerill": {
    "ok": true,
@@ -920,8 +920,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 138,
-   "raw": 520
+   "count": 140,
+   "raw": 539
   },
   "TKMS": {
    "ok": true,
@@ -1345,7 +1345,7 @@
   },
   "Bertrandt": {
    "ok": true,
-   "count": 127,
+   "count": 124,
    "raw": 300
   },
   "Beurer": {
@@ -3675,8 +3675,8 @@
   },
   "Isar Aerospace": {
    "ok": true,
-   "count": 46,
-   "raw": 114
+   "count": 47,
+   "raw": 115
   },
   "Rocket Factory Augsburg": {
    "ok": true,
@@ -3701,7 +3701,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 62,
-   "raw": 148
+   "raw": 146
   },
   "Dornier": {
    "ok": true,
@@ -3739,9 +3739,9 @@
    "raw": 0
   },
   "Airbus (Workday, Germany)": {
-   "ok": true,
-   "count": 58,
-   "raw": 259
+   "ok": false,
+   "error": "HTTPError: 520 Server Error: <none> for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
+   "count": 58
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4386,7 +4386,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 174
+   "raw": 175
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4701,7 +4701,7 @@
   "Databricks": {
    "ok": true,
    "count": 14,
-   "raw": 892
+   "raw": 886
   },
   "Anthropic": {
    "ok": true,
@@ -4745,6 +4745,39 @@
   }
  },
  "jobs": [
+  {
+   "company": "Isar Aerospace",
+   "id": "5002989101",
+   "title": "Manager IT Support & Manufacturing (m/f/d)",
+   "location": "Parsdorf, Bavaria, Germany",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5002989101",
+   "posted": "2026-10-11T03:59:28-04:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-11T09:16:05+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4959941118-S",
+   "title": "Ingenieur Zulassung und Zertifizierung physikalische Messtechnik (m/w/d)",
+   "location": "Müllheim im Markgräflerland, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4959941118-S",
+   "posted": "2026-10-11",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-11T09:16:05+00:00"
+  },
+  {
+   "company": "KNDS",
+   "id": "14225-029d1f2cf13eb864-S",
+   "title": "Entwicklungsingenieur (m/w/d)",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-029d1f2cf13eb864-S",
+   "posted": "2026-10-11",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-11T09:16:05+00:00"
+  },
   {
    "company": "Leonhard Weiss",
    "id": "12288-4959941154-S",
@@ -15404,6 +15437,18 @@
   },
   {
    "company": "NXP Semiconductors",
+   "id": "/job/Hamburg/PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
+   "title": "PhD Position (f/m/d) - Memory-Centric NPU Architectures and Emerging Memory Technologies for Edge AI",
+   "location": "Hamburg",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "seed": true
+  },
+  {
+   "company": "NXP Semiconductors",
    "id": "/job/Munich/EMC-Engineer--f-m-d-_R-10061511",
    "title": "EMC Engineer (f/m/d)",
    "location": "Munich",
@@ -15416,47 +15461,11 @@
   },
   {
    "company": "NXP Semiconductors",
-   "id": "/job/Hamburg/PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
-   "title": "PhD Position (f/m/d) - Memory-Centric NPU Architectures and Emerging Memory Technologies for Edge AI",
-   "location": "Hamburg",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/PhD-Position--f-m-d----Hardware-Software-Co-Design-for-Efficient-On-Device-Incremental-Learning-on-Embedded-NPU-Platforms_R-10064337",
-   "posted": "Posted 30 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true
-  },
-  {
-   "company": "NXP Semiconductors",
-   "id": "/job/Munich/Key-Account-Manager-Industrial---Smart-City--f-m-d-_R-10064749",
-   "title": "Key Account Manager Industrial & Smart City (f/m/d)",
-   "location": "2 Locations",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Key-Account-Manager-Industrial---Smart-City--f-m-d-_R-10064749",
-   "posted": "Posted 25 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true
-  },
-  {
-   "company": "NXP Semiconductors",
-   "id": "/job/Munich/Digital-Verification-Engineer_R-10065444-1",
-   "title": "Digital Verification Engineer (f/m/d)",
-   "location": "Munich",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Digital-Verification-Engineer_R-10065444-1",
-   "posted": "Posted 24 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true
-  },
-  {
-   "company": "NXP Semiconductors",
    "id": "/job/Toulouse/Solution-Train-Engineer-solution-delivery--SolDel--CoreRide_R-10066868",
    "title": "Solution Train Engineer solution delivery (SolDel) CoreRide",
    "location": "3 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Toulouse/Solution-Train-Engineer-solution-delivery--SolDel--CoreRide_R-10066868",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -15468,7 +15477,31 @@
    "title": "Analog / RF & mmWave Principal Test Engineer",
    "location": "5 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Analog---RF---mmWave-Senior-Principal-Test-Engineer_R-10062758-1",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "seed": true
+  },
+  {
+   "company": "NXP Semiconductors",
+   "id": "/job/Munich/Key-Account-Manager-Industrial---Smart-City--f-m-d-_R-10064749",
+   "title": "Key Account Manager Industrial & Smart City (f/m/d)",
+   "location": "2 Locations",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Key-Account-Manager-Industrial---Smart-City--f-m-d-_R-10064749",
+   "posted": "Posted 26 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "seed": true
+  },
+  {
+   "company": "NXP Semiconductors",
+   "id": "/job/Munich/Digital-Verification-Engineer_R-10065444-1",
+   "title": "Digital Verification Engineer (f/m/d)",
+   "location": "Munich",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Digital-Verification-Engineer_R-10065444-1",
+   "posted": "Posted 25 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -15480,7 +15513,7 @@
    "title": "Safety Engineer (f/m/d)",
    "location": "Munich",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Safety-Engineer--f-m-d-_R-10066849",
-   "posted": "Posted 18 Days Ago",
+   "posted": "Posted 19 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -15492,7 +15525,7 @@
    "title": "Digital IP Design Engineer (f/m/d)",
    "location": "Munich",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Digital-IP-Design-Engineer--f-m-d-_R-10066892",
-   "posted": "Posted 18 Days Ago",
+   "posted": "Posted 19 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -15504,7 +15537,7 @@
    "title": "(Senior) RF Engineer mmW Innovation (f/m/d)",
    "location": "Hamburg",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/XMLNAME--Senior--RF-Engineer-mmW-Innovation--f-m-d-_R-10066945",
-   "posted": "Posted 17 Days Ago",
+   "posted": "Posted 18 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -15516,7 +15549,7 @@
    "title": "Principal Digital Design Engineer",
    "location": "5 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Glasgow/Principal-Digital-Design-Engineer_R-10061634-1",
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -21645,6 +21678,39 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Systemingenieur-Integrated-Logistic-Support-%28wmd%29-82256/1329309055/",
+   "title": "Systemingenieur Integrated Logistic Support (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Systemingenieur-Integrated-Logistic-Support-%28wmd%29-82256/1329309055/",
+   "posted": "2026-10-11",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
+   "title": "Konstrukteur Mechanisch (w/m/d)",
+   "location": "Friedberg, DE, 86316",
+   "url": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
+   "posted": "2026-10-11",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Entwicklungsingenieur-f%C3%BCr-innovative-Hochfrequenz-und-Photonikl%C3%B6sungen-%28wmd%29-89077/1364622655/",
+   "title": "Entwicklungsingenieur für innovative Hochfrequenz- und Photoniklösungen (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Entwicklungsingenieur-f%C3%BCr-innovative-Hochfrequenz-und-Photonikl%C3%B6sungen-%28wmd%29-89077/1364622655/",
+   "posted": "2026-10-11",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-EMV-%28wmd%29-73447/1355538655/",
    "title": "Systemingenieur für EMV (w/m/d)",
    "location": "Oberkochen, DE, 73447",
@@ -21669,7 +21735,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-10-10",
    "match": 1,
@@ -21680,7 +21746,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "title": "Chief Engineer (w/m/d)",
-   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "posted": "2026-10-10",
    "match": 1,
@@ -21878,7 +21944,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-10-08",
    "match": 1,
@@ -22485,7 +22551,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Kiel, DE, 24114 • Bremen, DE, 28757 • Bremen, DE, 28757 • Cologne, FR, 32430 • Köln, DE, 51147 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Koblenz, DE, 56073 • Köln, DE, 50676 • Hamburg, DE, 22335 • Fürstenfeldbruck, DE, 82256",
+   "location": "Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Hamburg, DE, 22335 • Kiel, DE, 24145 • Köln, DE, 51147 • Cologne, FR, 32430 • Bremen, DE, 28757 • Bremen, DE, 28757 • Koblenz, DE, 56073 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-10-03",
    "match": 1,
@@ -22518,7 +22584,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-AI-Platform-Engineer-MLOps-&-LLMOps-%28wmd%29-89077/1355701755/",
    "title": "AI Platform Engineer MLOps & LLMOps (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Taufkirchen, DE, 82024 • Oberkochen, DE, 73447 • Immenstaad, DE, 88090 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Immenstaad, DE, 88090 • Oberkochen, DE, 73447 • Taufkirchen, DE, 82024 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-AI-Platform-Engineer-MLOps-&-LLMOps-%28wmd%29-89077/1355701755/",
    "posted": "2026-10-03",
    "match": 1,
@@ -23257,7 +23323,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Taufkirchen-Senior-Data-Warehouse-Engineer-%28wmd%29-82024/1358945655/",
    "title": "Senior Data Warehouse Engineer (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Immenstaad, DE, 88090 • Oberkochen, DE, 73447 • Taufkirchen, DE, 82024",
+   "location": "Oberkochen, DE, 73447 • Immenstaad, DE, 88090 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Taufkirchen, DE, 82024",
    "url": "https://jobs.hensoldt.net/job/Taufkirchen-Senior-Data-Warehouse-Engineer-%28wmd%29-82024/1358945655/",
    "posted": "2026-09-25",
    "match": 1,
@@ -23686,17 +23752,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354929155/",
-   "title": "Systemingenieur Fighter Radar (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354929155/",
-   "posted": "2026-09-20",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354932955/",
    "title": "Systemingenieur Fighter Radar (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -23712,6 +23767,17 @@
    "title": "Systemingenieur Fighter Radar (w/m/d)",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354929755/",
+   "posted": "2026-09-20",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354929155/",
+   "title": "Systemingenieur Fighter Radar (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Fighter-Radar-%28wmd%29-89077/1354929155/",
    "posted": "2026-09-20",
    "match": 1,
    "src": "site",
@@ -24091,8 +24157,7 @@
    "posted": "2026-09-16",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-11T02:08:26+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hensoldt",
@@ -24114,8 +24179,7 @@
    "posted": "2026-09-16",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-11T02:08:26+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hensoldt",
@@ -24489,39 +24553,6 @@
    "location": "Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Arbeitsvorbereitung-und-Materialsteuerung-C-UAS-%28wmd%29-82256/1352877055/",
    "posted": "2026-09-13",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Systemingenieur-Integrated-Logistic-Support-%28wmd%29-82256/1329309055/",
-   "title": "Systemingenieur Integrated Logistic Support (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Systemingenieur-Integrated-Logistic-Support-%28wmd%29-82256/1329309055/",
-   "posted": "2026-09-12",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
-   "title": "Konstrukteur Mechanisch (w/m/d)",
-   "location": "Friedberg, DE, 86316",
-   "url": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
-   "posted": "2026-09-12",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Entwicklungsingenieur-f%C3%BCr-innovative-Hochfrequenz-und-Photonikl%C3%B6sungen-%28wmd%29-89077/1364622655/",
-   "title": "Entwicklungsingenieur für innovative Hochfrequenz- und Photoniklösungen (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Entwicklungsingenieur-f%C3%BCr-innovative-Hochfrequenz-und-Photonikl%C3%B6sungen-%28wmd%29-89077/1364622655/",
-   "posted": "2026-09-12",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
@@ -32469,6 +32500,19 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
+  },
+  {
+   "company": "Sika",
+   "id": "14225-fd539fc6c826503f-S",
+   "title": "Wirtschaftsingenieur (m/w/d)",
+   "location": "Bad Urach, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
+   "posted": "2026-10-07",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
    "src": "agency"
   },
   {
@@ -32483,18 +32527,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Sika",
-   "id": "14225-fd539fc6c826503f-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Bad Urach, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
   },
   {
    "company": "Akkodis",
@@ -32934,11 +32966,11 @@
    "src": "agency"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4957116763-S",
+   "company": "SYNERGIE Personal",
+   "id": "12704-675Q3YE8KB0QOYFZ-S",
    "title": "Konstrukteur (m/w/d)",
-   "location": "Frankfurt am Main, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
+   "location": "Loxstedt, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-675Q3YE8KB0QOYFZ-S",
    "posted": "2026-10-07",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -32946,11 +32978,11 @@
    "src": "agency"
   },
   {
-   "company": "SYNERGIE Personal",
-   "id": "12704-675Q3YE8KB0QOYFZ-S",
+   "company": "Bertrandt",
+   "id": "12288-4957116763-S",
    "title": "Konstrukteur (m/w/d)",
-   "location": "Loxstedt, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-675Q3YE8KB0QOYFZ-S",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
    "posted": "2026-10-07",
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -37688,7 +37720,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
   },
   {
    "company": "KNDS",
@@ -38659,11 +38692,11 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "14225-77634770ee9cb232-S",
+   "company": "Gerhard Schubert",
+   "id": "14225-1dc89fab6543278e-S",
    "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
+   "location": "Crailsheim, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-1dc89fab6543278e-S",
    "posted": "2026-10-01",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -38671,11 +38704,11 @@
    "src": "agency"
   },
   {
-   "company": "Gerhard Schubert",
-   "id": "14225-1dc89fab6543278e-S",
+   "company": "KNDS",
+   "id": "14225-77634770ee9cb232-S",
    "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
-   "location": "Crailsheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-1dc89fab6543278e-S",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
    "posted": "2026-10-01",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -38791,18 +38824,6 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "14225-0df45bd407e315da-S",
-   "title": "Konstruktionsmechaniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
-   "posted": "2026-10-01",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "SYNERGIE Personal",
    "id": "12704-7P3NGX1K589QUDY4-S",
    "title": "Konstruktionsmechaniker (m/w/d)",
@@ -38814,6 +38835,18 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T05:59:46+00:00"
+  },
+  {
+   "company": "KNDS",
+   "id": "14225-0df45bd407e315da-S",
+   "title": "Konstruktionsmechaniker (m/w/d)",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
+   "posted": "2026-10-01",
+   "match": 2,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
   },
   {
    "company": "SYNERGIE Personal",
@@ -40275,11 +40308,11 @@
    "src": "agency"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4951160341-S",
+   "company": "Schunk",
+   "id": "10000-1208059897-S",
    "title": "Mechatroniker (m/w/d)",
-   "location": "Kaiserslautern, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4951160341-S",
+   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
    "posted": "2026-09-29",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -40287,11 +40320,11 @@
    "src": "agency"
   },
   {
-   "company": "Schunk",
-   "id": "10000-1208059897-S",
+   "company": "Bertrandt",
+   "id": "12288-4951160341-S",
    "title": "Mechatroniker (m/w/d)",
-   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
+   "location": "Kaiserslautern, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4951160341-S",
    "posted": "2026-09-29",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -43242,7 +43275,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
   },
   {
    "company": "Bertrandt",
@@ -43290,7 +43324,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
   },
   {
    "company": "Stadtwerke Karlsruhe",
@@ -43651,7 +43686,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
   },
   {
    "company": "Bertrandt",
@@ -43747,7 +43783,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-11T09:16:05+00:00"
   },
   {
    "company": "Bertrandt",
@@ -44351,11 +44388,11 @@
    "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "TKMS",
-   "id": "16604-971111-008-S",
+   "company": "Cronimet",
+   "id": "17672-0067478322-S",
    "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
-   "location": "Kiel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971111-008-S",
+   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
    "posted": "2026-09-17",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -44363,11 +44400,11 @@
    "src": "agency"
   },
   {
-   "company": "Cronimet",
-   "id": "17672-0067478322-S",
+   "company": "TKMS",
+   "id": "16604-971111-008-S",
    "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
+   "location": "Kiel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-971111-008-S",
    "posted": "2026-09-17",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -49604,7 +49641,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce",
+   "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -49616,7 +49653,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce Power Systems",
+   "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -51402,11 +51439,11 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "10000-1207277265-S",
+   "company": "Pneuhage Management",
+   "id": "10001-1003423262-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Freisen, Saarland",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
+   "location": "Heidenau, Sachsen, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -51414,11 +51451,11 @@
    "src": "agency"
   },
   {
-   "company": "Pneuhage Management",
-   "id": "10001-1003423262-S",
+   "company": "KNDS",
+   "id": "10000-1207277265-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Heidenau, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
+   "location": "Freisen, Saarland",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -55657,6 +55694,18 @@
    "src": "agency"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -55674,18 +55723,6 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -58590,23 +58627,11 @@
   },
   {
    "company": "Thales (Workday, Germany)",
-   "id": "/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
-   "title": "System Test Engineer / IVVQ Engineer (m/f/d) Radar",
-   "location": "DITZINGEN SRA OME",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
-   "posted": "Posted 9 Days Ago",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site"
-  },
-  {
-   "company": "Thales (Workday, Germany)",
    "id": "/job/Gorgonzola/FPGA-Engineer--Open-also-to-Protected-Categories--Law-68-99-_R0331429",
    "title": "FPGA Engineer (Open also to Protected Categories, Law 68/99)",
    "location": "Gorgonzola",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/FPGA-Engineer--Open-also-to-Protected-Categories--Law-68-99-_R0331429",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -58703,7 +58728,19 @@
    "title": "Navaids System Engineer (Open also To Protected Categories, Law 68/99)",
    "location": "Gorgonzola",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
-   "posted": "Posted 18 Days Ago",
+   "posted": "Posted 19 Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true,
+   "src": "site"
+  },
+  {
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
+   "title": "System Test Engineer / IVVQ Engineer (m/f/d) Radar",
+   "location": "DITZINGEN SRA OME",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
+   "posted": "Posted 10 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -58975,5 +59012,5 @@
    "src": "site"
   }
  ],
- "updated": "2026-10-11T05:54:57+00:00"
+ "updated": "2026-10-11T09:16:05+00:00"
 }
