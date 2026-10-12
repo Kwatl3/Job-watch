@@ -650,6 +650,8 @@ def run_company(c: dict, global_filters: dict, core: list[str]) -> tuple[str, li
         for j in jobs:  # 2 = strong match for your profile ("core" words), 1 = related
             j["match"] = 2 if any(title_has(k, j["title"].lower()) for k in core) else 1
             j["src"] = "agency" if ctype == "arbeitsagentur" else "site"  # own career site vs. job-agency feed
+        if c.get("only_core"):  # best matches only: keep just jobs that fit the CV (core words)
+            jobs = [j for j in jobs if j["match"] == 2]
         return name, jobs, None
     except Exception as exc:  # one broken company must not stop the others
         return name, None, f"{type(exc).__name__}: {exc}"
