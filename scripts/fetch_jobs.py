@@ -156,7 +156,7 @@ def fetch_workday(c: dict) -> list[dict]:
     searches = searches if isinstance(searches, list) else [searches]
     jobs: dict[str, dict] = {}
     for text in searches:
-        offset, limit = 0, 20
+        offset, limit, total = 0, 20, 0
         for _ in range(int(c.get("max_pages", 15))):
             body = {"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": text}
             r = sess().post(api, json=body, timeout=TIMEOUT)
@@ -174,7 +174,8 @@ def fetch_workday(c: dict) -> list[dict]:
                     "posted": p.get("postedOn", "") or "",
                 }
             offset += limit
-            if not postings or offset >= data.get("total", 0):
+            total = max(total, data.get("total", 0))  # Workday only reports the total on page 1
+            if not postings or offset >= total:
                 break
     return list(jobs.values())
 
