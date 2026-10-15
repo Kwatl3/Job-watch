@@ -807,8 +807,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 11,
-   "raw": 32
+   "count": 12,
+   "raw": 33
   },
   "EUMETSAT": {
    "ok": true,
@@ -827,8 +827,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 98,
-   "raw": 260
+   "count": 99,
+   "raw": 261
   },
   "John Cockerill": {
    "ok": true,
@@ -923,7 +923,7 @@
   "Hensoldt": {
    "ok": true,
    "count": 141,
-   "raw": 520
+   "raw": 524
   },
   "TKMS": {
    "ok": true,
@@ -3743,7 +3743,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 130,
-   "raw": 590
+   "raw": 589
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4118,7 +4118,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 586
+   "raw": 582
   },
   "Lightmatter": {
    "ok": true,
@@ -4128,22 +4128,22 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 349
+   "raw": 347
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 114
+   "raw": 116
   },
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 249
+   "raw": 246
   },
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 229
+   "raw": 231
   },
   "Siemens Energy": {
    "ok": true,
@@ -4403,7 +4403,7 @@
   "Eliyan": {
    "ok": true,
    "count": 0,
-   "raw": 22
+   "raw": 21
   },
   "Submer": {
    "ok": true,
@@ -4413,7 +4413,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 187
+   "raw": 186
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4433,7 +4433,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 1,
-   "raw": 378
+   "raw": 379
   },
   "EdgeConnex": {
    "ok": true,
@@ -4668,12 +4668,12 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 801
+   "raw": 805
   },
   "ClickHouse": {
    "ok": true,
    "count": 2,
-   "raw": 198
+   "raw": 199
   },
   "Parloa": {
    "ok": true,
@@ -4703,7 +4703,7 @@
   "Databricks": {
    "ok": true,
    "count": 0,
-   "raw": 895
+   "raw": 893
   },
   "Anthropic": {
    "ok": true,
@@ -4757,6 +4757,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-EO-Future-Missions-Optical-Payload-and-Performance-Engineer/1447511933/",
+   "title": "EO Future Missions Optical Payload and Performance Engineer",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-EO-Future-Missions-Optical-Payload-and-Performance-Engineer/1447511933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-15T00:25:16+00:00"
+  },
   {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Bremen-Area/Mechanical-Systems-Integration-Engineer---Focus-Air-Conditioning---ATA-21--d-m-w-_JR10427986",
@@ -48198,8 +48209,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-14T21:55:43+00:00"
+   "src": "agency"
   },
   {
    "company": "KNDS",
@@ -68241,5 +68251,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-14T21:55:43+00:00"
+ "updated": "2026-10-15T00:25:16+00:00"
 }
