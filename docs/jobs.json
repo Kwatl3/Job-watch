@@ -806,9 +806,9 @@
    "raw": 90
   },
   "ESA": {
-   "ok": true,
-   "count": 13,
-   "raw": 33
+   "ok": false,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='jobs.esa.int', port=443): Max retries exceeded with url: /search/?q=&startrow=0&sortColumn=referencedate&sortDirection=desc (Caused by ConnectTimeoutError(<HT",
+   "count": 13
   },
   "EUMETSAT": {
    "ok": true,
@@ -827,8 +827,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 97,
-   "raw": 258
+   "count": 96,
+   "raw": 257
   },
   "John Cockerill": {
    "ok": true,
@@ -938,7 +938,7 @@
   "OHB": {
    "ok": true,
    "count": 96,
-   "raw": 237
+   "raw": 236
   },
   "Heckler & Koch": {
    "ok": true,
@@ -3547,8 +3547,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 21,
-   "raw": 47
+   "count": 22,
+   "raw": 48
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3763,7 +3763,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 305
+   "raw": 306
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4118,7 +4118,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 580
+   "raw": 579
   },
   "Lightmatter": {
    "ok": true,
@@ -4138,7 +4138,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 250
+   "raw": 251
   },
   "Saronic": {
    "ok": true,
@@ -4388,7 +4388,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 184
+   "raw": 183
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4433,7 +4433,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 1,
-   "raw": 377
+   "raw": 378
   },
   "EdgeConnex": {
    "ok": true,
@@ -4633,12 +4633,12 @@
   "Synthesia": {
    "ok": true,
    "count": 1,
-   "raw": 50
+   "raw": 49
   },
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 151
+   "raw": 152
   },
   "Krea": {
    "ok": true,
@@ -4668,7 +4668,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 805
+   "raw": 802
   },
   "ClickHouse": {
    "ok": true,
@@ -4683,7 +4683,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 203
+   "raw": 202
   },
   "Dataiku": {
    "ok": true,
@@ -4693,7 +4693,7 @@
   "Graphcore": {
    "ok": true,
    "count": 0,
-   "raw": 178
+   "raw": 177
   },
   "Scale AI": {
    "ok": true,
@@ -4703,12 +4703,12 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 898
+   "raw": 897
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 652
+   "raw": 655
   },
   "Vectara": {
    "ok": true,
@@ -4757,6 +4757,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Jenoptik",
+   "id": "16012-44511318-1015-S",
+   "title": "Production Engineering Expert (m/w/d)",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44511318-1015-S",
+   "posted": "2026-10-16",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-16T01:10:20+00:00"
+  },
   {
    "company": "ESA",
    "id": "https://jobs.esa.int/job/Noordwijk-Propagation-Engineer/1447668733/",
@@ -49913,7 +49924,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-16T01:10:20+00:00"
   },
   {
    "company": "KNDS",
@@ -70008,5 +70020,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-15T22:39:00+00:00"
+ "updated": "2026-10-16T01:10:20+00:00"
 }
