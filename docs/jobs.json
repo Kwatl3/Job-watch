@@ -798,7 +798,7 @@
   "CERN": {
    "ok": true,
    "count": 19,
-   "raw": 52
+   "raw": 44
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -908,7 +908,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 2,
-   "raw": 72
+   "raw": 71
   },
   "Diehl": {
    "ok": true,
@@ -3547,8 +3547,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 11,
-   "raw": 171
+   "count": 23,
+   "raw": 50
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3763,7 +3763,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 312
+   "raw": 311
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3888,7 +3888,7 @@
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 0
+   "raw": 3
   },
   "IONOS": {
    "ok": true,
@@ -4433,7 +4433,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 1,
-   "raw": 371
+   "raw": 370
   },
   "EdgeConnex": {
    "ok": true,
@@ -4472,8 +4472,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 0,
-   "raw": 0
+   "count": 3,
+   "raw": 17
   },
   "Smart Photonics": {
    "ok": true,
@@ -4673,7 +4673,7 @@
   "ClickHouse": {
    "ok": true,
    "count": 2,
-   "raw": 197
+   "raw": 200
   },
   "Parloa": {
    "ok": true,
@@ -4708,7 +4708,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 655
+   "raw": 656
   },
   "Vectara": {
    "ok": true,
@@ -4777,8 +4777,7 @@
    "posted": "2026-10-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-17T01:14:16+00:00",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "first_seen": "2026-10-17T01:14:16+00:00"
   },
   {
    "company": "Hensoldt",
@@ -6692,8 +6691,7 @@
    "posted": "2026-10-16",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-16T01:10:20+00:00",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "first_seen": "2026-10-16T01:10:20+00:00"
   },
   {
    "company": "ESA",
@@ -6914,7 +6912,8 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -7388,7 +7387,8 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Dekra",
@@ -12739,7 +12739,8 @@
    "posted": "2026-10-06",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12750,7 +12751,8 @@
    "posted": "2026-10-06",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12761,7 +12763,8 @@
    "posted": "2026-10-03",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -12805,7 +12808,8 @@
    "posted": "2026-10-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12816,7 +12820,8 @@
    "posted": "2026-09-28",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12827,7 +12832,8 @@
    "posted": "2026-09-28",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12838,7 +12844,8 @@
    "posted": "2026-09-25",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -12872,7 +12879,8 @@
    "posted": "2026-09-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12883,7 +12891,8 @@
    "posted": "2026-09-21",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-17T06:03:22+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -12995,8 +13004,7 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -13007,8 +13015,7 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -13031,8 +13038,7 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -18903,12 +18909,12 @@
    "closed_at": "2026-10-12T18:29:50+00:00"
   },
   {
-   "company": "Pure Storage",
-   "id": "8239197",
-   "title": "Enterprise Account Executive - Manufacturing",
-   "location": "Munich, Germany",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8239197",
-   "posted": "2026-10-16T04:39:28-04:00",
+   "company": "Astera Labs",
+   "id": "4721055005",
+   "title": "Senior Sourcing Specialist – Germany Operations & Manufacturing",
+   "location": "Aachen, North Rhine-Westphalia, Germany",
+   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4721055005",
+   "posted": "2026-10-16T23:50:36-04:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T16:29:40+00:00",
@@ -18916,11 +18922,35 @@
   },
   {
    "company": "Astera Labs",
-   "id": "4721055005",
-   "title": "Senior Sourcing Specialist – Germany Operations & Manufacturing",
-   "location": "Aachen, North Rhine-Westphalia, Germany",
-   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4721055005",
-   "posted": "2026-10-14T12:48:02-04:00",
+   "id": "4720467005",
+   "title": "Senior Principal ASIC Design Engineer",
+   "location": "Germany (Onsite)",
+   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4720467005",
+   "posted": "2026-10-16T23:50:26-04:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-10T16:29:40+00:00",
+   "seed": true
+  },
+  {
+   "company": "Astera Labs",
+   "id": "4720386005",
+   "title": "Distinguished ASIC Design Engineer",
+   "location": "Germany (Onsite)",
+   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4720386005",
+   "posted": "2026-10-16T23:50:25-04:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-10T16:29:40+00:00",
+   "seed": true
+  },
+  {
+   "company": "Pure Storage",
+   "id": "8239197",
+   "title": "Enterprise Account Executive - Manufacturing",
+   "location": "Munich, Germany",
+   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8239197",
+   "posted": "2026-10-16T04:39:28-04:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T16:29:40+00:00",
@@ -19030,30 +19060,6 @@
    "url": "https://jobs.ashbyhq.com/blacksemiconductor/24bbeade-9b77-48ee-905d-d5968edc1ba7",
    "posted": "2026-09-25",
    "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-10T16:29:40+00:00",
-   "seed": true
-  },
-  {
-   "company": "Astera Labs",
-   "id": "4720386005",
-   "title": "Distinguished ASIC Design Engineer",
-   "location": "Germany (Onsite)",
-   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4720386005",
-   "posted": "2026-09-24T18:41:01-04:00",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-10T16:29:40+00:00",
-   "seed": true
-  },
-  {
-   "company": "Astera Labs",
-   "id": "4720467005",
-   "title": "Senior Principal ASIC Design Engineer",
-   "location": "Germany (Onsite)",
-   "url": "https://job-boards.greenhouse.io/asteralabs/jobs/4720467005",
-   "posted": "2026-09-24T18:33:01-04:00",
-   "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T16:29:40+00:00",
    "seed": true
@@ -34289,6 +34295,61 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-Electronic-Warfare-%28wmd%29-89077/1365091955/",
+   "title": "Senior Systemingenieur Electronic Warfare (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-Electronic-Warfare-%28wmd%29-89077/1365091955/",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
+   "title": "Program Manager Contracts Systems and Processes (m/w/d)",
+   "location": "Taufkirchen, DE, 82024 • Oberkochen, DE, 73447 • Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Manching-Lead-Expert-Systems-Engineering-Eurofighter-%28wmd%29-85077/1165760455/",
+   "title": "Lead Expert Systems Engineering Eurofighter (w/m/d)",
+   "location": "Manching, DE, 85077",
+   "url": "https://jobs.hensoldt.net/job/Manching-Lead-Expert-Systems-Engineering-Eurofighter-%28wmd%29-85077/1165760455/",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Wurster-Nordseek%C3%BCste-Expert-Instandhaltung-Freigabeberechtigtes-Personal-Luftfahrtger%C3%A4t-%28wmd%29-27639/1365091055/",
+   "title": "Expert Instandhaltung / Freigabeberechtigtes Personal Luftfahrtgerät (w/m/d)",
+   "location": "Wurster Nordseeküste, DE, 27639",
+   "url": "https://jobs.hensoldt.net/job/Wurster-Nordseek%C3%BCste-Expert-Instandhaltung-Freigabeberechtigtes-Personal-Luftfahrtger%C3%A4t-%28wmd%29-27639/1365091055/",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Prototypen-externe-Fertigung-%28wmd%29-89077/1365093255/",
+   "title": "Auftragsverantwortlicher Prototypen externe Fertigung (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Prototypen-externe-Fertigung-%28wmd%29-89077/1365093255/",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Workplace-Infrastructure-Engineer-%28wmd%29-89077/1364992655/",
    "title": "Workplace Infrastructure Engineer (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -34810,7 +34871,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-10-10",
    "match": 1,
@@ -34821,7 +34882,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "title": "Chief Engineer (w/m/d)",
-   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "posted": "2026-10-10",
    "match": 1,
@@ -35020,7 +35081,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
+   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-10-08",
    "match": 1,
@@ -35621,7 +35682,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Wilhelmshaven, DE, 26389 • Koblenz, DE, 56073 • Cologne, FR, 32430 • Köln, DE, 50676 • Bremen, DE, 28757 • Kiel, DE, 24145 • Köln, DE, 51147 • Hamburg, DE, 22335 • Kiel, DE, 24114 • Bremen, DE, 28757 • Fürstenfeldbruck, DE, 82256",
+   "location": "Bremen, DE, 28757 • Wilhelmshaven, DE, 26389 • Cologne, FR, 32430 • Kiel, DE, 24114 • Koblenz, DE, 56073 • Köln, DE, 51147 • Kiel, DE, 24145 • Köln, DE, 50676 • Hamburg, DE, 22335 • Bremen, DE, 28757 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-10-03",
    "match": 1,
@@ -36886,28 +36947,6 @@
    "closed_at": "2026-10-14T13:38:09+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-Electronic-Warfare-%28wmd%29-89077/1365091955/",
-   "title": "Senior Systemingenieur Electronic Warfare (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-Electronic-Warfare-%28wmd%29-89077/1365091955/",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
-   "title": "Program Manager Contracts Systems and Processes (m/w/d)",
-   "location": "Taufkirchen, DE, 82024 • Oberkochen, DE, 73447 • Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/pflichtpraktikant-m-w-d-lean-management-und-produktionsprojekte-in-der-fertigung",
    "title": "Pflichtpraktikant (m/w/d) LEAN-Management und Produktionsprojekte in der Fertigung",
@@ -36915,39 +36954,6 @@
    "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/pflichtpraktikant-m-w-d-lean-management-und-produktionsprojekte-in-der-fertigung",
    "posted": "2026-09-18",
    "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Manching-Lead-Expert-Systems-Engineering-Eurofighter-%28wmd%29-85077/1165760455/",
-   "title": "Lead Expert Systems Engineering Eurofighter (w/m/d)",
-   "location": "Manching, DE, 85077",
-   "url": "https://jobs.hensoldt.net/job/Manching-Lead-Expert-Systems-Engineering-Eurofighter-%28wmd%29-85077/1165760455/",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Wurster-Nordseek%C3%BCste-Expert-Instandhaltung-Freigabeberechtigtes-Personal-Luftfahrtger%C3%A4t-%28wmd%29-27639/1365091055/",
-   "title": "Expert Instandhaltung / Freigabeberechtigtes Personal Luftfahrtgerät (w/m/d)",
-   "location": "Wurster Nordseeküste, DE, 27639",
-   "url": "https://jobs.hensoldt.net/job/Wurster-Nordseek%C3%BCste-Expert-Instandhaltung-Freigabeberechtigtes-Personal-Luftfahrtger%C3%A4t-%28wmd%29-27639/1365091055/",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Prototypen-externe-Fertigung-%28wmd%29-89077/1365093255/",
-   "title": "Auftragsverantwortlicher Prototypen externe Fertigung (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Prototypen-externe-Fertigung-%28wmd%29-89077/1365093255/",
-   "posted": "2026-09-18",
-   "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
@@ -41083,8 +41089,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Atlas Elektronik",
@@ -41169,8 +41174,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -41182,8 +41186,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -41207,8 +41210,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -41438,8 +41440,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -41524,8 +41525,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Lufthansa Technik",
@@ -41903,8 +41903,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -42160,8 +42159,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -42173,8 +42171,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -42653,8 +42650,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -42666,8 +42662,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -42692,8 +42687,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -42730,8 +42724,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Moog",
@@ -42888,8 +42881,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -42987,8 +42979,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -43182,8 +43173,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "FFG Flensburger Fahrzeugbau",
@@ -43279,8 +43269,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -43292,8 +43281,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "General Dynamics",
@@ -43571,8 +43559,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -43584,8 +43571,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -43633,8 +43619,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T04:35:29+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -45420,6 +45405,18 @@
    "src": "agency"
   },
   {
+   "company": "Sika",
+   "id": "14225-fd539fc6c826503f-S",
+   "title": "Wirtschaftsingenieur (m/w/d)",
+   "location": "Bad Urach, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
+   "posted": "2026-10-07",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Hensoldt",
    "id": "14225-cac06fc4142ae0b5-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
@@ -45431,18 +45428,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Sika",
-   "id": "14225-fd539fc6c826503f-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Bad Urach, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-fd539fc6c826503f-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
   },
   {
    "company": "Akkodis",
@@ -45880,18 +45865,6 @@
    "closed_at": "2026-10-16T16:30:47+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4957116763-S",
-   "title": "Konstrukteur (m/w/d)",
-   "location": "Frankfurt am Main, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
-   "posted": "2026-10-07",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "SYNERGIE Personal",
    "id": "12704-675Q3YE8KB0QOYFZ-S",
    "title": "Konstrukteur (m/w/d)",
@@ -45903,6 +45876,18 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-16T11:33:16+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4957116763-S",
+   "title": "Konstrukteur (m/w/d)",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957116763-S",
+   "posted": "2026-10-07",
+   "match": 2,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
   },
   {
    "company": "Bertrandt",
@@ -51721,18 +51706,6 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "14225-77634770ee9cb232-S",
-   "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
-   "posted": "2026-10-01",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Gerhard Schubert",
    "id": "14225-1dc89fab6543278e-S",
    "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
@@ -51744,6 +51717,18 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-16T11:33:16+00:00"
+  },
+  {
+   "company": "KNDS",
+   "id": "14225-77634770ee9cb232-S",
+   "title": "Mechaniker, Industriemechaniker, Mechatroniker (m/w/d)",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-77634770ee9cb232-S",
+   "posted": "2026-10-01",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
   },
   {
    "company": "KNDS",
@@ -51854,18 +51839,6 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "14225-0df45bd407e315da-S",
-   "title": "Konstruktionsmechaniker (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
-   "posted": "2026-10-01",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "SYNERGIE Personal",
    "id": "12704-7P3NGX1K589QUDY4-S",
    "title": "Konstruktionsmechaniker (m/w/d)",
@@ -51877,6 +51850,18 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T05:59:46+00:00"
+  },
+  {
+   "company": "KNDS",
+   "id": "14225-0df45bd407e315da-S",
+   "title": "Konstruktionsmechaniker (m/w/d)",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0df45bd407e315da-S",
+   "posted": "2026-10-01",
+   "match": 2,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
   },
   {
    "company": "SYNERGIE Personal",
@@ -53344,6 +53329,18 @@
    "closed_at": "2026-10-16T06:17:41+00:00"
   },
   {
+   "company": "Schunk",
+   "id": "10000-1208059897-S",
+   "title": "Mechatroniker (m/w/d)",
+   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
+   "posted": "2026-09-29",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Bertrandt",
    "id": "12288-4951160341-S",
    "title": "Mechatroniker (m/w/d)",
@@ -53355,18 +53352,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-16T06:17:41+00:00"
-  },
-  {
-   "company": "Schunk",
-   "id": "10000-1208059897-S",
-   "title": "Mechatroniker (m/w/d)",
-   "location": "St. Georgen im Schwarzwald, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208059897-S",
-   "posted": "2026-09-29",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
   },
   {
    "company": "CSG",
@@ -57525,6 +57510,18 @@
    "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
+   "company": "Cronimet",
+   "id": "17672-0067478322-S",
+   "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
+   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
+   "posted": "2026-09-17",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "TKMS",
    "id": "16604-971111-008-S",
    "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
@@ -57536,18 +57533,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-13T11:01:44+00:00"
-  },
-  {
-   "company": "Cronimet",
-   "id": "17672-0067478322-S",
-   "title": "Sachbearbeiter Qualitätssicherung (m/w/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17672-0067478322-S",
-   "posted": "2026-09-17",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
   },
   {
    "company": "SAP",
@@ -62695,7 +62680,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce",
+   "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -62707,7 +62692,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce Power Systems",
+   "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -64490,11 +64475,11 @@
    "src": "agency"
   },
   {
-   "company": "KNDS",
-   "id": "10000-1207277265-S",
+   "company": "Pneuhage Management",
+   "id": "10001-1003423262-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Freisen, Saarland",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
+   "location": "Heidenau, Sachsen, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -64502,11 +64487,11 @@
    "src": "agency"
   },
   {
-   "company": "Pneuhage Management",
-   "id": "10001-1003423262-S",
+   "company": "KNDS",
+   "id": "10000-1207277265-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Heidenau, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
+   "location": "Freisen, Saarland",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
    "posted": "2026-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -68764,6 +68749,18 @@
    "src": "agency"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -68781,18 +68778,6 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -72104,5 +72089,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-17T04:35:29+00:00"
+ "updated": "2026-10-17T06:03:22+00:00"
 }
