@@ -908,7 +908,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 2,
-   "raw": 73
+   "raw": 72
   },
   "Diehl": {
    "ok": true,
@@ -3547,8 +3547,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 22,
-   "raw": 48
+   "count": 23,
+   "raw": 50
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3763,7 +3763,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 311
+   "raw": 312
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3983,7 +3983,7 @@
   "Carbon": {
    "ok": true,
    "count": 0,
-   "raw": 11
+   "raw": 12
   },
   "Markforged": {
    "ok": true,
@@ -4113,7 +4113,7 @@
   "Together AI": {
    "ok": true,
    "count": 0,
-   "raw": 76
+   "raw": 78
   },
   "Rocket Lab": {
    "ok": true,
@@ -4128,7 +4128,7 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 348
+   "raw": 350
   },
   "Etched": {
    "ok": true,
@@ -4398,7 +4398,7 @@
   "d-Matrix": {
    "ok": true,
    "count": 0,
-   "raw": 42
+   "raw": 43
   },
   "Eliyan": {
    "ok": true,
@@ -4413,7 +4413,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 187
+   "raw": 186
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4433,7 +4433,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 1,
-   "raw": 372
+   "raw": 371
   },
   "EdgeConnex": {
    "ok": true,
@@ -4628,7 +4628,7 @@
   "Twenty": {
    "ok": true,
    "count": 0,
-   "raw": 42
+   "raw": 44
   },
   "Synthesia": {
    "ok": true,
@@ -4668,7 +4668,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 810
+   "raw": 815
   },
   "ClickHouse": {
    "ok": true,
@@ -4703,12 +4703,12 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 897
+   "raw": 898
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 654
+   "raw": 655
   },
   "Vectara": {
    "ok": true,
@@ -4757,6 +4757,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Jenoptik",
+   "id": "16012-44512364-1016-S",
+   "title": "Projektleiter*in Technologie Optikfertigung OFT (w/m/d)",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44512364-1016-S",
+   "posted": "2026-10-17",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-17T01:14:16+00:00"
+  },
   {
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Praktikant-HENSOLDT-Produktionssystem-%28wmd%29-89077/1370962055/",
@@ -72079,5 +72090,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-16T22:45:09+00:00"
+ "updated": "2026-10-17T01:14:16+00:00"
 }
