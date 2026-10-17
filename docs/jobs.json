@@ -4138,7 +4138,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 247
+   "raw": 246
   },
   "Saronic": {
    "ok": true,
@@ -45096,7 +45096,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-17T19:42:13+00:00"
   },
   {
    "company": "Akkodis",
@@ -47051,8 +47052,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-17T11:06:46+00:00"
+   "src": "agency"
   },
   {
    "company": "Akkodis",
@@ -72157,5 +72157,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-17T17:30:19+00:00"
+ "updated": "2026-10-17T19:42:13+00:00"
 }
