@@ -1252,7 +1252,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 145,
+   "count": 146,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -4118,7 +4118,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 585
+   "raw": 584
   },
   "Lightmatter": {
    "ok": true,
@@ -4128,7 +4128,7 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 350
+   "raw": 349
   },
   "Etched": {
    "ok": true,
@@ -4638,7 +4638,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 156
+   "raw": 154
   },
   "Krea": {
    "ok": true,
@@ -4708,7 +4708,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 655
+   "raw": 656
   },
   "Vectara": {
    "ok": true,
@@ -44523,7 +44523,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-19T00:25:45+00:00"
   },
   {
    "company": "Bock",
@@ -46028,8 +46029,7 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-16T16:30:47+00:00"
+   "src": "agency"
   },
   {
    "company": "SYNERGIE Personal",
@@ -46375,8 +46375,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-16T16:30:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Ed. Züblin",
@@ -72258,5 +72257,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-18T22:22:46+00:00"
+ "updated": "2026-10-19T00:25:45+00:00"
 }
