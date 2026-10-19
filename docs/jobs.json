@@ -828,7 +828,7 @@
   "KNDS": {
    "ok": true,
    "count": 96,
-   "raw": 252
+   "raw": 253
   },
   "John Cockerill": {
    "ok": true,
@@ -2413,7 +2413,7 @@
   "Rud. Otto Meyer Technik": {
    "ok": true,
    "count": 7,
-   "raw": 59
+   "raw": 58
   },
   "Rutronik Elektronische Bauelemente": {
    "ok": true,
@@ -3443,7 +3443,7 @@
   "Liebherr-Aerospace": {
    "ok": true,
    "count": 32,
-   "raw": 69
+   "raw": 68
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3742,8 +3742,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 117,
-   "raw": 566
+   "count": 115,
+   "raw": 564
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -3753,17 +3753,17 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 123
+   "raw": 121
   },
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 92
+   "raw": 94
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 312
+   "raw": 314
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3978,7 +3978,7 @@
   "Formlabs": {
    "ok": true,
    "count": 2,
-   "raw": 245
+   "raw": 247
   },
   "Carbon": {
    "ok": false,
@@ -4108,7 +4108,7 @@
   "Nebius": {
    "ok": true,
    "count": 8,
-   "raw": 381
+   "raw": 382
   },
   "Together AI": {
    "ok": true,
@@ -4118,32 +4118,32 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 585
+   "raw": 589
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 65
+   "raw": 64
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 350
+   "raw": 349
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 116
+   "raw": 117
   },
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 248
+   "raw": 249
   },
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 230
+   "raw": 233
   },
   "Siemens Energy": {
    "ok": true,
@@ -4388,7 +4388,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 181
+   "raw": 182
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4413,7 +4413,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 185
+   "raw": 188
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4433,7 +4433,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 1,
-   "raw": 372
+   "raw": 374
   },
   "EdgeConnex": {
    "ok": true,
@@ -4663,7 +4663,7 @@
   "Wayve": {
    "ok": true,
    "count": 1,
-   "raw": 174
+   "raw": 175
   },
   "OpenAI": {
    "ok": true,
@@ -4673,7 +4673,7 @@
   "ClickHouse": {
    "ok": true,
    "count": 2,
-   "raw": 199
+   "raw": 198
   },
   "Parloa": {
    "ok": true,
@@ -4703,12 +4703,12 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 900
+   "raw": 901
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 663
+   "raw": 666
   },
   "Vectara": {
    "ok": true,
@@ -4723,7 +4723,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 383
+   "raw": 377
   },
   "Merantix": {
    "ok": true,
@@ -4748,7 +4748,7 @@
   "Neura Robotics": {
    "ok": true,
    "count": 6,
-   "raw": 209
+   "raw": 207
   },
   "Agile Robots": {
    "ok": true,
@@ -33857,7 +33857,8 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-19T22:15:46+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -33869,7 +33870,8 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-10-19T22:15:46+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -35520,6 +35522,17 @@
    "src": "site",
    "first_seen": "2026-10-09T06:15:45+00:00",
    "closed_at": "2026-10-09T16:41:09+00:00"
+  },
+  {
+   "company": "Helsing",
+   "id": "4334842101",
+   "title": "Staff AI Research Engineer -  Computer Vision",
+   "location": "Berlin; London; Munich",
+   "url": "https://helsing.ai/jobs/4334842101?gh_jid=4334842101",
+   "posted": "2026-10-19T14:49:23-04:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Helsing",
@@ -39189,17 +39202,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-15T10:15:42+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "4334842101",
-   "title": "AI Research Engineer -  Computer Vision",
-   "location": "Berlin; London; Munich",
-   "url": "https://helsing.ai/jobs/4334842101?gh_jid=4334842101",
-   "posted": "2026-08-20T04:41:10-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Diehl",
@@ -73361,5 +73363,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-19T17:43:07+00:00"
+ "updated": "2026-10-19T22:15:46+00:00"
 }
