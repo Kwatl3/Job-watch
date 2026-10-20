@@ -797,8 +797,8 @@
  "companies": {
   "CERN": {
    "ok": true,
-   "count": 15,
-   "raw": 36
+   "count": 14,
+   "raw": 35
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -827,8 +827,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 97,
-   "raw": 259
+   "count": 96,
+   "raw": 258
   },
   "John Cockerill": {
    "ok": true,
@@ -1193,7 +1193,7 @@
   "Rolls-Royce": {
    "ok": true,
    "count": 10,
-   "raw": 38
+   "raw": 39
   },
   "Babcock": {
    "ok": true,
@@ -3763,7 +3763,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 319
+   "raw": 318
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3978,7 +3978,7 @@
   "Formlabs": {
    "ok": true,
    "count": 2,
-   "raw": 249
+   "raw": 245
   },
   "Carbon": {
    "ok": false,
@@ -4108,7 +4108,7 @@
   "Nebius": {
    "ok": true,
    "count": 8,
-   "raw": 379
+   "raw": 378
   },
   "Together AI": {
    "ok": true,
@@ -4118,7 +4118,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 583
+   "raw": 587
   },
   "Lightmatter": {
    "ok": true,
@@ -4128,7 +4128,7 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 344
+   "raw": 350
   },
   "Etched": {
    "ok": true,
@@ -4143,7 +4143,7 @@
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 233
+   "raw": 232
   },
   "Siemens Energy": {
    "ok": true,
@@ -4388,7 +4388,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 180
+   "raw": 183
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4413,7 +4413,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 187
+   "raw": 188
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4428,7 +4428,7 @@
   "Runpod": {
    "ok": true,
    "count": 2,
-   "raw": 27
+   "raw": 28
   },
   "Pure Storage": {
    "ok": true,
@@ -4628,7 +4628,7 @@
   "Twenty": {
    "ok": true,
    "count": 0,
-   "raw": 43
+   "raw": 44
   },
   "Synthesia": {
    "ok": true,
@@ -4638,7 +4638,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 157
+   "raw": 158
   },
   "Krea": {
    "ok": true,
@@ -4668,7 +4668,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 804
+   "raw": 809
   },
   "ClickHouse": {
    "ok": true,
@@ -4683,7 +4683,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 207
+   "raw": 209
   },
   "Dataiku": {
    "ok": true,
@@ -4698,17 +4698,17 @@
   "Scale AI": {
    "ok": true,
    "count": 0,
-   "raw": 182
+   "raw": 177
   },
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 902
+   "raw": 901
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 669
+   "raw": 673
   },
   "Vectara": {
    "ok": true,
@@ -4723,7 +4723,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 372
+   "raw": 371
   },
   "Merantix": {
    "ok": true,
@@ -29706,17 +29706,6 @@
   },
   {
    "company": "KNDS",
-   "id": "15537-JOB-863191-S",
-   "title": "Schichtaufsicht Fertigung (m/w/d)",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-863191-S",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T16:41:09+00:00"
-  },
-  {
-   "company": "KNDS",
    "id": "15537-JOB-863190-S",
    "title": "Schichtaufsicht Fertigung (m/w/d)",
    "location": "Kassel, Hessen, Hessen",
@@ -29725,6 +29714,18 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-09T16:41:09+00:00"
+  },
+  {
+   "company": "KNDS",
+   "id": "15537-JOB-863191-S",
+   "title": "Schichtaufsicht Fertigung (m/w/d)",
+   "location": "Kassel, Hessen, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-863191-S",
+   "posted": "2026-10-09",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-09T16:41:09+00:00",
+   "closed_at": "2026-10-20T20:50:18+00:00"
   },
   {
    "company": "KNDS",
@@ -75892,7 +75893,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
-   "src": "site"
+   "src": "site",
+   "closed_at": "2026-10-20T20:50:18+00:00"
   },
   {
    "company": "CERN",
@@ -76110,5 +76112,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-20T17:28:37+00:00"
+ "updated": "2026-10-20T20:50:18+00:00"
 }
