@@ -893,3 +893,17 @@ companies:
   - {name: "Hirth Engines", type: arbeitsagentur, employer: "Hirth Engines", where: "Stuttgart", radius_km: 50, tier: slow}
   - {name: "Valeo (Stuttgart region)", type: arbeitsagentur, employer: "Valeo", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
   - {name: "Tesat-Spacecom (Backnang)", type: arbeitsagentur, employer: "Tesat-Spacecom", where: "Backnang", radius_km: 50}
+
+  # ---- Stuttgart focus, part 2: manufacturers from the Rems-Murr business-location brochure (2020) ----
+  - {name: "Schnaithmann Maschinenbau", type: arbeitsagentur, employer: "Schnaithmann Maschinenbau", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "MBO Maschinenbau Oppenweiler", type: arbeitsagentur, employer: "MBO Maschinenbau Oppenweiler", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Oskar Frech", type: arbeitsagentur, employer: "Oskar Frech", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Klingele Papierwerke", type: arbeitsagentur, employer: "Klingele", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "KOP (Weinstadt)", type: arbeitsagentur, employer: "KOP GmbH", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Vossloh-Schwabe", type: arbeitsagentur, employer: "Vossloh-Schwabe", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Murrplastik", type: arbeitsagentur, employer: "Murrplastik", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "rhv-Technik", type: arbeitsagentur, employer: "rhv-Technik", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "d&b audiotechnik", type: arbeitsagentur, employer: "d&b audiotechnik", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "BALLUFF", type: arbeitsagentur, employer: "BALLUFF", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Erwin Renz Metallwarenfabrik", type: arbeitsagentur, employer: "Erwin Renz", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Andreas Maier (AMF)", type: arbeitsagentur, employer: "Andreas Maier", where: "Stuttgart", radius_km: 50, tier: slow}
