@@ -938,7 +938,7 @@
   "OHB": {
    "ok": true,
    "count": 100,
-   "raw": 246
+   "raw": 245
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1252,8 +1252,8 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 137,
-   "raw": 300
+   "count": 135,
+   "raw": 297
   },
   "ALB Fils Klinikum": {
    "ok": true,
@@ -3547,8 +3547,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 23,
-   "raw": 50
+   "count": 25,
+   "raw": 53
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -4123,12 +4123,12 @@
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 62
+   "raw": 61
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 344
+   "raw": 345
   },
   "Etched": {
    "ok": true,
@@ -4388,7 +4388,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 177
+   "raw": 176
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4413,7 +4413,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 190
+   "raw": 187
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4593,7 +4593,7 @@
   "Sereact": {
    "ok": true,
    "count": 2,
-   "raw": 42
+   "raw": 43
   },
   "DeepL": {
    "ok": true,
@@ -4668,7 +4668,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 811
+   "raw": 813
   },
   "ClickHouse": {
    "ok": true,
@@ -4698,7 +4698,7 @@
   "Scale AI": {
    "ok": true,
    "count": 0,
-   "raw": 175
+   "raw": 174
   },
   "Databricks": {
    "ok": true,
@@ -4708,7 +4708,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 674
+   "raw": 678
   },
   "Vectara": {
    "ok": true,
@@ -4723,7 +4723,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 373
+   "raw": 379
   },
   "Merantix": {
    "ok": true,
@@ -4757,6 +4757,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Jenoptik",
+   "id": "16012-44522907-1021-S",
+   "title": "Mitarbeiter*in (w/m/d) - Planoptik Handanfertigung",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44522907-1021-S",
+   "posted": "2026-10-22",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-22T01:44:54+00:00"
+  },
+  {
+   "company": "Jenoptik",
+   "id": "16012-44524206-1021-S",
+   "title": "Entwicklungstechnologe Schleifen + Polieren (w/m/d)",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44524206-1021-S",
+   "posted": "2026-10-22",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-22T01:44:54+00:00"
+  },
   {
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineering-Taktische-Wetterdatenerfassung-%28wmd%29-82256/1356154455/",
@@ -12942,7 +12964,8 @@
    "posted": "2026-10-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T10:15:42+00:00"
+   "first_seen": "2026-10-15T10:15:42+00:00",
+   "closed_at": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "RENK",
@@ -13096,7 +13119,8 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-15T10:15:42+00:00"
+   "first_seen": "2026-10-15T10:15:42+00:00",
+   "closed_at": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -77437,5 +77461,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-21T23:10:28+00:00"
+ "updated": "2026-10-22T01:44:54+00:00"
 }
