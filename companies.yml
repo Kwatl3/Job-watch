@@ -873,3 +873,23 @@ companies:
   - {name: "Jenoptik", type: successfactors, url: "https://careers.jenoptik.com", max_pages: 30, locations: de, tier: slow, only_core: true}
   - {name: "TRUMPF", type: workday, host: "trumpf.wd3.myworkdayjobs.com", tenant: "trumpf", site: "TRUMPF_Graduates_and_Professionals", max_pages: 20, locations: de, tier: slow, only_core: true}
   - {name: "Northern Data", type: workday, host: "northerndata.wd3.myworkdayjobs.com", tenant: "northerndata", site: "NorthernDataCareers", max_pages: 3, locations: [germany, deutschland, frankfurt, berlin, netherlands, amsterdam], only_core: true}
+
+  # ---- Stuttgart focus (Oct 2026): region-scoped searches (50 km around Stuttgart) so the national page cap
+  #      of the generic entries above cannot hide local jobs. The dashboard drops duplicates by link. -------
+  - {name: "Mercedes-Benz (Stuttgart region)", type: arbeitsagentur, employer: "Mercedes-Benz", where: "Stuttgart", radius_km: 50, max_pages: 6, tier: slow}
+  - {name: "Porsche (Stuttgart region)", type: arbeitsagentur, employer: "Porsche", where: "Stuttgart", radius_km: 50, max_pages: 6, tier: slow}
+  - {name: "Bosch (Stuttgart region)", type: arbeitsagentur, employer: "Bosch", where: "Stuttgart", radius_km: 50, max_pages: 6, tier: slow}
+  - {name: "Daimler Truck (Stuttgart region)", type: arbeitsagentur, employer: "Daimler Truck", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "MAHLE (Stuttgart region)", type: arbeitsagentur, employer: "MAHLE", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "Festo (Stuttgart region)", type: arbeitsagentur, employer: "FESTO", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "TRUMPF (Stuttgart region)", type: arbeitsagentur, employer: "TRUMPF", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "ZEISS (Stuttgart region)", type: arbeitsagentur, employer: "ZEISS", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Kärcher (Stuttgart region)", type: arbeitsagentur, employer: "Kärcher", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "STIHL (Stuttgart region)", type: arbeitsagentur, employer: "STIHL", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Dürr (Stuttgart region)", type: arbeitsagentur, employer: "Dürr", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Eberspächer (Stuttgart region)", type: arbeitsagentur, employer: "Eberspächer", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "MANN+HUMMEL (Stuttgart region)", type: arbeitsagentur, employer: "MANN+HUMMEL", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "BorgWarner (Stuttgart region)", type: arbeitsagentur, employer: "BorgWarner", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Hirth Engines", type: arbeitsagentur, employer: "Hirth Engines", where: "Stuttgart", radius_km: 50, tier: slow}
+  - {name: "Valeo (Stuttgart region)", type: arbeitsagentur, employer: "Valeo", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Tesat-Spacecom (Backnang)", type: arbeitsagentur, employer: "Tesat-Spacecom", where: "Backnang", radius_km: 50}

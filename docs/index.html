@@ -128,6 +128,7 @@
   </div>
   <select id="field" aria-label="Field">
     <option value="">Any field</option>
+    <option value="stuttgart">Stuttgart region</option>
     <option value="semi">Semiconductor / AI hardware</option>
     <option value="aero">Aerospace &amp; space</option>
     <option value="theme">Optics / photonics &amp; AI infrastructure</option>
@@ -177,7 +178,11 @@ const SEMI = /infineon|nxp|globalfoundries|siltronic|x-fab|aixtron|asml|zeiss sm
 const AERO = /airbus|mtu|hensoldt|ohb|isar|exploration company|esa$|^esa|eumetsat|cern|astos|rocket|ariane|rolls|lufthansa technik|premium aerotec|ge aerospace|thales|mbda|diehl|rheinmetall|helsing|stark|quantum systems|volocopter|lilium|mynaric|constellr|orora|reflex|polaris|hyimpulse|mt aerospace|jena-optronik|beyond gravity|safran|liebherr|spirit|fokker|elbe flug|pfw|dlr|aerospace|aviation|space/i;
 const DEV = /produktentwickl|product development|product engineer|entwicklung|development|konstruk|design|r&d|f&e|fahrzeug|vehicle|systemingenieur|systems engineer|entwickler|developer/i;
 const THEME = /ciena|lumentum|coherent|marvell|broadcom|cisco|arista|adtran|infinera|nokia|sicoya|q\.ant|smart photonics|black semiconductor|astera|eliyan|d-matrix|celestial|ayar|lightmatter|excelitas|thorlabs|jenoptik|fabrinet|credo|applied opto|aaoi|sivers|alphawave|sipearl|cerebras|lambda|coreweave|nebius|crusoe|together ai|fluidstack|runpod|tenstorrent|etched|vast data|pure storage|submer|vantage|aligned|edgeconnex|equinix|digital realty|northern data|ionos|hetzner|aleph alpha|supermicro|dell tech|hewlett packard|lenovo|vertiv|rittal|schneider|nvent|legrand|nvidia|amd|tacto|black forest|knowunity|sereact|deepl|n8n|photoroom|langdock|axelera|lumai|synthesia|elevenlabs|krea|tractable|weaviate|rasa|wayve|openai|clickhouse|parloa|celonis|dataiku|graphcore|scale ai|databricks|anthropic|vectara|peak ai|elastic|merantix|wandelbots|alice & bob|scaleway|helsing|cohere|neura|agile robots|quantum systems|trumpf|teradyne/i;
-const inField = (j, f) => !f || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "theme" && THEME.test(j.company)) || (f === "dev" && DEV.test(j.title));
+// Stuttgart region = Stuttgart plus the towns within roughly 50 km (matched on the job's location text)
+const STGT = /stuttgart|böblingen|boeblingen|sindelfingen|leonberg|ludwigsburg|esslingen|waiblingen|fellbach|ditzingen|kornwestheim|filderstadt|leinfelden|echterdingen|weissach|renningen|gerlingen|korntal|möglingen|schwieberdingen|remseck|winnenden|plochingen|nürtingen|göppingen|herrenberg|tübingen|reutlingen|backnang|schorndorf|vaihingen an der enz|bietigheim|kirchheim (unter|am)|ostfildern|denkendorf|rutesheim|weil der stadt|holzgerlingen|waldenbuch|aichtal|metzingen|asperg|ehningen|gärtringen/i;
+const NOT_BW = /bayern|rheinland|hessen|sachsen|thüringen|niedersachsen|nordrhein|westfalen|brandenburg/i;
+const isStuttgart = (j) => STGT.test(j.location || "") && !NOT_BW.test(j.location || "");
+const inField = (j, f) => !f || (f === "stuttgart" && isStuttgart(j)) || (f === "semi" && SEMI.test(j.company)) || (f === "aero" && AERO.test(j.company)) || (f === "theme" && THEME.test(j.company)) || (f === "dev" && DEV.test(j.title));
 const STAFF = /personal|personnel|akkodis|randstad|adecco|manpower|hays|gulp|zeitarbeit|synergie|franz & wach|tempton|orizon|persona service|dis ag|timepartner|piening|amadeus fire/i;
 const isRecent = (j) => {
   const age = (d) => (Date.now() - new Date(d).getTime()) / 86400000;
@@ -204,7 +209,10 @@ function render() {
   if (!data) return;
   const q = $("q").value.trim().toLowerCase();
   const onlyNew = $("onlyNew").checked, onlyBest = $("onlyBest").checked, onlySenior = $("onlySenior").checked, only3d = $("only3d").checked, field = $("field").value, showClosed = $("showClosed").checked, showAgency = $("showAgency").checked;
-  const pool = data.jobs.filter((j) => showAgency || only3d || j.src !== "agency");
+  // The Stuttgart view includes agency listings: most big Stuttgart employers cannot be read from their own site.
+  const seenUrl = new Set();
+  const pool = data.jobs.filter((j) => showAgency || only3d || field === "stuttgart" || j.src !== "agency")
+    .filter((j) => { if (!j.url) return true; if (seenUrl.has(j.url)) return false; seenUrl.add(j.url); return true; });
   const open = pool.filter((j) => !j.closed_at);
 
   $("stats").innerHTML =
