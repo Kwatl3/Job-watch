@@ -826,8 +826,8 @@
  "companies": {
   "CERN": {
    "ok": true,
-   "count": 14,
-   "raw": 36
+   "count": 13,
+   "raw": 35
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -836,8 +836,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 18,
-   "raw": 46
+   "count": 13,
+   "raw": 35
   },
   "EUMETSAT": {
    "ok": true,
@@ -845,9 +845,9 @@
    "raw": 19
   },
   "Astos Solutions": {
-   "ok": true,
-   "count": 2,
-   "raw": 3
+   "ok": false,
+   "error": "RetryError: HTTPSConnectionPool(host='www.astos.de', port=443): Max retries exceeded with url: /company/careers (Caused by ResponseError('too many 500 error responses'))",
+   "count": 2
   },
   "Roxel": {
    "ok": true,
@@ -857,7 +857,7 @@
   "KNDS": {
    "ok": true,
    "count": 96,
-   "raw": 257
+   "raw": 258
   },
   "John Cockerill": {
    "ok": true,
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 133,
-   "raw": 492
+   "count": 134,
+   "raw": 503
   },
   "TKMS": {
    "ok": true,
@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 100,
-   "raw": 241
+   "count": 99,
+   "raw": 240
   },
   "Heckler & Koch": {
    "ok": true,
@@ -3471,8 +3471,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 33,
-   "raw": 75
+   "count": 29,
+   "raw": 71
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 120,
-   "raw": 591
+   "raw": 590
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -3782,17 +3782,17 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 123
+   "raw": 122
   },
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 93
+   "raw": 96
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 319
+   "raw": 318
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4022,7 +4022,7 @@
   "Protolabs": {
    "ok": true,
    "count": 0,
-   "raw": 67
+   "raw": 69
   },
   "EOS (additive)": {
    "ok": true,
@@ -4132,12 +4132,12 @@
   "Tenstorrent": {
    "ok": true,
    "count": 2,
-   "raw": 122
+   "raw": 121
   },
   "Nebius": {
    "ok": true,
    "count": 10,
-   "raw": 383
+   "raw": 385
   },
   "Together AI": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 186
+   "raw": 187
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 160
+   "raw": 156
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 800
+   "raw": 802
   },
   "ClickHouse": {
    "ok": true,
@@ -4722,12 +4722,12 @@
   "Graphcore": {
    "ok": true,
    "count": 0,
-   "raw": 216
+   "raw": 215
   },
   "Scale AI": {
    "ok": true,
    "count": 0,
-   "raw": 172
+   "raw": 173
   },
   "Databricks": {
    "ok": true,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 681
+   "raw": 680
   },
   "Vectara": {
    "ok": true,
@@ -4931,6 +4931,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Teilprojektleiter-Delivery-Process-Manager-%28wmd%29-89077/1372918555/",
+   "title": "Teilprojektleiter / Delivery Process Manager (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Teilprojektleiter-Delivery-Process-Manager-%28wmd%29-89077/1372918555/",
+   "posted": "2026-10-15",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-23T00:31:53+00:00"
+  },
   {
    "company": "Schneider Electric",
    "id": "10001-1003901006-S",
@@ -34121,7 +34132,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "OHB",
@@ -47117,7 +47129,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -47254,7 +47267,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Astos Solutions",
@@ -47276,7 +47290,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "ESA",
@@ -47287,7 +47302,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "ESA",
@@ -47298,7 +47314,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "ESA",
@@ -48787,7 +48804,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Lufthansa Technik",
@@ -49311,7 +49329,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -49323,7 +49342,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -49373,7 +49393,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Jenoptik",
@@ -50796,19 +50817,6 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "FACC",
-   "id": "11949-17297584-S",
-   "title": "Produktionstechnologe/-technologin",
-   "location": "Ried im Innkreis, Oberoesterreich",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17297584-S",
-   "posted": "2026-07-23",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-08T23:42:41+00:00"
   },
   {
    "company": "Atlas Elektronik",
@@ -66146,19 +66154,6 @@
    "src": "agency"
   },
   {
-   "company": "Leonardo",
-   "id": "10001-1003672130-S",
-   "title": "Mechatroniker / Elektroniker / Elektriker (m/w/d) Instandhaltung - Direktvermittlung",
-   "location": "Bad Camberg, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003672130-S",
-   "posted": "2026-09-11",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-08T23:42:41+00:00"
-  },
-  {
    "company": "Telegärtner Karl Gärtner",
    "id": "12288-4933131508-S",
    "title": "Labortechniker / Laboringenieur (m/w/d)",
@@ -72271,19 +72266,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "OHB",
-   "id": "18777-956540095-S",
-   "title": "Systems & Electrical Engineer - Human Spaceflight & Microgravity (m/f/d)",
-   "location": "Weßling, Oberbayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18777-956540095-S",
-   "posted": "2026-07-10",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-08T23:42:41+00:00"
   },
   {
    "company": "Bechtle",
@@ -79130,7 +79112,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
-   "src": "site"
+   "src": "site",
+   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "CERN",
@@ -79349,5 +79332,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-22T21:53:18+00:00"
+ "updated": "2026-10-23T00:31:53+00:00"
 }
