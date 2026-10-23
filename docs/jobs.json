@@ -826,28 +826,28 @@
  "companies": {
   "CERN": {
    "ok": true,
-   "count": 13,
-   "raw": 35
+   "count": 12,
+   "raw": 37
   },
   "Thales (Workday, Germany)": {
    "ok": true,
    "count": 16,
-   "raw": 87
+   "raw": 88
   },
   "ESA": {
    "ok": true,
    "count": 13,
-   "raw": 35
+   "raw": 34
   },
   "EUMETSAT": {
    "ok": true,
-   "count": 8,
+   "count": 7,
    "raw": 19
   },
   "Astos Solutions": {
-   "ok": false,
-   "error": "RetryError: HTTPSConnectionPool(host='www.astos.de', port=443): Max retries exceeded with url: /company/careers (Caused by ResponseError('too many 500 error responses'))",
-   "count": 2
+   "ok": true,
+   "count": 2,
+   "raw": 3
   },
   "Roxel": {
    "ok": true,
@@ -856,7 +856,7 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 97,
+   "count": 96,
    "raw": 258
   },
   "John Cockerill": {
@@ -951,33 +951,33 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 134,
-   "raw": 502
+   "count": 135,
+   "raw": 496
   },
   "TKMS": {
    "ok": true,
-   "count": 82,
-   "raw": 236
+   "count": 88,
+   "raw": 251
   },
   "RENK": {
    "ok": true,
-   "count": 13,
-   "raw": 53
+   "count": 12,
+   "raw": 52
   },
   "OHB": {
    "ok": true,
    "count": 99,
-   "raw": 240
+   "raw": 244
   },
   "Heckler & Koch": {
    "ok": true,
-   "count": 16,
+   "count": 17,
    "raw": 68
   },
   "Quantum Systems": {
    "ok": true,
    "count": 13,
-   "raw": 190
+   "raw": 193
   },
   "Terma": {
    "ok": true,
@@ -1117,7 +1117,7 @@
   "Leonardo": {
    "ok": true,
    "count": 10,
-   "raw": 80
+   "raw": 82
   },
   "Fincantieri": {
    "ok": true,
@@ -1281,7 +1281,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 140,
+   "count": 139,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -1376,7 +1376,7 @@
   },
   "Bertrandt": {
    "ok": true,
-   "count": 122,
+   "count": 121,
    "raw": 300
   },
   "Beurer": {
@@ -3472,7 +3472,7 @@
   "Liebherr-Aerospace": {
    "ok": true,
    "count": 29,
-   "raw": 72
+   "raw": 73
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3596,8 +3596,8 @@
   },
   "Atlas Elektronik": {
    "ok": true,
-   "count": 14,
-   "raw": 39
+   "count": 17,
+   "raw": 47
   },
   "Vincorion": {
    "ok": true,
@@ -3622,7 +3622,7 @@
   "Lürssen": {
    "ok": true,
    "count": 23,
-   "raw": 50
+   "raw": 51
   },
   "Rheinmetall Landsysteme": {
    "ok": true,
@@ -3637,7 +3637,7 @@
   "Dynamit Nobel Defence": {
    "ok": true,
    "count": 17,
-   "raw": 36
+   "raw": 37
   },
   "Hirtenberger": {
    "ok": true,
@@ -3687,7 +3687,7 @@
   "Helsing": {
    "ok": true,
    "count": 58,
-   "raw": 157
+   "raw": 158
   },
   "Stark Defence": {
    "ok": true,
@@ -3707,7 +3707,7 @@
   "Isar Aerospace": {
    "ok": true,
    "count": 50,
-   "raw": 121
+   "raw": 123
   },
   "Rocket Factory Augsburg": {
    "ok": true,
@@ -3717,7 +3717,7 @@
   "The Exploration Company": {
    "ok": true,
    "count": 61,
-   "raw": 106
+   "raw": 107
   },
   "Autoflug": {
    "ok": true,
@@ -3732,7 +3732,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 68,
-   "raw": 162
+   "raw": 163
   },
   "Dornier": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 120,
-   "raw": 590
+   "raw": 588
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4137,7 +4137,7 @@
   "Nebius": {
    "ok": true,
    "count": 10,
-   "raw": 385
+   "raw": 383
   },
   "Together AI": {
    "ok": true,
@@ -4167,7 +4167,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 251
+   "raw": 252
   },
   "Saronic": {
    "ok": true,
@@ -4461,8 +4461,8 @@
   },
   "Pure Storage": {
    "ok": true,
-   "count": 1,
-   "raw": 362
+   "count": 2,
+   "raw": 361
   },
   "EdgeConnex": {
    "ok": true,
@@ -4502,7 +4502,7 @@
   "Q.ANT": {
    "ok": true,
    "count": 3,
-   "raw": 16
+   "raw": 17
   },
   "Smart Photonics": {
    "ok": true,
@@ -4627,12 +4627,12 @@
   "DeepL": {
    "ok": true,
    "count": 0,
-   "raw": 8
+   "raw": 9
   },
   "n8n": {
    "ok": true,
    "count": 1,
-   "raw": 40
+   "raw": 39
   },
   "Photoroom": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 156
+   "raw": 157
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 802
+   "raw": 801
   },
   "ClickHouse": {
    "ok": true,
@@ -4712,7 +4712,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 218
+   "raw": 219
   },
   "Dataiku": {
    "ok": true,
@@ -4732,7 +4732,7 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 900
+   "raw": 898
   },
   "Anthropic": {
    "ok": true,
@@ -4752,7 +4752,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 392
+   "raw": 393
   },
   "Merantix": {
    "ok": true,
@@ -4762,7 +4762,7 @@
   "Wandelbots": {
    "ok": true,
    "count": 0,
-   "raw": 10
+   "raw": 11
   },
   "Alice & Bob": {
    "ok": true,
@@ -4782,7 +4782,7 @@
   "Agile Robots": {
    "ok": true,
    "count": 1,
-   "raw": 69
+   "raw": 67
   },
   "Mercedes-Benz (Stuttgart region)": {
    "ok": true,
@@ -4932,6 +4932,281 @@
  },
  "jobs": [
   {
+   "company": "Pure Storage",
+   "id": "8280897",
+   "title": "Senior Consulting Systems Engineer Germany, Strategic Accounts (Automotive and Manufacturing)",
+   "location": "Munich, Germany",
+   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8280897",
+   "posted": "2026-10-23T05:40:59-04:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-978691186-S",
+   "title": "Testability Engineer Eurodrone (d/f/m)",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-978691186-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646434-7878-3051-S",
+   "title": "Technischer Produktdesigner (m/w/d) Schiffbau",
+   "location": "Kiel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646434-7878-3051-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-641656-7878-2654-S",
+   "title": "Projektleiter (m/w/d) Maschinenbau, Lieferantenmanagement",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-641656-7878-2654-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646433-7878-2799-S",
+   "title": "Lean Expert (m/w/d)",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646433-7878-2799-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974461-008-S",
+   "title": "Konstruktionsmechaniker Ausrüstungstechnik (m/w/d)",
+   "location": "Kiel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974461-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974478-008-S",
+   "title": "Konfigurationsmanager Produkt (m/w/d)",
+   "location": "Wedel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974478-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-974478-008-S",
+   "title": "Konfigurationsmanager Produkt (m/w/d)",
+   "location": "Wedel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974478-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974440-008-S",
+   "title": "Konfigurationsmanager (m/w/d)",
+   "location": "Böhnhusen, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974440-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974456-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974456-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974421-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Wilhelmshaven, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974421-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974417-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Wilhelmshaven, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974417-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-974456-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974456-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-974421-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Wilhelmshaven, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974421-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-974417-008-S",
+   "title": "Integration Engineer Field Services (m/w/d)",
+   "location": "Wilhelmshaven, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974417-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646440-7878-9138-S",
+   "title": "Industrial Engineer (m/w/d)",
+   "location": "Augsburg, Bayern, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646440-7878-9138-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Heckler & Koch",
+   "id": "13635-js_rw_696_JB5279718-S",
+   "title": "Gruppenleiter (m/w/d) Sondertechnologie I - Bereich Rundschleifen / Drehtechnik / Frästechnik",
+   "location": "Oberndorf am Neckar, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_rw_696_JB5279718-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974453-008-S",
+   "title": "Electrical Developer – Elektrokonstruktion (m/w/d)",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974453-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-974453-008-S",
+   "title": "Electrical Developer – Elektrokonstruktion (m/w/d)",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974453-008-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646431-7878-9881-S",
+   "title": "Cloud Infrastructure Engineer (m/w/d)",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646431-7878-9881-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646437-7878-7595-S",
+   "title": "Betriebsmittelkonstrukteur (w/m/d)",
+   "location": "Bruchsal, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646437-7878-7595-S",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-974409-008-S",
+   "title": "1. Werker Rohrfertigung (m/w/d)",
+   "location": "Wismar, Mecklenburg, Mecklenburg Vorpommern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974409-008-S",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systemsengineer-f%C3%BCr-Missionsplanung-und-GeoIT-Systeme-%28wmd%29-82256/1345478755/",
+   "title": "Senior Systemsengineer für Missionsplanung und GeoIT-Systeme (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systemsengineer-f%C3%BCr-Missionsplanung-und-GeoIT-Systeme-%28wmd%29-82256/1345478755/",
+   "posted": "2026-10-05",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1370488255/",
+   "title": "Qualitätsingenieur (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1370488255/",
+   "posted": "2026-10-05",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
+   "company": "EUMETSAT",
+   "id": "nbm30oipxhwi2bm95t9xjjk8auext4k?career_page_search=page%3D2",
+   "title": "VN 26/48 Configuration Management Engineer",
+   "location": "Darmstadt",
+   "url": "https://eumetsat.onlyfy.jobs/en/job/nbm30oipxhwi2bm95t9xjjk8auext4k?career_page_search=page%3D2",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-23T11:26:21+00:00"
+  },
+  {
    "company": "Bertrandt",
    "id": "12288-4975182064-S",
    "title": "Konstrukteur Schiffbau / Technische Systeme (m/w/d) - Defence - Emden",
@@ -4973,7 +5248,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T05:54:33+00:00"
+   "first_seen": "2026-10-23T05:54:33+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Bechtle",
@@ -5967,7 +6243,7 @@
    "title": "Senior Engineer  - New Connectivity Design Hub (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Senior-Engineer----New-Connectivity-Design-Hub--d-f-m-_JR10449629-1",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-22T13:09:45+00:00"
@@ -5978,7 +6254,7 @@
    "title": "New Connectivity Design Hub Engineer (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/New-Connectivity-Design-Hub-Engineer--d-f-m-_JR10449636-1",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-22T13:09:45+00:00"
@@ -5989,7 +6265,7 @@
    "title": "Flugdynamik‑Ingenieur für Satellitenbetrieb (m/w/d)",
    "location": "München Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Flugdynamik-Ingenieur-fr-Satellitenbetrieb--m-w-d-_JR10450538",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-22T13:09:45+00:00"
@@ -6000,7 +6276,7 @@
    "title": "Entwicklungsingenieur/-in Electrical Systems - Satellite Platforms and Instruments",
    "location": "Immenstaad am Bodensee",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Entwicklungsingenieur--in-Electrical-Systems---Satellite-Platforms-and-Instruments_JR10447816-1",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-22T13:09:45+00:00"
@@ -6011,7 +6287,7 @@
    "title": "Entwicklungsingenieur (m/w/d)/Verifikation für digitale und HF-Elektronik",
    "location": "Immenstaad am Bodensee",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Entwicklungsingenieur--m-w-d--Verifikation-fr-digitale-und-HF-Elektronik_JR10447980-1",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-22T13:09:45+00:00"
@@ -6902,7 +7178,7 @@
    "title": "Engineer for High Lift Aerodynamics Design (d/f/m))",
    "location": "Bremen Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Engineer-for-High-Lift-Aerodynamics-Design--d-f-m--_JR10443342-3",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-22T07:26:28+00:00"
@@ -7506,11 +7782,23 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/Duales-Studium-zum-B-Eng--d-m-w--Maschinenbau_JR10427602",
+   "title": "Duales Studium zum B. Eng. (d/m/w) Maschinenbau",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Duales-Studium-zum-B-Eng--d-m-w--Maschinenbau_JR10427602",
+   "posted": "Posted Today",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-21T15:01:27+00:00",
+   "closed_at": "2026-10-21T19:32:06+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
    "id": "/job/Mnchen-Area/Testia-GmbH---R-D-Engineer---Computer-Vision---Optical-Systems--m-f-d-_JR10452388",
    "title": "Testia GmbH - R&D Engineer - Computer Vision & Optical Systems (m/f/d)",
    "location": "München Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Testia-GmbH---R-D-Engineer---Computer-Vision---Optical-Systems--m-f-d-_JR10452388",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T15:01:27+00:00"
@@ -7521,22 +7809,10 @@
    "title": "Ground Segment Systems Engineer (d/f/m)",
    "location": "München Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Ground-Segment-Systems-Engineer--d-f-m-_JR10407783",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T15:01:27+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/Duales-Studium-zum-B-Eng--d-m-w--Maschinenbau_JR10427602",
-   "title": "Duales Studium zum B. Eng. (d/m/w) Maschinenbau",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Duales-Studium-zum-B-Eng--d-m-w--Maschinenbau_JR10427602",
-   "posted": "Posted Today",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-21T15:01:27+00:00",
-   "closed_at": "2026-10-21T19:32:06+00:00"
   },
   {
    "company": "Isar Aerospace",
@@ -7986,7 +8262,7 @@
    "title": "Industrial PMTD Program Instantation (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Industrial-PMTD-Program-Instantation--d-f-m-_JR10418734-1",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T09:33:06+00:00"
@@ -8156,7 +8432,8 @@
    "posted": "2026-10-21",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-21T09:33:06+00:00"
+   "first_seen": "2026-10-21T09:33:06+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Akkodis",
@@ -8250,21 +8527,21 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w----Space-Systems_JR10429971",
-   "title": "Simulation & Modelling Engineer (d/f/m)",
-   "location": "Immenstaad am Bodensee",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w----Space-Systems_JR10429971",
-   "posted": "Posted Yesterday",
+   "id": "/job/Stuttgart-Area/Testingenieur-Laser-Communication-Terminal--d-m-w-_JR10438997-1",
+   "title": "Testingenieur Laser Communication Terminal (d/m/w)",
+   "location": "Stuttgart Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stuttgart-Area/Testingenieur-Laser-Communication-Terminal--d-m-w-_JR10438997-1",
+   "posted": "Posted 3 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-20T17:28:37+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Stuttgart-Area/Testingenieur-Laser-Communication-Terminal--d-m-w-_JR10438997-1",
-   "title": "Testingenieur Laser Communication Terminal (d/m/w)",
-   "location": "Stuttgart Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stuttgart-Area/Testingenieur-Laser-Communication-Terminal--d-m-w-_JR10438997-1",
+   "id": "/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w----Space-Systems_JR10429971",
+   "title": "Simulation & Modelling Engineer (d/f/m)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w----Space-Systems_JR10429971",
    "posted": "Posted 2 Days Ago",
    "match": 1,
    "src": "site",
@@ -8977,6 +9254,17 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
+   "id": "/job/Getafe-Area/Manufacturing-Engineering-Business-Methods-Engineer---Data-Analytics---AI_JR10446540",
+   "title": "Manufacturing Engineering Business Methods Engineer - Data Analytics & AI",
+   "location": "3 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/Manufacturing-Engineering-Business-Methods-Engineer---Data-Analytics---AI_JR10446540",
+   "posted": "Posted Yesterday",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-20T12:04:10+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
    "id": "/job/Donauwrth-Airbus-Protect/MATERIALS-AND-PROCESS-ENGINEER--D-F-M-_JR10446754",
    "title": "MATERIALS AND PROCESS ENGINEER (D/F/M)",
    "location": "Donauwörth (Airbus Protect)",
@@ -8989,22 +9277,11 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Getafe-Area/Manufacturing-Engineering-Business-Methods-Engineer---Data-Analytics---AI_JR10446540",
-   "title": "Manufacturing Engineering Business Methods Engineer - Data Analytics & AI",
-   "location": "3 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/Manufacturing-Engineering-Business-Methods-Engineer---Data-Analytics---AI_JR10446540",
-   "posted": "Posted Today",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-20T12:04:10+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Augsburg-Area/Stress-Engineer-and-Technical-Approver-SA-A330--m-f-d-_JR10437685-1",
    "title": "Stress Engineer and Technical Approver SA/A330 (m/f/d)",
    "location": "Augsburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Stress-Engineer-and-Technical-Approver-SA-A330--m-f-d-_JR10437685-1",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-20T12:04:10+00:00"
@@ -9015,7 +9292,7 @@
    "title": "Lead Stress Engineer and Technical Approver SA & A330 (m/f/d)",
    "location": "Augsburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Lead-Stress-Engineer-and-Technical-Approver-SA---A330--m-f-d-_JR10437666-1",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-20T12:04:10+00:00"
@@ -11529,7 +11806,7 @@
    "title": "Industrial Tolerancing and Capability Engineer (d/f/m)",
    "location": "Hamburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Industrial-Tolerancing-and-Capability-Engineer--d-f-m-_JR10446003-1",
-   "posted": "Posted 3 Days Ago",
+   "posted": "Posted 4 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-19T11:10:13+00:00"
@@ -12550,7 +12827,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-16T16:30:47+00:00"
+   "first_seen": "2026-10-16T16:30:47+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "ESA",
@@ -12580,7 +12858,7 @@
    "title": "Job Manufacturing Engineering Quality Manching Programmes (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Job-Manufacturing-Engineering-Quality-Manching-Programmes--d-f-m-_JR10434530",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-16T11:50:20+00:00"
@@ -13732,7 +14010,7 @@
    "title": "#ET20A Mechanical System Installation Design Engineer (d/f/m)",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Mechanical-System-Installation-Design-Engineer--d-f-m-_JR10447069",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-16T06:17:41+00:00"
@@ -15017,7 +15295,7 @@
    "title": "VIE Test Engineer (d/f/m) for Electromagnetic Compatibility (EMC) of Aircraft Cabin Systems",
    "location": "Hamburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/VIE-Test-Engineer--d-f-m--for-Electromagnetic-Compatibility--EMC--of-Aircraft-Cabin-Systems_JR10447975-1",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-15T10:15:42+00:00"
@@ -15028,7 +15306,7 @@
    "title": "Fachkräfte Mechanik (m/w/d) - Fertigung, Montage & Messtechnik in der Luft- und Raumfahrt",
    "location": "Ulm",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Ulm/Fachkrfte-Mechanik--m-w-d----Fertigung--Montage---Messtechnik-in-der-Luft--und-Raumfahrt_R0344546",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-15T10:15:42+00:00"
@@ -15527,7 +15805,7 @@
    "title": "Mechanical Systems Integration Engineer (d/m/w)",
    "location": "Bremen Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Mechanical-Systems-Integration-Engineer---Focus-Air-Conditioning---ATA-21--d-m-w-_JR10427986",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-14T18:29:57+00:00"
@@ -15538,7 +15816,7 @@
    "title": "Kostenstellencontroller für Engineering FHN/OTN/BRE (d/m/w)",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Kostenstellencontroller-fr-Engineering-FHN-OTN-BRE--d-m-w-_JR10445128-1",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-14T18:29:57+00:00"
@@ -16153,7 +16431,7 @@
    "title": "Production Test Pilot (d/f/m)",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET19A-Production-Test-Pilot--d-f-m-_JR10447249",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-14T13:38:09+00:00"
@@ -16164,7 +16442,7 @@
    "title": "Line Manager Engineering Helicopters GE (D/F/M)",
    "location": "3 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth-Airbus-Protect/Line-Manager-Engineering-Helicopters-GE--D-F-M-_JR10444659",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-14T13:38:09+00:00"
@@ -17494,7 +17772,7 @@
    "title": "Aerospace  Cyber Security System Architect (d/m/w)",
    "location": "3 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Aerospace--Cyber-Security-System-Architect--d-m-w-_JR10443449",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-13T18:28:52+00:00"
@@ -17574,7 +17852,8 @@
    "posted": "2026-10-13",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T18:28:52+00:00"
+   "first_seen": "2026-10-13T18:28:52+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "OHB",
@@ -17831,7 +18110,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-13T18:28:52+00:00"
+   "first_seen": "2026-10-13T18:28:52+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Dekra",
@@ -18562,12 +18842,23 @@
    "closed_at": "2026-10-19T13:28:28+00:00"
   },
   {
+   "company": "NXP Semiconductors",
+   "id": "/job/Hamburg/Application-Engineer---Ethernet-Products--Graduate---f-m-d-_R-10066154-1",
+   "title": "Application Engineer – Ethernet Products (Graduate) (f/m/d)",
+   "location": "Hamburg",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/Application-Engineer---Ethernet-Products--Graduate---f-m-d-_R-10066154-1",
+   "posted": "Posted 8 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-13T11:01:44+00:00"
+  },
+  {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Manching/Manufacturing-Engineering--Industrial-Architect--d-f-m-_JR10433493",
    "title": "Manufacturing Engineering: Industrial Architect (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Manufacturing-Engineering--Industrial-Architect--d-f-m-_JR10433493",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18578,7 +18869,7 @@
    "title": "Industrial Team: Manufacturing Engineering - Specialist Metallic Parts (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Industrial-Team--Manufacturing-Engineering---Specialist-Metallic-Parts--d-f-m-_JR10434454",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18589,7 +18880,7 @@
    "title": "Industrial Team: Manufacturing Engineering - Metallic Aerostructure Assembly Specialist (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Industrial-Team--Manufacturing-Engineering---Metallic-Aerostructure-Assembly-Specialist--d-f-m-_JR10434459",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18600,7 +18891,7 @@
    "title": "Industrial Team: Manufacturing Engineering - Industrial Architect (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Industrial-Team--Manufacturing-Engineering---Industrial-Architect--d-f-m-_JR10434443",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18611,7 +18902,7 @@
    "title": "Industrial Team: Manufacturing Engineering - Extended Enterprise (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Industrial-Team--Manufacturing-Engineering---Extended-Enterprise--d-f-m-_JR10434457",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18622,18 +18913,7 @@
    "title": "#ET20A Berechnungsingenieur Flugzeugtürsysteme (m/w/d)",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Berechnungsingenieur-Flugzeugtrsysteme--m-w-d-_JR10448741",
-   "posted": "Posted 9 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-13T11:01:44+00:00"
-  },
-  {
-   "company": "NXP Semiconductors",
-   "id": "/job/Hamburg/Application-Engineer---Ethernet-Products--Graduate---f-m-d-_R-10066154-1",
-   "title": "Application Engineer – Ethernet Products (Graduate) (f/m/d)",
-   "location": "Hamburg",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/Application-Engineer---Ethernet-Products--Graduate---f-m-d-_R-10066154-1",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00"
@@ -18835,7 +19115,8 @@
    "posted": "2026-10-13",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00"
+   "first_seen": "2026-10-13T11:01:44+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19047,13 +19328,24 @@
    "first_seen": "2026-10-12T22:34:55+00:00"
   },
   {
-   "company": "Thales (Workday, Germany)",
-   "id": "/job/Wedel/Fertigungstechniker--m-w-d-_R0341271",
-   "title": "Fertigungstechniker (m/w/d)",
-   "location": "Wedel",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Wedel/Fertigungstechniker--m-w-d-_R0341271",
-   "posted": "Posted Yesterday",
-   "match": 2,
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Bremen-Area/Duales-Studium-Bachelor-of-Science-Wirtschaftsingenieurwesen--d-m-w--bei-Airbus-Defence---Space-zum-01102027_JR10425732",
+   "title": "Duales Studium Bachelor of Science Wirtschaftsingenieurwesen (d/m/w) bei Airbus Defence & Space zum 01.10.2027",
+   "location": "Bremen Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Duales-Studium-Bachelor-of-Science-Wirtschaftsingenieurwesen--d-m-w--bei-Airbus-Defence---Space-zum-01102027_JR10425732",
+   "posted": "Posted 4 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-12T18:35:04+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Bremen-Area/Duales-Studium-Bachelor-of-Engineering-Elektrotechnik--d-m-w--bei-Airbus-Defence---Space--A400M--zum-01102027_JR10425764",
+   "title": "Duales Studium Bachelor of Engineering Elektrotechnik (d/m/w) bei Airbus Defence & Space (A400M) zum 01.10.2027",
+   "location": "Bremen Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Duales-Studium-Bachelor-of-Engineering-Elektrotechnik--d-m-w--bei-Airbus-Defence---Space--A400M--zum-01102027_JR10425764",
+   "posted": "Posted 4 Days Ago",
+   "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
   },
@@ -19710,33 +20002,22 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Bremen-Area/Duales-Studium-Bachelor-of-Science-Wirtschaftsingenieurwesen--d-m-w--bei-Airbus-Defence---Space-zum-01102027_JR10425732",
-   "title": "Duales Studium Bachelor of Science Wirtschaftsingenieurwesen (d/m/w) bei Airbus Defence & Space zum 01.10.2027",
-   "location": "Bremen Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Duales-Studium-Bachelor-of-Science-Wirtschaftsingenieurwesen--d-m-w--bei-Airbus-Defence---Space-zum-01102027_JR10425732",
-   "posted": "Posted 3 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Bremen-Area/Duales-Studium-Bachelor-of-Engineering-Elektrotechnik--d-m-w--bei-Airbus-Defence---Space--A400M--zum-01102027_JR10425764",
-   "title": "Duales Studium Bachelor of Engineering Elektrotechnik (d/m/w) bei Airbus Defence & Space (A400M) zum 01.10.2027",
-   "location": "Bremen Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Duales-Studium-Bachelor-of-Engineering-Elektrotechnik--d-m-w--bei-Airbus-Defence---Space--A400M--zum-01102027_JR10425764",
-   "posted": "Posted 3 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Manching/Systems-Engineer-for-Training-Simulation---Innovation--d-f-m-_JR10439454",
    "title": "Systems Engineer for Training Simulation & Innovation (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Systems-Engineer-for-Training-Simulation---Innovation--d-f-m-_JR10439454",
-   "posted": "Posted 29 Days Ago",
+   "posted": "Posted 30 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-12T18:35:04+00:00"
+  },
+  {
+   "company": "Thales (Workday, Germany)",
+   "id": "/job/Stuttgart/Systems-Process--Methods---Tools-Engineer--m-w-d-_R0329064",
+   "title": "Senior Systems Engineering Process & Tool Specialist (w/m/d)",
+   "location": "Stuttgart",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Stuttgart/Systems-Process--Methods---Tools-Engineer--m-w-d-_R0329064",
+   "posted": "Posted 3 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
@@ -19747,7 +20028,7 @@
    "title": "Systemingenieur (d/m/w) Laser Communication Terminals",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stuttgart-Area/Systemingenieur--d-m-w--Laser-Communication-Terminals_JR10442952-1",
-   "posted": "Posted 27 Days Ago",
+   "posted": "Posted 28 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
@@ -19758,7 +20039,18 @@
    "title": "Structural Analysis Engineer for Metal  (d/f/m)",
    "location": "Hamburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Structural-Analysis-Engineer-for-Metal---d-f-m-_JR10417835-1",
-   "posted": "Posted 27 Days Ago",
+   "posted": "Posted 28 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-12T18:35:04+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Stuttgart-Area/XMLNAME--Senior--Data-Engineer--d-f-m----Data-Platform-for-AI-based-Autonomy_JR10444536",
+   "title": "(Senior) Data Engineer (d/f/m) – Data Platform for AI-based Autonomy",
+   "location": "Stuttgart Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stuttgart-Area/XMLNAME--Senior--Data-Engineer--d-f-m----Data-Platform-for-AI-based-Autonomy_JR10444536",
+   "posted": "Posted 28 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
@@ -19777,22 +20069,11 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Stuttgart-Area/XMLNAME--Senior--Data-Engineer--d-f-m----Data-Platform-for-AI-based-Autonomy_JR10444536",
-   "title": "(Senior) Data Engineer (d/f/m) – Data Platform for AI-based Autonomy",
-   "location": "Stuttgart Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stuttgart-Area/XMLNAME--Senior--Data-Engineer--d-f-m----Data-Platform-for-AI-based-Autonomy_JR10444536",
-   "posted": "Posted 27 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Ulm/Senior-Integrations--und-Testingenieur--m-w-d-_JR10446420",
    "title": "Senior Integrations- und Testingenieur (m/w/d)",
    "location": "Ulm",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Ulm/Senior-Integrations--und-Testingenieur--m-w-d-_JR10446420",
-   "posted": "Posted 23 Days Ago",
+   "posted": "Posted 24 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
@@ -19803,7 +20084,7 @@
    "title": "Projectmanager Industrialisierung (d/m/w)",
    "location": "Augsburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Projectmanager-Industrialisierung--d-m-w-_JR10430741-1",
-   "posted": "Posted 20 Days Ago",
+   "posted": "Posted 21 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
@@ -19822,12 +20103,12 @@
   },
   {
    "company": "Thales (Workday, Germany)",
-   "id": "/job/Stuttgart/Systems-Process--Methods---Tools-Engineer--m-w-d-_R0329064",
-   "title": "Senior Systems Engineering Process & Tool Specialist (w/m/d)",
-   "location": "Stuttgart",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Stuttgart/Systems-Process--Methods---Tools-Engineer--m-w-d-_R0329064",
+   "id": "/job/Wedel/Fertigungstechniker--m-w-d-_R0341271",
+   "title": "Fertigungstechniker (m/w/d)",
+   "location": "Wedel",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Wedel/Fertigungstechniker--m-w-d-_R0341271",
    "posted": "Posted 2 Days Ago",
-   "match": 1,
+   "match": 2,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
   },
@@ -19869,6 +20150,17 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
+   "id": "/job/Getafe-Area/MRTT--Industrialization-Supply-Chain---Quality-Manager_JR10442451",
+   "title": "MRTT+ Industrialization Supply Chain & Quality Manager",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/MRTT--Industrialization-Supply-Chain---Quality-Manager_JR10442451",
+   "posted": "Posted 18 Days Ago",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-12T18:35:04+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
    "id": "/job/Ulm-Area/Praktikant-fr-Generative-AI-Agentic-AI--d-m-w-_JR10436030",
    "title": "Praktikant für Generative AI/Agentic AI (d/m/w)",
    "location": "Ulm Area",
@@ -19881,17 +20173,6 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Getafe-Area/MRTT--Industrialization-Supply-Chain---Quality-Manager_JR10442451",
-   "title": "MRTT+ Industrialization Supply Chain & Quality Manager",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Getafe-Area/MRTT--Industrialization-Supply-Chain---Quality-Manager_JR10442451",
-   "posted": "Posted 17 Days Ago",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Ulm-Area/Senior-Generative-AI-Agentic-AI-Engineer--d-f-m-_JR10433766-1",
    "title": "Senior Generative AI/Agentic AI Engineer (d/f/m)",
    "location": "Ulm Area",
@@ -19899,7 +20180,8 @@
    "posted": "Posted 16 Days Ago",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
+   "first_seen": "2026-10-12T18:35:04+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Jenoptik",
@@ -23977,7 +24259,7 @@
    "title": "Qualitätsprüfer (D/M/W)",
    "location": "Hamburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Hamburg-Area/Qualittsprfer--D-M-W-_JR10364548",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T15:08:30+00:00"
@@ -23988,7 +24270,7 @@
    "title": "Process Performance Engineer (m/w/d)",
    "location": "Augsburg Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Process-Performance-Engineer--m-w-d-_JR10428441-1",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T15:08:30+00:00"
@@ -23999,7 +24281,7 @@
    "title": "IVV Test Engineer",
    "location": "Ulm Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Ulm-Area/IVV-Test-Engineer_JR10440640-1",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T15:08:30+00:00"
@@ -24010,7 +24292,7 @@
    "title": "Duales Studium B.A. BWL - Industrial Business Management (d/m/w) zum 01.09.2027",
    "location": "München Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Duales-Studium-BA-BWL---Industrial-Business-Management--d-m-w--zum-01092027_JR10416563",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T15:08:30+00:00"
@@ -24103,7 +24385,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Bertrandt",
@@ -24147,7 +24430,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "TKMS",
@@ -24367,7 +24651,8 @@
    "posted": "2026-10-12",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Stark Defence",
@@ -33024,7 +33309,8 @@
    "posted": "Posted 13 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T16:41:09+00:00"
+   "first_seen": "2026-10-09T16:41:09+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Sew-eurodrive",
@@ -33207,7 +33493,8 @@
    "posted": "2026-10-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T16:41:09+00:00"
+   "first_seen": "2026-10-09T16:41:09+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "KNDS",
@@ -34125,6 +34412,17 @@
   },
   {
    "company": "OHB",
+   "id": "7197",
+   "title": "Systems Engineering Manager (m/w/d) Missionsbetrieb Multi Mission Control Centre",
+   "location": "Bremen, DE",
+   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7197?c=career-ohb",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T13:07:35+00:00"
+  },
+  {
+   "company": "OHB",
    "id": "8539",
    "title": "Digital Electronics Design Engineer (f/m/d)",
    "location": "Weßling bei München, DE",
@@ -34690,17 +34988,6 @@
   },
   {
    "company": "OHB",
-   "id": "7197",
-   "title": "Systems Engineering Manager (m/w/d) Missionsbetrieb Multi Mission Control Centre",
-   "location": "Bremen, DE",
-   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7197?c=career-ohb",
-   "posted": "2026-09-03",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
-  },
-  {
-   "company": "OHB",
    "id": "7733",
    "title": "Systems Engineer Satellite Operations (m/f/d)",
    "location": "Bremen, DE",
@@ -35097,7 +35384,7 @@
    "title": "Qualitätsprüfer FAL NH90 oder FAL H135/H145 (m/w/d) - befristet",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Qualittsprfer-FAL-NH90-oder-FAL-H135-H145--m-w-d----befristet_JR10446627-1",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T13:05:57+00:00"
@@ -35108,7 +35395,7 @@
    "title": "Qualitätsprüfer FAL H135/H145 (m/w/d)",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Qualittsprfer-FAL-H135-H145--m-w-d-_JR10446681-1",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T13:05:57+00:00"
@@ -35119,7 +35406,7 @@
    "title": "Planer für Neu- und Serienfertigung inkl. Optimierung (m/w/d)",
    "location": "Nordenham",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nordenham/Planer-fr-Neu--und-Serienfertigung-inkl-Optimierung--m-w-d-_JR10448777",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T13:05:57+00:00"
@@ -35130,7 +35417,7 @@
    "title": "Interesse an einem Dualen Studium Mechatronik (d/m/w)?",
    "location": "Stade",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Stade/Interesse-an-einem-Dualen-Studium-Mechatronik--d-m-w--_JR10449593",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T13:05:57+00:00"
@@ -35365,6 +35652,18 @@
   },
   {
    "company": "NXP Semiconductors",
+   "id": "/job/Munich/Safety-Engineer--f-m-d-_R-10066849",
+   "title": "Safety Engineer (f/m/d)",
+   "location": "Munich",
+   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Safety-Engineer--f-m-d-_R-10066849",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "seed": true
+  },
+  {
+   "company": "NXP Semiconductors",
    "id": "/job/Dresden/Praktikant-in--w-m-d--System-Engineering_R-10064057",
    "title": "Praktikant:in (w/m/d) System Engineering",
    "location": "Dresden",
@@ -35439,23 +35738,11 @@
   },
   {
    "company": "NXP Semiconductors",
-   "id": "/job/Munich/Safety-Engineer--f-m-d-_R-10066849",
-   "title": "Safety Engineer (f/m/d)",
-   "location": "Munich",
-   "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Safety-Engineer--f-m-d-_R-10066849",
-   "posted": "Posted 30 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true
-  },
-  {
-   "company": "NXP Semiconductors",
    "id": "/job/Munich/Digital-IP-Design-Engineer--f-m-d-_R-10066892",
    "title": "Digital IP Design Engineer (f/m/d)",
    "location": "Munich",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Digital-IP-Design-Engineer--f-m-d-_R-10066892",
-   "posted": "Posted 30 Days Ago",
+   "posted": "Posted 30+ Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -35467,7 +35754,7 @@
    "title": "(Senior) RF Engineer mmW Innovation (f/m/d)",
    "location": "Hamburg",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Hamburg/XMLNAME--Senior--RF-Engineer-mmW-Innovation--f-m-d-_R-10066945",
-   "posted": "Posted 29 Days Ago",
+   "posted": "Posted 30 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -35479,7 +35766,7 @@
    "title": "Principal Digital Design Engineer",
    "location": "5 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Glasgow/Principal-Digital-Design-Engineer_R-10061634-1",
-   "posted": "Posted 23 Days Ago",
+   "posted": "Posted 24 Days Ago",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -35491,7 +35778,7 @@
    "title": "Solution Train Engineer solution delivery (SolDel) CoreRide",
    "location": "3 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Toulouse/Solution-Train-Engineer-solution-delivery--SolDel--CoreRide_R-10066868",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -35503,7 +35790,7 @@
    "title": "Analog / RF & mmWave Principal Test Engineer",
    "location": "5 Locations",
    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Analog---RF---mmWave-Senior-Principal-Test-Engineer_R-10062758-1",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00",
@@ -35515,7 +35802,7 @@
    "title": "Systems Engineer for Eurofighter Mission Data Evaluation System (d/f/m)",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Systems-Engineer-for-Eurofighter-Mission-Data-Evaluation-System--d-f-m-_JR10445157",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00"
@@ -35526,7 +35813,7 @@
    "title": "ME Business Methods Engineer (f/m)",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ME-Business-Methods-Engineer--f-m-_JR10447979",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00"
@@ -35537,7 +35824,7 @@
    "title": "Elektroniker / Mechatroniker in der Instandhaltung (m/w/d)",
    "location": "Nordenham",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Nordenham/Elektroniker---Mechatroniker-in-der-Instandhaltung--m-w-d-_JR10436764-1",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00"
@@ -35863,7 +36150,8 @@
    "posted": "2026-10-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -36349,7 +36637,8 @@
    "posted": "2026-10-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Marquardt",
@@ -39547,11 +39836,23 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
-   "title": "Duales Studium B.Sc. Wirtschaftsinformatik - Business Engineering (d/m/w) zum 01.09.2027",
-   "location": "München Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
-   "posted": "Posted 9 Days Ago",
+   "id": "/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
+   "title": "Testability Engineer Eurodrone (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
+   "posted": "Posted Today",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
+   "title": "Cyber-Security-Engineer (d/m/w)",
+   "location": "3 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
+   "posted": "Posted Today",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39563,7 +39864,7 @@
    "title": "Data Handling System Engineer (d/m/w)",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Data-Handling-System-Engineer--d-m-w-_JR10433693-1",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39575,7 +39876,7 @@
    "title": "Simulation & Modelling Engineer (d/f/m)",
    "location": "Immenstaad am Bodensee",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Simulation---Modelling-Engineer--d-m-w-_JR10423038-1",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39797,7 +40098,7 @@
    "title": "Airbus DS Airborne Solutions GmbH – Teamleitung Electronics Engineering (d/m/w)",
    "location": "Bremen Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---Teamleitung-Electronics-Engineering--d-m-w-_JR10444172-1",
-   "posted": "Posted 30 Days Ago",
+   "posted": "Posted 30+ Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39809,7 +40110,7 @@
    "title": "Airbus DS Airborne Solutions GmbH – In-Service-Support Engineer (d/m/w)",
    "location": "Bremen Area",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bremen-Area/Airbus-DS-Airborne-Solutions-GmbH---In-Service-Support-Engineer--d-m-w-_JR10444262-1",
-   "posted": "Posted 30 Days Ago",
+   "posted": "Posted 30+ Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39834,7 +40135,7 @@
    "title": "Technical Data Production Management and Project Management (m/f/d)",
    "location": "Donauwörth",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Technical-Data-Production-Management-and-Project-Management--m-w-d-_JR10426849",
-   "posted": "Posted 27 Days Ago",
+   "posted": "Posted 28 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39859,6 +40160,30 @@
    "title": "Study Engineer - GenAI & Agentic AI (KI) (d/f/m)",
    "location": "Immenstaad am Bodensee",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/System-Engineer-Simulation---Knstliche-Intelligenz--KI---d-f-m-_JR10295603",
+   "posted": "Posted 25 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
+   "title": "Flight Operations Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
+   "posted": "Posted 24 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
+   "title": "DOA Management Engineer (d/f/m)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
    "posted": "Posted 24 Days Ago",
    "match": 1,
    "src": "site",
@@ -39906,30 +40231,6 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
-   "title": "Flight Operations Engineer (d/f/m)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Flight-Operations-Engineer--d-f-m-_JR10442231",
-   "posted": "Posted 23 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
-   "title": "DOA Management Engineer (d/f/m)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/DOA-Management-Engineer--d-f-m-_JR10441478",
-   "posted": "Posted 23 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Bremen-Area/Engineer-for-Rapid-Decompression-Analysis--d-f-m--_JR10440955-1",
    "title": "Engineer for Rapid Decompression Analysis (d/f/m)",
    "location": "Bremen Area",
@@ -39943,24 +40244,11 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
-   "title": "Cyber-Security-Engineer (d/m/w)",
-   "location": "3 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
-   "posted": "Posted 19 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true,
-   "closed_at": "2026-10-18T22:22:46+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Manching/Lead-Systems-Engineer--d-f-m--Ground-Support-Systems_JR10445222",
    "title": "Lead Systems Engineer (d/f/m) Ground Support Systems",
    "location": "Manching",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Lead-Systems-Engineer--d-f-m--Ground-Support-Systems_JR10445222",
-   "posted": "Posted 16 Days Ago",
+   "posted": "Posted 17 Days Ago",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
@@ -39972,8 +40260,68 @@
    "title": "Lead Engineer (d/f/m) – Defence Digital Engineering (Offen)",
    "location": "2 Locations",
    "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Lead-Engineer--d-f-m----Defence-Digital-Engineering--Offen-_JR10438925",
+   "posted": "Posted 17 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/System-Engineer--d-m-f-_JR10445730",
+   "title": "System Engineer (d/m/f)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/System-Engineer--d-m-f-_JR10445730",
    "posted": "Posted 16 Days Ago",
    "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
+   "title": "Supply Chain Quality Manager for service provider (m/w/d)",
+   "location": "Donauwörth",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
+   "title": "Produktsicherheits- und Konformitätsingenieur (m/f/d)",
+   "location": "Manching",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
+   "title": "Mechanism Drive Electronics System Engineer for Space Mechanisms (d/m/w)",
+   "location": "Immenstaad am Bodensee",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
+   "posted": "Posted 16 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
+   "title": "ERP Specialist Manufacturing Engineering and Schopfloor (H/F)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
+   "posted": "Posted 16 Days Ago",
+   "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
    "seed": true
@@ -39993,23 +40341,10 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
-   "title": "Testability Engineer Eurodrone (d/f/m)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
-   "posted": "Posted 15 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true,
-   "closed_at": "2026-10-15T22:39:00+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/System-Engineer--d-m-f-_JR10445730",
-   "title": "System Engineer (d/m/f)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/System-Engineer--d-m-f-_JR10445730",
+   "id": "/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
+   "title": "Structural Analysis Engineer Static/Fatigue (d/m/f)",
+   "location": "Augsburg Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
    "posted": "Posted 15 Days Ago",
    "match": 1,
    "src": "site",
@@ -40018,34 +40353,10 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
-   "title": "Supply Chain Quality Manager for service provider (m/w/d)",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Supply-Chain-Quality-Manager-for-service-provider--m-w-d-_JR10443070",
-   "posted": "Posted 15 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
-   "title": "Produktsicherheits- und Konformitätsingenieur (m/f/d)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/Produktsicherheits--und-Konformittsingenieur--m-f-d-_JR10430307-1",
-   "posted": "Posted 15 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
-   "title": "Mechanism Drive Electronics System Engineer for Space Mechanisms (d/m/w)",
-   "location": "Immenstaad am Bodensee",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Immenstaad-am-Bodensee/Mechanism-Drive-Electronics-System-Engineer-for-Space-Mechanisms--d-m-w-_JR10437422-1",
+   "id": "/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
+   "title": "Spezialist für Qualitätssicherungszertifikate (d/w/m)",
+   "location": "2 Locations",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
    "posted": "Posted 15 Days Ago",
    "match": 1,
    "src": "site",
@@ -40064,42 +40375,6 @@
    "first_seen": "2026-10-09T06:46:00+00:00",
    "seed": true,
    "closed_at": "2026-10-15T22:39:00+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
-   "title": "ERP Specialist Manufacturing Engineering and Schopfloor (H/F)",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Toulouse-Area/ERP-Specialist-Manufacturing-Engineering-and-Schopfloor--H-F-_JR10425010",
-   "posted": "Posted 15 Days Ago",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
-   "title": "Structural Analysis Engineer Static/Fatigue (d/m/f)",
-   "location": "Augsburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
-   "posted": "Posted 14 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
-   "title": "Spezialist für Qualitätssicherungszertifikate (d/w/m)",
-   "location": "2 Locations",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Langenhagen/Spezialist-fr-Qualittssicherungszertifikate--d-w-m-_JR10438795-1",
-   "posted": "Posted 14 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -40217,6 +40492,18 @@
    "first_seen": "2026-10-09T06:46:00+00:00",
    "seed": true,
    "closed_at": "2026-10-16T16:30:47+00:00"
+  },
+  {
+   "company": "Airbus (Workday, Germany)",
+   "id": "/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
+   "title": "Duales Studium B.Sc. Wirtschaftsinformatik - Business Engineering (d/m/w) zum 01.09.2027",
+   "location": "München Area",
+   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Mnchen-Area/Duales-Studium-BSc-Wirtschaftsinformatik---Business-Engineering--d-m-w--zum-01092027_JR10416536",
+   "posted": "Posted 10 Days Ago",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "seed": true
   },
   {
    "company": "SYNERGIE Personal",
@@ -41779,6 +42066,17 @@
    "src": "site",
    "first_seen": "2026-10-09T06:15:45+00:00",
    "closed_at": "2026-10-09T16:41:09+00:00"
+  },
+  {
+   "company": "Isar Aerospace",
+   "id": "4974349101",
+   "title": "Senior DevX Engineer (f/m/d)",
+   "location": "Parsdorf, Bavaria, Germany",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4974349101",
+   "posted": "2026-10-23T07:21:05-04:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hensoldt",
@@ -43432,7 +43730,8 @@
    "posted": "2026-10-05",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Diehl",
@@ -43869,18 +44168,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-aktive-und-passive-EW-Systeme-%28wmd%29-89077/1370059255/",
-   "title": "Systemingenieur Produktentwicklung aktive und passive EW Systeme (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-aktive-und-passive-EW-Systeme-%28wmd%29-89077/1370059255/",
-   "posted": "2026-09-30",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -44580,18 +44867,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/K%C3%B6ln-Testingenieur-Expert-Verification-Engineering-%28wmd%29-50676/1365033955/",
-   "title": "Testingenieur / Expert Verification Engineering (w/m/d)",
-   "location": "Köln, DE, 50676",
-   "url": "https://jobs.hensoldt.net/job/K%C3%B6ln-Testingenieur-Expert-Verification-Engineering-%28wmd%29-50676/1365033955/",
-   "posted": "2026-09-17",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:15:45+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/systemingenieur-m-w-d-fuer-sensor-und-messsysteme2",
    "title": "Systemingenieur (m/w/d) für Sensor- und Messsysteme",
@@ -44779,18 +45054,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Testingenieur-Expert-Verification-Engineering-%28wmd%29-82256/1355933455/",
-   "title": "Testingenieur / Expert Verification Engineering (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Testingenieur-Expert-Verification-Engineering-%28wmd%29-82256/1355933455/",
-   "posted": "2026-09-14",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T06:46:00+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/technischer-projektleiter-technischer-manager-m-w-d-fuer-luftverteidigungssysteme-in-der-entwicklung5",
    "title": "Technischer Projektleiter / Technischer Manager (m/w/d) für Luftverteidigungssysteme in der Entwicklung",
@@ -44813,17 +45076,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-16T11:33:16+00:00"
-  },
-  {
-   "company": "Isar Aerospace",
-   "id": "4974349101",
-   "title": "Senior DevX Engineer (f/m/d)",
-   "location": "Ottobrunn, Bavaria, Germany",
-   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4974349101",
-   "posted": "2026-09-11T07:55:29-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -47993,18 +48245,6 @@
    "first_seen": "2026-10-09T05:48:23+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "19627-44474468-108-S",
-   "title": "Development Project Manager (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44474468-108-S",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T05:48:23+00:00",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Waldburg-Zeil Kliniken",
    "id": "12288-4958508584-S",
    "title": "Referent (m/w/d) Controlling & Prozessmanagement in Voll- oder Teilzeit",
@@ -48081,18 +48321,6 @@
    "match": 2,
    "first_seen": "2026-10-08T18:45:48+00:00",
    "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "12288-4958502990-S",
-   "title": "Head of Industrial Architecture and Innovation (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4958502990-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T18:45:48+00:00",
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Bertrandt",
@@ -49510,7 +49738,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Lürssen",
@@ -49621,7 +49850,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Vincorion",
@@ -50543,19 +50773,6 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Isar Aerospace",
-   "id": "12814-13034538-S",
-   "title": "Luftfahrttechniker oder Industrieelektroniker (m/f/d)",
-   "location": "Ottobrunn, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12814-13034538-S",
-   "posted": "2026-08-21",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "General Dynamics",
@@ -53075,19 +53292,6 @@
    "src": "agency"
   },
   {
-   "company": "Hensoldt",
-   "id": "14225-cac06fc4142ae0b5-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-cac06fc4142ae0b5-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Akkodis",
    "id": "12634-BB-640633-7878-4802-S",
    "title": "Verification Engineer im Bereich Elektroniksysteme (m/w/d)",
@@ -53427,19 +53631,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4957129383-S",
-   "title": "Mitarbeiter Qualitätssicherung (m/w/d)",
-   "location": "Freiburg im Breisgau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957129383-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Dekra",
@@ -53936,19 +54127,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-21T09:33:06+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "14225-4b3efd5284c40afb-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-4b3efd5284c40afb-S",
-   "posted": "2026-10-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Akkodis",
@@ -56800,19 +56978,6 @@
    "closed_at": "2026-10-20T17:16:38+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "12288-4954659970-S",
-   "title": "ILS Engineer (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4954659970-S",
-   "posted": "2026-10-05",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "15939-BB-633921-7878-9690-S",
    "title": "Gruppenleiter CAD Konstruktion Schiffbau (m/w/d)",
@@ -56888,19 +57053,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-20T17:28:37+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "12288-4954659117-S",
-   "title": "Entwicklungsingenieur für Datenfusion (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4954659117-S",
-   "posted": "2026-10-05",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Akkodis",
@@ -58006,19 +58158,6 @@
    "title": "International Project & Industrial Cooperation Manager (m/w/d)",
    "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-634828-7878-2936-S",
-   "posted": "2026-10-02",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "19146-100015115218-S",
-   "title": "Industriemechaniker / Mechatroniker (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100015115218-S",
    "posted": "2026-10-02",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -61394,19 +61533,6 @@
    "closed_at": "2026-10-15T10:15:42+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "14225-8ab40f6ce3b48ad7-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Wilhelmshaven, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-8ab40f6ce3b48ad7-S",
-   "posted": "2026-09-28",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Leonhard Weiss",
    "id": "12288-4950457984-S",
    "title": "Tragwerksplaner Ingenieurbau (m/w/d)",
@@ -62113,19 +62239,6 @@
    "closed_at": "2026-10-15T10:15:42+00:00"
   },
   {
-   "company": "MTU Aero Engines",
-   "id": "12951-c6bf196f-38f6-4d75--S",
-   "title": "Qualitätsprüfer (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c6bf196f-38f6-4d75--S",
-   "posted": "2026-09-25",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Bertrandt",
    "id": "12288-4947604765-S",
    "title": "Quality Manager APQP / A-SPICE (m/w/d)",
@@ -62475,19 +62588,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "14225-6246e7341929ca86-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Wilhelmshaven, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-6246e7341929ca86-S",
-   "posted": "2026-09-24",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -62962,7 +63062,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "Ed. Züblin",
@@ -63014,19 +63115,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-13T18:28:52+00:00"
-  },
-  {
-   "company": "MTU Aero Engines",
-   "id": "12951-e5d81b08-0815-4f43--S",
-   "title": "Process Designer Record-to-Report - Management Accounting (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-e5d81b08-0815-4f43--S",
-   "posted": "2026-09-23",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Faulhaber",
@@ -63329,20 +63417,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "14225-0a911d42b5523994-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-0a911d42b5523994-S",
-   "posted": "2026-09-22",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
    "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "KNDS",
@@ -63549,19 +63625,6 @@
    "closed_at": "2026-10-09T16:41:09+00:00"
   },
   {
-   "company": "MTU Aero Engines",
-   "id": "12951-6076e281-191b-41b5--S",
-   "title": "Experte Qualitätsmanagement in der Entwicklung Triebwerksregler (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-6076e281-191b-41b5--S",
-   "posted": "2026-09-22",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Mercedes",
    "id": "13151-1635239-1-S",
    "title": "Data Engineer & Architect (d/m/w/x)",
@@ -63686,19 +63749,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-16T16:45:47+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "14225-ac73c4fddabce739-S",
-   "title": "Wirtschaftsingenieur (m/w/d)",
-   "location": "Fürstenfeldbruck, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-ac73c4fddabce739-S",
-   "posted": "2026-09-21",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -64165,19 +64215,6 @@
    "closed_at": "2026-10-14T13:38:09+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "14225-4463431e21870ed4-S",
-   "title": "Maschinenbautechniker (m/w/d)",
-   "location": "Köln, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-4463431e21870ed4-S",
-   "posted": "2026-09-21",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Leonhard Weiss",
    "id": "12288-4936829956-S",
    "title": "Land- und Baumaschinenmechatroniker Innendienst (m/w/d)",
@@ -64461,19 +64498,6 @@
    "closed_at": "2026-10-16T16:45:47+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "19627-44442122-918-S",
-   "title": "Projektverantwortlicher Produktion Instandsetzung PvPro INST (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44442122-918-S",
-   "posted": "2026-09-19",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Franz & Wach Personalservice",
    "id": "11864-6YE1O6OHQ379TVQR-S",
    "title": "Industriemechaniker / Montagemitarbeiter m/w/d Luftfahrt / LUNA System - Iffeldorf",
@@ -64497,19 +64521,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "19146-100015115469-S",
-   "title": "Fertigungsmitarbeiter Elektronikproduktion SMD-THT (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100015115469-S",
-   "posted": "2026-09-19",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -64549,19 +64560,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T16:41:09+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "19627-44441922-918-S",
-   "title": "Arbeitsplaner für den Bereich Kabelfertigung (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44441922-918-S",
-   "posted": "2026-09-19",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -64640,32 +64638,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-09T16:41:09+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "19627-44426504-917-S",
-   "title": "Technischer Produktdesigner (w/m/d)",
-   "location": "Wetzlar, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44426504-917-S",
-   "posted": "2026-09-18",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "19627-44426537-917-S",
-   "title": "Systemingenieur für Entwicklung von bildgebender als auch Laser basierter Infrarotsensorik (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44426537-917-S",
-   "posted": "2026-09-18",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Uhlmann Pac-Systeme",
@@ -66139,19 +66111,6 @@
    "src": "agency"
   },
   {
-   "company": "Hensoldt",
-   "id": "19627-44414883-910-S",
-   "title": "Prüftechniker für Serienfertigung und Kundenrücklieferung (w/m/d)",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19627-44414883-910-S",
-   "posted": "2026-09-11",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Heckler & Koch",
    "id": "13635-js_rw_675_JB5244851-S",
    "title": "Project & Process Manager Services (m/w/d)",
@@ -66622,32 +66581,6 @@
    "src": "agency"
   },
   {
-   "company": "MTU Aero Engines",
-   "id": "12951-645eb121-07fa-4885--S",
-   "title": "Process Designer Record-to-Report - General Accounting (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-645eb121-07fa-4885--S",
-   "posted": "2026-09-09",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "MTU Aero Engines",
-   "id": "12951-9cbadb4d-f05c-4356--S",
-   "title": "Process Designer Record-to-Report - Asset Accounting (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-9cbadb4d-f05c-4356--S",
-   "posted": "2026-09-09",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "15939-BB-635276-7878-1704-S",
    "title": "Mechatroniker Spezialisierung Werkzeugmechanik (m/w/d)",
@@ -66941,19 +66874,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "MTU Aero Engines",
-   "id": "12951-3c29c35f-fed6-44fd--S",
-   "title": "Qualitätsprüfer Zerstörungsfreies Prüfen (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-3c29c35f-fed6-44fd--S",
-   "posted": "2026-09-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hoffmann",
@@ -67531,19 +67451,6 @@
    "src": "agency"
   },
   {
-   "company": "Hensoldt",
-   "id": "12288-4929268865-S",
-   "title": "Product Life Cycle Specialist / Logistikingenieur für Life Cycle Solutions (w/m/d)",
-   "location": "Aalen, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4929268865-S",
-   "posted": "2026-09-03",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Bock",
    "id": "12288-4929242991-S",
    "title": "Process Improvement Engineer (m/w/d)",
@@ -67777,19 +67684,6 @@
    "closed_at": "2026-10-15T11:38:46+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "12288-4929290008-S",
-   "title": "Entwicklungsingenieur Optik (w/m/d)",
-   "location": "Wetzlar, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4929290008-S",
-   "posted": "2026-09-03",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Helukabel",
    "id": "12288-4928980117-S",
    "title": "Entwicklungsingenieur Kabelkonstruktion (m/w/d)",
@@ -67946,19 +67840,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "12288-4928704154-S",
-   "title": "Systemingenieur für Laserentwicklung (w/m/d)",
-   "location": "Oberkochen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4928704154-S",
-   "posted": "2026-09-02",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Stadtwerke Karlsruhe",
@@ -68461,7 +68342,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "TKMS",
@@ -69503,19 +69385,6 @@
    "src": "agency"
   },
   {
-   "company": "MTU Aero Engines",
-   "id": "12951-32cc362b-5c6b-40e0--S",
-   "title": "Qualitätsprüfer/Certifying Staff (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-32cc362b-5c6b-40e0--S",
-   "posted": "2026-08-19",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Würth",
    "id": "11949-17324350-S",
    "title": "Projektingenieur/in",
@@ -70041,19 +69910,6 @@
    "src": "agency"
   },
   {
-   "company": "MTU Aero Engines",
-   "id": "12951-4dde5ab8-dbec-45c8--S",
-   "title": "Certifying Staff / Qualitätsprüfer (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-4dde5ab8-dbec-45c8--S",
-   "posted": "2026-08-14",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "10000-1207524644-S",
    "title": "Wir suchen Verstärkung - Kfz - Mechatroniker (m/w/d)",
@@ -70572,19 +70428,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "MTU Aero Engines",
-   "id": "12951-98cbd0b2-eb89-442c--S",
-   "title": "Leitungsstelle: Third-Party/InterCo Accounting & Payments Processing (all genders)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-98cbd0b2-eb89-442c--S",
-   "posted": "2026-08-07",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Mercedes",
@@ -75506,19 +75349,6 @@
    "src": "agency"
   },
   {
-   "company": "Hensoldt",
-   "id": "10000-1206067891-S",
-   "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
-   "location": "Laichingen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206067891-S",
-   "posted": "2026-04-02",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Heidelberg Materials",
    "id": "17645-BB-634105-7878-7916-S",
    "title": "Produktionsmitarbeiter (m/w/d) Lengfurt / Triefenstein",
@@ -78907,6 +78737,18 @@
   },
   {
    "company": "Thales (Workday, Germany)",
+   "id": "/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
+   "title": "Navaids System Engineer (Open also To Protected Categories, Law 68/99)",
+   "location": "Gorgonzola",
+   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
+   "posted": "Posted 30+ Days Ago",
+   "match": 1,
+   "first_seen": "2026-10-08T13:32:28+00:00",
+   "seed": true,
+   "src": "site"
+  },
+  {
+   "company": "Thales (Workday, Germany)",
    "id": "/job/Gorgonzola/Navaids-Project-Engineer---French-Speaker_R0327932-1",
    "title": "Navaids Project Engineer (Open also to Protected Categories, Law 68/99)",
    "location": "Gorgonzola",
@@ -78955,23 +78797,11 @@
   },
   {
    "company": "Thales (Workday, Germany)",
-   "id": "/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
-   "title": "Navaids System Engineer (Open also To Protected Categories, Law 68/99)",
-   "location": "Gorgonzola",
-   "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/Navaids-System-Engineer--Open-also-To-Protected-Categories--Law-68-99-_R0340981",
-   "posted": "Posted 30 Days Ago",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site"
-  },
-  {
-   "company": "Thales (Workday, Germany)",
    "id": "/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
    "title": "System Test Engineer / IVVQ Engineer (m/f/d) Radar",
    "location": "DITZINGEN SRA OME",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/DITZINGEN-SRA-OME/System-Test-Engineer---IVVQ-Engineer--m-f-d--Radar_R0334698",
-   "posted": "Posted 21 Days Ago",
+   "posted": "Posted 22 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -78983,7 +78813,7 @@
    "title": "FPGA Engineer (Open also to Protected Categories, Law 68/99)",
    "location": "Gorgonzola",
    "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Gorgonzola/FPGA-Engineer--Open-also-to-Protected-Categories--Law-68-99-_R0331429",
-   "posted": "Posted 20 Days Ago",
+   "posted": "Posted 21 Days Ago",
    "match": 1,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
@@ -79160,7 +78990,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:32:28+00:00",
    "seed": true,
-   "src": "site"
+   "src": "site",
+   "closed_at": "2026-10-23T11:26:21+00:00"
   },
   {
    "company": "CERN",
@@ -79216,19 +79047,6 @@
   },
   {
    "company": "CERN",
-   "id": "744000150038179",
-   "title": "Safety Engineer (EP-CMS-SSI-2026-224-GRAE)",
-   "location": "Geneva, CH",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000150038179",
-   "posted": "2026-09-17",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site",
-   "closed_at": "2026-10-09T06:32:55+00:00"
-  },
-  {
-   "company": "CERN",
    "id": "744000149834269",
    "title": "Mechanical CAD Designer (TE-MSC-SMT-2026-195-LD)",
    "location": "Geneva, CH",
@@ -79267,5 +79085,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-23T05:54:33+00:00"
+ "updated": "2026-10-23T11:26:21+00:00"
 }
