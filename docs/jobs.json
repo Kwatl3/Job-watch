@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 99,
-   "raw": 245
+   "count": 98,
+   "raw": 243
   },
   "Heckler & Koch": {
    "ok": true,
@@ -4142,12 +4142,12 @@
   "Together AI": {
    "ok": true,
    "count": 0,
-   "raw": 84
+   "raw": 85
   },
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 563
+   "raw": 562
   },
   "Lightmatter": {
    "ok": true,
@@ -4157,7 +4157,7 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 348
+   "raw": 349
   },
   "Etched": {
    "ok": true,
@@ -4172,7 +4172,7 @@
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 234
+   "raw": 235
   },
   "Siemens Energy": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 177
+   "raw": 178
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 186
+   "raw": 187
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 162
+   "raw": 161
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 794
+   "raw": 795
   },
   "ClickHouse": {
    "ok": true,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 677
+   "raw": 678
   },
   "Vectara": {
    "ok": true,
@@ -36319,7 +36319,8 @@
    "posted": "2026-09-16",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-10-24T01:54:40+00:00"
   },
   {
    "company": "OHB",
@@ -49175,18 +49176,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Copernicus-CRISTAL-and-Sentinel-3-Next-Generation-Topography-Lead-System-Engineer/1438428633/",
-   "title": "Copernicus CRISTAL and Sentinel-3 Next Generation Topography Lead System Engineer",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Copernicus-CRISTAL-and-Sentinel-3-Next-Generation-Topography-Lead-System-Engineer/1438428633/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-09T23:09:53+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/abteilungsleiter_engineering_quality_planning__m_w_d_/1099343",
    "title": "Abteilungsleiter Engineering Quality Planning (m/w/d)",
@@ -50329,19 +50318,6 @@
    "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
-   "company": "Lufthansa Technik",
-   "id": "13348-1632403-2-S",
-   "title": "Entwicklungsingenieur Aircraft Structure (m/w/divers)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1632403-2-S",
-   "posted": "2026-10-05",
-   "match": 2,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T23:09:53+00:00"
-  },
-  {
    "company": "Liebherr-Aerospace",
    "id": "10000-1208159488-S",
    "title": "CNC-Fräser in der Zahnradfertigung (m/w/d)",
@@ -51051,19 +51027,6 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208007189-S",
-   "title": "Avionic Systems - Safety & Reliability Engineer (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208007189-S",
-   "posted": "2026-09-23",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-09T23:09:53+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -77218,5 +77181,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-23T23:01:39+00:00"
+ "updated": "2026-10-24T01:54:40+00:00"
 }
