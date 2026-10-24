@@ -857,7 +857,7 @@
   "KNDS": {
    "ok": true,
    "count": 38,
-   "raw": 157
+   "raw": 155
   },
   "John Cockerill": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 123,
-   "raw": 591
+   "count": 121,
+   "raw": 585
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 796
+   "raw": 794
   },
   "ClickHouse": {
    "ok": true,
@@ -4712,7 +4712,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 218
+   "raw": 217
   },
   "Dataiku": {
    "ok": true,
@@ -21660,7 +21660,8 @@
    "posted": "Posted 22 Days Ago",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00"
+   "first_seen": "2026-10-12T18:35:04+00:00",
+   "closed_at": "2026-10-24T23:39:50+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -37328,7 +37329,8 @@
    "posted": "Posted 15 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-10-24T23:39:50+00:00"
   },
   {
    "company": "Röchling",
@@ -41785,19 +41787,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
    "seed": true
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/XMLNAME--ET20A-Certification---Qualification-Engineer-Tiger-Programm--d-f-m-_JR10439405",
-   "title": "#ET20A_Certification - Qualification Engineer Tiger Programm (d/f/m)",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Certification---Qualification-Engineer-Tiger-Programm--d-f-m-_JR10439405",
-   "posted": "Posted 16 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true,
-   "closed_at": "2026-10-10T23:28:34+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -48984,18 +48973,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-IRIS%C2%B2-Lead-Ground-Segment-Service-Engineer/1439071433/",
-   "title": "IRIS² Lead Ground Segment Service Engineer",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-IRIS%C2%B2-Lead-Ground-Segment-Service-Engineer/1439071433/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-10T23:28:34+00:00"
-  },
-  {
    "company": "Astos Solutions",
    "id": "https://www.astos.de/company/careers/gnc",
    "title": "GNC/AOCS Engineer",
@@ -51470,32 +51447,6 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Dornier",
-   "id": "13635-f491f292_JB5245510-S",
-   "title": "Senior Entwicklungsingenieur – medizinische Laser (m/w/d)",
-   "location": "Weßling, Oberbayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f491f292_JB5245510-S",
-   "posted": "2026-09-14",
-   "match": 2,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-10T23:28:34+00:00"
-  },
-  {
-   "company": "Dornier",
-   "id": "13635-5b5b4982_JB5245508-S",
-   "title": "Senior Electrical Engineer (m/f/d)",
-   "location": "Weßling, Oberbayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5b5b4982_JB5245508-S",
-   "posted": "2026-09-14",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-10T23:28:34+00:00"
   },
   {
    "company": "Dornier",
@@ -77062,5 +77013,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-24T21:30:01+00:00"
+ "updated": "2026-10-24T23:39:50+00:00"
 }
