@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 134,
-   "raw": 499
+   "count": 135,
+   "raw": 503
   },
   "TKMS": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 119,
-   "raw": 576
+   "raw": 575
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 159
+   "raw": 158
   },
   "Krea": {
    "ok": true,
@@ -4692,7 +4692,7 @@
   "Wayve": {
    "ok": true,
    "count": 1,
-   "raw": 178
+   "raw": 177
   },
   "OpenAI": {
    "ok": true,
@@ -4712,7 +4712,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 217
+   "raw": 219
   },
   "Dataiku": {
    "ok": true,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 895
+   "raw": 896
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 681
+   "raw": 682
   },
   "Vectara": {
    "ok": true,
@@ -4931,6 +4931,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Pr%C3%BCfingenieur-%28wmd%29-Kalibrierlabor-Elektrotechnik-&-Messmittelmanagement-89077/1373139955/",
+   "title": "Prüfingenieur (w/m/d) Kalibrierlabor - Elektrotechnik & Messmittelmanagement",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Pr%C3%BCfingenieur-%28wmd%29-Kalibrierlabor-Elektrotechnik-&-Messmittelmanagement-89077/1373139955/",
+   "posted": "2026-10-16",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-26T01:34:14+00:00"
+  },
   {
    "company": "Schneider Electric",
    "id": "10001-1003908534-S",
@@ -50545,19 +50556,6 @@
    "src": "agency"
   },
   {
-   "company": "Lufthansa Technik",
-   "id": "13348-1619249-1-S",
-   "title": "Ingenieur Werkstofftechnik (Metalle) (m/w/divers)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1619249-1-S",
-   "posted": "2026-09-30",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-11T23:53:59+00:00"
-  },
-  {
    "company": "Liebherr-Aerospace",
    "id": "12288-4951236395-S",
    "title": "Fertigungsmeister (m/w/d) Waschen und Zerstörungsfreiprüfung",
@@ -76656,19 +76654,6 @@
   },
   {
    "company": "CERN",
-   "id": "744000151535090",
-   "title": "Distributed Storage Engineer (IT-SD-GSS-2026-96-LD)",
-   "location": "Geneva, CH",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000151535090",
-   "posted": "2026-09-24",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site",
-   "closed_at": "2026-10-11T23:53:59+00:00"
-  },
-  {
-   "company": "CERN",
    "id": "744000151026764",
    "title": "IT Support Engineer (FAP-BC-IQS-2026-229-GRAE)",
    "location": "Geneva, CH",
@@ -76746,5 +76731,5 @@
    "closed_at": "2026-10-12T15:08:30+00:00"
   }
  ],
- "updated": "2026-10-25T23:08:59+00:00"
+ "updated": "2026-10-26T01:34:14+00:00"
 }
