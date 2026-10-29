@@ -967,7 +967,7 @@
   "OHB": {
    "ok": true,
    "count": 107,
-   "raw": 261
+   "raw": 260
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1281,7 +1281,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 119,
+   "count": 120,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -1376,7 +1376,7 @@
   },
   "Bertrandt": {
    "ok": true,
-   "count": 129,
+   "count": 127,
    "raw": 300
   },
   "Beurer": {
@@ -3471,8 +3471,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 22,
-   "raw": 63
+   "count": 24,
+   "raw": 65
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3716,8 +3716,8 @@
   },
   "The Exploration Company": {
    "ok": true,
-   "count": 66,
-   "raw": 116
+   "count": 67,
+   "raw": 118
   },
   "Autoflug": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 108,
-   "raw": 560
+   "raw": 558
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -3782,7 +3782,7 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 119
+   "raw": 118
   },
   "Lambda": {
    "ok": true,
@@ -4007,7 +4007,7 @@
   "Formlabs": {
    "ok": true,
    "count": 0,
-   "raw": 240
+   "raw": 242
   },
   "Carbon": {
    "ok": false,
@@ -4132,22 +4132,22 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 123
+   "raw": 122
   },
   "Nebius": {
    "ok": true,
    "count": 10,
-   "raw": 371
+   "raw": 370
   },
   "Together AI": {
    "ok": true,
    "count": 0,
-   "raw": 87
+   "raw": 86
   },
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 553
+   "raw": 554
   },
   "Lightmatter": {
    "ok": true,
@@ -4157,22 +4157,22 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 346
+   "raw": 344
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 121
+   "raw": 122
   },
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 253
+   "raw": 252
   },
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 249
+   "raw": 250
   },
   "Siemens Energy": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 5,
-   "raw": 172
+   "raw": 171
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4442,12 +4442,12 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 183
+   "raw": 180
   },
   "Vantage Data Centers": {
    "ok": true,
    "count": 0,
-   "raw": 5
+   "raw": 7
   },
   "Aligned Data Centers": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 365
+   "raw": 369
   },
   "EdgeConnex": {
    "ok": true,
@@ -4622,7 +4622,7 @@
   "Sereact": {
    "ok": true,
    "count": 2,
-   "raw": 44
+   "raw": 43
   },
   "DeepL": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 157
+   "raw": 156
   },
   "Krea": {
    "ok": true,
@@ -4692,12 +4692,12 @@
   "Wayve": {
    "ok": true,
    "count": 1,
-   "raw": 176
+   "raw": 175
   },
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 812
+   "raw": 813
   },
   "ClickHouse": {
    "ok": true,
@@ -4707,7 +4707,7 @@
   "Parloa": {
    "ok": true,
    "count": 2,
-   "raw": 45
+   "raw": 46
   },
   "Celonis": {
    "ok": true,
@@ -4727,17 +4727,17 @@
   "Scale AI": {
    "ok": true,
    "count": 0,
-   "raw": 168
+   "raw": 169
   },
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 904
+   "raw": 906
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 680
+   "raw": 673
   },
   "Vectara": {
    "ok": true,
@@ -4747,7 +4747,7 @@
   "Peak AI": {
    "ok": true,
    "count": 0,
-   "raw": 53
+   "raw": 54
   },
   "Elastic": {
    "ok": true,
@@ -4777,7 +4777,7 @@
   "Neura Robotics": {
    "ok": true,
    "count": 5,
-   "raw": 218
+   "raw": 219
   },
   "Agile Robots": {
    "ok": true,
@@ -4931,6 +4931,105 @@
   }
  },
  "jobs": [
+  {
+   "company": "Liebherr-Aerospace",
+   "id": "12288-4983591427-S",
+   "title": "Werkstoffprüfer im Bereich Qualitätssicherung Behandlung (m/w/d) - Befristet für 24 Monate",
+   "location": "Lindenberg im Allgäu, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983591427-S",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Liebherr-Aerospace",
+   "id": "12288-4983649565-S",
+   "title": "Werkstoffprüfer im Bereich Qualitätssicherung Behandlung (m/w/d)",
+   "location": "Lindenberg im Allgäu, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983649565-S",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4983616030-S",
+   "title": "Technischer Produktdesigner (m/w/d)",
+   "location": "Flensburg, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983616030-S",
+   "posted": "2026-10-29",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "The Exploration Company",
+   "id": "3345366b-a39f-4522-bc43-afc06e76ae0a",
+   "title": "Senior MAIT Electrical and Test Engineer",
+   "location": "Munich, Germany",
+   "url": "https://jobs.ashbyhq.com/the-exploration-company/3345366b-a39f-4522-bc43-afc06e76ae0a",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "The Exploration Company",
+   "id": "5560b779-1857-4cb2-a588-8494f75b819e",
+   "title": "MAIT Electrical and Test Engineer",
+   "location": "Munich, Germany",
+   "url": "https://jobs.ashbyhq.com/the-exploration-company/5560b779-1857-4cb2-a588-8494f75b819e",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4983640124-S",
+   "title": "Konstruktionsmechaniker (m/w/d) Maschinen- und Anlagenbau",
+   "location": "Quickborn, Kreis Pinneberg, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983640124-S",
+   "posted": "2026-10-29",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4983634978-S",
+   "title": "Konstrukteur (m/w/d) Systemtechnik / Sondermaschinenbau",
+   "location": "Bremerhaven, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983634978-S",
+   "posted": "2026-10-29",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4983602326-S",
+   "title": "Entwicklungsingenieur Mechatronik und Qualifizierung (m/w/d)",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983602326-S",
+   "posted": "2026-10-29",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-4983595331-S",
+   "title": "Detailkonstrukteur (m/w/d)",
+   "location": "Rastede, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4983595331-S",
+   "posted": "2026-10-29",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-10-29T21:43:31+00:00"
+  },
   {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Stuttgart-Area/Systemingenieur--d-m-w--fr-Laser-Communication-Terminals---Schwerpunkt-Nachrichtentechnik_JR10439262",
@@ -9431,7 +9530,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T15:06:17+00:00"
+   "first_seen": "2026-10-26T15:06:17+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "TKMS",
@@ -22171,8 +22271,7 @@
    "posted": "2026-10-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T15:18:48+00:00",
-   "closed_at": "2026-10-29T16:51:15+00:00"
+   "first_seen": "2026-10-15T15:18:48+00:00"
   },
   {
    "company": "Akkodis",
@@ -23202,8 +23301,7 @@
    "posted": "2026-10-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T10:15:42+00:00",
-   "closed_at": "2026-10-29T16:51:15+00:00"
+   "first_seen": "2026-10-15T10:15:42+00:00"
   },
   {
    "company": "Akkodis",
@@ -26386,18 +26484,6 @@
   },
   {
    "company": "Akkodis",
-   "id": "12634-BB-646120-7878-6846-S",
-   "title": "IT-Systemingenieur (m/w/d) Elektronische Kommunikation in Köln",
-   "location": "Köln, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646120-7878-6846-S",
-   "posted": "2026-10-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00",
-   "closed_at": "2026-10-15T19:21:55+00:00"
-  },
-  {
-   "company": "Akkodis",
    "id": "12634-BB-646093-7878-3763-S",
    "title": "ILS Engineer - Ersatzteiloptimierung & Instandhaltung Marine (m/w/d)",
    "location": "Hamburg, Hamburg",
@@ -26521,7 +26607,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00"
+   "first_seen": "2026-10-13T11:01:44+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -26532,7 +26619,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00"
+   "first_seen": "2026-10-13T11:01:44+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -26543,7 +26631,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00"
+   "first_seen": "2026-10-13T11:01:44+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -26915,18 +27004,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-12T18:35:04+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Manching/GSS-Support-Services-EF---Operativer-Support-Engineering-Ground-Support-System--d-m-w-_JR10437540",
-   "title": "Operativer Support Engineering Ground Support System (d/m/w)",
-   "location": "Manching",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Manching/GSS-Support-Services-EF---Operativer-Support-Engineering-Ground-Support-System--d-m-w-_JR10437540",
-   "posted": "Posted 30+ Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-12T18:35:04+00:00",
-   "closed_at": "2026-10-15T19:21:55+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -27476,7 +27553,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -28402,7 +28480,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "OHB",
@@ -28480,7 +28559,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "TKMS",
@@ -28524,7 +28604,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Lürssen",
@@ -46946,7 +47027,8 @@
    "posted": "2026-07-20",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -47057,18 +47139,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "The Exploration Company",
-   "id": "a1da83aa-0f68-4280-88dc-ad4e461918d2",
-   "title": "Spacecraft Flight Computing Senior Engineer",
-   "location": "California ",
-   "url": "https://jobs.ashbyhq.com/the-exploration-company/a1da83aa-0f68-4280-88dc-ad4e461918d2",
-   "posted": "2026-07-04",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-15T19:21:55+00:00"
   },
   {
    "company": "Continental Aktiengesellschaft",
@@ -53538,19 +53608,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-20T11:47:54+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4955634807-S",
-   "title": "Senior Einkäufer (m/w/d) mit Entwicklungsperspektive zur Teamleitung Einkauf 1",
-   "location": "Frankfurt am Main, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4955634807-S",
-   "posted": "2026-10-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-15T19:21:55+00:00"
   },
   {
    "company": "Bertrandt",
@@ -72213,5 +72270,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-10-29T16:51:15+00:00"
+ "updated": "2026-10-29T21:43:31+00:00"
 }
