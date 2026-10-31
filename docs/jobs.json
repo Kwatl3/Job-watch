@@ -836,8 +836,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 18,
-   "raw": 36
+   "count": 66,
+   "raw": 211
   },
   "EUMETSAT": {
    "ok": true,
@@ -937,7 +937,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 1,
-   "raw": 75
+   "raw": 71
   },
   "Diehl": {
    "ok": false,
@@ -1737,7 +1737,7 @@
   "Fichtner": {
    "ok": true,
    "count": 5,
-   "raw": 44
+   "raw": 43
   },
   "Firmengruppe Liebherr": {
    "ok": true,
@@ -3456,8 +3456,8 @@
   },
   "Lufthansa Technik": {
    "ok": true,
-   "count": 6,
-   "raw": 24
+   "count": 5,
+   "raw": 21
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3566,8 +3566,8 @@
   },
   "FACC": {
    "ok": true,
-   "count": 4,
-   "raw": 9
+   "count": 3,
+   "raw": 7
   },
   "Hexcel": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 8,
-   "raw": 171
+   "count": 26,
+   "raw": 52
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3737,7 +3737,7 @@
   "Dornier": {
    "ok": true,
    "count": 1,
-   "raw": 12
+   "raw": 11
   },
   "Diamond Aircraft": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 111,
-   "raw": 558
+   "count": 110,
+   "raw": 554
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -3917,7 +3917,7 @@
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 0
+   "raw": 3
   },
   "IONOS": {
    "ok": true,
@@ -4501,8 +4501,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 0,
-   "raw": 0
+   "count": 3,
+   "raw": 18
   },
   "Smart Photonics": {
    "ok": true,
@@ -4632,7 +4632,7 @@
   "n8n": {
    "ok": true,
    "count": 1,
-   "raw": 51
+   "raw": 50
   },
   "Photoroom": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 811
+   "raw": 810
   },
   "ClickHouse": {
    "ok": true,
@@ -4932,6 +4932,534 @@
  },
  "jobs": [
   {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-and-Commercialisation-Contracts-Division/1453009033/",
+   "title": "Intern in the Technology and Commercialisation Contracts Division",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-and-Commercialisation-Contracts-Division/1453009033/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-Department-Advanced-Concepts-Team/1452881833/",
+   "title": "Intern in the Technology Department - Advanced Concepts Team",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-Department-Advanced-Concepts-Team/1452881833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-Department-Accelerate-and-Innovation-Technology-Team/1452882033/",
+   "title": "Intern in the Technology Department - Accelerate and Innovation Technology Team",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Technology-Department-Accelerate-and-Innovation-Technology-Team/1452882033/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-FDIR-System-Engineering/1452887833/",
+   "title": "Intern in the Systems Department - FDIR System Engineering",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-FDIR-System-Engineering/1452887833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Development-of-PVT-Algorithms-for-Lunar-Users/1452888133/",
+   "title": "Intern in the Systems Department - Development of PVT Algorithms for Lunar Users",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Development-of-PVT-Algorithms-for-Lunar-Users/1452888133/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Cost-Engineering-Section/1452887533/",
+   "title": "Intern in the Systems Department - Cost Engineering Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Cost-Engineering-Section/1452887533/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Concurrent-Engineering-and-Future-Missions-Section/1452886733/",
+   "title": "Intern in the Systems Department - Concurrent Engineering and Future Missions Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Systems-Department-Concurrent-Engineering-and-Future-Missions-Section/1452886733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-Space-Training-Team-Video-and-Multimedia-Production/1452999833/",
+   "title": "Intern in the Space Training Team - Video and Multimedia Production",
+   "location": "Porz-Wahn, DE",
+   "url": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-Space-Training-Team-Video-and-Multimedia-Production/1452999833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Villanueva-de-la-Ca%C3%B1ada-Intern-in-the-Science-Operations-Department-AI-Automation-of-Product-Assurance-&-Quality-Engineering/1452874133/",
+   "title": "Intern in the Science Operations Department-AI Automation of Product Assurance & Quality Engineering",
+   "location": "Villanueva de la Cañada, ES",
+   "url": "https://jobs.esa.int/job/Villanueva-de-la-Ca%C3%B1ada-Intern-in-the-Science-Operations-Department-AI-Automation-of-Product-Assurance-&-Quality-Engineering/1452874133/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Villanueva-de-la-Ca%C3%B1ada-Intern-in-the-Science-Operations-Department-Solar-Orbiter-App-Development/1452874833/",
+   "title": "Intern in the Science Operations Department - Solar Orbiter App Development",
+   "location": "Villanueva de la Cañada, ES",
+   "url": "https://jobs.esa.int/job/Villanueva-de-la-Ca%C3%B1ada-Intern-in-the-Science-Operations-Department-Solar-Orbiter-App-Development/1452874833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Space-Debris-Mitigation/1452882833/",
+   "title": "Intern in the Quality Department - Space Debris Mitigation",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Space-Debris-Mitigation/1452882833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Resilience%2C-Navigation-&-Communication-Product-Assurance-Section/1452883633/",
+   "title": "Intern in the Quality Department - Resilience, Navigation & Communication Product Assurance Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Resilience%2C-Navigation-&-Communication-Product-Assurance-Section/1452883633/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-RAMS-Section/1452883033/",
+   "title": "Intern in the Quality Department - RAMS Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-RAMS-Section/1452883033/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Human-Spaceflight-Safety/1452882733/",
+   "title": "Intern in the Quality Department - Human Spaceflight Safety",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Quality-Department-Human-Spaceflight-Safety/1452882733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Thermal-Control-Section/1452884733/",
+   "title": "Intern in the Mechanical Department - Thermal Control Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Thermal-Control-Section/1452884733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Thermal-Analysis-and-Verification-Section/1452885233/",
+   "title": "Intern in the Mechanical Department - Thermal Analysis and Verification Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Thermal-Analysis-and-Verification-Section/1452885233/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Structures-Section/1452886433/",
+   "title": "Intern in the Mechanical Department - Structures Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Structures-Section/1452886433/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Robotics-Section/1452884433/",
+   "title": "Intern in the Mechanical Department - Robotics Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Robotics-Section/1452884433/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Propulsion-Engineering-Section/1452883933/",
+   "title": "Intern in the Mechanical Department - Propulsion Engineering Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Propulsion-Engineering-Section/1452883933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Opto-Electronics-Section/1452884233/",
+   "title": "Intern in the Mechanical Department - Opto-Electronics Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Opto-Electronics-Section/1452884233/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Optics-Section/1452884533/",
+   "title": "Intern in the Mechanical Department - Optics Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Optics-Section/1452884533/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Mechanisms-Section/1452886133/",
+   "title": "Intern in the Mechanical Department - Mechanisms Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Mechanisms-Section/1452886133/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Manufacturing-and-Assembly-Section/1452886333/",
+   "title": "Intern in the Mechanical Department - Materials, Manufacturing and Assembly Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Manufacturing-and-Assembly-Section/1452886333/",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Environments-and-Contamination-Control-Section/1452885833/",
+   "title": "Intern in the Mechanical Department - Materials, Environments and Contamination Control Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Materials%2C-Environments-and-Contamination-Control-Section/1452885833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Life-Support-and-Physical-Sciences-Instrumentation-Section/1452884333/",
+   "title": "Intern in the Mechanical Department - Life Support and Physical Sciences Instrumentation Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Life-Support-and-Physical-Sciences-Instrumentation-Section/1452884333/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Aerothermodynamics-and-Flight-Vehicles-Section/1452883733/",
+   "title": "Intern in the Mechanical Department - Aerothermodynamics and Flight Vehicles Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Mechanical-Department-Aerothermodynamics-and-Flight-Vehicles-Section/1452883733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Policy-and-Auditing-Department-SME-Section/1452888233/",
+   "title": "Intern in the Industrial Policy and Auditing Department - SME Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Policy-and-Auditing-Department-SME-Section/1452888233/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Policy-and-Auditing-Department-BUC-and-PMSO-Office-Corporate-Directorates/1452887633/",
+   "title": "Intern in the Industrial Policy and Auditing Department - BUC and PMSO Office Corporate Directorates",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Policy-and-Auditing-Department-BUC-and-PMSO-Office-Corporate-Directorates/1452887633/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Audit-Services-Office-Audit-Baseline-Services-Unit/1452887933/",
+   "title": "Intern in the Industrial Audit Services Office - Audit Baseline Services Unit",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Industrial-Audit-Services-Office-Audit-Baseline-Services-Unit/1452887933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Visualisation-and-Communication/1452808133/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Visualisation and Communication",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Visualisation-and-Communication/1452808133/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Security-Engineering/1452807933/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Security Engineering",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Security-Engineering/1452807933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Optical-Technologies-Section/1452810733/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Optical Technologies Section",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Optical-Technologies-Section/1452810733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Navigation-Support-Office/1452809533/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Navigation Support Office",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Navigation-Support-Office/1452809533/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Mission-Analysis-Section/1452808933/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Mission Analysis Section",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Mission-Analysis-Section/1452808933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Lunar-Image-Super-Resolution/1452809333/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Lunar Image Super-Resolution",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Lunar-Image-Super-Resolution/1452809333/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-ESTRACK-Antenna-Performance/1452810433/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - ESTRACK Antenna Performance",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-ESTRACK-Antenna-Performance/1452810433/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Disruption-Tolerant-Networking/1452810633/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - Disruption Tolerant Networking",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-Disruption-Tolerant-Networking/1452810633/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-AI%2C-Data-&-Digital-Twins/1452807533/",
+   "title": "Intern in the Ground Systems Engineering & Innovation Department - AI, Data & Digital Twins",
+   "location": "Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Intern-in-the-Ground-Systems-Engineering-&-Innovation-Department-AI%2C-Data-&-Digital-Twins/1452807533/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Galileo-and-Egnos-Programme-Department-AI-for-Galileo-System-Engineering-and-MBSE/1452922733/",
+   "title": "Intern in the Galileo and Egnos Programme Department - AI for Galileo System Engineering and MBSE",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Galileo-and-Egnos-Programme-Department-AI-for-Galileo-System-Engineering-and-MBSE/1452922733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Toulouse-Intern-in-the-Galileo-and-EGNOS-Programme-Department-System-Engineering-Section/1452922933/",
+   "title": "Intern in the Galileo and EGNOS Programme Department  - System Engineering Section",
+   "location": "Toulouse, FR",
+   "url": "https://jobs.esa.int/job/Toulouse-Intern-in-the-Galileo-and-EGNOS-Programme-Department-System-Engineering-Section/1452922933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Future-Missions-and-Architecture-Department-Knowledge-Centric-Mission-Engineering/1452876333/",
+   "title": "Intern in the Future Missions and Architecture Department - Knowledge-Centric Mission Engineering",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Future-Missions-and-Architecture-Department-Knowledge-Centric-Mission-Engineering/1452876333/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Engineering-Services-Section-Metrology-Laboratory/1452881633/",
+   "title": "Intern in the Engineering Services Section - Metrology Laboratory",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Engineering-Services-Section-Metrology-Laboratory/1452881633/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Electrical-Department-Equipment-and-Technology-Section/1452880833/",
+   "title": "Intern in the Electrical Department - Equipment and Technology Section",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Electrical-Department-Equipment-and-Technology-Section/1452880833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Earth-Observation-Projects-Department-Event-Aware-On-Board-Processing-for-CHIME/1452878233/",
+   "title": "Intern in the Earth Observation Projects Department - Event-Aware On-Board Processing for CHIME",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Earth-Observation-Projects-Department-Event-Aware-On-Board-Processing-for-CHIME/1452878233/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Digital%2C-Data-and-Information-Technology-Department-Data-and-Apps-Factory/1452793833/",
+   "title": "Intern in the Digital, Data and Information Technology Department - Data and Apps Factory",
+   "location": "Noordwijk, NL",
+   "url": "https://jobs.esa.int/job/Noordwijk-Intern-in-the-Digital%2C-Data-and-Information-Technology-Department-Data-and-Apps-Factory/1452793833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-CAVES-&-PANGAEA-Team-Machine-Learning-Development/1453000933/",
+   "title": "Intern in the CAVES & PANGAEA Team - Machine Learning Development",
+   "location": "Porz-Wahn, DE",
+   "url": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-CAVES-&-PANGAEA-Team-Machine-Learning-Development/1453000933/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-CAVES-&-PANGAEA-Team-Development-of-the-PANGAEA-Analytical-Toolset/1453000733/",
+   "title": "Intern in the CAVES & PANGAEA Team - Development of the PANGAEA Analytical Toolset",
+   "location": "Porz-Wahn, DE",
+   "url": "https://jobs.esa.int/job/Porz-Wahn-Intern-in-the-CAVES-&-PANGAEA-Team-Development-of-the-PANGAEA-Analytical-Toolset/1453000733/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Paris-Intern-in-the-Ariane-6-Department-Ariane-Mission-and-System-Engineering-Division/1452792833/",
+   "title": "Intern in the Ariane 6 Department - Ariane Mission and System Engineering Division",
+   "location": "Paris, FR",
+   "url": "https://jobs.esa.int/job/Paris-Intern-in-the-Ariane-6-Department-Ariane-Mission-and-System-Engineering-Division/1452792833/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-31T23:38:01+00:00"
+  },
+  {
    "company": "Franz & Wach Personalservice",
    "id": "11864-95HME3SVHLL77I1A-S",
    "title": "Produktionsmitarbeiter * für die Datenerfassung  bei Kärcher in Ahorn (direkt A81) in Vollzeit",
@@ -5050,8 +5578,7 @@
    "posted": "2026-10-31",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-31T05:27:07+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-31T05:27:07+00:00"
   },
   {
    "company": "Dekra",
@@ -7712,8 +8239,7 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T01:49:18+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-30T01:49:18+00:00"
   },
   {
    "company": "Hensoldt",
@@ -10116,8 +10642,7 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T00:24:31+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-28T00:24:31+00:00"
   },
   {
    "company": "Tenstorrent",
@@ -11667,8 +12192,7 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T00:20:39+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-27T00:20:39+00:00"
   },
   {
    "company": "Jenoptik",
@@ -17965,8 +18489,7 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "Jenoptik",
@@ -17977,8 +18500,7 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "Hensoldt",
@@ -23031,8 +23553,7 @@
    "posted": "2026-10-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-17T01:14:16+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-17T01:14:16+00:00"
   },
   {
    "company": "Hensoldt",
@@ -24868,7 +25389,8 @@
    "posted": "Posted 15 Days Ago",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-16T06:17:41+00:00"
+   "first_seen": "2026-10-16T06:17:41+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "KNDS",
@@ -25045,8 +25567,7 @@
    "posted": "2026-10-16",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-16T01:10:20+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-16T01:10:20+00:00"
   },
   {
    "company": "ESA",
@@ -25259,7 +25780,8 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -25732,7 +26254,8 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Dekra",
@@ -30247,7 +30770,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Jenoptik",
@@ -30258,7 +30782,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Jenoptik",
@@ -30269,7 +30794,8 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Jenoptik",
@@ -30280,7 +30806,8 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Jenoptik",
@@ -30387,7 +30914,8 @@
    "posted": "2026-10-06",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Jenoptik",
@@ -30398,7 +30926,8 @@
    "posted": "2026-10-03",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -30544,8 +31073,7 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -30556,8 +31084,7 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -30568,8 +31095,7 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -51412,7 +51938,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Lufthansa Technik",
@@ -51511,8 +52038,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Atlas Elektronik",
@@ -51585,8 +52111,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -51598,8 +52123,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -51623,8 +52147,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -51823,8 +52346,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -51897,8 +52419,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Vincorion",
@@ -52213,8 +52734,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -52397,8 +52917,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -52410,8 +52929,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -52752,8 +53270,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -52765,8 +53282,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -52778,8 +53294,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -52803,8 +53318,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Moog",
@@ -52912,8 +53426,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -52985,8 +53498,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -53252,8 +53764,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -53364,7 +53875,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -53522,8 +54034,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -53535,8 +54046,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T21:42:35+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -65097,7 +65607,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce",
+   "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -65109,7 +65619,7 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce Power Systems",
+   "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
    "location": "Magdeburg, Sachsen Anhalt",
@@ -66582,6 +67092,18 @@
    "closed_at": "2026-10-20T23:46:04+00:00"
   },
   {
+   "company": "Pneuhage Management",
+   "id": "10001-1003423262-S",
+   "title": "Kfz-Mechatroniker (m/w/d)",
+   "location": "Heidenau, Sachsen, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
+   "posted": "2026-07-22",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "KNDS",
    "id": "10000-1207277265-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
@@ -66593,18 +67115,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-28T23:28:22+00:00"
-  },
-  {
-   "company": "Pneuhage Management",
-   "id": "10001-1003423262-S",
-   "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Heidenau, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003423262-S",
-   "posted": "2026-07-22",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
   },
   {
    "company": "Bechtle",
@@ -70364,6 +70874,18 @@
    "src": "agency"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -70381,18 +70903,6 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -73358,5 +73868,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-10-31T21:42:35+00:00"
+ "updated": "2026-10-31T23:38:01+00:00"
 }
