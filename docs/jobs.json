@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 25,
-   "raw": 51
+   "count": 26,
+   "raw": 52
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -4132,7 +4132,7 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 124
+   "raw": 126
   },
   "Nebius": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 190
+   "raw": 191
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4632,7 +4632,7 @@
   "n8n": {
    "ok": true,
    "count": 1,
-   "raw": 43
+   "raw": 51
   },
   "Photoroom": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 149
+   "raw": 146
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 815
+   "raw": 813
   },
   "ClickHouse": {
    "ok": true,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 677
+   "raw": 675
   },
   "Vectara": {
    "ok": true,
@@ -4931,6 +4931,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Jenoptik",
+   "id": "16012-44543543-1030-S",
+   "title": "R&D Ingenieur/Prototypenentwicklung Lasersysteme (w/m/d)",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44543543-1030-S",
+   "posted": "2026-10-31",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-31T05:27:07+00:00"
+  },
   {
    "company": "Dekra",
    "id": "11119-4985044792-S",
@@ -5603,6 +5614,17 @@
    "first_seen": "2026-10-30T15:17:24+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Elektroniker-Pr%C3%BCftechniker-f%C3%BCr-Serienfertigung-und-Kundenr%C3%BCcklieferung-%28wmd%29-89077/1367820855/",
+   "title": "Elektroniker / Prüftechniker für Serienfertigung und Kundenrücklieferung (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Elektroniker-Pr%C3%BCftechniker-f%C3%BCr-Serienfertigung-und-Kundenr%C3%BCcklieferung-%28wmd%29-89077/1367820855/",
+   "posted": "2026-10-31",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-30T15:17:24+00:00"
+  },
+  {
    "company": "Isar Aerospace",
    "id": "5022215101",
    "title": "Manufacturing Engineer (m/f/d)",
@@ -6050,17 +6072,6 @@
    "url": "https://jobs.hensoldt.net/job/Oberkochen-Technischer-Produktdesigner-%28wmd%29-73447/1372790655/",
    "posted": "2026-10-14",
    "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-30T15:17:24+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Elektroniker-Pr%C3%BCftechniker-f%C3%BCr-Serienfertigung-und-Kundenr%C3%BCcklieferung-%28wmd%29-89077/1367820855/",
-   "title": "Elektroniker / Prüftechniker für Serienfertigung und Kundenrücklieferung (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Elektroniker-Pr%C3%BCftechniker-f%C3%BCr-Serienfertigung-und-Kundenr%C3%BCcklieferung-%28wmd%29-89077/1367820855/",
-   "posted": "2026-09-10",
-   "match": 1,
    "src": "site",
    "first_seen": "2026-10-30T15:17:24+00:00"
   },
@@ -11266,7 +11277,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Kiel, DE, 24114 • Bonn, DE, 53175 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Köln, DE, 51147 • Koblenz, DE, 56073 • Köln, DE, 50676 • Fürstenfeldbruck, DE, 82256",
+   "location": "Köln, DE, 51147 • Koblenz, DE, 56073 • Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Bonn, DE, 53175 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "posted": "2026-10-03",
    "match": 1,
@@ -19887,6 +19898,17 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28wmd%29-89077/1164480355/",
+   "title": "Systemingenieur Produktentwicklung für Electronic Warfare im Weltraum (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28wmd%29-89077/1164480355/",
+   "posted": "2026-10-31",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-20T12:04:10+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Product-Development-%28wmd%29-89077/1370059255/",
    "title": "Systemingenieur Product Development (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -20039,17 +20061,6 @@
    "url": "https://jobs.ashbyhq.com/the-exploration-company/fc241b43-5ad5-49c7-b26d-f0ca7c15ffa0",
    "posted": "2026-10-20",
    "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-20T12:04:10+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28wmd%29-89077/1164480355/",
-   "title": "Systemingenieur Produktentwicklung für Electronic Warfare im Weltraum (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Produktentwicklung-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28wmd%29-89077/1164480355/",
-   "posted": "2026-10-02",
-   "match": 2,
    "src": "site",
    "first_seen": "2026-10-20T12:04:10+00:00"
   },
@@ -31387,22 +31398,22 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
-   "title": "Qualitätsingenieur (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
-   "posted": "2026-10-09",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
+   "title": "Prozessverantwortlicher Logistik (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
+   "posted": "2026-10-31",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-11T23:53:59+00:00"
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
-   "title": "Prozessverantwortlicher Logistik (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
-   "posted": "2026-10-02",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
+   "title": "Qualitätsingenieur (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
+   "posted": "2026-10-09",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-11T23:53:59+00:00"
@@ -45517,6 +45528,39 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Electronic-Warfare-%28wmd%29-89077/1167381955/",
+   "title": "Systemingenieur für Electronic Warfare (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Electronic-Warfare-%28wmd%29-89077/1167381955/",
+   "posted": "2026-10-31",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-RF-design-&-development-Engineer-%28mwd%29-89077/1329392855/",
+   "title": "RF design & development Engineer (m/w/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-RF-design-&-development-Engineer-%28mwd%29-89077/1329392855/",
+   "posted": "2026-10-31",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Head-of-Industrial-Architecture-and-Innovation-%28wmd%29-89077/1359621355/",
+   "title": "Head of Industrial Architecture and Innovation (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Head-of-Industrial-Architecture-and-Innovation-%28wmd%29-89077/1359621355/",
+   "posted": "2026-10-31",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1164365855/",
    "title": "Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -46797,7 +46841,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-10-10",
    "match": 1,
@@ -46987,7 +47031,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-10-08",
    "match": 1,
@@ -47521,7 +47565,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Wilhelmshaven, DE, 26389 • Bremen, DE, 28757 • Bremen, DE, 28757 • Köln, DE, 50676 • Kiel, DE, 24145 • Hamburg, DE, 22335 • Kiel, DE, 24114 • Köln, DE, 51147 • Koblenz, DE, 56073 • Cologne, FR, 32430 • Fürstenfeldbruck, DE, 82256",
+   "location": "Bremen, DE, 28757 • Hamburg, DE, 22335 • Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Cologne, FR, 32430 • Koblenz, DE, 56073 • Kiel, DE, 24114 • Bremen, DE, 28757 • Kiel, DE, 24145 • Köln, DE, 51147 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-10-03",
    "match": 1,
@@ -47553,17 +47597,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Electronic-Warfare-%28wmd%29-89077/1167381955/",
-   "title": "Systemingenieur für Electronic Warfare (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Electronic-Warfare-%28wmd%29-89077/1167381955/",
-   "posted": "2026-10-02",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-Product-Development-%28wmd%29-89077/1164480355/",
    "title": "Systemingenieur Product Development (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -47573,28 +47606,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-20T12:04:10+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-RF-design-&-development-Engineer-%28mwd%29-89077/1329392855/",
-   "title": "RF design & development Engineer (m/w/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-RF-design-&-development-Engineer-%28mwd%29-89077/1329392855/",
-   "posted": "2026-10-02",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Head-of-Industrial-Architecture-and-Innovation-%28wmd%29-89077/1359621355/",
-   "title": "Head of Industrial Architecture and Innovation (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Head-of-Industrial-Architecture-and-Innovation-%28wmd%29-89077/1359621355/",
-   "posted": "2026-10-02",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Helsing",
@@ -73448,5 +73459,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-10-31T00:00:38+00:00"
+ "updated": "2026-10-31T05:27:07+00:00"
 }
