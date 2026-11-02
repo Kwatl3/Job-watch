@@ -836,8 +836,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 66,
-   "raw": 211
+   "count": 65,
+   "raw": 208
   },
   "EUMETSAT": {
    "ok": true,
@@ -937,7 +937,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 1,
-   "raw": 71
+   "raw": 73
   },
   "Diehl": {
    "ok": false,
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 133,
-   "raw": 476
+   "count": 135,
+   "raw": 482
   },
   "TKMS": {
    "ok": true,
@@ -1737,7 +1737,7 @@
   "Fichtner": {
    "ok": true,
    "count": 5,
-   "raw": 43
+   "raw": 41
   },
   "Firmengruppe Liebherr": {
    "ok": true,
@@ -2441,8 +2441,8 @@
   },
   "Rud. Otto Meyer Technik": {
    "ok": true,
-   "count": 6,
-   "raw": 61
+   "count": 5,
+   "raw": 59
   },
   "Rutronik Elektronische Bauelemente": {
    "ok": true,
@@ -3566,8 +3566,8 @@
   },
   "FACC": {
    "ok": true,
-   "count": 3,
-   "raw": 7
+   "count": 1,
+   "raw": 4
   },
   "Hexcel": {
    "ok": true,
@@ -3591,8 +3591,8 @@
   },
   "MBDA": {
    "ok": true,
-   "count": 3,
-   "raw": 6
+   "count": 2,
+   "raw": 2
   },
   "Atlas Elektronik": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 110,
-   "raw": 554
+   "count": 109,
+   "raw": 552
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -4147,7 +4147,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 557
+   "raw": 556
   },
   "Lightmatter": {
    "ok": true,
@@ -4167,7 +4167,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 256
+   "raw": 257
   },
   "Saronic": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 142
+   "raw": 140
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 809
+   "raw": 812
   },
   "ClickHouse": {
    "ok": true,
@@ -4931,6 +4931,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Project-Processes-&-Operations-Manager-%28mwd%29-89077/1374134555/",
+   "title": "Project Processes & Operations Manager (m/w/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Project-Processes-&-Operations-Manager-%28mwd%29-89077/1374134555/",
+   "posted": "2026-10-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-02T02:17:59+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Configuration-Management-Operations-Manager-%28wmd%29-89077/1374114955/",
+   "title": "Configuration Management Operations Manager (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Configuration-Management-Operations-Manager-%28wmd%29-89077/1374114955/",
+   "posted": "2026-10-23",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-11-02T02:17:59+00:00"
+  },
   {
    "company": "SYNERGIE Personal",
    "id": "12704-59Q8YPHN5UKPWG76-S",
@@ -31941,7 +31963,8 @@
    "posted": "Posted 20 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-12T15:08:30+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -46331,6 +46354,50 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Mission-UAS-Production-%28mwd%29-82256/1351976355/",
+   "title": "Projektleiter Mission UAS Production (m/w/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Mission-UAS-Production-%28mwd%29-82256/1351976355/",
+   "posted": "2026-11-02",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Praktikant-Leadership-Development-&-Kommunikation-%28mwd%29-82024/1363293255/",
+   "title": "Praktikant Leadership Development & Kommunikation (m/w/d)",
+   "location": "Taufkirchen, DE, 82024",
+   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Praktikant-Leadership-Development-&-Kommunikation-%28mwd%29-82024/1363293255/",
+   "posted": "2026-11-02",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Industriemechaniker-Mechatroniker-%28wmd%29-73447/1337541955/",
+   "title": "Industriemechaniker / Mechatroniker (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Industriemechaniker-Mechatroniker-%28wmd%29-73447/1337541955/",
+   "posted": "2026-11-02",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Wetzlar-Abteilungsleitung-Konstruktion-%28wmd%29-35578/1359975055/",
+   "title": "Abteilungsleitung Konstruktion (w/m/d)",
+   "location": "Wetzlar, DE, 35578",
+   "url": "https://jobs.hensoldt.net/job/Wetzlar-Abteilungsleitung-Konstruktion-%28wmd%29-35578/1359975055/",
+   "posted": "2026-11-02",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-TRx-4D-Radare-mit-Schwerpunkt-Obsoleszenz-Bearbeitung-%28wmd%29-89077/1363109555/",
    "title": "Systemingenieur für TRx-4D Radare mit Schwerpunkt Obsoleszenz Bearbeitung (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -48320,28 +48387,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Mission-UAS-Production-%28mwd%29-82256/1351976355/",
-   "title": "Projektleiter Mission UAS Production (m/w/d)",
-   "location": "Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Mission-UAS-Production-%28mwd%29-82256/1351976355/",
-   "posted": "2026-10-04",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Praktikant-Leadership-Development-&-Kommunikation-%28mwd%29-82024/1363293255/",
-   "title": "Praktikant Leadership Development & Kommunikation (m/w/d)",
-   "location": "Taufkirchen, DE, 82024",
-   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Praktikant-Leadership-Development-&-Kommunikation-%28mwd%29-82024/1363293255/",
-   "posted": "2026-10-04",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Praktikant-HENSOLDT-Produktionssystem-%28wmd%29-89077/1363306655/",
    "title": "Praktikant HENSOLDT Produktionssystem (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -48354,17 +48399,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Industriemechaniker-Mechatroniker-%28wmd%29-73447/1337541955/",
-   "title": "Industriemechaniker / Mechatroniker (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Industriemechaniker-Mechatroniker-%28wmd%29-73447/1337541955/",
-   "posted": "2026-10-04",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Category-Manager-Engineering-&-Professional-Services-%28wmd%29-82256/1359938855/",
    "title": "Category Manager - Engineering & Professional Services (w/m/d)",
    "location": "Fürstenfeldbruck, DE, 82256",
@@ -48374,17 +48408,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-26T15:06:17+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Wetzlar-Abteilungsleitung-Konstruktion-%28wmd%29-35578/1359975055/",
-   "title": "Abteilungsleitung Konstruktion (w/m/d)",
-   "location": "Wetzlar, DE, 35578",
-   "url": "https://jobs.hensoldt.net/job/Wetzlar-Abteilungsleitung-Konstruktion-%28wmd%29-35578/1359975055/",
-   "posted": "2026-10-04",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hensoldt",
@@ -51419,7 +51442,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53635,7 +53659,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "Moog",
@@ -54132,7 +54157,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "FACC",
@@ -54144,7 +54170,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "FACC",
@@ -55250,19 +55277,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-23T15:52:28+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-644040-7878-1916-S",
-   "title": "Technischer Konfigurationsmanager (m/w/d)",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-644040-7878-1916-S",
-   "posted": "2026-10-08",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-19T00:25:45+00:00"
   },
   {
    "company": "Bock",
@@ -70273,7 +70287,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-02T02:17:59+00:00"
   },
   {
    "company": "Bechtle",
@@ -74078,5 +74093,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-11-01T22:42:20+00:00"
+ "updated": "2026-11-02T02:17:59+00:00"
 }
