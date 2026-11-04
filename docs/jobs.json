@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 103,
-   "raw": 258
+   "count": 102,
+   "raw": 257
   },
   "Heckler & Koch": {
    "ok": true,
@@ -4147,22 +4147,22 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 556
+   "raw": 557
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 57
+   "raw": 59
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 330
+   "raw": 331
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 120
+   "raw": 121
   },
   "Fluidstack": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 195
+   "raw": 196
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 356
+   "raw": 355
   },
   "EdgeConnex": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 148
+   "raw": 147
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 808
+   "raw": 813
   },
   "ClickHouse": {
    "ok": true,
@@ -4712,7 +4712,7 @@
   "Celonis": {
    "ok": true,
    "count": 5,
-   "raw": 222
+   "raw": 223
   },
   "Dataiku": {
    "ok": true,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 2,
-   "raw": 913
+   "raw": 917
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 680
+   "raw": 681
   },
   "Vectara": {
    "ok": true,
@@ -4752,7 +4752,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 413
+   "raw": 414
   },
   "Merantix": {
    "ok": true,
@@ -16107,7 +16107,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Koblenz, DE, 56073 • Köln, DE, 50676 • Kiel, DE, 24114 • Bonn, DE, 53175 • Köln, DE, 51147 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Fürstenfeldbruck, DE, 82256",
+   "location": "Kiel, DE, 24114 • Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Bonn, DE, 53175 • Koblenz, DE, 56073 • Köln, DE, 51147 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "posted": "2026-11-01",
    "match": 1,
@@ -32050,7 +32050,7 @@
    "title": "Projektverantwortlicher Produktvarianten- und Konfigurationsmanagement (w/m/d)",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Projektverantwortlicher-Produktvarianten-und-Konfigurationsmanagement-%28wmd%29-89077/1370596655/",
-   "posted": "2026-10-06",
+   "posted": "2026-11-04",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-13T23:05:38+00:00"
@@ -42422,7 +42422,8 @@
    "posted": "2026-08-25",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-04T05:56:02+00:00"
   },
   {
    "company": "OHB",
@@ -43437,18 +43438,6 @@
    "src": "agency",
    "first_seen": "2026-10-09T12:10:16+00:00",
    "seed": true
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-642479-7878-3945-S",
-   "title": "Consultant (m/w/d) Business Process Management",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-642479-7878-3945-S",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-10-20T23:46:04+00:00"
   },
   {
    "company": "TKMS",
@@ -47962,6 +47951,61 @@
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Wetzlar-Sicherheits-und-Umweltingenieur-%28wmd%29-35578/1355310055/",
+   "title": "Sicherheits- und Umweltingenieur (w/m/d)",
+   "location": "Wetzlar, DE, 35578",
+   "url": "https://jobs.hensoldt.net/job/Wetzlar-Sicherheits-und-Umweltingenieur-%28wmd%29-35578/1355310055/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28mwd%29-89077/1370585055/",
+   "title": "Senior Systemingenieur für Electronic Warfare im Weltraum (m/w/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28mwd%29-89077/1370585055/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Expert-Systems-Engineering-Artillerie-%28wmd%29-82256/1342126755/",
+   "title": "Senior Expert Systems Engineering Artillerie (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Expert-Systems-Engineering-Artillerie-%28wmd%29-82256/1342126755/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Lead-Engineer-for-EW-Systems-integrated-into-Aircrafts-%28wmd%29-89077/1355255255/",
+   "title": "Lead Engineer for EW Systems integrated into Aircrafts (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Lead-Engineer-for-EW-Systems-integrated-into-Aircrafts-%28wmd%29-89077/1355255255/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Fertigungsmitarbeiter-Elektronikproduktion-SMD-THT-%28wmd%29-89077/1349107755/",
+   "title": "Fertigungsmitarbeiter Elektronikproduktion SMD-THT (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Fertigungsmitarbeiter-Elektronikproduktion-SMD-THT-%28wmd%29-89077/1349107755/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Helsing",
    "id": "4676357101",
    "title": "AI Research Engineer - Reinforcement Learning",
@@ -48495,7 +48539,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Köln, DE, 50676 • Bremen, DE, 28757 • Hamburg, DE, 22335 • Köln, DE, 51147 • Bremen, DE, 28757 • Cologne, FR, 32430 • Kiel, DE, 24145 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24114 • Koblenz, DE, 56073 • Fürstenfeldbruck, DE, 82256",
+   "location": "Kiel, DE, 24114 • Cologne, FR, 32430 • Koblenz, DE, 56073 • Köln, DE, 50676 • Bremen, DE, 28757 • Kiel, DE, 24145 • Hamburg, DE, 22335 • Wilhelmshaven, DE, 26389 • Bremen, DE, 28757 • Köln, DE, 51147 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-11-01",
    "match": 1,
@@ -49039,7 +49083,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "title": "Finance Accountant Process Specialist (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Taufkirchen, DE, 82024 • Ulm, DE, 89077",
+   "location": "Taufkirchen, DE, 82024 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "posted": "2026-10-21",
    "match": 1,
@@ -49285,7 +49329,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
    "title": "Program Manager Contracts Systems and Processes (m/w/d)",
-   "location": "Taufkirchen, DE, 82024 • Oberkochen, DE, 73447 • Ulm, DE, 89077",
+   "location": "Oberkochen, DE, 73447 • Taufkirchen, DE, 82024 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Program-Manager-Contracts-Systems-and-Processes-%28mwd%29-89077/1361852555/",
    "posted": "2026-10-17",
    "match": 1,
@@ -49677,7 +49721,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-10-10",
    "match": 1,
@@ -49776,10 +49820,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
    "title": "Chief Engineer für Großprojekte (w/m/d)",
    "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
    "posted": "2026-10-09",
    "match": 1,
    "src": "site",
@@ -49787,10 +49831,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
    "title": "Chief Engineer für Großprojekte (w/m/d)",
    "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
    "posted": "2026-10-09",
    "match": 1,
    "src": "site",
@@ -49856,7 +49900,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-10-08",
    "match": 1,
@@ -50071,61 +50115,6 @@
    "location": "Munich",
    "url": "https://helsing.ai/jobs/4888238101?gh_jid=4888238101",
    "posted": "2026-10-06T07:43:07-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Wetzlar-Sicherheits-und-Umweltingenieur-%28wmd%29-35578/1355310055/",
-   "title": "Sicherheits- und Umweltingenieur (w/m/d)",
-   "location": "Wetzlar, DE, 35578",
-   "url": "https://jobs.hensoldt.net/job/Wetzlar-Sicherheits-und-Umweltingenieur-%28wmd%29-35578/1355310055/",
-   "posted": "2026-10-06",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28mwd%29-89077/1370585055/",
-   "title": "Senior Systemingenieur für Electronic Warfare im Weltraum (m/w/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-f%C3%BCr-Electronic-Warfare-im-Weltraum-%28mwd%29-89077/1370585055/",
-   "posted": "2026-10-06",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Expert-Systems-Engineering-Artillerie-%28wmd%29-82256/1342126755/",
-   "title": "Senior Expert Systems Engineering Artillerie (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Expert-Systems-Engineering-Artillerie-%28wmd%29-82256/1342126755/",
-   "posted": "2026-10-06",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Lead-Engineer-for-EW-Systems-integrated-into-Aircrafts-%28wmd%29-89077/1355255255/",
-   "title": "Lead Engineer for EW Systems integrated into Aircrafts (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Lead-Engineer-for-EW-Systems-integrated-into-Aircrafts-%28wmd%29-89077/1355255255/",
-   "posted": "2026-10-06",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Fertigungsmitarbeiter-Elektronikproduktion-SMD-THT-%28wmd%29-89077/1349107755/",
-   "title": "Fertigungsmitarbeiter Elektronikproduktion SMD-THT (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Fertigungsmitarbeiter-Elektronikproduktion-SMD-THT-%28wmd%29-89077/1349107755/",
-   "posted": "2026-10-06",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
@@ -52851,18 +52840,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Optoelectronics-Engineer/1442420733/",
-   "title": "Optoelectronics Engineer",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Optoelectronics-Engineer/1442420733/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-20T23:46:04+00:00"
   },
   {
    "company": "ESA",
@@ -67483,19 +67460,6 @@
    "src": "agency"
   },
   {
-   "company": "RENK",
-   "id": "18121-0066243903-S",
-   "title": "Process Excellence & SAP Experts / MM, EWM, PP, SD, FI – all levels (m/w/d)",
-   "location": "Augsburg, Bayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0066243903-S",
-   "posted": "2026-07-22",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-20T23:46:04+00:00"
-  },
-  {
    "company": "Pneuhage Management",
    "id": "10001-1003423262-S",
    "title": "Kfz-Mechatroniker (m/w/d)",
@@ -74145,5 +74109,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-11-03T23:37:23+00:00"
+ "updated": "2026-11-04T05:56:02+00:00"
 }
