@@ -836,8 +836,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 65,
-   "raw": 209
+   "count": 64,
+   "raw": 208
   },
   "EUMETSAT": {
    "ok": true,
@@ -951,13 +951,13 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 127,
-   "raw": 477
+   "count": 129,
+   "raw": 483
   },
   "TKMS": {
    "ok": true,
-   "count": 86,
-   "raw": 231
+   "count": 87,
+   "raw": 232
   },
   "RENK": {
    "ok": true,
@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 106,
-   "raw": 262
+   "count": 104,
+   "raw": 260
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1116,8 +1116,8 @@
   },
   "Leonardo": {
    "ok": true,
-   "count": 9,
-   "raw": 87
+   "count": 8,
+   "raw": 63
   },
   "Fincantieri": {
    "ok": true,
@@ -1281,7 +1281,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 125,
+   "count": 126,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -1737,7 +1737,7 @@
   "Fichtner": {
    "ok": true,
    "count": 3,
-   "raw": 39
+   "raw": 37
   },
   "Firmengruppe Liebherr": {
    "ok": true,
@@ -3456,8 +3456,8 @@
   },
   "Lufthansa Technik": {
    "ok": true,
-   "count": 3,
-   "raw": 18
+   "count": 2,
+   "raw": 15
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 110,
-   "raw": 571
+   "count": 109,
+   "raw": 562
   },
   "NXP Semiconductors": {
    "ok": true,
@@ -3787,12 +3787,12 @@
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 97
+   "raw": 95
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 299
+   "raw": 298
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4007,7 +4007,7 @@
   "Formlabs": {
    "ok": true,
    "count": 0,
-   "raw": 240
+   "raw": 238
   },
   "Carbon": {
    "ok": false,
@@ -4132,7 +4132,7 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 128
+   "raw": 126
   },
   "Nebius": {
    "ok": true,
@@ -4147,22 +4147,22 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 548
+   "raw": 545
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 58
+   "raw": 55
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 321
+   "raw": 323
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 118
+   "raw": 115
   },
   "Fluidstack": {
    "ok": true,
@@ -4172,7 +4172,7 @@
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 269
+   "raw": 268
   },
   "Siemens Energy": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 3,
-   "raw": 180
+   "raw": 179
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 203
+   "raw": 204
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 142
+   "raw": 141
   },
   "Krea": {
    "ok": true,
@@ -4692,12 +4692,12 @@
   "Wayve": {
    "ok": true,
    "count": 0,
-   "raw": 173
+   "raw": 172
   },
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 820
+   "raw": 822
   },
   "ClickHouse": {
    "ok": true,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 923
+   "raw": 922
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 677
+   "raw": 676
   },
   "Vectara": {
    "ok": true,
@@ -4931,6 +4931,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Projektleiter-Produktion-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-89077/1374861855/",
+   "title": "Senior Projektleiter Produktion für Großprojekte (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Projektleiter-Produktion-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-89077/1374861855/",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-06T03:21:15+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Immenstaad-R&T-Engineer-for-ISR-Radars-%28wmd%29-88090/1374860255/",
+   "title": "R&T Engineer for ISR Radars (w/m/d)",
+   "location": "Immenstaad, DE, 88090",
+   "url": "https://jobs.hensoldt.net/job/Immenstaad-R&T-Engineer-for-ISR-Radars-%28wmd%29-88090/1374860255/",
+   "posted": "2026-10-29",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-06T03:21:15+00:00"
+  },
   {
    "company": "Bertrandt",
    "id": "12288-4991491943-S",
@@ -17868,7 +17890,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T13:27:56+00:00"
+   "first_seen": "2026-10-28T13:27:56+00:00",
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "Akkodis",
@@ -19913,7 +19936,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Bonn, DE, 53175 • Kiel, DE, 24145 • Köln, DE, 51147 • Kiel, DE, 24114 • Koblenz, DE, 56073 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Fürstenfeldbruck, DE, 82256",
+   "location": "Bonn, DE, 53175 • Koblenz, DE, 56073 • Köln, DE, 51147 • Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "posted": "2026-11-01",
    "match": 1,
@@ -21377,8 +21400,7 @@
    "posted": "2026-10-26",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-26T15:06:17+00:00",
-   "closed_at": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-10-26T15:06:17+00:00"
   },
   {
    "company": "Akkodis",
@@ -31433,7 +31455,7 @@
    "title": "Praktikant HENSOLDT Produktionssystem (w/m/d)",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Praktikant-HENSOLDT-Produktionssystem-%28wmd%29-89077/1370962055/",
-   "posted": "2026-10-08",
+   "posted": "2026-11-06",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-16T22:45:09+00:00"
@@ -33490,7 +33512,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-15T15:18:48+00:00"
+   "first_seen": "2026-10-15T15:18:48+00:00",
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "Jenoptik",
@@ -38168,8 +38191,7 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00",
-   "closed_at": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-10-12T15:08:30+00:00"
   },
   {
    "company": "Akkodis",
@@ -44514,18 +44536,6 @@
   },
   {
    "company": "OHB",
-   "id": "7999",
-   "title": "Electronics Engineer (m/f/d)",
-   "location": "Bremen, DE",
-   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7999?c=career-ohb",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "OHB",
    "id": "8844",
    "title": "Senior System Engineer - Teleports (m/w/d)",
    "location": "Bremen, DE, Mainz",
@@ -44743,7 +44753,8 @@
    "posted": "2026-10-01",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "OHB",
@@ -44999,7 +45010,8 @@
    "posted": "2026-09-03",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "OHB",
@@ -48857,7 +48869,8 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -50172,6 +50185,28 @@
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Wetzlar-Technischer-Produktdesigner-%28wmd%29-35578/1367671655/",
+   "title": "Technischer Produktdesigner (w/m/d)",
+   "location": "Wetzlar, DE, 35578",
+   "url": "https://jobs.hensoldt.net/job/Wetzlar-Technischer-Produktdesigner-%28wmd%29-35578/1367671655/",
+   "posted": "2026-11-06",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
+   "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
+   "posted": "2026-11-06",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Helsing",
    "id": "4778869101",
    "title": "Staff AI Research Engineer - ML Engineering",
@@ -50794,7 +50829,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Bremen, DE, 28757 • Kiel, DE, 24145 • Hamburg, DE, 22335 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Bremen, DE, 28757 • Kiel, DE, 24114 • Cologne, FR, 32430 • Köln, DE, 51147 • Koblenz, DE, 56073 • Fürstenfeldbruck, DE, 82256",
+   "location": "Kiel, DE, 24114 • Koblenz, DE, 56073 • Bremen, DE, 28757 • Cologne, FR, 32430 • Köln, DE, 51147 • Kiel, DE, 24145 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Bremen, DE, 28757 • Hamburg, DE, 22335 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-11-01",
    "match": 1,
@@ -51934,7 +51969,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-10-10",
    "match": 1,
@@ -52055,17 +52090,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Wetzlar-Technischer-Produktdesigner-%28wmd%29-35578/1367671655/",
-   "title": "Technischer Produktdesigner (w/m/d)",
-   "location": "Wetzlar, DE, 35578",
-   "url": "https://jobs.hensoldt.net/job/Wetzlar-Technischer-Produktdesigner-%28wmd%29-35578/1367671655/",
-   "posted": "2026-10-08",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-Entwicklung-von-bildgebender-als-auch-Laser-basierter-Infrarotsensorik-%28wmd%29-73447/1367673955/",
    "title": "Systemingenieur für Entwicklung von bildgebender als auch Laser basierter Infrarotsensorik (w/m/d)",
    "location": "Oberkochen, DE, 73447",
@@ -52093,17 +52117,6 @@
    "title": "System Safety Engineer (m/w/d) Systemelemente",
    "location": "Röthenbach a.d. Pegnitz, Überlingen am Bodensee",
    "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/system-safety-engineer-m-w-d-systemelemente",
-   "posted": "2026-10-08",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
-   "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-10-08",
    "match": 1,
    "src": "site",
@@ -54746,18 +54759,6 @@
    "closed_at": "2026-11-05T20:03:28+00:00"
   },
   {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Harwell-Space-Segment-Product-Engineer/1387254733/",
-   "title": "Space Segment Product Engineer",
-   "location": "Noordwijk, NL • Harwell, GB",
-   "url": "https://jobs.esa.int/job/Harwell-Space-Segment-Product-Engineer/1387254733/",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/security_systems_engineer__m_f_d_/1078607",
    "title": "Security Systems Engineer (m/f/d)",
@@ -54839,18 +54840,6 @@
    "closed_at": "2026-11-05T20:03:28+00:00"
   },
   {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Navigation-Systems-Evolution-Engineer/1372683433/",
-   "title": "Navigation Systems Evolution Engineer",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Navigation-Systems-Evolution-Engineer/1372683433/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
    "company": "Astos Solutions",
    "id": "https://www.astos.de/company/careers/ma",
    "title": "Mission Analysis and Manoeuvre Planning Engineer",
@@ -54860,42 +54849,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Darmstadt-Luxembourgish-National-Graduate-Trainee-in-Technology-R&D-Management-and-Strategic-Road-Mapping/1440550433/",
-   "title": "Luxembourgish National Graduate Trainee in Technology R&D Management and Strategic Road Mapping",
-   "location": "Darmstadt, DE",
-   "url": "https://jobs.esa.int/job/Darmstadt-Luxembourgish-National-Graduate-Trainee-in-Technology-R&D-Management-and-Strategic-Road-Mapping/1440550433/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Luxembourgish-National-Graduate-Trainee-in-Opto-Electronics-and-Quantum-Engineering/1440903133/",
-   "title": "Luxembourgish National Graduate Trainee in Opto-Electronics and Quantum Engineering",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Luxembourgish-National-Graduate-Trainee-in-Opto-Electronics-and-Quantum-Engineering/1440903133/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Luxembourgish-National-Graduate-Trainee-in-Country-Capability-Development/1440551133/",
-   "title": "Luxembourgish National Graduate Trainee in Country Capability Development",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Luxembourgish-National-Graduate-Trainee-in-Country-Capability-Development/1440551133/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "MTU Aero Engines",
@@ -55265,7 +55218,8 @@
    "posted": "2026-10-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T05:48:23+00:00"
+   "first_seen": "2026-10-09T05:48:23+00:00",
+   "closed_at": "2026-11-06T03:21:15+00:00"
   },
   {
    "company": "Waldburg-Zeil Kliniken",
@@ -55856,19 +55810,6 @@
   },
   {
    "company": "Liebherr-Aerospace",
-   "id": "10000-1208160252-S",
-   "title": "Fertigungsmeister (m/w/d) Waschen und Zerstörungsfreiprüfung",
-   "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208160252-S",
-   "posted": "2026-10-05",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
    "id": "10000-1208159488-S",
    "title": "CNC-Fräser in der Zahnradfertigung (m/w/d)",
    "location": "Friedrichshafen, Baden Wuerttemberg",
@@ -56286,32 +56227,6 @@
   },
   {
    "company": "Liebherr-Aerospace",
-   "id": "10000-1208036757-S",
-   "title": "Meister Produktion (m/w/d) mit Schwerpunkt Mitarbeiterintegration",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208036757-S",
-   "posted": "2026-09-25",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208036451-S",
-   "title": "Industrialisierungsmanager im Bereich Industrialisierung Development (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208036451-S",
-   "posted": "2026-09-25",
-   "match": 2,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
    "id": "12288-4948225083-S",
    "title": "CNC-Fräser im Fertigung Flugsteuerung (m/w/d)",
    "location": "Lindenberg im Allgäu, Bayern",
@@ -56322,19 +56237,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-26T07:41:49+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208034893-S",
-   "title": "Betriebsmittelkonstrukteur im Bereich Technische Methoden (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208034893-S",
-   "posted": "2026-09-25",
-   "match": 2,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-23T00:31:53+00:00"
   },
   {
    "company": "Jenoptik",
@@ -74963,19 +74865,6 @@
   },
   {
    "company": "CERN",
-   "id": "744000153737459",
-   "title": "Full-Stack Web Engineer (IT-PW-WDA-2026-108-GRAE)",
-   "location": "Geneva, CH",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000153737459",
-   "posted": "2026-10-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site",
-   "closed_at": "2026-10-23T00:31:53+00:00"
-  },
-  {
-   "company": "CERN",
    "id": "744000153738539",
    "title": "Electrical Cabling Engineer (BE-EA-EC-2026-237-GRAE)",
    "location": "Geneva, CH",
@@ -75040,5 +74929,5 @@
    "closed_at": "2026-10-23T11:26:21+00:00"
   }
  ],
- "updated": "2026-11-05T22:39:18+00:00"
+ "updated": "2026-11-06T03:21:15+00:00"
 }
