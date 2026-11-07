@@ -856,8 +856,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 38,
-   "raw": 151
+   "count": 39,
+   "raw": 152
   },
   "John Cockerill": {
    "ok": true,
@@ -967,7 +967,7 @@
   "OHB": {
    "ok": true,
    "count": 106,
-   "raw": 266
+   "raw": 265
   },
   "Heckler & Koch": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 26,
-   "raw": 53
+   "count": 27,
+   "raw": 54
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3717,7 +3717,7 @@
   "The Exploration Company": {
    "ok": true,
    "count": 69,
-   "raw": 123
+   "raw": 124
   },
   "Autoflug": {
    "ok": true,
@@ -3792,7 +3792,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 294
+   "raw": 293
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4147,12 +4147,12 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 539
+   "raw": 541
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 53
+   "raw": 56
   },
   "Crusoe": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 3,
-   "raw": 177
+   "raw": 178
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 204
+   "raw": 205
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 357
+   "raw": 358
   },
   "EdgeConnex": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 142
+   "raw": 139
   },
   "Krea": {
    "ok": true,
@@ -4692,17 +4692,17 @@
   "Wayve": {
    "ok": true,
    "count": 0,
-   "raw": 171
+   "raw": 172
   },
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 821
+   "raw": 820
   },
   "ClickHouse": {
    "ok": true,
    "count": 3,
-   "raw": 202
+   "raw": 201
   },
   "Parloa": {
    "ok": false,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 675
+   "raw": 678
   },
   "Vectara": {
    "ok": true,
@@ -4747,7 +4747,7 @@
   "Peak AI": {
    "ok": true,
    "count": 0,
-   "raw": 54
+   "raw": 56
   },
   "Elastic": {
    "ok": true,
@@ -4931,6 +4931,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "KNDS",
+   "id": "18493-44557920-116-S",
+   "title": "Systemspezialist Hardwareentwicklung (m/w/d)",
+   "location": "Konstanz, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18493-44557920-116-S",
+   "posted": "2026-11-07",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-07T03:07:00+00:00"
+  },
+  {
+   "company": "Jenoptik",
+   "id": "16012-44556430-116-S",
+   "title": "Schichtleiter*in Halbleiterfertigung / Mikrotechnologie (w/m/d)",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44556430-116-S",
+   "posted": "2026-11-07",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-07T03:07:00+00:00"
+  },
   {
    "company": "Helsing",
    "id": "5028719101",
@@ -33335,22 +33357,11 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Production-Quality-Manager-%28wmd%29-89077/1372758255/",
-   "title": "Production Quality Manager (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Production-Quality-Manager-%28wmd%29-89077/1372758255/",
-   "posted": "2026-10-14",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-18T22:22:46+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-SW-Project-Quality-Manager-%28wmd%29-89077/1371090655/",
    "title": "SW-Project Quality Manager (w/m/d)",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-SW-Project-Quality-Manager-%28wmd%29-89077/1371090655/",
-   "posted": "2026-10-09",
+   "posted": "2026-11-07",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-18T22:22:46+00:00"
@@ -33361,8 +33372,19 @@
    "title": "Industrial Engineer - Integration (w/m/d) - Ulm",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Industrial-Engineer-Integration-%28wmd%29-Ulm-89077/1371099255/",
-   "posted": "2026-10-09",
+   "posted": "2026-11-07",
    "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-18T22:22:46+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Production-Quality-Manager-%28wmd%29-89077/1372758255/",
+   "title": "Production Quality Manager (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Production-Quality-Manager-%28wmd%29-89077/1372758255/",
+   "posted": "2026-10-14",
+   "match": 1,
    "src": "site",
    "first_seen": "2026-10-18T22:22:46+00:00"
   },
@@ -40125,22 +40147,22 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
-   "title": "Prozessverantwortlicher Logistik (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
-   "posted": "2026-10-31",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
+   "title": "Qualitätsingenieur (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
+   "posted": "2026-11-07",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-11T23:53:59+00:00"
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
-   "title": "Qualitätsingenieur (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Qualit%C3%A4tsingenieur-%28wmd%29-89077/1371092355/",
-   "posted": "2026-10-09",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
+   "title": "Prozessverantwortlicher Logistik (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Prozessverantwortlicher-Logistik-%28wmd%29-73447/1370274255/",
+   "posted": "2026-10-31",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-11T23:53:59+00:00"
@@ -46659,18 +46681,6 @@
   },
   {
    "company": "OHB",
-   "id": "8744",
-   "title": "Systemingenieur:in (m/w/d)",
-   "location": "Bremen, DE",
-   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8744?c=career-ohb",
-   "posted": "2026-09-16",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00",
-   "closed_at": "2026-10-24T01:54:40+00:00"
-  },
-  {
-   "company": "OHB",
    "id": "8693",
    "title": "Propulsion Systems Engineer (m/f/d)",
    "location": "Bremen, DE",
@@ -51849,6 +51859,50 @@
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Immenstaad-Systemingenieur-f%C3%BCr-System-Testframework-im-Bereich-Missionsplanung-%28wmd%29-88090/1363666855/",
+   "title": "Systemingenieur für System-Testframework im Bereich Missionsplanung (w/m/d)",
+   "location": "Immenstaad, DE, 88090",
+   "url": "https://jobs.hensoldt.net/job/Immenstaad-Systemingenieur-f%C3%BCr-System-Testframework-im-Bereich-Missionsplanung-%28wmd%29-88090/1363666855/",
+   "posted": "2026-11-07",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-HF-Entwicklungsingenieur-f%C3%BCr-AESA-Systeme-%28wmd%29-89077/1331012355/",
+   "title": "Senior HF-Entwicklungsingenieur für AESA Systeme (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-HF-Entwicklungsingenieur-f%C3%BCr-AESA-Systeme-%28wmd%29-89077/1331012355/",
+   "posted": "2026-11-07",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
+   "title": "Chief Engineer für Großprojekte (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
+   "posted": "2026-11-07",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
+   "title": "Chief Engineer für Großprojekte (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
+   "posted": "2026-11-07",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Isar Aerospace",
    "id": "4940749101",
    "title": "Chief Quality  Inspector (m/f/d)",
@@ -53669,28 +53723,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Immenstaad-Systemingenieur-f%C3%BCr-System-Testframework-im-Bereich-Missionsplanung-%28wmd%29-88090/1363666855/",
-   "title": "Systemingenieur für System-Testframework im Bereich Missionsplanung (w/m/d)",
-   "location": "Immenstaad, DE, 88090",
-   "url": "https://jobs.hensoldt.net/job/Immenstaad-Systemingenieur-f%C3%BCr-System-Testframework-im-Bereich-Missionsplanung-%28wmd%29-88090/1363666855/",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-HF-Entwicklungsingenieur-f%C3%BCr-AESA-Systeme-%28wmd%29-89077/1331012355/",
-   "title": "Senior HF-Entwicklungsingenieur für AESA Systeme (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-HF-Entwicklungsingenieur-f%C3%BCr-AESA-Systeme-%28wmd%29-89077/1331012355/",
-   "posted": "2026-10-09",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/projektleitung-m-w-d-weiterentwicklung-ram-essm",
    "title": "Projektleitung (m/w/d) Weiterentwicklung RAM & ESSM",
@@ -53719,28 +53751,6 @@
    "title": "Fachteamleiter (m/w/d)  Cyber Security Engineering",
    "location": "Überlingen am Bodensee",
    "url": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/fachteamleiter-m-w-d-cyber-security-engineering",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
-   "title": "Chief Engineer für Großprojekte (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360396555/",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
-   "title": "Chief Engineer für Großprojekte (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Chief-Engineer-f%C3%BCr-Gro%C3%9Fprojekte-%28wmd%29-73447/1360361655/",
    "posted": "2026-10-09",
    "match": 1,
    "src": "site",
@@ -75027,5 +75037,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-06T23:26:41+00:00"
+ "updated": "2026-11-07T03:07:00+00:00"
 }
