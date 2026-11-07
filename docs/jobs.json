@@ -3775,9 +3775,9 @@
    "raw": 558
   },
   "NXP Semiconductors": {
-   "ok": true,
-   "count": 6,
-   "raw": 45
+   "ok": false,
+   "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+   "count": 6
   },
   "Cerebras": {
    "ok": true,
@@ -4147,7 +4147,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 541
+   "raw": 540
   },
   "Lightmatter": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 3,
-   "raw": 178
+   "raw": 179
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4732,7 +4732,7 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 924
+   "raw": 922
   },
   "Anthropic": {
    "ok": true,
@@ -74974,5 +74974,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-07T16:48:16+00:00"
+ "updated": "2026-11-07T20:46:52+00:00"
 }
