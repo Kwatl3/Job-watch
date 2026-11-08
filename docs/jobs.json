@@ -1281,8 +1281,8 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 117,
-   "raw": 300
+   "count": 115,
+   "raw": 299
   },
   "ALB Fils Klinikum": {
    "ok": true,
@@ -3732,7 +3732,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 68,
-   "raw": 168
+   "raw": 169
   },
   "Dornier": {
    "ok": true,
@@ -4132,7 +4132,7 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 126
+   "raw": 127
   },
   "Nebius": {
    "ok": true,
@@ -4167,7 +4167,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 253
+   "raw": 251
   },
   "Saronic": {
    "ok": true,
@@ -4632,7 +4632,7 @@
   "n8n": {
    "ok": true,
    "count": 1,
-   "raw": 48
+   "raw": 49
   },
   "Photoroom": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 818
+   "raw": 816
   },
   "ClickHouse": {
    "ok": true,
@@ -4782,7 +4782,7 @@
   "Agile Robots": {
    "ok": true,
    "count": 1,
-   "raw": 73
+   "raw": 72
   },
   "Mercedes-Benz (Stuttgart region)": {
    "ok": true,
@@ -17028,7 +17028,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T15:17:24+00:00"
+   "first_seen": "2026-10-30T15:17:24+00:00",
+   "closed_at": "2026-11-08T19:00:29+00:00"
   },
   {
    "company": "Akkodis",
@@ -17039,7 +17040,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T15:17:24+00:00"
+   "first_seen": "2026-10-30T15:17:24+00:00",
+   "closed_at": "2026-11-08T19:00:29+00:00"
   },
   {
    "company": "Akkodis",
@@ -17072,7 +17074,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T15:17:24+00:00"
+   "first_seen": "2026-10-30T15:17:24+00:00",
+   "closed_at": "2026-11-08T19:00:29+00:00"
   },
   {
    "company": "Akkodis",
@@ -20577,8 +20580,7 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T13:27:56+00:00",
-   "closed_at": "2026-11-06T11:25:20+00:00"
+   "first_seen": "2026-10-28T13:27:56+00:00"
   },
   {
    "company": "TKMS",
@@ -74737,5 +74739,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-08T14:13:45+00:00"
+ "updated": "2026-11-08T19:00:29+00:00"
 }
