@@ -952,7 +952,7 @@
   "Hensoldt": {
    "ok": true,
    "count": 126,
-   "raw": 478
+   "raw": 479
   },
   "TKMS": {
    "ok": true,
@@ -1117,7 +1117,7 @@
   "Leonardo": {
    "ok": true,
    "count": 4,
-   "raw": 58
+   "raw": 55
   },
   "Fincantieri": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 104,
-   "raw": 552
+   "count": 101,
+   "raw": 548
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -4147,7 +4147,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 539
+   "raw": 538
   },
   "Lightmatter": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 357
+   "raw": 359
   },
   "EdgeConnex": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 816
+   "raw": 817
   },
   "ClickHouse": {
    "ok": true,
@@ -4732,7 +4732,7 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 922
+   "raw": 923
   },
   "Anthropic": {
    "ok": true,
@@ -22702,7 +22702,8 @@
    "posted": "Posted 12 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-27T16:23:40+00:00"
+   "first_seen": "2026-10-27T16:23:40+00:00",
+   "closed_at": "2026-11-09T02:32:50+00:00"
   },
   {
    "company": "Isar Aerospace",
@@ -39258,18 +39259,6 @@
    "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
-   "company": "Jenoptik",
-   "id": "https://careers.jenoptik.com/job/Triptis-Entwicklungsingenieurin-f%C3%BCr-Polymerspritzguss-Polymeroptik-%28wmd%29-Th%C3%BCr/1362942155/",
-   "title": "Entwicklungsingenieur*in für Polymerspritzguss / Polymeroptik (w/m/d)",
-   "location": "Triptis, Thüringen, DE",
-   "url": "https://careers.jenoptik.com/job/Triptis-Entwicklungsingenieurin-f%C3%BCr-Polymerspritzguss-Polymeroptik-%28wmd%29-Th%C3%BCr/1362942155/",
-   "posted": "2026-10-01",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-25T23:08:59+00:00"
-  },
-  {
    "company": "Quantum Systems",
    "id": "2758791",
    "title": "Industrial Engineer (m/f/d) - UGV",
@@ -47024,7 +47013,8 @@
    "posted": "Posted 30 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00",
+   "closed_at": "2026-11-09T02:32:50+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -47039,18 +47029,6 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/Qualittsprfer-FAL-H135-H145--m-w-d-_JR10446681-1",
-   "title": "Qualitätsprüfer FAL H135/H145 (m/w/d)",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/Qualittsprfer-FAL-H135-H145--m-w-d-_JR10446681-1",
-   "posted": "Posted 16 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00",
-   "closed_at": "2026-10-25T23:08:59+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Donauwrth/Qualittsprfer-FAL-NH90-oder-FAL-H135-H145--m-w-d----befristet_JR10446627-1",
    "title": "Qualitätsprüfer FAL NH90 oder FAL H135/H145 (m/w/d) - befristet",
    "location": "Donauwörth",
@@ -47058,7 +47036,8 @@
    "posted": "Posted 13 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00",
+   "closed_at": "2026-11-09T02:32:50+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -51845,6 +51824,17 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
+   "title": "Konstrukteur Mechanisch (w/m/d)",
+   "location": "Friedberg, DE, 86316",
+   "url": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
+   "posted": "2026-11-09",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-EMV-%28wmd%29-73447/1355538655/",
    "title": "Systemingenieur für EMV (w/m/d)",
    "location": "Oberkochen, DE, 73447",
@@ -53669,17 +53659,6 @@
    "location": "Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Arbeitsvorbereitung-und-Materialsteuerung-C-UAS-%28wmd%29-82256/1352877055/",
    "posted": "2026-10-12",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
-   "title": "Konstrukteur Mechanisch (w/m/d)",
-   "location": "Friedberg, DE, 86316",
-   "url": "https://jobs.hensoldt.net/job/Friedberg-Konstrukteur-Mechanisch-%28wmd%29-86316/1349640555/",
-   "posted": "2026-10-11",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
@@ -74723,5 +74702,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-08T22:49:40+00:00"
+ "updated": "2026-11-09T02:32:50+00:00"
 }
