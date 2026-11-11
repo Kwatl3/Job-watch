@@ -832,7 +832,7 @@
   "Thales (Workday, Germany)": {
    "ok": true,
    "count": 19,
-   "raw": 101
+   "raw": 102
   },
   "ESA": {
    "ok": true,
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 124,
-   "raw": 474
+   "count": 126,
+   "raw": 480
   },
   "TKMS": {
    "ok": true,
@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 104,
-   "raw": 263
+   "count": 102,
+   "raw": 261
   },
   "Heckler & Koch": {
    "ok": true,
@@ -3457,7 +3457,7 @@
   "Lufthansa Technik": {
    "ok": true,
    "count": 4,
-   "raw": 17
+   "raw": 15
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3471,8 +3471,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 32,
-   "raw": 64
+   "count": 31,
+   "raw": 62
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 98,
-   "raw": 534
+   "raw": 531
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -3782,17 +3782,17 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 122
+   "raw": 123
   },
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 94
+   "raw": 92
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 304
+   "raw": 302
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4147,7 +4147,7 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 549
+   "raw": 546
   },
   "Lightmatter": {
    "ok": true,
@@ -4157,7 +4157,7 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 324
+   "raw": 325
   },
   "Etched": {
    "ok": true,
@@ -4167,12 +4167,12 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 249
+   "raw": 248
   },
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 269
+   "raw": 271
   },
   "Siemens Energy": {
    "ok": true,
@@ -4427,7 +4427,7 @@
   "d-Matrix": {
    "ok": true,
    "count": 0,
-   "raw": 37
+   "raw": 38
   },
   "Eliyan": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 205
+   "raw": 204
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 375
+   "raw": 374
   },
   "EdgeConnex": {
    "ok": true,
@@ -4632,7 +4632,7 @@
   "n8n": {
    "ok": true,
    "count": 2,
-   "raw": 49
+   "raw": 50
   },
   "Photoroom": {
    "ok": true,
@@ -4697,12 +4697,12 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 831
+   "raw": 827
   },
   "ClickHouse": {
    "ok": true,
    "count": 3,
-   "raw": 203
+   "raw": 204
   },
   "Parloa": {
    "ok": false,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 914
+   "raw": 920
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 677
+   "raw": 679
   },
   "Vectara": {
    "ok": true,
@@ -4752,7 +4752,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 428
+   "raw": 423
   },
   "Merantix": {
    "ok": true,
@@ -4931,6 +4931,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Systemingenieur-im-Bereich-Luftfahrt-%28wmd%29-82024/1375558055/",
+   "title": "Systemingenieur im Bereich Luftfahrt (w/m/d)",
+   "location": "Taufkirchen, DE, 82024",
+   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Systemingenieur-im-Bereich-Luftfahrt-%28wmd%29-82024/1375558055/",
+   "posted": "2026-11-03",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-11T00:50:32+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Algorithms-&-Simulation-Engineer-%28wmd%29-82024/1375561855/",
+   "title": "Algorithms & Simulation Engineer (w/m/d)",
+   "location": "Taufkirchen, DE, 82024",
+   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Algorithms-&-Simulation-Engineer-%28wmd%29-82024/1375561855/",
+   "posted": "2026-11-03",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-11T00:50:32+00:00"
+  },
   {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Ulm-Area/Praktikant-fr-Generative-AI-Agentic-AI--d-m-w-_JR10436030",
@@ -27044,7 +27066,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-26T20:43:26+00:00"
+   "first_seen": "2026-10-26T20:43:26+00:00",
+   "closed_at": "2026-11-11T00:50:32+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -32247,18 +32270,6 @@
    "closed_at": "2026-11-09T11:16:24+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4973740904-S",
-   "title": "Qualitätsingenieur (m/w/d) Automotive",
-   "location": "Linsengericht, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4973740904-S",
-   "posted": "2026-10-21",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-21T19:32:06+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
-  },
-  {
    "company": "The Exploration Company",
    "id": "da706f4a-ebb5-4fae-8309-bd16070f7efc",
    "title": "Propulsion AIT Engineer",
@@ -33204,18 +33215,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-20T17:28:37+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4972350808-S",
-   "title": "Qualitätsmanager Entwicklungsprojekte (m/w/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4972350808-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:28:37+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -35066,18 +35065,6 @@
    "first_seen": "2026-10-19T17:43:07+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4971270844-S",
-   "title": "Mitarbeiter Stammdatenpflege SAP / Produktion (m/w/d)",
-   "location": "Ahlen, Westfalen, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4971270844-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T17:43:07+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
-  },
-  {
    "company": "Akkodis",
    "id": "12634-BB-646323-7878-2353-S",
    "title": "EMSR-Betriebsingenieur (m/w/d)",
@@ -36652,7 +36639,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T11:50:20+00:00"
+   "first_seen": "2026-10-16T11:50:20+00:00",
+   "closed_at": "2026-11-11T00:50:32+00:00"
   },
   {
    "company": "Akkodis",
@@ -39689,18 +39677,6 @@
   },
   {
    "company": "Bertrandt",
-   "id": "12288-4964543081-S",
-   "title": "Lead Ingenieur elektrische Energietechnik (m/w/d)",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543081-S",
-   "posted": "2026-10-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T18:28:52+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
-  },
-  {
-   "company": "Bertrandt",
    "id": "12288-4964542798-S",
    "title": "Konstrukteur (m/w/d) Revit - Kreative Unterstützung bei TGA Projekten",
    "location": "Dresden, Sachsen",
@@ -39734,18 +39710,6 @@
    "src": "agency",
    "first_seen": "2026-10-13T18:28:52+00:00",
    "closed_at": "2026-11-02T09:53:50+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4964543157-S",
-   "title": "Entwicklungs- und Applikationsingenieur (m/w/d) Mechatronik Automotive",
-   "location": "Linsengericht, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543157-S",
-   "posted": "2026-10-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T18:28:52+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -40148,18 +40112,6 @@
    "src": "site",
    "first_seen": "2026-10-13T11:01:44+00:00",
    "closed_at": "2026-10-29T16:51:15+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/XMLNAME--ET20A-Berechnungsingenieur-Flugzeugtrsysteme--m-w-d-_JR10448741",
-   "title": "#ET20A Berechnungsingenieur Flugzeugtürsysteme (m/w/d)",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Berechnungsingenieur-Flugzeugtrsysteme--m-w-d-_JR10448741",
-   "posted": "Posted 14 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-13T11:01:44+00:00",
-   "closed_at": "2026-10-28T00:24:31+00:00"
   },
   {
    "company": "OHB",
@@ -48158,7 +48110,8 @@
    "posted": "2026-10-07",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-11T00:50:32+00:00"
   },
   {
    "company": "OHB",
@@ -54976,18 +54929,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Workplace-Infrastructure-Engineer-%28wmd%29-89077/1364992655/",
-   "title": "Workplace Infrastructure Engineer (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Workplace-Infrastructure-Engineer-%28wmd%29-89077/1364992655/",
-   "posted": "2026-10-16",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-27T20:54:18+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Testsysteme-%28wmd%29-89077/1361736655/",
    "title": "Systemingenieur für Testsysteme (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -58071,18 +58012,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Copernicus-LSTM-Satellite-Engineering-and-AIV-Manager/1444621533/",
-   "title": "Copernicus LSTM Satellite Engineering and AIV  Manager",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Copernicus-LSTM-Satellite-Engineering-and-AIV-Manager/1444621533/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-28T00:24:31+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/abteilungsleiter_engineering_quality_planning__m_w_d_/1099343",
    "title": "Abteilungsleiter Engineering Quality Planning (m/w/d)",
@@ -58624,19 +58553,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-31T00:00:38+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208161895-S",
-   "title": "Oberflächenmitarbeiter im Fertigungsbereich Behandlung (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208161895-S",
-   "posted": "2026-10-05",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T00:24:31+00:00"
   },
   {
    "company": "General Dynamics",
@@ -75477,5 +75393,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-10T20:25:20+00:00"
+ "updated": "2026-11-11T00:50:32+00:00"
 }
