@@ -836,8 +836,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 65,
-   "raw": 207
+   "count": 61,
+   "raw": 200
   },
   "EUMETSAT": {
    "ok": true,
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 125,
-   "raw": 478
+   "count": 127,
+   "raw": 481
   },
   "TKMS": {
    "ok": true,
@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 104,
-   "raw": 267
+   "count": 103,
+   "raw": 264
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1376,8 +1376,8 @@
   },
   "Bertrandt": {
    "ok": true,
-   "count": 130,
-   "raw": 300
+   "count": 5,
+   "raw": 26
   },
   "Beurer": {
    "ok": true,
@@ -1736,8 +1736,8 @@
   },
   "Fichtner": {
    "ok": true,
-   "count": 6,
-   "raw": 41
+   "count": 4,
+   "raw": 34
   },
   "Firmengruppe Liebherr": {
    "ok": true,
@@ -2442,7 +2442,7 @@
   "Rud. Otto Meyer Technik": {
    "ok": true,
    "count": 5,
-   "raw": 79
+   "raw": 77
   },
   "Rutronik Elektronische Bauelemente": {
    "ok": true,
@@ -3471,8 +3471,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 31,
-   "raw": 62
+   "count": 10,
+   "raw": 21
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3502,7 +3502,7 @@
   "Northrop Grumman": {
    "ok": true,
    "count": 13,
-   "raw": 30
+   "raw": 29
   },
   "Lockheed Martin": {
    "ok": true,
@@ -3532,7 +3532,7 @@
   "Moog": {
    "ok": true,
    "count": 4,
-   "raw": 31
+   "raw": 30
   },
   "Spirit AeroSystems": {
    "ok": true,
@@ -3542,7 +3542,7 @@
   "Daher": {
    "ok": true,
    "count": 0,
-   "raw": 41
+   "raw": 40
   },
   "Latecoere": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 28,
-   "raw": 57
+   "count": 30,
+   "raw": 59
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 95,
-   "raw": 536
+   "raw": 534
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -3782,7 +3782,7 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 123
+   "raw": 124
   },
   "Lambda": {
    "ok": true,
@@ -4147,12 +4147,12 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 551
+   "raw": 552
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 61
+   "raw": 65
   },
   "Crusoe": {
    "ok": true,
@@ -4162,7 +4162,7 @@
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 116
+   "raw": 115
   },
   "Fluidstack": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 372
+   "raw": 368
   },
   "EdgeConnex": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 129
+   "raw": 128
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 820
+   "raw": 821
   },
   "ClickHouse": {
    "ok": true,
@@ -4752,7 +4752,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 420
+   "raw": 418
   },
   "Merantix": {
    "ok": true,
@@ -4931,6 +4931,50 @@
   }
  },
  "jobs": [
+  {
+   "company": "Jenoptik",
+   "id": "16012-44568967-1111-S",
+   "title": "Laser-Ingenieur Laser-based Solutions (w/m/d)",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44568967-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T03:45:18+00:00"
+  },
+  {
+   "company": "Jenoptik",
+   "id": "16012-44569127-1111-S",
+   "title": "Entwicklungsingenieur*in (w/m/d) System Engineering",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44569127-1111-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T03:45:18+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Category-Manager-Engineering-&-Professional-Services-%28wmd%29-82256/1375645855/",
+   "title": "Category Manager - Engineering & Professional Services (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Category-Manager-Engineering-&-Professional-Services-%28wmd%29-82256/1375645855/",
+   "posted": "2026-11-04",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-12T03:45:18+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1002314845-S",
+   "title": "Cyber Security Engineer (Embedded Systems) - Aerospace | Defence | Automotive (m/w/d)",
+   "location": "Cottbus, Brandenburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002314845-S",
+   "posted": "2025-12-17",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T03:45:18+00:00"
+  },
   {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Hamburg-Area/Gust-Loads-Engineer--d-f-m-_JR10447420-1",
@@ -6228,7 +6272,8 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-11T07:40:37+00:00"
+   "first_seen": "2026-11-11T07:40:37+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "RENK",
@@ -6415,7 +6460,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6426,7 +6472,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6437,7 +6484,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6448,7 +6496,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6459,7 +6508,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -6481,7 +6531,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6492,7 +6543,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6503,7 +6555,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6514,7 +6567,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6525,7 +6579,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -6547,7 +6602,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6558,7 +6614,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -6580,7 +6637,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6591,7 +6649,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -6613,7 +6672,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6624,7 +6684,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "CERN",
@@ -6669,7 +6730,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6680,7 +6742,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6691,7 +6754,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6702,7 +6766,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -6713,7 +6778,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -8557,7 +8623,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -8579,7 +8646,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Rohde & Schwarz",
@@ -8645,7 +8713,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Lufthansa Technik",
@@ -8678,7 +8747,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -8689,7 +8759,8 @@
    "posted": "2026-11-09",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -8711,7 +8782,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -8722,7 +8794,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -8733,7 +8806,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -8744,7 +8818,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T21:37:00+00:00"
+   "first_seen": "2026-11-09T21:37:00+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -8920,7 +8995,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T11:16:24+00:00"
+   "first_seen": "2026-11-09T11:16:24+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "TKMS",
@@ -8953,7 +9029,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T11:16:24+00:00"
+   "first_seen": "2026-11-09T11:16:24+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "TKMS",
@@ -8986,7 +9063,8 @@
    "posted": "2026-11-09",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-09T11:16:24+00:00"
+   "first_seen": "2026-11-09T11:16:24+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -9008,7 +9086,8 @@
    "posted": "2026-11-09",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-09T11:16:24+00:00"
+   "first_seen": "2026-11-09T11:16:24+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -9085,7 +9164,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T11:16:24+00:00"
+   "first_seen": "2026-11-09T11:16:24+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -11362,7 +11442,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -11373,7 +11454,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Vincorion",
@@ -11417,7 +11499,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -11428,7 +11511,8 @@
    "posted": "2026-11-06",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Vincorion",
@@ -11450,7 +11534,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -11461,7 +11546,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -11472,7 +11558,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -11483,7 +11570,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -11494,7 +11582,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -11505,7 +11594,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "ESA",
@@ -12223,7 +12313,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12234,7 +12325,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -12256,7 +12348,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12267,7 +12360,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12278,7 +12372,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12289,7 +12384,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12300,7 +12396,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12311,7 +12408,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12322,7 +12420,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -12344,7 +12443,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12355,7 +12455,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12366,7 +12467,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -12388,7 +12490,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -12399,7 +12502,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12410,7 +12514,8 @@
    "posted": "2026-11-05",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12421,7 +12526,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -12432,7 +12538,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T22:39:18+00:00"
+   "first_seen": "2026-11-05T22:39:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -14646,7 +14753,8 @@
    "posted": "2026-11-04",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -14669,7 +14777,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -14680,7 +14789,8 @@
    "posted": "2026-11-04",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -14713,7 +14823,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -14724,7 +14835,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -14803,7 +14915,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -14848,7 +14961,8 @@
    "posted": "2026-11-04",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-11-04T20:55:03+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "ESA",
@@ -16319,7 +16433,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16330,7 +16445,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16341,7 +16457,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "General Dynamics",
@@ -16374,7 +16491,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16385,7 +16503,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16396,7 +16515,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16407,7 +16527,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16418,7 +16539,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16429,7 +16551,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -16451,7 +16574,8 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T18:21:31+00:00"
+   "first_seen": "2026-11-03T18:21:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "KNDS",
@@ -17715,7 +17839,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -17726,7 +17851,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Vincorion",
@@ -17759,7 +17885,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -17782,7 +17909,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -17838,7 +17966,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -17849,7 +17978,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Vincorion",
@@ -19236,7 +19366,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -19269,7 +19400,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19291,7 +19423,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19302,7 +19435,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -19448,7 +19582,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19459,7 +19594,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19470,7 +19606,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -19492,7 +19629,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "TKMS",
@@ -19558,7 +19696,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Rohde & Schwarz",
@@ -19580,7 +19719,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "TKMS",
@@ -19602,7 +19742,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19613,7 +19754,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19624,7 +19766,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -19646,7 +19789,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19657,7 +19801,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -19690,7 +19835,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19701,7 +19847,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -19712,7 +19859,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-11-02T09:53:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -21510,7 +21658,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T20:04:19+00:00"
+   "first_seen": "2026-10-30T20:04:19+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -21521,7 +21670,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T20:04:19+00:00"
+   "first_seen": "2026-10-30T20:04:19+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -21532,7 +21682,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T20:04:19+00:00"
+   "first_seen": "2026-10-30T20:04:19+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -21590,7 +21741,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T20:04:19+00:00"
+   "first_seen": "2026-10-30T20:04:19+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -21614,6 +21766,17 @@
    "src": "site",
    "first_seen": "2026-10-30T15:17:24+00:00",
    "closed_at": "2026-11-10T20:25:20+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Technischer-Produktdesigner-%28wmd%29-73447/1372790655/",
+   "title": "Technischer Produktdesigner (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Technischer-Produktdesigner-%28wmd%29-73447/1372790655/",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-30T15:17:24+00:00"
   },
   {
    "company": "Isar Aerospace",
@@ -22096,17 +22259,6 @@
    "src": "agency",
    "first_seen": "2026-10-30T15:17:24+00:00",
    "closed_at": "2026-11-10T12:55:23+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Technischer-Produktdesigner-%28wmd%29-73447/1372790655/",
-   "title": "Technischer Produktdesigner (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Technischer-Produktdesigner-%28wmd%29-73447/1372790655/",
-   "posted": "2026-10-14",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-30T15:17:24+00:00"
   },
   {
    "company": "EUMETSAT",
@@ -24088,7 +24240,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -24099,7 +24252,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -24110,7 +24264,8 @@
    "posted": "2026-10-29",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -24143,7 +24298,8 @@
    "posted": "2026-10-29",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -24154,7 +24310,8 @@
    "posted": "2026-10-29",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -24177,7 +24334,8 @@
    "posted": "2026-10-29",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-29T21:43:31+00:00"
+   "first_seen": "2026-10-29T21:43:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -24269,7 +24427,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T16:51:15+00:00"
+   "first_seen": "2026-10-29T16:51:15+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -24304,7 +24463,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T16:51:15+00:00"
+   "first_seen": "2026-10-29T16:51:15+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -25394,8 +25554,7 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T13:27:56+00:00",
-   "closed_at": "2026-11-02T09:53:50+00:00"
+   "first_seen": "2026-10-28T13:27:56+00:00"
   },
   {
    "company": "Akkodis",
@@ -26240,7 +26399,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-28T00:24:31+00:00"
+   "first_seen": "2026-10-28T00:24:31+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Witzenmann",
@@ -27139,7 +27299,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "ClickHouse",
@@ -27161,7 +27322,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27172,7 +27334,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27183,7 +27346,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27194,7 +27358,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27217,7 +27382,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27228,7 +27394,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27239,7 +27406,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -27262,7 +27430,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Hensoldt",
@@ -27295,7 +27464,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27306,7 +27476,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27317,7 +27488,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27340,7 +27512,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00"
+   "first_seen": "2026-10-27T20:54:18+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Hensoldt",
@@ -27402,7 +27575,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Köln, DE, 51147 • Koblenz, DE, 56073 • Kiel, DE, 24145 • Kiel, DE, 24114 • Bonn, DE, 53175 • Fürstenfeldbruck, DE, 82256",
+   "location": "Kiel, DE, 24145 • Wilhelmshaven, DE, 26389 • Koblenz, DE, 56073 • Köln, DE, 51147 • Kiel, DE, 24114 • Köln, DE, 50676 • Bonn, DE, 53175 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "posted": "2026-11-01",
    "match": 1,
@@ -28573,7 +28746,8 @@
    "posted": "2026-10-26",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-26T20:43:26+00:00"
+   "first_seen": "2026-10-26T20:43:26+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -28596,7 +28770,8 @@
    "posted": "2026-10-26",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-26T20:43:26+00:00"
+   "first_seen": "2026-10-26T20:43:26+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -29575,7 +29750,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T07:41:49+00:00"
+   "first_seen": "2026-10-26T07:41:49+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29598,7 +29774,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T07:41:49+00:00"
+   "first_seen": "2026-10-26T07:41:49+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29609,7 +29786,8 @@
    "posted": "2026-10-26",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-26T07:41:49+00:00"
+   "first_seen": "2026-10-26T07:41:49+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29620,7 +29798,8 @@
    "posted": "2026-10-26",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-26T07:41:49+00:00"
+   "first_seen": "2026-10-26T07:41:49+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29655,7 +29834,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T07:41:49+00:00"
+   "first_seen": "2026-10-26T07:41:49+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29963,7 +30143,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T19:54:50+00:00"
+   "first_seen": "2026-10-23T19:54:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29974,7 +30155,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T19:54:50+00:00"
+   "first_seen": "2026-10-23T19:54:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29985,7 +30167,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T19:54:50+00:00"
+   "first_seen": "2026-10-23T19:54:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -29996,7 +30179,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T19:54:50+00:00"
+   "first_seen": "2026-10-23T19:54:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -30067,7 +30251,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T19:54:50+00:00"
+   "first_seen": "2026-10-23T19:54:50+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -30707,18 +30892,6 @@
    "first_seen": "2026-10-23T11:26:21+00:00"
   },
   {
-   "company": "Pure Storage",
-   "id": "8280897",
-   "title": "Client Technical Director - Germany, Strategic Accounts (Automotive and Manufacturing)",
-   "location": "Munich, Germany",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8280897",
-   "posted": "2026-10-28T13:42:12-04:00",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-23T11:26:21+00:00",
-   "closed_at": "2026-10-28T23:28:22+00:00"
-  },
-  {
    "company": "Airbus Defence and Space",
    "id": "16947-978691186-S",
    "title": "Testability Engineer Eurodrone (d/f/m)",
@@ -30967,7 +31140,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T05:54:33+00:00"
+   "first_seen": "2026-10-23T05:54:33+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -30978,7 +31152,8 @@
    "posted": "2026-10-23",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-23T05:54:33+00:00"
+   "first_seen": "2026-10-23T05:54:33+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bechtle",
@@ -31093,7 +31268,8 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-22T17:56:22+00:00"
+   "first_seen": "2026-10-22T17:56:22+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -32577,8 +32753,7 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T23:10:28+00:00",
-   "closed_at": "2026-11-11T07:40:37+00:00"
+   "first_seen": "2026-10-21T23:10:28+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -33114,7 +33289,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T15:01:27+00:00"
+   "first_seen": "2026-10-21T15:01:27+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "ESA",
@@ -33125,7 +33301,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T15:01:27+00:00"
+   "first_seen": "2026-10-21T15:01:27+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -33420,7 +33597,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T09:33:06+00:00"
+   "first_seen": "2026-10-21T09:33:06+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Nikon SLM Solutions",
@@ -36830,7 +37008,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T11:50:20+00:00"
+   "first_seen": "2026-10-16T11:50:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -36889,7 +37068,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T11:50:20+00:00"
+   "first_seen": "2026-10-16T11:50:20+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Akkodis",
@@ -37531,7 +37711,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T06:17:41+00:00"
+   "first_seen": "2026-10-16T06:17:41+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -37566,7 +37747,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T06:17:41+00:00"
+   "first_seen": "2026-10-16T06:17:41+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -37589,7 +37771,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T06:17:41+00:00"
+   "first_seen": "2026-10-16T06:17:41+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Bertrandt",
@@ -38507,8 +38690,7 @@
    "posted": "2026-10-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T10:15:42+00:00",
-   "closed_at": "2026-11-04T20:55:03+00:00"
+   "first_seen": "2026-10-15T10:15:42+00:00"
   },
   {
    "company": "Bertrandt",
@@ -39834,7 +40016,8 @@
    "posted": "2026-10-13",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T18:28:52+00:00"
+   "first_seen": "2026-10-13T18:28:52+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -48446,7 +48629,8 @@
    "posted": "2026-08-17",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "OHB",
@@ -51659,19 +51843,6 @@
   },
   {
    "company": "Airbus (Workday, Germany)",
-   "id": "/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
-   "title": "Structural Analysis Engineer Static/Fatigue (d/m/f)",
-   "location": "Augsburg Area",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Augsburg-Area/Structural-Analysis-Engineer-Static-Fatigue--d-m-f-_JR10430756-1",
-   "posted": "Posted 20 Days Ago",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "seed": true,
-   "closed_at": "2026-10-28T23:28:22+00:00"
-  },
-  {
-   "company": "Airbus (Workday, Germany)",
    "id": "/job/Manching/Testability-Engineer-Eurodrone--d-w-m-_JR10437660",
    "title": "Testability Engineer Eurodrone (d/f/m)",
    "location": "Manching",
@@ -52950,6 +53121,39 @@
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Teamleitung-Ground-System-und-Elektronik-Entwicklung-%28wmd%29-73447/1364761655/",
+   "title": "Teamleitung Ground System- und Elektronik Entwicklung (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Teamleitung-Ground-System-und-Elektronik-Entwicklung-%28wmd%29-73447/1364761655/",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Koblenz-Senior-Infrastructure-Engineer-%28wmd%29-56073/1326169755/",
+   "title": "Senior Infrastructure Engineer (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256 • Köln, DE, 51147 • Koblenz, DE, 56073",
+   "url": "https://jobs.hensoldt.net/job/Koblenz-Senior-Infrastructure-Engineer-%28wmd%29-56073/1326169755/",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
+   "title": "Chief Engineer (w/m/d)",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Isar Aerospace",
    "id": "4844862101",
    "title": "Struktur Fertigungstechniker (m/w/d)",
@@ -53107,7 +53311,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-11-08",
    "match": 1,
@@ -53185,7 +53389,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256",
+   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-11-06",
    "match": 1,
@@ -53702,10 +53906,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -53713,10 +53917,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -53784,7 +53988,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Bremen, DE, 28757 • Bremen, DE, 28757 • Kiel, DE, 24114 • Köln, DE, 51147 • Koblenz, DE, 56073 • Köln, DE, 50676 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Hamburg, DE, 22335 • Fürstenfeldbruck, DE, 82256",
+   "location": "Köln, DE, 50676 • Hamburg, DE, 22335 • Bremen, DE, 28757 • Kiel, DE, 24145 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24114 • Köln, DE, 51147 • Koblenz, DE, 56073 • Bremen, DE, 28757 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-11-01",
    "match": 1,
@@ -54310,7 +54514,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "title": "Finance Accountant Process Specialist (w/m/d)",
-   "location": "Taufkirchen, DE, 82024 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Taufkirchen, DE, 82024 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "posted": "2026-10-21",
    "match": 1,
@@ -54678,28 +54882,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Teamleitung-Ground-System-und-Elektronik-Entwicklung-%28wmd%29-73447/1364761655/",
-   "title": "Teamleitung Ground System- und Elektronik Entwicklung (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Teamleitung-Ground-System-und-Elektronik-Entwicklung-%28wmd%29-73447/1364761655/",
-   "posted": "2026-10-14",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Koblenz-Senior-Infrastructure-Engineer-%28wmd%29-56073/1326169755/",
-   "title": "Senior Infrastructure Engineer (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Köln, DE, 51147 • Koblenz, DE, 56073",
-   "url": "https://jobs.hensoldt.net/job/Koblenz-Senior-Infrastructure-Engineer-%28wmd%29-56073/1326169755/",
-   "posted": "2026-10-14",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Entwicklungsingenieur-Hochfrequenzmodule-und-analoge-Schaltungstechnik-%28wmd%29-89077/1345478955/",
    "title": "Entwicklungsingenieur Hochfrequenzmodule und analoge Schaltungstechnik (w/m/d)",
    "location": "Ulm, DE, 89077",
@@ -54732,17 +54914,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-30T15:17:24+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
-   "title": "Chief Engineer (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
-   "posted": "2026-10-10",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -57867,19 +58038,6 @@
    "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
-   "company": "Lufthansa Technik",
-   "id": "13348-1640971-1-S",
-   "title": "Certification Engineer Defense (m/w/divers)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1640971-1-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T23:28:22+00:00"
-  },
-  {
    "company": "Lapp",
    "id": "12811-2353259-S",
    "title": "Bachelorand / Masterand (m/w/d) Advanced Technology, Stuttgart OL2",
@@ -58087,19 +58245,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-10-30T01:49:18+00:00"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208161689-S",
-   "title": "Industrialisierungsmanager im Bereich Industrialisierung Development (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208161689-S",
-   "posted": "2026-10-05",
-   "match": 2,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T23:28:22+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -61939,7 +62084,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "TKMS",
@@ -67966,19 +68112,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "KNDS",
-   "id": "10000-1207277265-S",
-   "title": "Kfz-Mechatroniker (m/w/d)",
-   "location": "Freisen, Saarland",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207277265-S",
-   "posted": "2026-07-22",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T23:28:22+00:00"
   },
   {
    "company": "Bechtle",
@@ -74167,19 +74300,6 @@
   },
   {
    "company": "CERN",
-   "id": "744000154429914",
-   "title": "Instrumentation Engineer (TE-CRG-IC-2026-94-GRAP)",
-   "location": "Geneva, CH",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000154429914",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site",
-   "closed_at": "2026-10-28T23:28:22+00:00"
-  },
-  {
-   "company": "CERN",
    "id": "744000154015101",
    "title": "ATLAS Detector Cooling Engineer (EP-ATL-PO-2026-240-GRAE)",
    "location": "Geneva, CH",
@@ -74218,5 +74338,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-11T22:57:33+00:00"
+ "updated": "2026-11-12T03:45:18+00:00"
 }
