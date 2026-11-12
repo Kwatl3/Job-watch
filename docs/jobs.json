@@ -930,9 +930,9 @@
    "raw": 0
   },
   "Rheinmetall": {
-   "ok": false,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.rheinmetall.com/de/karriere/aktuelle-stellenangebote?page=90",
-   "count": 136
+   "ok": true,
+   "count": 138,
+   "raw": 949
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -1191,8 +1191,8 @@
   },
   "Scania": {
    "ok": true,
-   "count": 13,
-   "raw": 26
+   "count": 14,
+   "raw": 27
   },
   "Saab": {
    "ok": true,
@@ -1262,7 +1262,7 @@
   "ADK": {
    "ok": true,
    "count": 2,
-   "raw": 83
+   "raw": 82
   },
   "ADM WILD Europe": {
    "ok": true,
@@ -1366,13 +1366,13 @@
   },
   "Bechtle": {
    "ok": true,
-   "count": 68,
-   "raw": 419
+   "count": 54,
+   "raw": 350
   },
   "Berner": {
    "ok": true,
    "count": 4,
-   "raw": 92
+   "raw": 91
   },
   "Bertrandt": {
    "ok": true,
@@ -1387,7 +1387,7 @@
   "Bilfinger": {
    "ok": true,
    "count": 9,
-   "raw": 53
+   "raw": 55
   },
   "Biologische Heilmittel Heel": {
    "ok": true,
@@ -1397,7 +1397,7 @@
   "Bizerba": {
    "ok": true,
    "count": 5,
-   "raw": 25
+   "raw": 26
   },
   "Blanc & Fischer Familienholding": {
    "ok": true,
@@ -1407,7 +1407,7 @@
   "Blanco": {
    "ok": true,
    "count": 0,
-   "raw": 6
+   "raw": 5
   },
   "Boehinger Ingelheim": {
    "ok": true,
@@ -1447,7 +1447,7 @@
   "Bürger": {
    "ok": true,
    "count": 12,
-   "raw": 135
+   "raw": 134
   },
   "Bürkert Fluid Control Systems": {
    "ok": true,
@@ -1467,12 +1467,12 @@
   "CeramTec": {
    "ok": true,
    "count": 0,
-   "raw": 4
+   "raw": 3
   },
   "CGI": {
    "ok": true,
    "count": 0,
-   "raw": 13
+   "raw": 3
   },
   "Chemoform": {
    "ok": true,
@@ -1497,7 +1497,7 @@
   "compassio": {
    "ok": true,
    "count": 1,
-   "raw": 64
+   "raw": 62
   },
   "Conductix-Wampfler": {
    "ok": true,
@@ -1517,7 +1517,7 @@
   "Continental Aktiengesellschaft": {
    "ok": true,
    "count": 12,
-   "raw": 555
+   "raw": 558
   },
   "Cronimet": {
    "ok": true,
@@ -1532,27 +1532,27 @@
   "Daimler Truck": {
    "ok": true,
    "count": 37,
-   "raw": 73
+   "raw": 71
   },
   "Datagroup": {
    "ok": true,
    "count": 12,
-   "raw": 67
+   "raw": 66
   },
   "Dekra": {
    "ok": true,
    "count": 77,
-   "raw": 297
+   "raw": 299
   },
   "Deutsche Bahn": {
    "ok": true,
-   "count": 89,
+   "count": 88,
    "raw": 300
   },
   "Deutsche Bausparkasse Badenia": {
    "ok": true,
    "count": 0,
-   "raw": 1
+   "raw": 0
   },
   "Diakonie in Baden-Württemberg, Stuttgart": {
    "ok": true,
@@ -1591,13 +1591,13 @@
   },
   "Drees & Sommer": {
    "ok": true,
-   "count": 47,
-   "raw": 205
+   "count": 15,
+   "raw": 52
   },
   "DSV": {
    "ok": true,
-   "count": 13,
-   "raw": 299
+   "count": 11,
+   "raw": 264
   },
   "Dunkermotoren": {
    "ok": true,
@@ -1617,7 +1617,7 @@
   "Dussmann Service": {
    "ok": true,
    "count": 1,
-   "raw": 299
+   "raw": 300
   },
   "E. Breuninger": {
    "ok": true,
@@ -1676,8 +1676,8 @@
   },
   "Erbe Elektromedizin": {
    "ok": true,
-   "count": 3,
-   "raw": 13
+   "count": 2,
+   "raw": 11
   },
   "Ernst Klett": {
    "ok": true,
@@ -1716,8 +1716,8 @@
   },
   "Exyte": {
    "ok": true,
-   "count": 40,
-   "raw": 121
+   "count": 45,
+   "raw": 144
   },
   "EY": {
    "ok": true,
@@ -1757,7 +1757,7 @@
   "Franz & Wach Personalservice": {
    "ok": true,
    "count": 47,
-   "raw": 176
+   "raw": 174
   },
   "Franz Binder": {
    "ok": true,
@@ -1776,7 +1776,7 @@
   },
   "Fuchs": {
    "ok": true,
-   "count": 27,
+   "count": 25,
    "raw": 292
   },
   "G.rau": {
@@ -1792,7 +1792,7 @@
   "Geberit": {
    "ok": true,
    "count": 3,
-   "raw": 8
+   "raw": 7
   },
   "Gebr. Lotter": {
    "ok": true,
@@ -1876,8 +1876,8 @@
   },
   "Harro Höfliger Verpackungsmaschinen": {
    "ok": true,
-   "count": 1,
-   "raw": 2
+   "count": 2,
+   "raw": 3
   },
   "Hartmetall-Werkzeugfabrik Paul Horn": {
    "ok": true,
@@ -1907,7 +1907,7 @@
   "Helukabel": {
    "ok": true,
    "count": 1,
-   "raw": 22
+   "raw": 23
   },
   "Herrenknecht": {
    "ok": true,
@@ -1936,8 +1936,8 @@
   },
   "HP": {
    "ok": true,
-   "count": 4,
-   "raw": 34
+   "count": 3,
+   "raw": 30
   },
   "Hubert Burda Media Kommanditgesellschaft": {
    "ok": true,
@@ -1946,8 +1946,8 @@
   },
   "Hugo Boss": {
    "ok": true,
-   "count": 1,
-   "raw": 6
+   "count": 0,
+   "raw": 5
   },
   "Hugo Kern und Liebers": {
    "ok": true,
@@ -1981,8 +1981,8 @@
   },
   "John Deere": {
    "ok": true,
-   "count": 2,
-   "raw": 11
+   "count": 1,
+   "raw": 5
   },
   "KACO": {
    "ok": true,
@@ -2022,7 +2022,7 @@
   "Klinikum am Weissenhof": {
    "ok": true,
    "count": 0,
-   "raw": 11
+   "raw": 9
   },
   "Klinikum Esslingen": {
    "ok": true,
@@ -2062,7 +2062,7 @@
   "Kreissparkasse Esslingen-Nürtingen": {
    "ok": true,
    "count": 0,
-   "raw": 1
+   "raw": 0
   },
   "Kreissparkasse Göppingen": {
    "ok": true,
@@ -2116,8 +2116,8 @@
   },
   "LBBW": {
    "ok": true,
-   "count": 8,
-   "raw": 32
+   "count": 3,
+   "raw": 15
   },
   "LBS Landesbausparkasse Süd": {
    "ok": true,
@@ -2126,8 +2126,8 @@
   },
   "Leonhard Weiss": {
    "ok": true,
-   "count": 59,
-   "raw": 282
+   "count": 39,
+   "raw": 193
   },
   "LGI Logistics": {
    "ok": true,
@@ -2177,7 +2177,7 @@
   "Marquardt": {
    "ok": true,
    "count": 7,
-   "raw": 56
+   "raw": 55
   },
   "Maschinenfabrik ALFING Kessler": {
    "ok": true,
@@ -2232,7 +2232,7 @@
   "MLP": {
    "ok": true,
    "count": 0,
-   "raw": 10
+   "raw": 9
   },
   "Mosca": {
    "ok": true,
@@ -2247,12 +2247,12 @@
   "Müller": {
    "ok": true,
    "count": 10,
-   "raw": 93
+   "raw": 92
   },
   "Murrelektronik": {
    "ok": true,
    "count": 4,
-   "raw": 9
+   "raw": 8
   },
   "MVV Energie": {
    "ok": true,
@@ -2267,7 +2267,7 @@
   "Neue Pressegesellschaft": {
    "ok": true,
    "count": 1,
-   "raw": 9
+   "raw": 8
   },
   "Nokia": {
    "ok": true,
@@ -2277,12 +2277,12 @@
   "Oberschwabenklinik gGmbH": {
    "ok": true,
    "count": 0,
-   "raw": 1
+   "raw": 0
   },
   "OPTIMA packaging": {
    "ok": true,
    "count": 2,
-   "raw": 8
+   "raw": 7
   },
   "Papierfabrik Palm": {
    "ok": true,
@@ -2297,7 +2297,7 @@
   "Paulinenpflege Winnenden e. V": {
    "ok": true,
    "count": 0,
-   "raw": 13
+   "raw": 12
   },
   "Pepperl+Fuchs": {
    "ok": true,
@@ -2347,7 +2347,7 @@
   "RAFI": {
    "ok": true,
    "count": 2,
-   "raw": 6
+   "raw": 7
   },
   "Ravensburger": {
    "ok": true,
@@ -2382,7 +2382,7 @@
   "Richard Wolf": {
    "ok": true,
    "count": 1,
-   "raw": 5
+   "raw": 3
   },
   "RKH Regionale Kliniken und Services": {
    "ok": true,
@@ -2411,8 +2411,8 @@
   },
   "Röhm": {
    "ok": true,
-   "count": 2,
-   "raw": 17
+   "count": 1,
+   "raw": 16
   },
   "Rolls-Royce Power Systems": {
    "ok": true,
@@ -2422,7 +2422,7 @@
   "Rommelag": {
    "ok": true,
    "count": 5,
-   "raw": 13
+   "raw": 14
   },
   "Röther Beteiligungs": {
    "ok": true,
@@ -2452,7 +2452,7 @@
   "SAP": {
    "ok": true,
    "count": 1,
-   "raw": 5
+   "raw": 3
   },
   "Schaeffler Automotive Buehl": {
    "ok": true,
@@ -2467,7 +2467,7 @@
   "Schuler": {
    "ok": true,
    "count": 26,
-   "raw": 111
+   "raw": 110
   },
   "Schunk": {
    "ok": true,
@@ -2476,8 +2476,8 @@
   },
   "Schwäbisch Hall": {
    "ok": true,
-   "count": 5,
-   "raw": 288
+   "count": 9,
+   "raw": 282
   },
   "SchwörerHaus": {
    "ok": true,
@@ -2487,7 +2487,7 @@
   "Seifert Logistics": {
    "ok": true,
    "count": 1,
-   "raw": 47
+   "raw": 46
   },
   "Sew-eurodrive": {
    "ok": true,
@@ -2506,8 +2506,8 @@
   },
   "Sika": {
    "ok": true,
-   "count": 5,
-   "raw": 16
+   "count": 3,
+   "raw": 10
   },
   "Simon Hegele Gesellschaft für Logistik und Service": {
    "ok": true,
@@ -2552,7 +2552,7 @@
   "Sparkasse Rhein Neckar Nord": {
    "ok": true,
    "count": 0,
-   "raw": 18
+   "raw": 15
   },
   "Sparkasse Ulm": {
    "ok": true,
@@ -2576,8 +2576,8 @@
   },
   "Stadtwerke Karlsruhe": {
    "ok": true,
-   "count": 3,
-   "raw": 14
+   "count": 2,
+   "raw": 13
   },
   "Steinbeis": {
    "ok": true,
@@ -2587,7 +2587,7 @@
   "Sto": {
    "ok": true,
    "count": 4,
-   "raw": 60
+   "raw": 59
   },
   "Stuttgarter Gebäudereinigung Venter": {
    "ok": true,
@@ -2621,13 +2621,13 @@
   },
   "SV SparkassenVersicherung": {
    "ok": true,
-   "count": 1,
-   "raw": 196
+   "count": 0,
+   "raw": 28
   },
   "SWEG Südwestdeutsche Landesverkehrs": {
    "ok": true,
    "count": 1,
-   "raw": 9
+   "raw": 8
   },
   "SWU Stadtwerke Ulm/Neu-Ulm": {
    "ok": true,
@@ -2636,7 +2636,7 @@
   },
   "SYNERGIE Personal": {
    "ok": true,
-   "count": 47,
+   "count": 45,
    "raw": 300
   },
   "Takeda": {
@@ -2737,7 +2737,7 @@
   "Varta": {
    "ok": true,
    "count": 2,
-   "raw": 8
+   "raw": 7
   },
   "VBK": {
    "ok": true,
@@ -2762,7 +2762,7 @@
   "Vetter Pharma-Fertigung": {
    "ok": true,
    "count": 1,
-   "raw": 5
+   "raw": 3
   },
   "ViDia Christliche Kliniken": {
    "ok": true,
@@ -2781,8 +2781,8 @@
   },
   "Voith": {
    "ok": true,
-   "count": 10,
-   "raw": 73
+   "count": 11,
+   "raw": 72
   },
   "Volksbank pur": {
    "ok": true,
@@ -2806,8 +2806,8 @@
   },
   "Waldburg-Zeil Kliniken": {
    "ok": true,
-   "count": 4,
-   "raw": 32
+   "count": 2,
+   "raw": 29
   },
   "Waldner": {
    "ok": true,
@@ -2817,7 +2817,7 @@
   "Walter": {
    "ok": true,
    "count": 30,
-   "raw": 292
+   "raw": 293
   },
   "Weishaupt": {
    "ok": true,
@@ -2856,8 +2856,8 @@
   },
   "Wittenstein": {
    "ok": true,
-   "count": 3,
-   "raw": 8
+   "count": 2,
+   "raw": 7
   },
   "Witzenmann": {
    "ok": true,
@@ -2947,7 +2947,7 @@
   "Alfred Kärcher": {
    "ok": true,
    "count": 4,
-   "raw": 9
+   "raw": 8
   },
   "Andreas Stihl": {
    "ok": true,
@@ -2962,7 +2962,7 @@
   "Armaturenfabrik Franz Schneider": {
    "ok": true,
    "count": 0,
-   "raw": 1
+   "raw": 0
   },
   "Bauer Gear Motor": {
    "ok": true,
@@ -2992,12 +2992,12 @@
   "BITZER Kühlmaschinenbau": {
    "ok": true,
    "count": 3,
-   "raw": 20
+   "raw": 22
   },
   "Bock": {
    "ok": true,
-   "count": 16,
-   "raw": 99
+   "count": 14,
+   "raw": 90
   },
   "botek Präzisionsbohrtechnik": {
    "ok": true,
@@ -3286,8 +3286,8 @@
   },
   "Mercedes-Benz": {
    "ok": true,
-   "count": 26,
-   "raw": 82
+   "count": 28,
+   "raw": 83
   },
   "Metabowerke": {
    "ok": true,
@@ -3347,7 +3347,7 @@
   "Rau": {
    "ok": true,
    "count": 7,
-   "raw": 59
+   "raw": 58
   },
   "Reutter": {
    "ok": true,
@@ -3356,8 +3356,8 @@
   },
   "Robert Bosch": {
    "ok": true,
-   "count": 92,
-   "raw": 380
+   "count": 91,
+   "raw": 379
   },
   "Rolf Benz": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 30,
-   "raw": 59
+   "count": 9,
+   "raw": 184
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3801,13 +3801,13 @@
   },
   "GlobalFoundries": {
    "ok": true,
-   "count": 7,
+   "count": 8,
    "raw": 21
   },
   "Siltronic": {
    "ok": true,
-   "count": 2,
-   "raw": 8
+   "count": 1,
+   "raw": 5
   },
   "X-FAB": {
    "ok": true,
@@ -3816,8 +3816,8 @@
   },
   "AIXTRON": {
    "ok": true,
-   "count": 5,
-   "raw": 11
+   "count": 3,
+   "raw": 4
   },
   "Carl Zeiss SMT": {
    "ok": true,
@@ -3826,8 +3826,8 @@
   },
   "JENOPTIK": {
    "ok": true,
-   "count": 28,
-   "raw": 57
+   "count": 30,
+   "raw": 59
   },
   "SUSS MicroTec": {
    "ok": true,
@@ -3861,13 +3861,13 @@
   },
   "Heraeus": {
    "ok": true,
-   "count": 11,
-   "raw": 59
+   "count": 9,
+   "raw": 54
   },
   "TRUMPF": {
    "ok": true,
    "count": 0,
-   "raw": 292
+   "raw": 290
   },
   "NVIDIA": {
    "ok": true,
@@ -3896,8 +3896,8 @@
   },
   "Texas Instruments": {
    "ok": true,
-   "count": 2,
-   "raw": 2
+   "count": 1,
+   "raw": 1
   },
   "onsemi": {
    "ok": true,
@@ -3912,17 +3912,17 @@
   "Vishay": {
    "ok": true,
    "count": 7,
-   "raw": 20
+   "raw": 18
   },
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 3
+   "raw": 0
   },
   "IONOS": {
    "ok": true,
    "count": 4,
-   "raw": 36
+   "raw": 37
   },
   "Hetzner": {
    "ok": true,
@@ -3997,7 +3997,7 @@
   "Flex": {
    "ok": true,
    "count": 18,
-   "raw": 213
+   "raw": 214
   },
   "Nikon SLM Solutions": {
    "ok": true,
@@ -4116,18 +4116,18 @@
   },
   "Bosch": {
    "ok": true,
-   "count": 100,
-   "raw": 5108
+   "count": 98,
+   "raw": 5110
   },
   "Aumovio": {
    "ok": true,
    "count": 8,
-   "raw": 606
+   "raw": 604
   },
   "Wabtec": {
    "ok": true,
    "count": 12,
-   "raw": 725
+   "raw": 723
   },
   "Tenstorrent": {
    "ok": true,
@@ -4176,13 +4176,13 @@
   },
   "Siemens Energy": {
    "ok": true,
-   "count": 47,
+   "count": 48,
    "raw": 169
   },
   "Siemens": {
    "ok": true,
-   "count": 105,
-   "raw": 429
+   "count": 104,
+   "raw": 424
   },
   "KUKA": {
    "ok": true,
@@ -4202,7 +4202,7 @@
   "Lilium": {
    "ok": true,
    "count": 0,
-   "raw": 4
+   "raw": 2
   },
   "Magna": {
    "ok": true,
@@ -4212,7 +4212,7 @@
   "Knorr-Bremse": {
    "ok": true,
    "count": 10,
-   "raw": 38
+   "raw": 39
   },
   "Dräger": {
    "ok": true,
@@ -4222,7 +4222,7 @@
   "Linde": {
    "ok": true,
    "count": 7,
-   "raw": 118
+   "raw": 117
   },
   "MAN Energy Solutions": {
    "ok": true,
@@ -4247,7 +4247,7 @@
   "AVL": {
    "ok": true,
    "count": 3,
-   "raw": 15
+   "raw": 12
   },
   "Alstom": {
    "ok": true,
@@ -4257,7 +4257,7 @@
   "Stadler": {
    "ok": true,
    "count": 52,
-   "raw": 273
+   "raw": 271
   },
   "Hitachi Energy": {
    "ok": true,
@@ -4277,12 +4277,12 @@
   "thyssenkrupp": {
    "ok": true,
    "count": 26,
-   "raw": 133
+   "raw": 134
   },
   "Salzgitter": {
    "ok": true,
    "count": 32,
-   "raw": 155
+   "raw": 154
   },
   "Aurubis": {
    "ok": true,
@@ -4292,7 +4292,7 @@
   "Wacker": {
    "ok": true,
    "count": 8,
-   "raw": 57
+   "raw": 55
   },
   "SGL Carbon": {
    "ok": true,
@@ -4402,7 +4402,7 @@
   "Max Planck": {
    "ok": true,
    "count": 1,
-   "raw": 18
+   "raw": 15
   },
   "Bombardier": {
    "ok": true,
@@ -4501,8 +4501,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 3,
-   "raw": 16
+   "count": 0,
+   "raw": 0
   },
   "Smart Photonics": {
    "ok": true,
@@ -4586,8 +4586,8 @@
   },
   "Excelitas": {
    "ok": true,
-   "count": 11,
-   "raw": 24
+   "count": 9,
+   "raw": 22
   },
   "Thorlabs": {
    "ok": true,
@@ -4802,7 +4802,7 @@
   "Daimler Truck (Stuttgart region)": {
    "ok": true,
    "count": 1,
-   "raw": 7
+   "raw": 6
   },
   "MAHLE (Stuttgart region)": {
    "ok": true,
@@ -4827,7 +4827,7 @@
   "Kärcher (Stuttgart region)": {
    "ok": true,
    "count": 6,
-   "raw": 19
+   "raw": 17
   },
   "STIHL (Stuttgart region)": {
    "ok": true,
@@ -4911,8 +4911,8 @@
   },
   "d&b audiotechnik": {
    "ok": true,
-   "count": 3,
-   "raw": 5
+   "count": 2,
+   "raw": 4
   },
   "BALLUFF": {
    "ok": true,
@@ -4932,6 +4932,677 @@
  },
  "jobs": [
   {
+   "company": "DSV",
+   "id": "12288-4996059445-S",
+   "title": "kaufm. Mitarbeiter (m/w/d) im Bereich OCL / Abfertigung",
+   "location": "Waldlaubersheim, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059445-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061455-S",
+   "title": "Zimmermann Ingenieurbau (m/w/d) – Schalungsbau",
+   "location": "Würzburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061455-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059528-S",
+   "title": "Werkpolier Ingenieurbau (m/w/d)",
+   "location": "Öhringen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059528-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061605-S",
+   "title": "Vorarbeiter Ingenieurbau (m/w/d)",
+   "location": "Öhringen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061605-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059594-S",
+   "title": "Tragwerksplaner - Schwerpunkt Konstruktiver Ingenieurbau (m/w/d)",
+   "location": "Fellbach, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059594-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061504-S",
+   "title": "Terminplaner / Arbeitsvorbereiter im Ingenieurbau (m/w/d)",
+   "location": "Satteldorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061504-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061088-S",
+   "title": "Technischer Projektcontroller Konstruktiver Ingenieur- und Brückenbau (m/w/d)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061088-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996062482-S",
+   "title": "Techniker / Ingenieur (w/m/d) Beratung TGA (HKLS / Versorgungstechnik)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062482-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996063024-S",
+   "title": "Teamleiter (w/m/d) Bauüberwachung Bahn Konstruktiver Ingenieurbau / Oberbau",
+   "location": "Köln, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063024-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Siemens Energy",
+   "id": "15170-496175459-S",
+   "title": "TMS - Service Engineer (f/m/d)",
+   "location": "Mülheim an der Ruhr, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15170-496175459-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Karl Dungs",
+   "id": "12288-4996059893-S",
+   "title": "Supplier Quality Manager (SQM) (m/w/d)",
+   "location": "Urbach, Rems, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059893-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "ASML",
+   "id": "12288-4996062714-S",
+   "title": "Strategic Space Planning Engineer / Ingenieur:in Strategische Flächenplanung",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062714-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061684-S",
+   "title": "Standortleiter Konstruktiver Ingenieurbau/ Hochbau (m/w/d)",
+   "location": "Dortmund, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061684-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "DSV",
+   "id": "17657-39207_128453-1-S",
+   "title": "Solutions Design Engineer (m/w/d) - deutschlandweit",
+   "location": "Unna, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17657-39207_128453-1-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996063679-S",
+   "title": "Senior Manager Process Engineering (w/m/d) EPCM Industry – Anlagenbau",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063679-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Exyte",
+   "id": "18069-44568986-1111-S",
+   "title": "Senior Ingenieur CSV (m/w/d)",
+   "location": "Stuttgart, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44568986-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "LBBW",
+   "id": "12288-4996073265-S",
+   "title": "Senior Cloud Engineer Application Operations (Azure) (m/w/d)",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996073265-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061727-S",
+   "title": "Senior Bauleiter Konstruktiver Ingenieur- und Brückenbau (m/w/d)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061727-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "DSV",
+   "id": "17657-39201_131844-1-S",
+   "title": "Sachbearbeitung im Bereich OCL / Abfertigung (m/w/d) Herbrechtingen",
+   "location": "Herbrechtingen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17657-39201_131844-1-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "DSV",
+   "id": "12288-4996060878-S",
+   "title": "Sachbearbeitung im Bereich OCL / Abfertigung (m/w/d) Herbrechtingen",
+   "location": "Herbrechtingen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996060878-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "DSV",
+   "id": "12288-4996063417-S",
+   "title": "Sachbearbeitung (m/w/d) im Bereich OCL / Abfertigung",
+   "location": "Haiger, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063417-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059925-S",
+   "title": "Qualitätsmanagementkoordinator im Netzbau (m/w/d)",
+   "location": "Göppingen-Voralb, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059925-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "DSV",
+   "id": "12288-4996060429-S",
+   "title": "Quality Assurance Specialist, IMS (m/w/d)",
+   "location": "Meerbusch, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996060429-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "AIXTRON",
+   "id": "12288-4996070961-S",
+   "title": "Process Engineer Nitrides (all genders)",
+   "location": "Herzogenrath, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996070961-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996063028-S",
+   "title": "Polier Konstruktiver Ingenieur- und Brückenbau (m/w/d)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063028-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061619-S",
+   "title": "Polier Ingenieurbau (m/w/d)",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061619-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996063037-S",
+   "title": "Polier Ingenieurbau (m/w/d)",
+   "location": "Öhringen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063037-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "SWEG Südwestdeutsche Landesverkehrs",
+   "id": "12288-4996062985-S",
+   "title": "Performance Controller / BI Specialist in der Verkehrsvertrags- und Qualitätssteuerung (w/m/d)",
+   "location": "Offenburg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062985-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061268-S",
+   "title": "Oberbauleiter Ingenieurbau (m/w/d)",
+   "location": "Frechen, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061268-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059562-S",
+   "title": "Oberbauleiter Hochbau /  Konstruktiver Ingenieurbau (m/w/d)",
+   "location": "Dortmund, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059562-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Scania",
+   "id": "11858-SDE-133164-STA-S",
+   "title": "Mechatroniker (m/w/d)",
+   "location": "Vechta, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-133164-STA-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Siltronic",
+   "id": "12288-4996072976-S",
+   "title": "Manager (m/w/d) Technology and Market Research",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996072976-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Exyte",
+   "id": "18069-44568877-1111-S",
+   "title": "Leitender Bauleiter Prozessanlagenbau (m/w/d)",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44568877-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "JENOPTIK",
+   "id": "16012-44568967-1111-S",
+   "title": "Laser-Ingenieur Laser-based Solutions (w/m/d)",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44568967-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061486-S",
+   "title": "Land- und Baumaschinenmechatroniker Innendienst (m/w/d)",
+   "location": "Göppingen-Voralb, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061486-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996062689-S",
+   "title": "Land- und Baumaschinenmechatroniker Innen- und Außendienst (m/w/d)",
+   "location": "Kottenheim, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062689-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061477-S",
+   "title": "Kranfahrer Ingenieurbau (m/w/d)",
+   "location": "Würzburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061477-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Voith",
+   "id": "12336-a26f816j0457691-S",
+   "title": "Konstruktionstechniker (m|w|d)",
+   "location": "Rutesheim, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f816j0457691-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Voith",
+   "id": "18681-44569025-1111-S",
+   "title": "Konstruktionstechniker (m|w|d)",
+   "location": "Rutesheim, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18681-44569025-1111-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996073399-S",
+   "title": "Junior Bauingenieur / Architekt (w/m/d) Objektüberwachung",
+   "location": "Köln, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996073399-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Exyte",
+   "id": "18069-44568730-1111-S",
+   "title": "Ingenieur Lüftungstechnik (w/m/d) Industrieplanung",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44568730-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "GlobalFoundries",
+   "id": "11956-3093671794438000-S",
+   "title": "GlobalFoundries Management Services GmbH & Co. KG: PhD on Predictive Process Machine Control",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3093671794438000-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996062895-S",
+   "title": "Erfahrener Arbeitsvorbereiter (m/w/d) im Ingenieurbau",
+   "location": "Würzburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062895-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "JENOPTIK",
+   "id": "16012-44569127-1111-S",
+   "title": "Entwicklungsingenieur*in (w/m/d) System Engineering",
+   "location": "Jena, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44569127-1111-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Harro Höfliger Verpackungsmaschinen",
+   "id": "10000-1208638701-S",
+   "title": "Elektroniker / Elektriker im Sondermaschinenbau (m/w/d)",
+   "location": "",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208638701-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "AIXTRON",
+   "id": "12288-4996072057-S",
+   "title": "Department Manager Industrial Engineering (all genders)",
+   "location": "Herzogenrath, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996072057-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061650-S",
+   "title": "Bautechniker Arbeitsvorbereitung (m/w/d)",
+   "location": "Satteldorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061650-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996062957-S",
+   "title": "Bauleiter konstruktiver Ingenieurbau (m/w/d)",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062957-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061490-S",
+   "title": "Bauleiter Konstruktiver Ingenieur- und Brückenbau (m/w/d)",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061490-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996060742-S",
+   "title": "Bauleiter (m/w/d) Ingenieurbau",
+   "location": "Langen (Hessen), Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996060742-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996063285-S",
+   "title": "Bauingenieur/Geologe (w/m/d) Gutachten und Tiefbaumanagement",
+   "location": "Köln, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996063285-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996062476-S",
+   "title": "Bauingenieur als Senior Bauüberwacher innerstädtische Erschließung (w/m/d)",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062476-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996062966-S",
+   "title": "Bauingenieur (w/m/d) in der Bauüberwachung Straßen- und Ingenieurbau",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062966-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Exyte",
+   "id": "18069-44568910-1111-S",
+   "title": "Bauabschnittsleiter Mechanical (m/w/d)",
+   "location": "Bad Homburg vor der Höhe, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44568910-1111-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061686-S",
+   "title": "Bauabrechner (m/w/d) Konstruktiver Ingenieur- und Brückenbau",
+   "location": "Göppingen-Voralb, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061686-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059554-S",
+   "title": "BIM-Konstrukteur / BIM-Modellierer Schlüsselfertigbau (m/w/d)",
+   "location": "Satteldorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059554-S",
+   "posted": "2026-11-12",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996061602-S",
+   "title": "Arbeitsvorbereiter Ingenieurbau (m/w/d)",
+   "location": "Satteldorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061602-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Leonhard Weiss",
+   "id": "12288-4996059576-S",
+   "title": "Abrechner Ingenieurbau (m/w/d)",
+   "location": "Satteldorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059576-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Drees & Sommer",
+   "id": "12288-4996061613-S",
+   "title": "(Senior) Projektteamleiter (w/m/d) Straßen- und Ingenieurbau",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061613-S",
+   "posted": "2026-11-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Schwäbisch Hall",
+   "id": "14751-373A141821-S",
+   "title": "Produktionsmitarbeiter - Holz (m/w/d)",
+   "location": "Gschwend bei Gaildorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-373A141821-S",
+   "posted": "2026-11-02",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Schwäbisch Hall",
+   "id": "14751-373A142107-S",
+   "title": "Konstruktionsmechaniker (m/w/d) ab 19 Euro",
+   "location": "Gaildorf, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-373A142107-S",
+   "posted": "2026-11-02",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-12T07:19:48+00:00"
+  },
+  {
    "company": "Jenoptik",
    "id": "16012-44568967-1111-S",
    "title": "Laser-Ingenieur Laser-based Solutions (w/m/d)",
@@ -4940,7 +5611,8 @@
    "posted": "2026-11-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -4951,7 +5623,8 @@
    "posted": "2026-11-12",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -5067,7 +5740,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1652966-1-S",
    "title": "Senior Planungsingenieur:in Infrastruktur",
-   "location": "München, Bayern",
+   "location": "Nürnberg, Mittelfranken, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1652966-1-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -5529,7 +6202,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1652989-1-S",
    "title": "Junior Bauingenieur:in zur Qualifizierung Bauüberwacher:in Bahn Oberbau / KIB",
-   "location": "Zwickau, Sachsen",
+   "location": "Erfurt, Thueringen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1652989-1-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -5655,8 +6328,7 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00"
   },
   {
    "company": "Bosch",
@@ -5783,7 +6455,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1643413-2-S",
    "title": "Data Engineer:in",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "Erfurt, Thueringen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1643413-2-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -5871,7 +6543,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1652968-1-S",
    "title": "(Junior) Planungsingenieur:in Verkehrswegebau",
-   "location": "München, Bayern",
+   "location": "Nürnberg, Mittelfranken, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1652968-1-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -6383,7 +7055,8 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-11-11T06:34:55+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -7264,7 +7937,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-11-10T19:50:09+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -7319,7 +7993,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-11-10T19:50:09+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Ed. Züblin",
@@ -7352,7 +8027,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-11-10T19:50:09+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Siemens",
@@ -7540,7 +8216,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Exyte",
@@ -7573,7 +8250,8 @@
    "posted": "2026-11-10",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Impact",
@@ -7760,7 +8438,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -7771,7 +8450,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -7793,7 +8473,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -7804,8 +8485,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -7816,7 +8496,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T04:02:36+00:00"
+   "first_seen": "2026-11-10T04:02:36+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -7982,7 +8663,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -8169,7 +8851,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -8257,7 +8940,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -8268,7 +8952,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -8533,7 +9218,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -8544,7 +9230,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-11-09T22:29:04+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9528,7 +10215,8 @@
    "posted": "2026-11-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-09T06:45:01+00:00"
+   "first_seen": "2026-11-09T06:45:01+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bosch",
@@ -9705,7 +10393,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-07T06:06:59+00:00"
+   "first_seen": "2026-11-07T06:06:59+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9716,8 +10405,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-07T06:06:59+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-11-07T06:06:59+00:00"
   },
   {
    "company": "KNDS",
@@ -9739,7 +10427,8 @@
    "posted": "2026-11-07",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-07T03:07:00+00:00"
+   "first_seen": "2026-11-07T03:07:00+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Helsing",
@@ -9828,7 +10517,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Wabtec",
@@ -9898,7 +10588,8 @@
    "posted": "2026-11-06",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bosch",
@@ -9953,7 +10644,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -9986,7 +10678,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -10351,7 +11044,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -10362,7 +11056,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bosch",
@@ -10430,8 +11125,7 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00"
   },
   {
    "company": "Dekra",
@@ -10488,7 +11182,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "thyssenkrupp",
@@ -10980,7 +11675,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -11069,7 +11765,8 @@
    "posted": "2026-11-06",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -11116,7 +11813,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -11184,7 +11882,8 @@
    "posted": "2026-11-06",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -11230,7 +11929,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SH",
@@ -11310,7 +12010,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Schwäbisch Hall",
@@ -11321,7 +12022,8 @@
    "posted": "2026-11-06",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-06T19:30:20+00:00"
+   "first_seen": "2026-11-06T19:30:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "groninger & co",
@@ -12268,8 +12970,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T06:56:25+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-11-06T06:56:25+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -12665,7 +13366,8 @@
    "posted": "2026-11-05",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-05T20:03:28+00:00"
+   "first_seen": "2026-11-05T20:03:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -15609,7 +16311,8 @@
    "posted": "2026-11-04",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-04T19:52:59+00:00"
+   "first_seen": "2026-11-04T19:52:59+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Excelitas",
@@ -15620,7 +16323,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T19:52:59+00:00"
+   "first_seen": "2026-11-04T19:52:59+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Walter",
@@ -16355,7 +17059,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T23:29:19+00:00"
+   "first_seen": "2026-11-03T23:29:19+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Siemens",
@@ -17615,7 +18320,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T02:35:22+00:00"
+   "first_seen": "2026-11-03T02:35:22+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -17704,7 +18410,8 @@
    "posted": "2026-11-02",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T01:04:15+00:00"
+   "first_seen": "2026-11-03T01:04:15+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SWEG Südwestdeutsche Landesverkehrs",
@@ -17715,7 +18422,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T01:04:15+00:00"
+   "first_seen": "2026-11-03T01:04:15+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "AIXTRON",
@@ -17726,7 +18434,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T01:04:15+00:00"
+   "first_seen": "2026-11-03T01:04:15+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -18113,7 +18822,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Franz Binder",
@@ -18525,8 +19235,7 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00",
-   "closed_at": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00"
   },
   {
    "company": "Microchip",
@@ -18560,8 +19269,7 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00",
-   "closed_at": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00"
   },
   {
    "company": "Walter",
@@ -18644,8 +19352,7 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00",
-   "closed_at": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -18679,8 +19386,7 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00",
-   "closed_at": "2026-11-04T19:52:59+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00"
   },
   {
    "company": "Dekra",
@@ -18904,7 +19610,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -19089,7 +19796,8 @@
    "posted": "2026-11-02",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00"
+   "first_seen": "2026-11-02T16:13:27+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -20993,7 +21701,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-31T12:45:49+00:00"
+   "first_seen": "2026-10-31T12:45:49+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -21059,7 +21768,8 @@
    "posted": "2026-10-31",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-31T05:27:07+00:00"
+   "first_seen": "2026-10-31T05:27:07+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -21287,7 +21997,8 @@
    "posted": "2026-10-30",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-30T22:27:31+00:00"
+   "first_seen": "2026-10-30T22:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -21534,7 +22245,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T22:27:31+00:00"
+   "first_seen": "2026-10-30T22:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -21545,7 +22257,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T22:27:31+00:00"
+   "first_seen": "2026-10-30T22:27:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Max Planck",
@@ -23864,7 +24577,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T01:49:18+00:00"
+   "first_seen": "2026-10-30T01:49:18+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -23943,7 +24657,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Fuchs",
@@ -23954,7 +24669,8 @@
    "posted": "2026-10-29",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -24218,7 +24934,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -24229,7 +24946,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -25049,7 +25767,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-29T13:15:41+00:00"
+   "first_seen": "2026-10-29T13:15:41+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Akkodis",
@@ -25161,7 +25880,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T22:42:07+00:00"
+   "first_seen": "2026-10-28T22:42:07+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -25300,7 +26020,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T22:42:07+00:00"
+   "first_seen": "2026-10-28T22:42:07+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -25682,7 +26403,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-28T13:12:52+00:00"
+   "first_seen": "2026-10-28T13:12:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -25881,7 +26603,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T13:12:52+00:00"
+   "first_seen": "2026-10-28T13:12:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bosch",
@@ -25987,18 +26710,6 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-10-28T13:12:52+00:00"
-  },
-  {
-   "company": "Walter",
-   "id": "10001-1003924962-S",
-   "title": "Konstruktionsmechaniker (m/w/d) / Schweißer  (m/w/d) MAG/WIG",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003924962-S",
-   "posted": "2026-10-28",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-28T13:12:52+00:00",
-   "closed_at": "2026-10-29T05:56:26+00:00"
   },
   {
    "company": "Dekra",
@@ -26149,7 +26860,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-28T13:12:52+00:00"
+   "first_seen": "2026-10-28T13:12:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bosch (Stuttgart region)",
@@ -26366,7 +27078,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T00:24:31+00:00"
+   "first_seen": "2026-10-28T00:24:31+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Tenstorrent",
@@ -26525,7 +27238,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00"
+   "first_seen": "2026-10-27T22:22:32+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Wabtec",
@@ -26629,7 +27343,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00"
+   "first_seen": "2026-10-27T22:22:32+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Stadler",
@@ -26686,7 +27401,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00"
+   "first_seen": "2026-10-27T22:22:32+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -27288,7 +28004,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-27T22:22:32+00:00"
+   "first_seen": "2026-10-27T22:22:32+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bertrandt",
@@ -27857,7 +28574,8 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T05:14:15+00:00"
+   "first_seen": "2026-10-27T05:14:15+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bizerba",
@@ -27934,7 +28652,8 @@
    "posted": "2026-10-27",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T00:20:39+00:00"
+   "first_seen": "2026-10-27T00:20:39+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -27990,7 +28709,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
+   "first_seen": "2026-10-26T22:46:07+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "dm-drogerie markt",
@@ -28173,85 +28893,74 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes",
-   "id": "13151-1647395-1-S",
-   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647395-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes",
-   "id": "13151-1647406-1-S",
-   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647406-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes-Benz",
-   "id": "13151-1647395-1-S",
-   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647395-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes-Benz",
-   "id": "13151-1647406-1-S",
-   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647406-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes",
-   "id": "13151-1647399-1-S",
-   "title": "Kfz-Mechatroniker LKW (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647399-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Mercedes-Benz",
-   "id": "13151-1647399-1-S",
-   "title": "Kfz-Mechatroniker LKW (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647399-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00"
-  },
-  {
-   "company": "Drees & Sommer",
-   "id": "20600-979293759-S",
-   "title": "Junior Ingenieur / Techniker (w/m/d) Objektüberwachung HLSK",
-   "location": "",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20600-979293759-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
    "first_seen": "2026-10-26T22:46:07+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
+   "closed_at": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Mercedes",
+   "id": "13151-1647395-1-S",
+   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647395-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
+  },
+  {
+   "company": "Mercedes",
+   "id": "13151-1647406-1-S",
+   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647406-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
+  },
+  {
+   "company": "Mercedes-Benz",
+   "id": "13151-1647395-1-S",
+   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647395-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
+  },
+  {
+   "company": "Mercedes-Benz",
+   "id": "13151-1647406-1-S",
+   "title": "Kfz-Mechatroniker Transporter (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647406-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
+  },
+  {
+   "company": "Mercedes",
+   "id": "13151-1647399-1-S",
+   "title": "Kfz-Mechatroniker LKW (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647399-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
+  },
+  {
+   "company": "Mercedes-Benz",
+   "id": "13151-1647399-1-S",
+   "title": "Kfz-Mechatroniker LKW (d/m/w/x), Mercedes-Benz AG, Niederlassung Hamburg, Standort...",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647399-1-S",
+   "posted": "2026-10-26",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-10-26T22:46:07+00:00"
   },
   {
    "company": "Dekra",
@@ -28355,8 +29064,7 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "first_seen": "2026-10-26T22:46:07+00:00"
   },
   {
    "company": "Impact",
@@ -28571,7 +29279,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-26T22:46:07+00:00"
+   "first_seen": "2026-10-26T22:46:07+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -29114,7 +29823,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -29125,19 +29835,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977922609-S",
-   "title": "Technischer Produktdesigner (m/w/d) - Maschinen- und Anlagenbau",
-   "location": "Uelzen, Lüneburger Heide, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977922609-S",
-   "posted": "2026-10-26",
-   "match": 2,
-   "src": "agency",
    "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Aptar Radolfzell",
@@ -29159,7 +29858,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Salzgitter",
@@ -29171,30 +29871,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-26T13:15:21+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977922912-S",
-   "title": "Sachbearbeiter (m/w/d) Wechselprozesse im Messwesen",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977922912-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977922305-S",
-   "title": "Qualitätsprüfer (m/w/d) Wareneingang",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977922305-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Dekra",
@@ -29240,7 +29916,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rhein-Neckar-Verkehr",
@@ -29262,31 +29939,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977922298-S",
-   "title": "Projektingenieur (m/w/d)",
-   "location": "Uelzen, Lüneburger Heide, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977922298-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
    "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977921995-S",
-   "title": "Produktionsmitarbeiter (m/w/d) Polierung Kunststoffteile – Automotive",
-   "location": "Wolfenbüttel, Niedersachsen, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977921995-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -29299,18 +29953,6 @@
    "src": "agency",
    "first_seen": "2026-10-26T13:15:21+00:00",
    "closed_at": "2026-10-29T13:15:41+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "11119-4977921996-S",
-   "title": "Produktionsmitarbeiter (m/w/d) - Montage von Komponenten",
-   "location": "Helmstedt, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4977921996-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Dekra",
@@ -29395,18 +30037,6 @@
    "src": "agency",
    "first_seen": "2026-10-26T13:15:21+00:00",
    "closed_at": "2026-10-29T13:15:41+00:00"
-  },
-  {
-   "company": "Stadtwerke Karlsruhe",
-   "id": "14225-c380490d8775710c-S",
-   "title": "Planungsingenieur - Netzplanung (m/w/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-c380490d8775710c-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Siemens Energy",
@@ -29509,7 +30139,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -29556,7 +30187,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -29601,7 +30233,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -29660,7 +30293,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -29683,7 +30317,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Siemens",
@@ -30052,7 +30687,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-24T11:10:28+00:00"
+   "first_seen": "2026-10-24T11:10:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -30063,7 +30699,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-24T11:10:28+00:00"
+   "first_seen": "2026-10-24T11:10:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Würth",
@@ -30098,18 +30735,6 @@
    "src": "site",
    "first_seen": "2026-10-24T04:45:09+00:00",
    "closed_at": "2026-11-11T06:34:55+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/chemieingenieur__m_w_d_/1201382",
-   "title": "Chemieingenieur (m/w/d)",
-   "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
-   "url": "https://www.rheinmetall.com/de/job/chemieingenieur__m_w_d_/1201382",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-24T04:45:09+00:00",
-   "closed_at": "2026-10-28T13:12:52+00:00"
   },
   {
    "company": "Helsing",
@@ -30380,7 +31005,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T17:15:51+00:00"
+   "first_seen": "2026-10-23T17:15:51+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -30440,18 +31066,6 @@
    "first_seen": "2026-10-23T17:15:51+00:00"
   },
   {
-   "company": "SV SparkassenVersicherung",
-   "id": "12288-4976664914-S",
-   "title": "Gruppenleiter:in Workforce Management und Prozessautomatisierung Komposit (m/w/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4976664914-S",
-   "posted": "2026-10-23",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-23T17:15:51+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
    "company": "Manz",
    "id": "10001-1003907345-S",
    "title": "Elektriker / Mechatroniker",
@@ -30482,7 +31096,8 @@
    "posted": "2026-10-23",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-23T17:15:51+00:00"
+   "first_seen": "2026-10-23T17:15:51+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -31175,7 +31790,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-23T04:59:58+00:00"
+   "first_seen": "2026-10-23T04:59:58+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -31388,7 +32004,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T17:56:22+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "d&b audiotechnik",
@@ -31472,7 +32089,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00"
+   "first_seen": "2026-10-22T17:18:49+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Franz & Wach Personalservice",
@@ -31498,18 +32116,6 @@
    "first_seen": "2026-10-22T17:18:49+00:00"
   },
   {
-   "company": "Deutsche Bahn",
-   "id": "12456-1625162-2-S",
-   "title": "Sachbearbeiter:in Arbeitsvorbereitung",
-   "location": "Magdeburg, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1625162-2-S",
-   "posted": "2026-10-22",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
    "company": "Stadtwerke Karlsruhe",
    "id": "12288-4975162607-S",
    "title": "Prozessmanager Energiewirtschaft - SAP IS-U / Marktkommunikation (m/w/d)",
@@ -31522,18 +32128,6 @@
    "closed_at": "2026-11-02T16:13:27+00:00"
   },
   {
-   "company": "Deutsche Bahn",
-   "id": "12456-1646449-1-S",
-   "title": "Projektingenieur:in für Ausrüstungstechnik",
-   "location": "Hannover, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1646449-1-S",
-   "posted": "2026-10-22",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
    "company": "DSV",
    "id": "12288-4975123633-S",
    "title": "Logistikmitarbeiter Datenpflege &amp; Prozesscontrolling (m/w/d)",
@@ -31542,7 +32136,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00"
+   "first_seen": "2026-10-22T17:18:49+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "GEMÜ Gebr. Müller Apparatebau",
@@ -31564,7 +32159,8 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00"
+   "first_seen": "2026-10-22T17:18:49+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Daimler Truck",
@@ -31644,18 +32240,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T17:18:49+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1646228-1-S",
-   "title": "Elektroniker:in / Elektriker:in / Mechatroniker:in für eine Qualifizierung als Signalmechaniker:in",
-   "location": "Diepholz, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1646228-1-S",
-   "posted": "2026-10-22",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -32560,7 +33144,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -32571,8 +33156,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00",
-   "closed_at": "2026-11-09T22:29:04+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -32595,7 +33179,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Siemens",
@@ -32610,18 +33195,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/facharbeiter_mechatronik__m_w_d_/1198352",
-   "title": "Facharbeiter Mechatronik (m/w/d)",
-   "location": "Rheinmetall Landsysteme GmbH | Unterlüß",
-   "url": "https://www.rheinmetall.com/de/job/facharbeiter_mechatronik__m_w_d_/1198352",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/berechnungsingenieur_stroemungsmechanik__m_w_d_/1198361",
    "title": "Berechnungsingenieur - Strömungsmechanik (m/w/d)",
    "location": "Rheinmetall Waffe Munition GmbH | Unterlüß",
@@ -32629,7 +33202,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bertrandt",
@@ -32731,7 +33305,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -32742,7 +33317,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -33324,7 +33900,8 @@
    "posted": "2026-10-21",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-21T11:59:36+00:00"
+   "first_seen": "2026-10-21T11:59:36+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -33447,7 +34024,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T11:59:36+00:00"
+   "first_seen": "2026-10-21T11:59:36+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -33631,8 +34209,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T04:58:06+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-21T04:58:06+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -33969,7 +34546,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T17:16:38+00:00"
+   "first_seen": "2026-10-20T17:16:38+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -34095,7 +34673,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T17:16:38+00:00"
+   "first_seen": "2026-10-20T17:16:38+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "EY",
@@ -34362,7 +34941,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -34373,7 +34953,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -34384,7 +34965,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -34395,7 +34977,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Voith",
@@ -34474,7 +35057,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Ed. Züblin",
@@ -34552,7 +35136,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -34563,7 +35148,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Dekra",
@@ -34597,7 +35183,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Diehl",
@@ -34619,7 +35206,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T11:47:54+00:00"
+   "first_seen": "2026-10-20T11:47:54+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Diehl",
@@ -34758,18 +35346,6 @@
   },
   {
    "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/526090",
-   "title": "Entwicklungsingenieur (w/m/d) Mechanik und Konstruktion für Elektromotoren",
-   "location": "Bad Neustadt a.d.Saale , Bayern , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/526090",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-20T11:47:54+00:00",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Siemens",
    "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/519821",
    "title": "Elektroniker / Mechatroniker (w/m/d) – elektromechanische Anlagen",
    "location": "Mehrere Standorte",
@@ -34803,18 +35379,6 @@
    "first_seen": "2026-10-20T11:47:54+00:00"
   },
   {
-   "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/526087",
-   "title": "Detailkonstrukteur (w/m/d) - Elektromotoren",
-   "location": "Bad Neustadt a.d.Saale , Bayern , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/526087",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-20T11:47:54+00:00",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "Bertrandt",
    "id": "12288-4971304217-S",
    "title": "Elektroingenieur (m/w/d) Sekundärtechnik",
@@ -34846,7 +35410,8 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-20T04:58:50+00:00"
+   "first_seen": "2026-10-20T04:58:50+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Alfred Kärcher",
@@ -34986,7 +35551,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -35009,7 +35575,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35020,7 +35587,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -35043,7 +35611,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Nexperia",
@@ -35089,7 +35658,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35100,7 +35670,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35122,7 +35693,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "CSG",
@@ -35368,7 +35940,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -35415,7 +35988,8 @@
    "posted": "2026-10-19",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35426,7 +36000,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -35461,7 +36036,8 @@
    "posted": "2026-10-19",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35472,7 +36048,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00"
+   "first_seen": "2026-10-19T22:27:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Mercedes",
@@ -35855,7 +36432,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T13:28:28+00:00"
+   "first_seen": "2026-10-19T13:28:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -35948,7 +36526,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T13:28:28+00:00"
+   "first_seen": "2026-10-19T13:28:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Diehl",
@@ -36040,7 +36619,8 @@
    "posted": "2026-10-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-19T13:28:28+00:00"
+   "first_seen": "2026-10-19T13:28:28+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Magirus",
@@ -36481,7 +37061,8 @@
    "posted": "2026-10-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-17T01:14:16+00:00"
+   "first_seen": "2026-10-17T01:14:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Hensoldt",
@@ -36548,7 +37129,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T16:45:47+00:00"
+   "first_seen": "2026-10-16T16:45:47+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Flex",
@@ -36778,18 +37360,6 @@
    "first_seen": "2026-10-16T16:45:47+00:00"
   },
   {
-   "company": "Deutsche Bahn",
-   "id": "12456-1644260-1-S",
-   "title": "Elektroniker:in / Mechatroniker:in für Instandhaltung Schienenfahrzeuge",
-   "location": "Pforzheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644260-1-S",
-   "posted": "2026-10-16",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-16T16:45:47+00:00",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/strategischer_einkaeufer_produktionsmaterialien__m_w_d/1192604",
    "title": "Strategischer Einkäufer Produktionsmaterialien (m/w/d",
@@ -36798,8 +37368,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-16T16:45:47+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-16T16:45:47+00:00"
   },
   {
    "company": "Siemens",
@@ -37526,7 +38095,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T11:33:16+00:00"
+   "first_seen": "2026-10-16T11:33:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -37630,7 +38200,8 @@
    "posted": "2026-10-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-16T11:33:16+00:00"
+   "first_seen": "2026-10-16T11:33:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -37863,7 +38434,8 @@
    "posted": "2026-10-16",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-16T01:10:20+00:00"
+   "first_seen": "2026-10-16T01:10:20+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "ESA",
@@ -38046,8 +38618,7 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -38347,8 +38918,7 @@
    "posted": "2026-10-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00"
   },
   {
    "company": "Aumovio",
@@ -38494,7 +39064,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T11:38:46+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -38505,7 +39076,8 @@
    "posted": "2026-09-14",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-15T11:38:46+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Walter",
@@ -38528,8 +39100,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -39549,7 +40120,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-14T12:02:47+00:00"
+   "first_seen": "2026-10-14T12:02:47+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Müller",
@@ -39789,18 +40361,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-13T22:52:52+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1642696-1-S",
-   "title": "(Junior) Projektingenieur:in Umweltschutz",
-   "location": "Nürnberg, Mittelfranken, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1642696-1-S",
-   "posted": "2026-10-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T22:52:52+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Kreiskliniken Reutlingen gGmbH",
@@ -40073,7 +40633,8 @@
    "posted": "2026-10-13",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T14:20:49+00:00"
+   "first_seen": "2026-10-13T14:20:49+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "MT Aerospace",
@@ -40639,7 +41200,8 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T00:48:14+00:00"
+   "first_seen": "2026-10-13T00:48:14+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -41350,8 +41912,7 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -41362,8 +41923,7 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Agile Robots",
@@ -41386,8 +41946,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -41398,8 +41957,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -41410,8 +41968,7 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -41422,8 +41979,7 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-11T22:57:33+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -41583,7 +42139,8 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Q.ANT",
@@ -41594,7 +42151,8 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Q.ANT",
@@ -41605,7 +42163,8 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -41845,7 +42404,8 @@
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-12T15:36:16+00:00"
+   "first_seen": "2026-10-12T15:36:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Walter",
@@ -43217,7 +43777,8 @@
    "posted": "2026-07-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-10T06:00:48+00:00"
+   "first_seen": "2026-10-10T06:00:48+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -43228,7 +43789,8 @@
    "posted": "2026-05-21",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-10T06:00:48+00:00"
+   "first_seen": "2026-10-10T06:00:48+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -43969,18 +44531,6 @@
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T17:10:08+00:00"
-  },
-  {
-   "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/524549",
-   "title": "Commercial Project Manager (w/m/d) Manufacturing",
-   "location": "Krefeld , Nordrhein-Westfalen , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/524549",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Siemens",
@@ -44992,19 +45542,6 @@
    "src": "agency",
    "first_seen": "2026-10-09T16:50:46+00:00",
    "seed": true
-  },
-  {
-   "company": "Bosch",
-   "id": "744000151774684",
-   "title": "PreMaster Programm – Technologie- und Innovationsmanagement",
-   "location": "Stuttgart, DE",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151774684",
-   "posted": "2026-09-25",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true,
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Tenstorrent",
@@ -46933,19 +47470,6 @@
   },
   {
    "company": "Stadler",
-   "id": "10001-1002342336-S",
-   "title": "Ingenieur / Techniker (m/w/d) Automatisierungstechnik für Hardwareplanung",
-   "location": "Offenbach an der Queich, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002342336-S",
-   "posted": "2025-12-23",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true,
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
-   "company": "Stadler",
    "id": "10000-1204921811-S",
    "title": "Cyber Security Engineer (m/w/d)",
    "location": "Braunschweig, Niedersachsen",
@@ -48843,8 +49367,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -48855,8 +49378,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -49052,7 +49574,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true
+   "seed": true,
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Texas Instruments",
@@ -49852,19 +50375,6 @@
    "src": "agency",
    "first_seen": "2026-10-09T12:10:16+00:00",
    "seed": true
-  },
-  {
-   "company": "IONOS",
-   "id": "10001-1003771814-S",
-   "title": "Staff Site Reliability Engineer (f/m/d)",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003771814-S",
-   "posted": "2026-09-28",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true,
-   "closed_at": "2026-10-29T05:56:26+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -51425,8 +51935,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51437,7 +51946,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51460,7 +51970,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51878,17 +52389,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
-   "title": "Systemingenieur IT Solutions (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
    "title": "Systemingenieur IT Solutions (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -51900,6 +52400,18 @@
   },
   {
    "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "title": "Systemingenieur IT Solutions (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
+  },
+  {
+   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/systemingenieur_e_e_architektur_digitale_systeme_m_w_d_/1050989",
    "title": "Systemingenieur E/E Architektur Digitale Systeme(m/w/d)",
    "location": "Rheinmetall Landsysteme GmbH | Kassel",
@@ -51907,8 +52419,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51941,7 +52452,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51952,8 +52464,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51975,8 +52486,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -51987,7 +52497,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52054,8 +52565,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52066,7 +52576,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52200,8 +52711,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52234,8 +52744,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52279,7 +52788,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52335,8 +52845,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52358,8 +52867,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52370,8 +52878,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52438,8 +52945,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52495,8 +53001,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52622,7 +53127,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52633,7 +53139,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52656,8 +53163,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52702,7 +53208,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52713,8 +53220,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52725,8 +53231,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52782,8 +53287,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52817,8 +53321,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52829,8 +53332,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52875,8 +53377,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52909,8 +53410,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52921,7 +53421,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52932,8 +53433,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52968,7 +53468,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -52979,8 +53480,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53061,8 +53561,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53073,7 +53572,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53095,7 +53595,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53106,8 +53607,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -54924,7 +55424,8 @@
    "posted": "2026-10-09",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Diehl",
@@ -57307,7 +57808,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57318,7 +57820,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57351,7 +57854,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57362,8 +57866,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57431,8 +57934,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57443,8 +57945,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57455,7 +57956,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57545,7 +58047,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Astos Solutions",
@@ -57623,7 +58126,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57634,8 +58138,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57657,8 +58160,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57669,7 +58171,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "ESA",
@@ -57692,8 +58195,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-10T19:50:09+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57715,8 +58217,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-11T06:34:55+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57784,7 +58285,8 @@
    "posted": "2026-10-08",
    "match": 1,
    "first_seen": "2026-10-08T19:08:53+00:00",
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Röchling",
@@ -58108,7 +58610,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Atlas Elektronik",
@@ -58170,7 +58673,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -58182,7 +58686,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -58206,7 +58711,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -58282,7 +58788,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -58345,7 +58852,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Vincorion",
@@ -58518,7 +59026,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Lürssen",
@@ -58663,7 +59172,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -58675,7 +59185,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Lürssen",
@@ -58964,7 +59475,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -58976,7 +59488,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -59000,7 +59513,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Moog",
@@ -59110,7 +59624,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -59183,7 +59698,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -59424,7 +59940,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -59631,7 +60148,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Jenoptik",
@@ -59643,7 +60161,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Lürssen",
@@ -60568,7 +61087,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Fuchs",
@@ -62540,19 +63060,6 @@
   },
   {
    "company": "Impact",
-   "id": "17510-I7T8NWHPAYMDJVSF-S",
-   "title": "PTA (m/w/d) Pharma Produktion I bis zu 22€ pro Stunde I 2-Schicht",
-   "location": "Reinbek, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17510-I7T8NWHPAYMDJVSF-S",
-   "posted": "2026-09-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
-   "company": "Impact",
    "id": "17510-7OTN293OIYGNAFGQ-S",
    "title": "Mechatroniker (m/w/d) Lufthansa Technik I bis zu 22,50€ pro Stunde",
    "location": "Hamburg, Hamburg",
@@ -62575,19 +63082,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Impact",
-   "id": "17510-W7QKI4WWU166F52H-S",
-   "title": "Mechaniker (m/w/d) Luftfahrttechnik I bis ca. 22,84€ pro Stunde I 2-Schicht",
-   "location": "Wedel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17510-W7QKI4WWU166F52H-S",
-   "posted": "2026-09-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "Exyte",
@@ -62922,19 +63416,6 @@
    "src": "agency"
   },
   {
-   "company": "Schuler",
-   "id": "13635-01f24b9d_JB5259057-S",
-   "title": "Land- und Baumaschinenmechatroniker (m/w/d) Langenfeld",
-   "location": "Langenfeld (Rheinland), Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01f24b9d_JB5259057-S",
-   "posted": "2026-09-29",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "Franz & Wach Personalservice",
    "id": "11864-YIYIJ08YYP8IYRT8-S",
    "title": "Laborant m/w/d GMP Produktion - Roche Penzberg",
@@ -63128,7 +63609,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Walter",
@@ -63152,7 +63634,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -63164,7 +63647,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -63188,7 +63672,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "DSV",
@@ -63419,7 +63904,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Würth",
@@ -63479,7 +63965,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "MEIKO Maschinenbau",
@@ -64374,8 +64861,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "src": "agency"
   },
   {
    "company": "MEIKO Maschinenbau",
@@ -64429,7 +64915,7 @@
   {
    "company": "DSV",
    "id": "17657-36878_125378-1-S",
-   "title": "Logistikmitarbeiter Datenpflege & Prozesscontrolling (m/w/d)",
+   "title": "Logistikmitarbeiter Datenpflege &amp; Prozesscontrolling (m/w/d)",
    "location": "Grimma, Sachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17657-36878_125378-1-S",
    "posted": "2026-09-13",
@@ -65219,7 +65705,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65231,7 +65718,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65243,7 +65731,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Endress + Hauser",
@@ -65268,7 +65757,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65280,7 +65770,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65292,7 +65783,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Prettl",
@@ -65402,7 +65894,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65414,7 +65907,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65426,7 +65920,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65438,7 +65933,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65450,7 +65946,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65462,7 +65959,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65474,7 +65972,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Waldner",
@@ -65535,7 +66034,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65547,7 +66047,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65559,7 +66060,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65571,7 +66073,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65583,7 +66086,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65595,7 +66099,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65607,7 +66112,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Stadtwerke Karlsruhe",
@@ -65643,7 +66149,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Diehl",
@@ -65682,19 +66189,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Walter",
-   "id": "12811-2327751-S",
-   "title": "Mitarbeiter Arbeitsvorbereitung & Baustellenkoordination (m/w/d) – Malerhandwe..., Uwe Walter Gruppe",
-   "location": "Dortmund, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2327751-S",
-   "posted": "2026-09-02",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "pfenning logistics",
@@ -65744,7 +66238,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Impact",
@@ -65769,7 +66264,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65781,7 +66277,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65793,7 +66290,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65805,7 +66303,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -65817,7 +66316,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -65891,7 +66391,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "ZwickRoell",
@@ -66558,19 +67059,6 @@
    "src": "agency"
   },
   {
-   "company": "Wirthwein",
-   "id": "10000-1207600393-S",
-   "title": "Qualitätsprüfer (m/w/d)",
-   "location": "Mühltal, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207600393-S",
-   "posted": "2026-08-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
    "company": "Schuler",
    "id": "11959-107695-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -66885,19 +67373,6 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce Power Systems",
-   "id": "19146-100014265714-S",
-   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
-   "location": "Magdeburg, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
-   "posted": "2026-08-15",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T06:06:59+00:00"
-  },
-  {
    "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
@@ -66909,6 +67384,19 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-07T10:38:05+00:00"
+  },
+  {
+   "company": "Rolls-Royce Power Systems",
+   "id": "19146-100014265714-S",
+   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
+   "location": "Magdeburg, Sachsen Anhalt",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
+   "posted": "2026-08-15",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "closed_at": "2026-11-07T06:06:59+00:00"
   },
   {
    "company": "Bilfinger",
@@ -67053,7 +67541,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Rohde & Schwarz",
@@ -67700,71 +68189,6 @@
    "closed_at": "2026-11-11T19:42:05+00:00"
   },
   {
-   "company": "SLK-Kliniken Heilbronn",
-   "id": "10001-1003466971-S",
-   "title": "Medizinischer Technologe für Radiologie MTR (m/w/d) mit Zusatzqualifikation Praxisanleiter (m/w/d)",
-   "location": "Heilbronn, Neckar, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003466971-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "SLK-Kliniken Heilbronn",
-   "id": "10001-1003466927-S",
-   "title": "Medizinischer Technologe für Radiologie (m/w/d) für das Zentrum für Radiologie - Löwenstein",
-   "location": "Heilbronn, Neckar, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003466927-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "SLK-Kliniken Heilbronn",
-   "id": "10001-1003466857-S",
-   "title": "Medizinischer Technologe für Radiologie (MTR) (m/w/d) für das Zentrum für Radiologie - Plattenwald",
-   "location": "Heilbronn, Neckar, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003466857-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "SLK-Kliniken Heilbronn",
-   "id": "10001-1003466762-S",
-   "title": "Medizinischer Technologe für Radiologie (MTR) (m/w/d) für das Zentrum für Radiologie",
-   "location": "Heilbronn, Neckar, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003466762-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "SLK-Kliniken Heilbronn",
-   "id": "10001-1003467054-S",
-   "title": "Medizinischer Technologe für Radiologie (MTR) (m/w/d) Strahlentherapie",
-   "location": "Heilbronn, Neckar, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003467054-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "GKN",
    "id": "10001-1003467278-S",
    "title": "Industriemechaniker (m/w/d) für die Produktion",
@@ -67799,19 +68223,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Voith",
-   "id": "18681-44344018-729-S",
-   "title": "Elektroingenieur (m|w|d) Inbetriebnahme digitaler Antriebssysteme",
-   "location": "Crailsheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18681-44344018-729-S",
-   "posted": "2026-07-30",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
   },
   {
    "company": "ABB",
@@ -68027,7 +68438,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Heckler & Koch",
@@ -68449,7 +68861,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -68461,7 +68874,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -68473,7 +68887,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Robert Bosch",
@@ -68701,7 +69116,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "TKMS",
@@ -69028,7 +69444,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Schuler",
@@ -69401,8 +69818,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "src": "agency"
   },
   {
    "company": "Mercedes",
@@ -69426,8 +69842,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "src": "agency"
   },
   {
    "company": "Daimler Truck",
@@ -69572,7 +69987,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Telegärtner Karl Gärtner",
@@ -69681,19 +70097,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1584631-1-S",
-   "title": "Bauüberwacher:in Bahn Oberbau / Konstruktiver Ingenieurbau",
-   "location": "Leipzig, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1584631-1-S",
-   "posted": "2026-06-09",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
   },
   {
    "company": "BW Papersystems Stuttgart",
@@ -70493,7 +70896,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Müller",
@@ -70847,19 +71251,6 @@
    "src": "agency"
   },
   {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943153-S",
-   "title": "TGA-Ingenieur:in, -Techniker:in, -Meister:in (m/w/d) Gewährleistung",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943153-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "Leonardo",
    "id": "10000-1206235528-S",
    "title": "Produktionsmitarbeiter (m/w/d) für SCHOTT",
@@ -70872,45 +71263,6 @@
    "src": "agency"
   },
   {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943674-S",
-   "title": "Polier:in (m/w/d) im Ingenieurhochbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943674-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943189-S",
-   "title": "Polier:in (m/w/d) im Ingenieurhochbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943189-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943107-S",
-   "title": "Kalkulator:in (m/w/d) Ingenieurhochbau / Rohbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943107-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
    "company": "Marquardt",
    "id": "10000-1206229217-S",
    "title": "Einrichter Kunststoff-Fertigung (m/w/d)",
@@ -70921,71 +71273,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943640-S",
-   "title": "Bauleiter:in (m/w/d) im Ingenieurhochbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943640-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943536-S",
-   "title": "Bauingenieur:in (m/w/d) Claim Management",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943536-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943563-S",
-   "title": "Architekt:in bzw. Bauingenieur:in (m/w/d) Gewährleistung",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943563-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002942865-S",
-   "title": "Abrechner:in (m/w/d) im Ingenieurhochbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002942865-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
-  },
-  {
-   "company": "Ed. Züblin",
-   "id": "10001-1002943049-S",
-   "title": "(Junior-) Kalkulator:in (m/w/d) Ingenieurhochbau / Rohbau",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002943049-S",
-   "posted": "2026-04-20",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-29T05:56:26+00:00"
   },
   {
    "company": "Exyte",
@@ -71045,7 +71332,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Bechtle",
@@ -71130,7 +71418,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Simon Hegele Gesellschaft für Logistik und Service",
@@ -71605,18 +71894,6 @@
    "src": "agency"
   },
   {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -71634,6 +71911,18 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -72533,19 +72822,6 @@
    "closed_at": "2026-10-30T05:59:20+00:00"
   },
   {
-   "company": "Deutsche Bahn",
-   "id": "12456-1505070-1-S",
-   "title": "Leitende:r Bauüberwacher:in Bahn Oberbau / Konstruktiver Ingenieurbau",
-   "location": "Leipzig, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1505070-1-S",
-   "posted": "2025-11-19",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-28T22:42:07+00:00"
-  },
-  {
    "company": "Harro Höfliger Verpackungsmaschinen",
    "id": "10000-1204545601-S",
    "title": "APPLIKATIONSINGENIEUR HMI (M/W/D)",
@@ -72738,7 +73014,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
    "company": "Wirthwein",
@@ -74171,8 +74448,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-11T19:42:05+00:00"
+   "src": "agency"
   },
   {
    "company": "Diehl",
@@ -74338,5 +74614,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-12T03:45:18+00:00"
+ "updated": "2026-11-12T07:19:48+00:00"
 }
