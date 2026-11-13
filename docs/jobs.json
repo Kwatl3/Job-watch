@@ -837,7 +837,7 @@
   "ESA": {
    "ok": true,
    "count": 62,
-   "raw": 204
+   "raw": 201
   },
   "EUMETSAT": {
    "ok": true,
@@ -856,8 +856,8 @@
   },
   "KNDS": {
    "ok": true,
-   "count": 40,
-   "raw": 157
+   "count": 38,
+   "raw": 151
   },
   "John Cockerill": {
    "ok": true,
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 127,
-   "raw": 486
+   "count": 128,
+   "raw": 489
   },
   "TKMS": {
    "ok": true,
@@ -961,13 +961,13 @@
   },
   "RENK": {
    "ok": true,
-   "count": 17,
-   "raw": 50
+   "count": 16,
+   "raw": 49
   },
   "OHB": {
    "ok": true,
    "count": 100,
-   "raw": 260
+   "raw": 258
   },
   "Heckler & Koch": {
    "ok": true,
@@ -3456,8 +3456,8 @@
   },
   "Lufthansa Technik": {
    "ok": true,
-   "count": 5,
-   "raw": 18
+   "count": 4,
+   "raw": 17
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3472,7 +3472,7 @@
   "Liebherr-Aerospace": {
    "ok": true,
    "count": 29,
-   "raw": 56
+   "raw": 55
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3577,7 +3577,7 @@
   "Jenoptik": {
    "ok": true,
    "count": 29,
-   "raw": 55
+   "raw": 57
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 99,
-   "raw": 540
+   "raw": 539
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -3787,12 +3787,12 @@
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 92
+   "raw": 91
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 303
+   "raw": 304
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4007,7 +4007,7 @@
   "Formlabs": {
    "ok": true,
    "count": 0,
-   "raw": 256
+   "raw": 257
   },
   "Carbon": {
    "ok": false,
@@ -4132,12 +4132,12 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 128
+   "raw": 129
   },
   "Nebius": {
    "ok": true,
    "count": 10,
-   "raw": 374
+   "raw": 375
   },
   "Together AI": {
    "ok": true,
@@ -4147,22 +4147,22 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 539
+   "raw": 545
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 65
+   "raw": 70
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 325
+   "raw": 322
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 114
+   "raw": 116
   },
   "Fluidstack": {
    "ok": true,
@@ -4442,7 +4442,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 202
+   "raw": 200
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4457,12 +4457,12 @@
   "Runpod": {
    "ok": true,
    "count": 1,
-   "raw": 21
+   "raw": 22
   },
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 376
+   "raw": 378
   },
   "EdgeConnex": {
    "ok": true,
@@ -4667,12 +4667,12 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 131
+   "raw": 130
   },
   "Krea": {
    "ok": true,
    "count": 0,
-   "raw": 14
+   "raw": 13
   },
   "Tractable": {
    "ok": true,
@@ -4692,12 +4692,12 @@
   "Wayve": {
    "ok": true,
    "count": 0,
-   "raw": 165
+   "raw": 166
   },
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 828
+   "raw": 826
   },
   "ClickHouse": {
    "ok": true,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 904
+   "raw": 906
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 670
+   "raw": 672
   },
   "Vectara": {
    "ok": true,
@@ -4777,7 +4777,7 @@
   "Neura Robotics": {
    "ok": true,
    "count": 5,
-   "raw": 225
+   "raw": 226
   },
   "Agile Robots": {
    "ok": true,
@@ -4931,6 +4931,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Head-of-Airborne-Reconnaissance-Engineering-%28wmd%29-82024/1375855555/",
+   "title": "Head of Airborne Reconnaissance Engineering (w/m/d)",
+   "location": "Oberkochen, DE, 73447 • Taufkirchen, DE, 82024",
+   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Head-of-Airborne-Reconnaissance-Engineering-%28wmd%29-82024/1375855555/",
+   "posted": "2026-11-05",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-13T01:25:56+00:00"
+  },
   {
    "company": "Airbus (Workday, Germany)",
    "id": "/job/Mnchen-Area/Navigation-Signal-Experimentation-Engineer--d-f-m-_JR10435450-1",
@@ -33725,19 +33736,8 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T15:06:17+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646486-7878-2792-S",
-   "title": "IT Support System Engineer",
-   "location": "Mülheim an der Ruhr, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646486-7878-2792-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
    "first_seen": "2026-10-26T15:06:17+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
+   "closed_at": "2026-11-13T01:25:56+00:00"
   },
   {
    "company": "TKMS",
@@ -44757,42 +44757,6 @@
   },
   {
    "company": "Bertrandt",
-   "id": "12288-4963185872-S",
-   "title": "Test & Product Lifecycle Engineer (m/w/d) Medizintechnik",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963185872-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4963185760-S",
-   "title": "Schichtleiter (m/w/d) Gerätefertigung",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963185760-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4963185697-S",
-   "title": "Elektroingenieur (m/w/d) Revit",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963185697-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-13T11:01:44+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
-   "company": "Bertrandt",
    "id": "12288-4961408261-S",
    "title": "Order Processing Manager (m/w/d)",
    "location": "Hamburg, Hamburg",
@@ -45612,18 +45576,6 @@
    "closed_at": "2026-11-06T19:30:20+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4963185913-S",
-   "title": "Leiter Entwicklung (m/w/d)",
-   "location": "Dresden, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963185913-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
    "company": "Jenoptik",
    "id": "https://careers.jenoptik.com/job/Jena-Konstrukteurin-Instandhaltung-%28wmd%29-Th%C3%BCr/1370595455/",
    "title": "Konstrukteur*in Instandhaltung (w/m/d)",
@@ -46205,18 +46157,6 @@
    "closed_at": "2026-10-30T20:04:19+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4962569397-S",
-   "title": "Teamleiter Produktion (m/w/d) - Defence",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4962569397-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
    "company": "OHB",
    "id": "8832",
    "title": "Systems Engineer (m/f/d)",
@@ -46273,18 +46213,6 @@
    "first_seen": "2026-10-12T15:08:30+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4962569396-S",
-   "title": "Qualitätsmanager (m/w/d) Produktqualität",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4962569396-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
    "company": "TKMS",
    "id": "16604-973450-008-S",
    "title": "Projekt-/ Produktionsmanager (m/w/d)",
@@ -46318,18 +46246,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-12T15:08:30+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4962564433-S",
-   "title": "Lead Systems Engineer Stowage & Vehicle Integration (m/w/d) - Defence",
-   "location": "Kassel, Hessen, Hessen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4962564433-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-12T15:08:30+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
   },
   {
    "company": "Lürssen",
@@ -60560,18 +60476,6 @@
   },
   {
    "company": "The Exploration Company",
-   "id": "6edd90c7-c060-4fd8-a125-09a03b97d25d",
-   "title": "System Functional Engineer",
-   "location": "Bordeaux, France",
-   "url": "https://jobs.ashbyhq.com/the-exploration-company/6edd90c7-c060-4fd8-a125-09a03b97d25d",
-   "posted": "2026-07-20",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-10-29T21:43:31+00:00"
-  },
-  {
-   "company": "The Exploration Company",
    "id": "2659e535-feb0-4771-9910-846dd49b5d6a",
    "title": "Propulsion CFD Engineer",
    "location": "Bordeaux, France",
@@ -70716,7 +70620,8 @@
    "match": 2,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-13T01:25:56+00:00"
   },
   {
    "company": "Verallia",
@@ -76046,7 +75951,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-13T01:25:56+00:00"
   },
   {
    "company": "KNDS",
@@ -76058,7 +75964,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-13T01:25:56+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -77865,5 +77772,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-12T20:23:46+00:00"
+ "updated": "2026-11-13T01:25:56+00:00"
 }
