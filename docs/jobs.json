@@ -836,7 +836,7 @@
   },
   "ESA": {
    "ok": false,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.esa.int/search/?q=&startrow=0&sortColumn=referencedate&sortDirection=desc",
+   "error": "RetryError: HTTPSConnectionPool(host='jobs.esa.int', port=443): Max retries exceeded with url: /search/?q=&startrow=25&sortColumn=referencedate&sortDirection=desc (Caused by ResponseError('too many 50",
    "count": 62
   },
   "EUMETSAT": {
@@ -951,8 +951,8 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 127,
-   "raw": 472
+   "count": 128,
+   "raw": 476
   },
   "TKMS": {
    "ok": true,
@@ -966,8 +966,8 @@
   },
   "OHB": {
    "ok": true,
-   "count": 100,
-   "raw": 258
+   "count": 99,
+   "raw": 257
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1281,7 +1281,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 140,
+   "count": 141,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -3732,7 +3732,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 72,
-   "raw": 177
+   "raw": 176
   },
   "Dornier": {
    "ok": true,
@@ -3782,17 +3782,17 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 124
+   "raw": 125
   },
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 91
+   "raw": 93
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 305
+   "raw": 307
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4137,17 +4137,17 @@
   "Nebius": {
    "ok": true,
    "count": 10,
-   "raw": 375
+   "raw": 374
   },
   "Together AI": {
    "ok": true,
    "count": 0,
-   "raw": 79
+   "raw": 80
   },
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 545
+   "raw": 544
   },
   "Lightmatter": {
    "ok": true,
@@ -4157,12 +4157,12 @@
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 317
+   "raw": 318
   },
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 116
+   "raw": 115
   },
   "Fluidstack": {
    "ok": true,
@@ -4417,7 +4417,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 3,
-   "raw": 174
+   "raw": 173
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4427,7 +4427,7 @@
   "d-Matrix": {
    "ok": true,
    "count": 0,
-   "raw": 38
+   "raw": 37
   },
   "Eliyan": {
    "ok": true,
@@ -4462,7 +4462,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 376
+   "raw": 375
   },
   "EdgeConnex": {
    "ok": true,
@@ -4612,7 +4612,7 @@
   "Black Forest Labs": {
    "ok": true,
    "count": 0,
-   "raw": 14
+   "raw": 13
   },
   "Knowunity": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 129
+   "raw": 128
   },
   "Krea": {
    "ok": true,
@@ -4697,12 +4697,12 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 837
+   "raw": 838
   },
   "ClickHouse": {
    "ok": true,
    "count": 3,
-   "raw": 204
+   "raw": 205
   },
   "Parloa": {
    "ok": false,
@@ -4732,12 +4732,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 893
+   "raw": 896
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 672
+   "raw": 668
   },
   "Vectara": {
    "ok": true,
@@ -4931,6 +4931,17 @@
   }
  },
  "jobs": [
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Produktentwicklung-%28wmd%29-89077/1375984255/",
+   "title": "Projektleiter Produktentwicklung (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Produktentwicklung-%28wmd%29-89077/1375984255/",
+   "posted": "2026-11-06",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-11-14T03:00:51+00:00"
+  },
   {
    "company": "SYNERGIE Personal",
    "id": "12704-I4O08E9PMPC1BEO2-S",
@@ -30861,8 +30872,7 @@
    "posted": "2026-10-30",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-30T08:28:09+00:00",
-   "closed_at": "2026-11-13T17:06:47+00:00"
+   "first_seen": "2026-10-30T08:28:09+00:00"
   },
   {
    "company": "Akkodis",
@@ -34266,6 +34276,17 @@
    "closed_at": "2026-11-13T19:49:47+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-IT-System-Engineer-Microsoft-Infrastructure-%28wmd%29-89077/1364992655/",
+   "title": "IT System Engineer Microsoft Infrastructure (w/m/d)",
+   "location": "Taufkirchen, DE, 82024 • Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-IT-System-Engineer-Microsoft-Infrastructure-%28wmd%29-89077/1364992655/",
+   "posted": "2026-11-14",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-27T20:54:18+00:00"
+  },
+  {
    "company": "Bertrandt",
    "id": "12288-4980554601-S",
    "title": "Supplier Development Engineer (m/w/d)",
@@ -34489,17 +34510,6 @@
    "src": "agency",
    "first_seen": "2026-10-27T20:54:18+00:00",
    "closed_at": "2026-11-12T03:45:18+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-IT-System-Engineer-Microsoft-Infrastructure-%28wmd%29-89077/1364992655/",
-   "title": "IT System Engineer Microsoft Infrastructure (w/m/d)",
-   "location": "Taufkirchen, DE, 82024 • Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-IT-System-Engineer-Microsoft-Infrastructure-%28wmd%29-89077/1364992655/",
-   "posted": "2026-10-16",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-27T20:54:18+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -36473,7 +36483,7 @@
    "title": "Prüfingenieur (w/m/d) Kalibrierlabor - Elektrotechnik & Messmittelmanagement",
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Pr%C3%BCfingenieur-%28wmd%29-Kalibrierlabor-Elektrotechnik-&-Messmittelmanagement-89077/1373139955/",
-   "posted": "2026-10-16",
+   "posted": "2026-11-14",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-26T01:34:14+00:00"
@@ -38925,7 +38935,7 @@
    "title": "Senior Systems Engineering - Taktische Wetterdatenerfassung (w/m/d)",
    "location": "Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineering-Taktische-Wetterdatenerfassung-%28wmd%29-82256/1356154455/",
-   "posted": "2026-10-16",
+   "posted": "2026-11-14",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T23:10:28+00:00"
@@ -38986,18 +38996,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T19:32:06+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646395-7878-8420-S",
-   "title": "Planungsingenieur (m/w/d) Elektrotechnik",
-   "location": "Augsburg, Bayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646395-7878-8420-S",
-   "posted": "2026-10-21",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-21T19:32:06+00:00",
-   "closed_at": "2026-10-31T00:00:38+00:00"
   },
   {
    "company": "Bertrandt",
@@ -40245,7 +40243,8 @@
    "posted": "2026-10-20",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-20T12:04:10+00:00"
+   "first_seen": "2026-10-20T12:04:10+00:00",
+   "closed_at": "2026-11-14T03:00:51+00:00"
   },
   {
    "company": "Akkodis",
@@ -57531,6 +57530,17 @@
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Testsysteme-%28wmd%29-89077/1361736655/",
+   "title": "Systemingenieur für Testsysteme (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Testsysteme-%28wmd%29-89077/1361736655/",
+   "posted": "2026-11-14",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Isar Aerospace",
    "id": "4989616101",
    "title": "Manager Supply Quality & Continuous Improvement (m/f/d)",
@@ -59229,17 +59239,6 @@
    "location": "Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Prototypen-externe-Fertigung-%28wmd%29-89077/1365093255/",
    "posted": "2026-10-17",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Testsysteme-%28wmd%29-89077/1361736655/",
-   "title": "Systemingenieur für Testsysteme (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-Testsysteme-%28wmd%29-89077/1361736655/",
-   "posted": "2026-10-16",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
@@ -62367,19 +62366,6 @@
    "closed_at": "2026-11-03T23:29:19+00:00"
   },
   {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208192133-S",
-   "title": "Organisationsentwickler für Prozessoptimierung und Qualität (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208192133-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T00:00:38+00:00"
-  },
-  {
    "company": "Dynamit Nobel Defence",
    "id": "12811-2352606-S",
    "title": "Fertigungsmitarbeiter (m/w/d) befristet, Burbach",
@@ -62500,19 +62486,6 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Liebherr-Aerospace",
-   "id": "10000-1208149943-S",
-   "title": "QW-Fachkraft im Bereich Qualitätssicherung Fertigung (m/w/d)",
-   "location": "Lindenberg im Allgäu, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208149943-S",
-   "posted": "2026-10-05",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T00:00:38+00:00"
   },
   {
    "company": "General Dynamics",
@@ -77779,5 +77752,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-13T22:49:35+00:00"
+ "updated": "2026-11-14T03:00:51+00:00"
 }
