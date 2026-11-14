@@ -3787,7 +3787,7 @@
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 93
+   "raw": 94
   },
   "CoreWeave": {
    "ok": true,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 670
+   "raw": 669
   },
   "Vectara": {
    "ok": true,
@@ -23186,7 +23186,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T14:16:49+00:00"
+   "first_seen": "2026-11-04T14:16:49+00:00",
+   "closed_at": "2026-11-14T16:42:25+00:00"
   },
   {
    "company": "TKMS",
@@ -24754,8 +24755,7 @@
    "posted": "2026-11-03",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-03T10:42:52+00:00",
-   "closed_at": "2026-11-13T17:06:47+00:00"
+   "first_seen": "2026-11-03T10:42:52+00:00"
   },
   {
    "company": "KNDS",
@@ -32524,18 +32524,6 @@
    "first_seen": "2026-10-28T13:27:56+00:00"
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-646598-7878-3566-S",
-   "title": "System Engineer Chargers & Drives (m/w/d)",
-   "location": "Norderstedt, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646598-7878-3566-S",
-   "posted": "2026-10-28",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-28T13:27:56+00:00",
-   "closed_at": "2026-10-31T16:17:26+00:00"
-  },
-  {
    "company": "Diehl Aviation Laupheim",
    "id": "10001-1003924245-S",
    "title": "Senior SAP Inhouse Consultant (m/w/d) PLM",
@@ -38317,18 +38305,6 @@
    "src": "agency",
    "first_seen": "2026-10-22T13:09:45+00:00",
    "closed_at": "2026-11-02T09:53:50+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-644578-7878-9512-S",
-   "title": "Change & Configuration Manager (m/w/d) - Luft- und Raumfahrt",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-644578-7878-9512-S",
-   "posted": "2026-10-22",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-22T13:09:45+00:00",
-   "closed_at": "2026-10-31T16:17:26+00:00"
   },
   {
    "company": "Akkodis",
@@ -77218,19 +77194,6 @@
   },
   {
    "company": "CERN",
-   "id": "744000154363379",
-   "title": "Machine Learning Engineer (IT-CD-2026-239-GRAE)",
-   "location": "Geneva, CH",
-   "url": "https://jobs.smartrecruiters.com/CERN/744000154363379",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T13:32:28+00:00",
-   "seed": true,
-   "src": "site",
-   "closed_at": "2026-10-31T11:09:31+00:00"
-  },
-  {
-   "company": "CERN",
    "id": "744000153482109",
    "title": "Planning Engineer (EP-ATL-PO-2026-200-LD)",
    "location": "Geneva, CH",
@@ -77256,5 +77219,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-14T10:12:14+00:00"
+ "updated": "2026-11-14T16:42:25+00:00"
 }
