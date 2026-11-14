@@ -931,8 +931,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 150,
-   "raw": 1069
+   "count": 145,
+   "raw": 1046
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -987,7 +987,7 @@
   "SH": {
    "ok": true,
    "count": 4,
-   "raw": 126
+   "raw": 123
   },
   "Baltic Workboats": {
    "ok": true,
@@ -1351,7 +1351,7 @@
   },
   "Bauhaus": {
    "ok": true,
-   "count": 0,
+   "count": 1,
    "raw": 298
   },
   "Bausch+Ströbel": {
@@ -1366,8 +1366,8 @@
   },
   "Bechtle": {
    "ok": true,
-   "count": 52,
-   "raw": 352
+   "count": 66,
+   "raw": 436
   },
   "Berner": {
    "ok": true,
@@ -1517,7 +1517,7 @@
   "Continental Aktiengesellschaft": {
    "ok": true,
    "count": 12,
-   "raw": 571
+   "raw": 564
   },
   "Cronimet": {
    "ok": true,
@@ -1662,7 +1662,7 @@
   "Endress + Hauser": {
    "ok": true,
    "count": 8,
-   "raw": 21
+   "raw": 22
   },
   "Engelhorn": {
    "ok": true,
@@ -1717,7 +1717,7 @@
   "Exyte": {
    "ok": true,
    "count": 45,
-   "raw": 143
+   "raw": 144
   },
   "EY": {
    "ok": true,
@@ -1961,8 +1961,8 @@
   },
   "Impact": {
    "ok": true,
-   "count": 72,
-   "raw": 297
+   "count": 73,
+   "raw": 296
   },
   "IMS Gear": {
    "ok": true,
@@ -2197,7 +2197,7 @@
   "Mercedes": {
    "ok": true,
    "count": 32,
-   "raw": 97
+   "raw": 96
   },
   "Mercedes-Benz Bank": {
    "ok": true,
@@ -2477,7 +2477,7 @@
   "Schwäbisch Hall": {
    "ok": true,
    "count": 5,
-   "raw": 284
+   "raw": 288
   },
   "SchwörerHaus": {
    "ok": true,
@@ -2636,7 +2636,7 @@
   },
   "SYNERGIE Personal": {
    "ok": true,
-   "count": 71,
+   "count": 72,
    "raw": 300
   },
   "Takeda": {
@@ -2817,7 +2817,7 @@
   "Walter": {
    "ok": true,
    "count": 31,
-   "raw": 293
+   "raw": 294
   },
   "Weishaupt": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 29,
-   "raw": 57
+   "count": 9,
+   "raw": 183
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3917,7 +3917,7 @@
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 3
+   "raw": 0
   },
   "IONOS": {
    "ok": true,
@@ -4117,7 +4117,7 @@
   "Bosch": {
    "ok": true,
    "count": 92,
-   "raw": 5093
+   "raw": 5092
   },
   "Aumovio": {
    "ok": true,
@@ -4181,8 +4181,8 @@
   },
   "Siemens": {
    "ok": true,
-   "count": 112,
-   "raw": 432
+   "count": 109,
+   "raw": 427
   },
   "KUKA": {
    "ok": true,
@@ -4501,8 +4501,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 3,
-   "raw": 16
+   "count": 0,
+   "raw": 0
   },
   "Smart Photonics": {
    "ok": true,
@@ -4931,6 +4931,39 @@
   }
  },
  "jobs": [
+  {
+   "company": "Bechtle",
+   "id": "15086-44573052-1113-S",
+   "title": "IT System Engineer Schul-IT (w/m/d)",
+   "location": "Mainz am Rhein, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44573052-1113-S",
+   "posted": "2026-11-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-14T06:33:47+00:00"
+  },
+  {
+   "company": "Bauhaus",
+   "id": "14011-44573648-1113-S",
+   "title": "IT Security Engineer (m/w/d)",
+   "location": "Mannheim, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44573648-1113-S",
+   "posted": "2026-11-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-14T06:33:47+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/abteilungsleitung_anwendungsentwicklung__m_w_d_/1219562",
+   "title": "Abteilungsleitung Anwendungsentwicklung (m/w/d)",
+   "location": "NVL B.V. & Co. KG | Lemwerder",
+   "url": "https://www.rheinmetall.com/de/job/abteilungsleitung_anwendungsentwicklung__m_w_d_/1219562",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-14T06:33:47+00:00"
+  },
   {
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Produktentwicklung-%28wmd%29-89077/1375984255/",
@@ -6934,6 +6967,17 @@
    "first_seen": "2026-11-13T08:41:08+00:00"
   },
   {
+   "company": "Bechtle",
+   "id": "15086-44565522-1110-S",
+   "title": "(Senior) System Engineer Networking (w/m/d)",
+   "location": "Dortmund, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44565522-1110-S",
+   "posted": "2026-11-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-13T06:53:24+00:00"
+  },
+  {
    "company": "Texas Instruments",
    "id": "13645-289314-S",
    "title": "Techniker für den Bereich Hardware-Entwicklung (m/f/d)",
@@ -7088,18 +7132,6 @@
    "first_seen": "2026-11-13T06:53:24+00:00"
   },
   {
-   "company": "Bechtle",
-   "id": "15086-44565522-1110-S",
-   "title": "(Senior) System Engineer Networking (w/m/d)",
-   "location": "Dortmund, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44565522-1110-S",
-   "posted": "2026-11-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-13T06:53:24+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
-  },
-  {
    "company": "Drees & Sommer",
    "id": "12288-4996761644-S",
    "title": "(Senior) Consultant (w/m/d) Real Estate Finance, Restructuring & Redevelopment",
@@ -7152,7 +7184,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-13T06:53:24+00:00"
+   "first_seen": "2026-11-13T06:53:24+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -7526,7 +7559,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1653122-1-S",
    "title": "Weiterentwicklung zum Mastertrainer:in Bahnbetrieb",
-   "location": "Nürnberg, Mittelfranken, Bayern",
+   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1653122-1-S",
    "posted": "2026-11-12",
    "match": 1,
@@ -8485,7 +8518,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1653131-1-S",
    "title": "Junior Elektroingenieur:in zur Qualifizierung Bauüberwacher:in Bahn Elektrotechnik",
-   "location": "Leipzig, Sachsen",
+   "location": "Magdeburg, Sachsen Anhalt",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1653131-1-S",
    "posted": "2026-11-12",
    "match": 1,
@@ -8794,7 +8827,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1653452-1-S",
    "title": "Elektroniker:in / Elektrofachkraft / Mechatroniker:in für die Qualifizierung als Signalmechaniker:in",
-   "location": "Lutherstadt Wittenberg, Sachsen Anhalt",
+   "location": "Eilenburg, Sachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1653452-1-S",
    "posted": "2026-11-12",
    "match": 1,
@@ -9196,7 +9229,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-12T20:02:12+00:00"
+   "first_seen": "2026-11-12T20:02:12+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -9207,7 +9241,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-12T20:02:12+00:00"
+   "first_seen": "2026-11-12T20:02:12+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Siemens",
@@ -11957,7 +11992,8 @@
    "posted": "2026-11-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -11968,7 +12004,8 @@
    "posted": "2026-11-12",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -12555,7 +12592,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1652989-1-S",
    "title": "Junior Bauingenieur:in zur Qualifizierung Bauüberwacher:in Bahn Oberbau / KIB",
-   "location": "Erfurt, Thueringen",
+   "location": "Leipzig, Sachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1652989-1-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -12683,8 +12720,7 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00"
   },
   {
    "company": "Bosch",
@@ -12812,7 +12848,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1643413-2-S",
    "title": "Data Engineer:in",
-   "location": "Erfurt, Thueringen",
+   "location": "Frankfurt am Main, Hessen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1643413-2-S",
    "posted": "2026-11-11",
    "match": 1,
@@ -12933,7 +12969,7 @@
    "company": "EY",
    "id": "15548-1446848-1-S",
    "title": "(Senior) Consultant Umsatzsteuer & Tax Technology / Indirect Tax (w/m/d)",
-   "location": "Hannover, Niedersachsen",
+   "location": "Stuttgart, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1446848-1-S",
    "posted": "2025-07-21",
    "match": 1,
@@ -14394,8 +14430,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T19:50:09+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-10T19:50:09+00:00"
   },
   {
    "company": "Siemens",
@@ -14824,7 +14859,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -14835,7 +14871,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T07:27:31+00:00"
+   "first_seen": "2026-11-10T07:27:31+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -14869,7 +14906,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T04:02:36+00:00"
+   "first_seen": "2026-11-10T04:02:36+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -16818,7 +16856,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-07T06:06:59+00:00"
+   "first_seen": "2026-11-07T06:06:59+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "KNDS",
@@ -16840,7 +16879,8 @@
    "posted": "2026-11-07",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-07T03:07:00+00:00"
+   "first_seen": "2026-11-07T03:07:00+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Helsing",
@@ -18372,7 +18412,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1651679-1-S",
    "title": "Bauingenieur:in / Elektroingenieur:in als Bauüberwacher:in Bahn",
-   "location": "Nürnberg, Mittelfranken, Bayern",
+   "location": "Regensburg, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1651679-1-S",
    "posted": "2026-11-06",
    "match": 1,
@@ -19374,7 +19414,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T06:56:25+00:00"
+   "first_seen": "2026-11-06T06:56:25+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -19396,7 +19437,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T06:56:25+00:00"
+   "first_seen": "2026-11-06T06:56:25+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -19407,7 +19449,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T06:56:25+00:00"
+   "first_seen": "2026-11-06T06:56:25+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -20495,8 +20538,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-05T20:03:28+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-05T20:03:28+00:00"
   },
   {
    "company": "Thales (Workday, Germany)",
@@ -21255,7 +21297,7 @@
    "company": "Bechtle",
    "id": "15086-44552587-114-S",
    "title": "System Engineer Physical Server, Storage & SAN (w/m/d)",
-   "location": "Bochum, Nordrhein Westfalen",
+   "location": "Neckarsulm, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44552587-114-S",
    "posted": "2026-11-05",
    "match": 1,
@@ -21719,8 +21761,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-05T07:03:48+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-05T07:03:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -21731,8 +21772,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-05T07:03:48+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-05T07:03:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -22606,8 +22646,7 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T19:52:59+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-04T19:52:59+00:00"
   },
   {
    "company": "WB",
@@ -22706,7 +22745,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1650663-1-S",
    "title": "Junior Bauingenieur:in zur Qualifizierung Bauüberwacher:in Bahn Oberbau / KIB",
-   "location": "Dortmund, Nordrhein Westfalen",
+   "location": "Duisburg, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1650663-1-S",
    "posted": "2026-11-04",
    "match": 1,
@@ -22717,7 +22756,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1650658-1-S",
    "title": "Ingenieur:in als Projektleiter:in für Bauprojekte",
-   "location": "Mühldorf am Inn, Bayern",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1650658-1-S",
    "posted": "2026-11-04",
    "match": 1,
@@ -23200,7 +23239,7 @@
    "company": "Bechtle",
    "id": "15086-44549321-113-S",
    "title": "System Engineer Virtualisierung (w/m/d)",
-   "location": "Neckarsulm, Baden Wuerttemberg",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44549321-113-S",
    "posted": "2026-11-04",
    "match": 1,
@@ -23228,8 +23267,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-04T06:33:38+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-11-04T06:33:38+00:00"
   },
   {
    "company": "Hensoldt",
@@ -24463,7 +24501,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-03T14:25:34+00:00"
+   "first_seen": "2026-11-03T14:25:34+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -24785,7 +24824,8 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T02:35:22+00:00"
+   "first_seen": "2026-11-03T02:35:22+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -28200,7 +28240,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-31T12:45:49+00:00"
+   "first_seen": "2026-10-31T12:45:49+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "MBDA",
@@ -28255,7 +28296,8 @@
    "posted": "2026-10-31",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-31T05:27:07+00:00"
+   "first_seen": "2026-10-31T05:27:07+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -29756,18 +29798,6 @@
    "closed_at": "2026-11-03T14:25:34+00:00"
   },
   {
-   "company": "Walter",
-   "id": "12322-PNY2G8VBHNJR0L6U-S",
-   "title": "Produktionsmitarbeiter/Logistiker (m/w/d)",
-   "location": "Hohenmölsen, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12322-PNY2G8VBHNJR0L6U-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-30T13:07:56+00:00",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
    "company": "Bosch",
    "id": "744000158703320",
    "title": "Produktionsmitarbeiter, Anlagenbediener im Feuerbacher Produktionswerk (m/w/div.)",
@@ -30612,18 +30642,6 @@
    "closed_at": "2026-11-03T14:25:34+00:00"
   },
   {
-   "company": "dm-drogerie markt",
-   "id": "12814-13521875-S",
-   "title": "Geschäftsprozessmanager GPM-Beratung (w/m/d)",
-   "location": "",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12814-13521875-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-30T13:07:56+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "SYNERGIE Personal",
    "id": "12704-CTFM6RBOAEABKUSQ-S",
    "title": "Gabelstaplerfahrer (m/w/d) Luftfahrt",
@@ -30679,18 +30697,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-30T13:07:56+00:00"
-  },
-  {
-   "company": "Walter",
-   "id": "12322-OI9GK7137C78M6WT-S",
-   "title": "Digital Engineering & Data Platform Lead (m/w/d)",
-   "location": "Forchheim, Oberfranken, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12322-OI9GK7137C78M6WT-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-30T13:07:56+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Dekra",
@@ -31045,7 +31051,8 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T01:49:18+00:00"
+   "first_seen": "2026-10-30T01:49:18+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -31415,7 +31422,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -31858,18 +31866,6 @@
    "closed_at": "2026-11-12T20:02:12+00:00"
   },
   {
-   "company": "Walter",
-   "id": "12322-TGHFU31ZHRGSCIDJ-S",
-   "title": "Mechatroniker (m/w/d)",
-   "location": "Mülheim an der Ruhr, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12322-TGHFU31ZHRGSCIDJ-S",
-   "posted": "2026-10-29",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-29T13:15:41+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Bosch",
    "id": "744000158460369",
    "title": "Masterarbeit: KI-Agenten & Simulationsentwicklung",
@@ -31929,7 +31925,7 @@
    "company": "Stadler",
    "id": "10001-1003933055-S",
    "title": "Ingenieur / Techniker Automatisierungstechnik für Hardwareplanung (m/w/d)",
-   "location": "Essen, Ruhr, Nordrhein Westfalen",
+   "location": "Marl, Westfalen, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003933055-S",
    "posted": "2026-10-29",
    "match": 1,
@@ -33250,18 +33246,6 @@
    "closed_at": "2026-11-02T16:13:27+00:00"
   },
   {
-   "company": "Aumovio",
-   "id": "744000158272860",
-   "title": "Bachelor - Digitalisierung, Prozessoptimierung und Management",
-   "location": "Regensburg, DE",
-   "url": "https://jobs.smartrecruiters.com/Aumovio/744000158272860",
-   "posted": "2026-10-28",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-28T13:12:52+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Porsche (Stuttgart region)",
    "id": "12908-064838228-S",
    "title": "AI & Cloud Platform Engineer (all genders)",
@@ -33405,7 +33389,8 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T00:24:31+00:00"
+   "first_seen": "2026-10-28T00:24:31+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Tenstorrent",
@@ -33530,18 +33515,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-27T22:22:32+00:00"
-  },
-  {
-   "company": "dm-drogerie markt",
-   "id": "12787-272719261026-S",
-   "title": "Teamverantwortlicher Beratung Kultur + Entwicklung VZ (w/m/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-272719261026-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -33696,18 +33669,6 @@
    "closed_at": "2026-11-13T19:49:47+00:00"
   },
   {
-   "company": "John Deere",
-   "id": "10001-1003919242-S",
-   "title": "Regional Technology Commercialization Lead (m/f/d)",
-   "location": "Mannheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003919242-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
    "company": "Deutsche Bahn",
    "id": "12456-1647716-1-S",
    "title": "Referent:in Kommunikation und Geschäftsentwicklung",
@@ -33754,42 +33715,6 @@
    "src": "agency",
    "first_seen": "2026-10-27T22:22:32+00:00",
    "closed_at": "2026-11-02T06:17:33+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "12790-j119S7170-14322-S",
-   "title": "Prüfingenieur Fahrzeuge / Kfz Sachverständiger Odenwald (m/w/d)",
-   "location": "Mannheim, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7170-14322-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "12790-j119S7172-14324-S",
-   "title": "Prüfingenieur Fahrzeuge / Kfz Sachverständiger (m/w/d) Raum Birkenfeld / Nahe",
-   "location": "Saarbrücken, Saarland",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7172-14324-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "12790-j119S7161-14313-S",
-   "title": "Prüfingenieur Fahrzeuge / Kfz Sachverständiger (m/w/d)",
-   "location": "Ludwigshafen am Rhein, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7161-14313-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -34035,18 +33960,6 @@
   },
   {
    "company": "Dekra",
-   "id": "12790-j119S7166-14318-S",
-   "title": "Ingenieur Versorgungstechnik als Sachverständiger Lüftungs-, Rauchabzugs-, Feuerlöschanlagen (m/w/d)",
-   "location": "Ludwigshafen am Rhein, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7166-14318-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Dekra",
    "id": "12790-j119S7181-14332-S",
    "title": "Ingenieur Elektrotechnik als Sachverständiger Prüfung elektrische Anlagen (m/w/d)",
    "location": "Bremen, Bremen",
@@ -34068,18 +33981,6 @@
    "src": "agency",
    "first_seen": "2026-10-27T22:22:32+00:00",
    "closed_at": "2026-11-02T06:17:33+00:00"
-  },
-  {
-   "company": "Dekra",
-   "id": "12790-j119S7159-14311-S",
-   "title": "Ingenieur Elektrotechnik als Sachverständiger Prüfung elektrische Anlagen (m/w/d)",
-   "location": "Mainz am Rhein, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7159-14311-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -34205,30 +34106,6 @@
    "src": "agency",
    "first_seen": "2026-10-27T22:22:32+00:00",
    "closed_at": "2026-11-05T20:03:28+00:00"
-  },
-  {
-   "company": "dm-drogerie markt",
-   "id": "12787-272737261026-S",
-   "title": "Berater Kultur + Entwicklung VZ Weilerswist (w/m/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-272737261026-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "dm-drogerie markt",
-   "id": "12787-272739261026-S",
-   "title": "Berater Kultur + Entwicklung VZ Waghäusel & Karlsruhe (w/m/d)",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-272739261026-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T22:22:32+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Ed. Züblin",
@@ -34830,8 +34707,7 @@
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-27T05:14:15+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-27T05:14:15+00:00"
   },
   {
    "company": "Bizerba",
@@ -35003,18 +34879,6 @@
    "src": "agency",
    "first_seen": "2026-10-26T22:46:07+00:00",
    "closed_at": "2026-11-01T22:09:44+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1647162-1-S",
-   "title": "Projektingenieur:in in der Projektsteuerung von Infrastrukturprojekten",
-   "location": "Leipzig, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1647162-1-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -35286,8 +35150,7 @@
    "posted": "2025-07-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-26T22:46:07+00:00",
-   "closed_at": "2026-11-13T06:53:24+00:00"
+   "first_seen": "2026-10-26T22:46:07+00:00"
   },
   {
    "company": "Impact",
@@ -35479,8 +35342,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-26T22:46:07+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-26T22:46:07+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -36165,18 +36027,6 @@
    "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
-   "company": "SYNERGIE Personal",
-   "id": "12704-H3GP8SR0U5QDUOKW-S",
-   "title": "Helfer (m/w/d) Qualitätskontrolle",
-   "location": "Salzgitter, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-H3GP8SR0U5QDUOKW-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T13:15:21+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Robert Bosch",
    "id": "15986-REF299381B-2b4ac47-S",
    "title": "Facharbeiter in der Leiterkartenfertigung SMT (w/m/div.)",
@@ -36243,7 +36093,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-26T13:15:21+00:00"
+   "first_seen": "2026-10-26T13:15:21+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Siemens",
@@ -36609,8 +36460,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-24T04:45:09+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-24T04:45:09+00:00"
   },
   {
    "company": "Helsing",
@@ -37088,54 +36938,6 @@
    "first_seen": "2026-10-23T11:47:42+00:00"
   },
   {
-   "company": "SYNERGIE Personal",
-   "id": "12704-COSK3J7TDCG0TLMJ-S",
-   "title": "Produktionshelfer (m/w/d) Schiffbaustahl",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-COSK3J7TDCG0TLMJ-S",
-   "posted": "2026-10-23",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-23T11:47:42+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "SYNERGIE Personal",
-   "id": "12704-0A3Q3YO6DRGI31FG-S",
-   "title": "Mechatroniker (m/w/d) Rüstungsindustrie",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-0A3Q3YO6DRGI31FG-S",
-   "posted": "2026-10-23",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-23T11:47:42+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "SYNERGIE Personal",
-   "id": "12704-2PE1GYYRUC2WMCW9-S",
-   "title": "Maschinenbediener (m/w/d) Drahtproduktion",
-   "location": "Syke, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-2PE1GYYRUC2WMCW9-S",
-   "posted": "2026-10-23",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-23T11:47:42+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "SYNERGIE Personal",
-   "id": "12704-CZ5FVLCSAFKXW6HX-S",
-   "title": "Konstruktionsmechaniker (m/w/d) Facility Management",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12704-CZ5FVLCSAFKXW6HX-S",
-   "posted": "2026-10-23",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-23T11:47:42+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Handtmann Unternehmensgruppe",
    "id": "13635-js_bc_88_JB5281078-S",
    "title": "Konstruktionsingenieur (m/w/d) Anlagenbau Lebensmittelindustrie",
@@ -37469,7 +37271,7 @@
    "company": "Bechtle",
    "id": "15086-44525979-1022-S",
    "title": "IT System Engineer - Managed Services (w/m/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
+   "location": "Rottenburg am Neckar, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44525979-1022-S",
    "posted": "2026-10-23",
    "match": 1,
@@ -37496,8 +37298,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-23T04:59:58+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-23T04:59:58+00:00"
   },
   {
    "company": "Hensoldt",
@@ -37879,18 +37680,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T17:18:49+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1646009-1-S",
-   "title": "Junior Wirtschaftsingenieur:in als Referent:in Sonderprojekte und Investitionen",
-   "location": "Biederitz, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1646009-1-S",
-   "posted": "2026-10-22",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-22T17:18:49+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Arburg",
@@ -38743,7 +38532,7 @@
    "company": "Daimler Buses",
    "id": "10001-1003035456-S",
    "title": "Mechatroniker/in im Bereich Omnibusse in Vollzeit",
-   "location": "Hamburg, Hamburg",
+   "location": "Goldberg, Mecklenburg, Mecklenburg Vorpommern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003035456-S",
    "posted": "2026-05-07",
    "match": 1,
@@ -38844,7 +38633,7 @@
    "company": "Bechtle",
    "id": "15086-44523886-1021-S",
    "title": "Senior SE IT Professional Service Engineer (w/m/d)",
-   "location": "Friedrichshafen, Baden Wuerttemberg",
+   "location": "Neckarsulm, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44523886-1021-S",
    "posted": "2026-10-22",
    "match": 1,
@@ -38916,7 +38705,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -38927,7 +38717,8 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -39278,7 +39069,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1592231-2-S",
    "title": "Bauingenieur:in oder Elektroingenieur:in als Bauüberwacher:in Bahn",
-   "location": "Augsburg, Bayern, Bayern",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1592231-2-S",
    "posted": "2026-10-21",
    "match": 1,
@@ -39746,7 +39537,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-21T04:58:06+00:00"
+   "first_seen": "2026-10-21T04:58:06+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -40040,30 +39832,6 @@
    "first_seen": "2026-10-20T17:16:38+00:00"
   },
   {
-   "company": "Daimler Truck",
-   "id": "15707-1523224-3-S",
-   "title": "KFZ-Mechatroniker/-mechaniker Transporter (m/w/d) bei der Daimler Truck AG, Nutzfahrzeugzentrum...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15707-1523224-3-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:16:38+00:00",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
-   "company": "Daimler Truck",
-   "id": "15707-1523221-3-S",
-   "title": "KFZ-Mechatroniker/-mechaniker LKW (m/w/d)  bei der Daimler Truck AG, Nutzfahrzeugzentrum...",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15707-1523221-3-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:16:38+00:00",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
    "company": "Berner",
    "id": "10001-1003886428-S",
    "title": "End-to-End Logistics Process Design Architect (f/m/d)",
@@ -40112,7 +39880,7 @@
    "company": "EY",
    "id": "15548-1644691-1-S",
    "title": "Berater Microsoft Dynamics 365 Finance & SCM - Digital Engineering (w/m/d)",
-   "location": "Eschborn, Taunus, Hessen",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1644691-1-S",
    "posted": "2026-10-20",
    "match": 1,
@@ -40147,7 +39915,7 @@
    "company": "EY",
    "id": "15548-1465187-3-S",
    "title": "(Senior) Berater IT Performance - Technology Strategy & Transformation (w/m/d)",
-   "location": "Düsseldorf, Nordrhein Westfalen",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1465187-3-S",
    "posted": "2026-10-20",
    "match": 1,
@@ -40900,7 +40668,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-20T04:58:50+00:00"
+   "first_seen": "2026-10-20T04:58:50+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -40948,18 +40717,6 @@
    "src": "agency",
    "first_seen": "2026-10-19T22:27:20+00:00",
    "closed_at": "2026-11-12T07:19:48+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1644884-1-S",
-   "title": "Technische Projektassistenz Konstruktiver Ingenieurbau (w/m/d)",
-   "location": "Augsburg, Bayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644884-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Drees & Sommer",
@@ -41125,18 +40882,6 @@
    "src": "agency",
    "first_seen": "2026-10-19T22:27:20+00:00",
    "closed_at": "2026-11-10T19:50:09+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1644862-1-S",
-   "title": "Mechatroniker:in Kältetechnik / Pumpenschlosser:in / Elektroniker:in",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644862-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "CSG",
@@ -41316,30 +41061,6 @@
    "closed_at": "2026-11-12T07:19:48+00:00"
   },
   {
-   "company": "Deutsche Bahn",
-   "id": "12456-1644721-1-S",
-   "title": "Elektroniker:in / Elektriker:in / Mechatroniker:in 50 Hz",
-   "location": "Bautzen, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644721-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1644731-1-S",
-   "title": "Elektroingenieur:in als OT-Assetmanager:in für Energieinfrastrukturanlagen",
-   "location": "Berlin, Berlin",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644731-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/dualen-studierenden-bachelor-of-engineering-m-w-d-elektrotechnik-ab-august-2026",
    "title": "Dualen Studierenden Bachelor of Engineering (m/w/d) Elektrotechnik ab August 2026",
@@ -41374,30 +41095,6 @@
    "src": "agency",
    "first_seen": "2026-10-19T22:27:20+00:00",
    "closed_at": "2026-11-12T07:19:48+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1645052-1-S",
-   "title": "Bauingenieur:in als Kalkulator:in Konstruktiver Ingenieurbau",
-   "location": "Dresden, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1645052-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1645053-1-S",
-   "title": "Bauingenieur:in Grundbau, Geotechnik als Planer:in Tiefbau Infrastrukturprojekte",
-   "location": "Halle (Saale), Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1645053-1-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T22:27:20+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -42272,18 +41969,6 @@
    "first_seen": "2026-10-18T11:15:18+00:00"
   },
   {
-   "company": "Herrenknecht",
-   "id": "12811-2359515-S",
-   "title": "Ingenieur:innen, Techniker:innen, IT- und kaufmännische Talente (m/w/d) für unse..., Herrenknecht AG",
-   "location": "Schwanau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2359515-S",
-   "posted": "2026-10-18",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-18T11:15:18+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Homag",
    "id": "13645-288215-S",
    "title": "Produktentwickler Steuerungstechnik - Schwerpunkt Programmierung und Robotik (m/w/d)",
@@ -42349,7 +42034,8 @@
    "posted": "2026-10-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-17T01:14:16+00:00"
+   "first_seen": "2026-10-17T01:14:16+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Hensoldt",
@@ -42666,7 +42352,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-16T16:45:47+00:00"
+   "first_seen": "2026-10-16T16:45:47+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Black Semiconductor",
@@ -43231,7 +42918,8 @@
    "posted": "2026-10-16",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-16T01:10:20+00:00"
+   "first_seen": "2026-10-16T01:10:20+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "ESA",
@@ -43298,8 +42986,7 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00"
   },
   {
    "company": "ACPS Automotive",
@@ -43512,7 +43199,7 @@
    "company": "Nexperia",
    "id": "10001-1003865636-S",
    "title": "Director Global HR (m/f/d) - Technology and Digital Transformation",
-   "location": "München, Bayern",
+   "location": "Manchester",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003865636-S",
    "posted": "2026-10-15",
    "match": 1,
@@ -43619,8 +43306,7 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00"
   },
   {
    "company": "Aumovio",
@@ -44343,18 +44029,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-14T17:19:25+00:00"
-  },
-  {
-   "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/523482",
-   "title": "Project Engineer (w/m/d) eMobility",
-   "location": "Erlangen , Bayern , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/523482",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-14T17:19:25+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Siemens",
@@ -45321,8 +44995,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-13T14:20:49+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-13T14:20:49+00:00"
   },
   {
    "company": "Siemens",
@@ -45562,19 +45235,18 @@
    "company": "Bechtle",
    "id": "15086-44420124-1012-S",
    "title": "Cloud Engineer - Cloud Infrastructure & Services (w/m/d)",
-   "location": "Mainz-Kostheim, Hessen",
+   "location": "Neckarsulm, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44420124-1012-S",
    "posted": "2026-11-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-13T00:48:14+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-13T00:48:14+00:00"
   },
   {
    "company": "Bechtle",
    "id": "15086-44420218-1012-S",
    "title": "Cloud & Kubernetes Engineer (w/m/d) (Remote)",
-   "location": "Balingen, Baden Wuerttemberg",
+   "location": "Bisingen bei Hechingen, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44420218-1012-S",
    "posted": "2026-10-13",
    "match": 1,
@@ -45585,7 +45257,7 @@
    "company": "Bechtle",
    "id": "15086-44502767-1012-S",
    "title": "Business  Development Manager - Articona (w/m/d)",
-   "location": "Frankfurt am Main, Hessen",
+   "location": "Stuttgart, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44502767-1012-S",
    "posted": "2026-10-13",
    "match": 1,
@@ -46267,8 +45939,7 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -46279,8 +45950,7 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Agile Robots",
@@ -46303,8 +45973,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -46315,8 +45984,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -46327,8 +45995,7 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -46339,8 +46006,7 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-13T22:49:35+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -46464,7 +46130,8 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Q.ANT",
@@ -46475,7 +46142,8 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Q.ANT",
@@ -46486,7 +46154,8 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -48019,20 +47688,18 @@
    "posted": "2026-07-11",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-10T06:00:48+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-10T06:00:48+00:00"
   },
   {
    "company": "Bechtle",
    "id": "15086-44188395-520-S",
    "title": "IT Consultant / System Engineer MS Azure (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Kiel, Schleswig Holstein",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44188395-520-S",
    "posted": "2026-05-21",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-10T06:00:48+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-10T06:00:48+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -48372,18 +48039,6 @@
   },
   {
    "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/521751",
-   "title": "Quality Assurance Manager - Trayer",
-   "location": "Mehrere Standorte",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/521751",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
-   "company": "Siemens",
    "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513373",
    "title": "Quality Assurance Case Manager (w/m/d)",
    "location": "Berlin , Berlin , Germany",
@@ -48426,7 +48081,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T17:10:08+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Siemens",
@@ -50570,19 +50226,6 @@
    "seed": true
   },
   {
-   "company": "LPKF",
-   "id": "16481-1189354-S",
-   "title": "Mitarbeiter Arbeitsvorbereitung (m/w/d)",
-   "location": "Suhl, Thueringen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16481-1189354-S",
-   "posted": "2026-08-10",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true,
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
    "company": "Siemens Energy",
    "id": "11949-17279016-S",
    "title": "Fachwirt/in - Fertigungs- und Prozessmanagement",
@@ -51485,19 +51128,6 @@
    "seed": true
   },
   {
-   "company": "Wabtec",
-   "id": "3743990011888706",
-   "title": "Produktionsmitarbeiter Kleben (m/w/d)",
-   "location": "Berlin, DE",
-   "url": "https://jobs.smartrecruiters.com/Wabtec/3743990011888706",
-   "posted": "2026-02-27",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true,
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "thyssenkrupp",
    "id": "16604-952646-008-S",
    "title": "Systemingenieur Einrichtung (m/w/d)",
@@ -51796,18 +51426,6 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-10-09T16:41:09+00:00"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1641968-1-S",
-   "title": "Teilprojektleiter:in Konstruktiver Ingenieurbau S4 (w/m/d)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1641968-1-S",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T16:41:09+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "KNDS",
@@ -52394,7 +52012,7 @@
    "company": "Deutsche Bahn",
    "id": "12456-1519183-1-S",
    "title": "Bauüberwacher:in Bahn Oberbau / Konstruktiver Ingenieurbau",
-   "location": "Seegebiet Mansfelder Land, Sachsen Anhalt",
+   "location": "Leinefelde-Worbis, Thueringen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1519183-1-S",
    "posted": "2025-12-22",
    "match": 1,
@@ -53386,8 +53004,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -53398,8 +53015,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T13:05:57+00:00",
-   "closed_at": "2026-11-13T06:53:24+00:00"
+   "first_seen": "2026-10-09T13:05:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -54543,19 +54159,6 @@
   },
   {
    "company": "Infineon Technologies",
-   "id": "12874-1634376-1-S",
-   "title": "Staff Specialist FM Ventilation, Abatement, Process Exhaust Systems, Heating & Cooling (w/m/div)",
-   "location": "Dresden, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1634376-1-S",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true,
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
-   "company": "Infineon Technologies",
    "id": "12874-1582177-2-S",
    "title": "Senior Technologist (f/m/div)",
    "location": "Warstein, Nordrhein Westfalen",
@@ -55458,19 +55061,6 @@
    "seed": true
   },
   {
-   "company": "JENOPTIK",
-   "id": "16012-44273794-626-S",
-   "title": "Fertigungsprozessentwickler*in Mess- und Prüftechnik (w/m/d)",
-   "location": "Triptis, Thueringen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44273794-626-S",
-   "posted": "2026-06-27",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true,
-   "closed_at": "2026-10-30T22:27:31+00:00"
-  },
-  {
    "company": "Nexperia",
    "id": "10001-1003238583-S",
    "title": "Principal Product Application Engineer (m/f/d) – Diodes & Transistors",
@@ -55631,7 +55221,7 @@
    "company": "Zollner Elektronik",
    "id": "10000-1205573527-S",
    "title": "Elektronik- / Mechatronik - Facharbeiter (m/w/d)",
-   "location": "Neukirchen bei Hl. Blut, Bayern",
+   "location": "Furth im Wald, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205573527-S",
    "posted": "2026-02-20",
    "match": 1,
@@ -55888,18 +55478,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T12:10:16+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/supplier_quality_engineer__m_w_d_/1165082",
-   "title": "Supplier Quality Engineer (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/supplier_quality_engineer__m_w_d_/1165082",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56322,17 +55900,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
-   "title": "Systemingenieur IT Solutions (m/w/d)",
-   "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152629",
    "title": "Systemingenieur IT Solutions (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
@@ -56341,6 +55908,18 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:46:00+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "title": "Systemingenieur IT Solutions (m/w/d)",
+   "location": "Rheinmetall Electronics GmbH | Bremen",
+   "url": "https://www.rheinmetall.com/de/job/systemingenieur_it_solutions__m_w_d_/1152596",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56395,8 +55974,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56419,8 +55997,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56442,8 +56019,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56660,18 +56236,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
-   "title": "Technischer Konfigurationsmanager (m/w/d)",
-   "location": "Rheinmetall Landsysteme GmbH | Kiel",
-   "url": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1112225",
    "title": "Technischer Konfigurationsmanager (m/w/d)",
    "location": "Rheinmetall Landsysteme GmbH | Kassel",
@@ -56679,8 +56243,18 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
+   "title": "Technischer Konfigurationsmanager (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kiel",
+   "url": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56691,8 +56265,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56759,8 +56332,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56771,8 +56343,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56794,8 +56365,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56828,7 +56398,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56885,8 +56456,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56920,8 +56490,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T06:53:24+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -56956,18 +56525,6 @@
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-09T06:15:45+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/subject_matter_expert_employee_central___data_quality_owner__m_w_d_/1140221",
-   "title": "Subject Matter Expert Employee Central & Data Quality Owner (m/w/d)",
-   "location": "Rheinmetall Landsysteme GmbH | Unterlüß",
-   "url": "https://www.rheinmetall.com/de/job/subject_matter_expert_employee_central___data_quality_owner__m_w_d_/1140221",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57033,7 +56590,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57111,7 +56669,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57122,7 +56681,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57155,7 +56715,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57178,7 +56739,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57189,7 +56751,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57200,7 +56763,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57233,7 +56797,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57266,7 +56831,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57289,7 +56855,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57390,8 +56957,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-13T06:53:24+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57402,7 +56968,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -57516,7 +57083,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61623,7 +61191,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61656,8 +61225,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61668,8 +61236,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61702,7 +61269,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61737,8 +61305,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61753,10 +61320,10 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
+   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040417",
    "title": "Systementwickler Konstruktion & Signalverarbeitung (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
+   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040417",
    "posted": "",
    "match": 2,
    "src": "site",
@@ -61764,10 +61331,10 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040417",
+   "id": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
    "title": "Systementwickler Konstruktion & Signalverarbeitung (m/w/d)",
    "location": "Rheinmetall Electronics GmbH | Bremen",
-   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040417",
+   "url": "https://www.rheinmetall.com/de/job/systementwickler_konstruktion___signalverarbeitung__m_w_d_/1040390",
    "posted": "",
    "match": 2,
    "src": "site",
@@ -61793,8 +61360,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61816,8 +61382,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61840,7 +61405,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61862,8 +61428,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61908,8 +61473,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Astos Solutions",
@@ -61954,7 +61518,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -61999,7 +61564,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "ESA",
@@ -62022,7 +61588,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62033,7 +61600,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62044,8 +61612,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62056,7 +61623,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62067,7 +61635,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Impact",
@@ -62387,7 +61956,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Atlas Elektronik",
@@ -62449,7 +62019,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -62461,7 +62032,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -62485,7 +62057,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "General Dynamics",
@@ -62522,7 +62095,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -62585,7 +62159,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Vincorion",
@@ -62706,7 +62281,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Lürssen",
@@ -62851,7 +62427,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -62863,7 +62440,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Lürssen",
@@ -63152,7 +62730,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -63164,7 +62743,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63188,7 +62768,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Moog",
@@ -63298,7 +62879,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63371,7 +62953,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63612,7 +63195,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63819,7 +63403,8 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Jenoptik",
@@ -63831,7 +63416,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-14T06:33:47+00:00"
   },
   {
    "company": "Lürssen",
@@ -64889,7 +64475,7 @@
    "company": "EY",
    "id": "15548-1640956-1-S",
    "title": "Berater Cloud Professional - Digital Engineering (w/m/d)",
-   "location": "Eschborn, Taunus, Hessen",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1640956-1-S",
    "posted": "2026-10-08",
    "match": 1,
@@ -67115,7 +66701,7 @@
    "company": "Bechtle",
    "id": "15086-44465317-924-S",
    "title": "Junior System Engineer - Microsoft 365 (w/m/d)",
-   "location": "Radolfzell am Bodensee, Baden Wuerttemberg",
+   "location": "Friedrichshafen, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44465317-924-S",
    "posted": "2026-09-25",
    "match": 1,
@@ -67346,7 +66932,7 @@
    "company": "EY",
    "id": "15548-1635102-1-S",
    "title": "Senior Consultant AI & Data Engineering Forensics (w/m/d)",
-   "location": "Eschborn, Taunus, Hessen",
+   "location": "Köln, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1635102-1-S",
    "posted": "2026-09-22",
    "match": 1,
@@ -69478,19 +69064,6 @@
    "src": "agency"
   },
   {
-   "company": "pfenning logistics",
-   "id": "12811-2327595-S",
-   "title": "Mitarbeiter (m/w/d) Qualitätsmanagement, Heddesheim",
-   "location": "Heddesheim, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2327595-S",
-   "posted": "2026-09-02",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T05:52:40+00:00"
-  },
-  {
    "company": "Impact",
    "id": "10001-1003639034-S",
    "title": "Mechatroniker (m/w/d) bei Joseph Vögele AG – bis 29,85 €/h",
@@ -69678,8 +69251,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "ZwickRoell",
@@ -70035,7 +69607,7 @@
    "company": "Datagroup",
    "id": "10001-1003601799-S",
    "title": "IT Service Engineer (all genders)",
-   "location": "Kötz, Bayern",
+   "location": "Ingelheim am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003601799-S",
    "posted": "2026-08-26",
    "match": 1,
@@ -70462,7 +70034,7 @@
    "company": "Franz & Wach Personalservice",
    "id": "10001-1003561880-S",
    "title": "Werker* Produktionshelfer* (m/w/d) mit Übernahmeoption",
-   "location": "Schöntal, Jagst, Baden Wuerttemberg",
+   "location": "Mosbach, Baden, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003561880-S",
    "posted": "2026-08-18",
    "match": 1,
@@ -70510,7 +70082,7 @@
    "company": "Franz & Wach Personalservice",
    "id": "10001-1003561801-S",
    "title": "Montagemitarbeiter* Produktionshelfer* 2-3 Schicht ab 17,20€ Übernahmechance",
-   "location": "Mosbach, Baden, Baden Wuerttemberg",
+   "location": "Assamstadt, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003561801-S",
    "posted": "2026-08-18",
    "match": 1,
@@ -70665,19 +70237,6 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce Power Systems",
-   "id": "19146-100014265714-S",
-   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
-   "location": "Magdeburg, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
-   "posted": "2026-08-15",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T06:06:59+00:00"
-  },
-  {
    "company": "Rolls-Royce",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
@@ -70689,6 +70248,19 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-07T10:38:05+00:00"
+  },
+  {
+   "company": "Rolls-Royce Power Systems",
+   "id": "19146-100014265714-S",
+   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
+   "location": "Magdeburg, Sachsen Anhalt",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
+   "posted": "2026-08-15",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "closed_at": "2026-11-07T06:06:59+00:00"
   },
   {
    "company": "Bilfinger",
@@ -70792,7 +70364,7 @@
    "company": "EY",
    "id": "15548-1618027-1-S",
    "title": "SAP Programm- und Projektleiter Business Transformation - Technology Consulting (w/m/d)",
-   "location": "München, Bayern",
+   "location": "Köln, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1618027-1-S",
    "posted": "2026-08-13",
    "match": 1,
@@ -70865,7 +70437,7 @@
    "company": "EY",
    "id": "15548-1618025-1-S",
    "title": "Business Process Consultant - SAP S/4HANA EAM/PM (w/m/d)",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1618025-1-S",
    "posted": "2026-08-13",
    "match": 1,
@@ -71364,7 +70936,7 @@
    "company": "Bechtle",
    "id": "15086-44350322-731-S",
    "title": "System Engineer Network & Security (w/m/d)",
-   "location": "Würzburg, Bayern",
+   "location": "Nürnberg, Mittelfranken, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44350322-731-S",
    "posted": "2026-08-01",
    "match": 1,
@@ -71693,7 +71265,7 @@
    "company": "Bechtle",
    "id": "15086-44332362-723-S",
    "title": "Senior System Engineer Operational-Service (w/m/d)",
-   "location": "Münster, Westfalen, Nordrhein Westfalen",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44332362-723-S",
    "posted": "2026-07-24",
    "match": 1,
@@ -71814,7 +71386,7 @@
    "company": "EY",
    "id": "15548-1601783-1-S",
    "title": "Berater Snowflake Data Engineer - AI & Data (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Stuttgart, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1601783-1-S",
    "posted": "2026-07-22",
    "match": 1,
@@ -72092,7 +71664,7 @@
    "company": "EY",
    "id": "15548-1598421-1-S",
    "title": "Consultant IT-Architektur Public Sector - Fast-Track Technology, Strategy & Transformation (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1598421-1-S",
    "posted": "2026-07-13",
    "match": 1,
@@ -72104,7 +71676,7 @@
    "company": "Bechtle",
    "id": "15086-44305467-710-S",
    "title": "Senior IT System Engineer Netzwerk / Security (w/m/d)",
-   "location": "Bremen, Bremen",
+   "location": "Oldenburg (Oldb), Niedersachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44305467-710-S",
    "posted": "2026-07-11",
    "match": 1,
@@ -72135,21 +71707,19 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Bechtle",
    "id": "15086-44278610-629-S",
    "title": "(Junior) IT System Engineer M365 / Intune (w/m/d)",
-   "location": "Nürnberg, Mittelfranken, Bayern",
+   "location": "Würzburg, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44278610-629-S",
    "posted": "2026-07-11",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Robert Bosch",
@@ -72191,7 +71761,7 @@
    "company": "Bechtle",
    "id": "15086-44303742-79-S",
    "title": "IT System Engineer Server-Storage (w/m/d)",
-   "location": "Wolfsburg, Niedersachsen",
+   "location": "Stuttgart, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44303742-79-S",
    "posted": "2026-07-10",
    "match": 1,
@@ -72203,7 +71773,7 @@
    "company": "Bechtle",
    "id": "15086-44303717-79-S",
    "title": "IT System Engineer Linux (w/m/d)",
-   "location": "Wolfsburg, Niedersachsen",
+   "location": "Chemnitz, Sachsen, Sachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44303717-79-S",
    "posted": "2026-07-10",
    "match": 1,
@@ -72239,7 +71809,7 @@
    "company": "Bechtle",
    "id": "15086-44303262-79-S",
    "title": "IT Consultant für Citrix Technologien (w/m/d)",
-   "location": "Bonn, Nordrhein Westfalen",
+   "location": "Köln, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44303262-79-S",
    "posted": "2026-07-10",
    "match": 1,
@@ -72371,14 +71941,13 @@
    "company": "Bechtle",
    "id": "15086-44286460-72-S",
    "title": "Senior System Engineer Datacenter & Cloud (w/m/d)",
-   "location": "Dortmund, Nordrhein Westfalen",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44286460-72-S",
    "posted": "2026-07-07",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "MHZ Hachtel",
@@ -72469,7 +72038,7 @@
    "company": "Bechtle",
    "id": "15086-44286784-72-S",
    "title": "IT System Engineer - Virtualisierung (w/m/d)",
-   "location": "Dortmund, Nordrhein Westfalen",
+   "location": "Neckarsulm, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44286784-72-S",
    "posted": "2026-07-03",
    "match": 1,
@@ -72693,8 +72262,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Schuler",
@@ -72940,7 +72508,7 @@
    "company": "EY",
    "id": "15548-1424015-3-S",
    "title": "(Senior) Consultant Insurance Process & Platform Transformation (Financial Services) (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1424015-3-S",
    "posted": "2026-06-22",
    "match": 1,
@@ -73145,7 +72713,7 @@
    "company": "EY",
    "id": "15548-1431458-5-S",
    "title": "(Senior) Consultant Digital Engineering & Emerging Technologies (Financial Services) (w/m/d)",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1431458-5-S",
    "posted": "2026-06-17",
    "match": 1,
@@ -73217,14 +72785,13 @@
    "company": "Bechtle",
    "id": "15086-44243427-613-S",
    "title": "IT System Engineer Security (w/m/d)",
-   "location": "Bremen, Bremen",
+   "location": "Neckarsulm, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44243427-613-S",
    "posted": "2026-06-16",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Telegärtner Karl Gärtner",
@@ -73242,7 +72809,7 @@
    "company": "EY",
    "id": "15548-1586532-1-S",
    "title": "Berater Modern Workplace - Digitial Engineering (w/m/d)",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1586532-1-S",
    "posted": "2026-06-12",
    "match": 1,
@@ -73569,7 +73136,7 @@
    "company": "EY",
    "id": "15548-1427242-3-S",
    "title": "Berater Digitale Transformation & IT-Strategie - Technology Strategy & Transformation (w/m/d)",
-   "location": "München, Bayern",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1427242-3-S",
    "posted": "2026-06-03",
    "match": 1,
@@ -73605,7 +73172,7 @@
    "company": "EY",
    "id": "15548-1580313-1-S",
    "title": "Senior Berater Hybride Cloud Infrastrukturen - Digital Engineering (w/m/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
+   "location": "Hamburg, Hamburg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1580313-1-S",
    "posted": "2026-06-02",
    "match": 1,
@@ -73689,7 +73256,7 @@
    "company": "Bechtle",
    "id": "15086-44206939-528-S",
    "title": "Cyber Security Engineer (w/m/d)",
-   "location": "Hannover, Niedersachsen",
+   "location": "Bielefeld, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44206939-528-S",
    "posted": "2026-05-29",
    "match": 1,
@@ -73701,7 +73268,7 @@
    "company": "Bechtle",
    "id": "15086-44206815-528-S",
    "title": "(Senior) Consultant Data Engineering & AI (w/m/d)",
-   "location": "Würzburg, Bayern",
+   "location": "Nürnberg, Mittelfranken, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44206815-528-S",
    "posted": "2026-05-29",
    "match": 1,
@@ -73737,7 +73304,7 @@
    "company": "EY",
    "id": "15548-1578421-1-S",
    "title": "Senior Consultant Data Platforms Engineer - Databricks (Financial Services) (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Eschborn, Taunus, Hessen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1578421-1-S",
    "posted": "2026-05-27",
    "match": 1,
@@ -73761,7 +73328,7 @@
    "company": "EY",
    "id": "15548-1578242-1-S",
    "title": "(Senior) Manager Technology Innovation Strategist - Insurance (Financial Services) (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Eschborn, Taunus, Hessen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1578242-1-S",
    "posted": "2026-05-27",
    "match": 1,
@@ -74441,7 +74008,7 @@
    "company": "Fuchs",
    "id": "10001-1002960178-S",
    "title": "Produktionshelfer (m/w/d) an verschiedenen Standorten",
-   "location": "Altenkirchen (Westerwald), Rheinland Pfalz",
+   "location": "Obererbach (Westerwald), Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002960178-S",
    "posted": "2026-04-22",
    "match": 1,
@@ -74466,7 +74033,7 @@
    "company": "Bechtle",
    "id": "15086-44118028-420-S",
    "title": "(Senior-) System Engineer Citrix (w/m/d)",
-   "location": "Dortmund, Nordrhein Westfalen",
+   "location": "Meschede, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44118028-420-S",
    "posted": "2026-04-21",
    "match": 1,
@@ -74556,8 +74123,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Bechtle",
@@ -74642,8 +74208,7 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-13T19:49:47+00:00"
+   "src": "agency"
   },
   {
    "company": "Simon Hegele Gesellschaft für Logistik und Service",
@@ -74988,7 +74553,7 @@
    "company": "EY",
    "id": "15548-1552646-1-S",
    "title": "Business Process Consultant - SAP Manufacturing & Quality Management (w/m/d)",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "Düsseldorf, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1552646-1-S",
    "posted": "2026-03-19",
    "match": 2,
@@ -75105,18 +74670,6 @@
    "src": "agency"
   },
   {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -75134,6 +74687,18 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -75180,7 +74745,7 @@
    "company": "Bechtle",
    "id": "15086-44006246-32-S",
    "title": "System Engineer Networking (w/m/d)",
-   "location": "Meschede, Nordrhein Westfalen",
+   "location": "Dortmund, Nordrhein Westfalen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44006246-32-S",
    "posted": "2026-03-03",
    "match": 1,
@@ -75324,7 +74889,7 @@
    "company": "EY",
    "id": "15548-1422694-2-S",
    "title": "(Senior) Consultant Technology Transformation - Data & AI (Financial Services) (w/m/d)",
-   "location": "Hamburg, Hamburg",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1422694-2-S",
    "posted": "2026-02-23",
    "match": 1,
@@ -75410,7 +74975,7 @@
    "company": "EY",
    "id": "15548-1538733-1-S",
    "title": "(Senior) Consultant - AI-Driven Global Mobility & Process Transformation (w/m/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
+   "location": "Eschborn, Taunus, Hessen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1538733-1-S",
    "posted": "2026-02-13",
    "match": 1,
@@ -75547,7 +75112,7 @@
    "company": "EY",
    "id": "15548-1530218-1-S",
    "title": "Data Engineer - Digital Health Excellence Center (w/m/d)",
-   "location": "Köln, Nordrhein Westfalen",
+   "location": "Hamburg, Hamburg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1530218-1-S",
    "posted": "2026-01-26",
    "match": 1,
@@ -75609,7 +75174,7 @@
    "company": "EY",
    "id": "15548-1526967-1-S",
    "title": "Business Process Consultant - SAP S/4HANA Transportation Management (TM) (w/m/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1526967-1-S",
    "posted": "2026-01-21",
    "match": 1,
@@ -75657,7 +75222,7 @@
    "company": "EY",
    "id": "15548-1525510-1-S",
    "title": "Business Process Consultant - SAP S/4HANA Logistics (SAP EWM, Warehouse & Intralogistics) (w/m/d)",
-   "location": "Düsseldorf, Nordrhein Westfalen",
+   "location": "Hamburg, Hamburg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1525510-1-S",
    "posted": "2026-01-16",
    "match": 1,
@@ -76050,7 +75615,7 @@
    "company": "EY",
    "id": "15548-1427248-2-S",
    "title": "Berater Manufacturing - Supply Chain & Operations (w/m/d)",
-   "location": "München, Bayern",
+   "location": "Berlin, Berlin",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1427248-2-S",
    "posted": "2025-11-14",
    "match": 2,
@@ -76069,19 +75634,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Scania",
-   "id": "10000-1204448309-S",
-   "title": "Kraftfahrzeugmechatroniker/in (m/w/d) NUTZFAHRZEUGTECHNIK mit Bereitschaft zur Notdiensttätigkeit",
-   "location": "Werl, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204448309-S",
-   "posted": "2025-11-11",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T05:52:40+00:00"
   },
   {
    "company": "Würth",
@@ -76257,7 +75809,7 @@
    "company": "Hoffmann",
    "id": "10001-1001965626-S",
    "title": "Wir suchen Mechatroniker/Mechaniker (m/w/d)",
-   "location": "Dorsten, Nordrhein Westfalen",
+   "location": "Lausitz, Brandenburg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1001965626-S",
    "posted": "2025-10-09",
    "match": 1,
@@ -76685,26 +76237,13 @@
    "company": "EY",
    "id": "15548-1447070-1-S",
    "title": "Consultant Indirect Tax Technology - Schwerpunkt SAP (w/m/d)",
-   "location": "Stuttgart, Baden Wuerttemberg",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1447070-1-S",
    "posted": "2025-07-22",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1446189-1-S",
-   "title": "Ingenieur:in als Bauüberwacher:in Bahn KIB, Elektrotechnik oder Leit- und Sicherungstechnik (w/m/d)",
-   "location": "Freiburg im Breisgau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1446189-1-S",
-   "posted": "2025-07-18",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Fuchs",
@@ -76867,7 +76406,7 @@
    "company": "EY",
    "id": "15548-1434776-1-S",
    "title": "Consultant Fördermittelberatung - Fördermittelmanagement- und Prozessberatung (w/m/d)",
-   "location": "Berlin, Berlin",
+   "location": "München, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1434776-1-S",
    "posted": "2025-06-20",
    "match": 1,
@@ -76879,7 +76418,7 @@
    "company": "Fuchs",
    "id": "10000-1202829562-S",
    "title": "Ingenieur/in für die Planung von Verkehrsanlagen",
-   "location": "Dresden, Sachsen",
+   "location": "Chemnitz, Sachsen, Sachsen",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1202829562-S",
    "posted": "2025-06-17",
    "match": 1,
@@ -76941,7 +76480,7 @@
    "company": "EY",
    "id": "15548-1430293-1-S",
    "title": "SAP Technology Berater (w/m/d)",
-   "location": "München, Bayern",
+   "location": "Stuttgart, Baden Wuerttemberg",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1430293-1-S",
    "posted": "2025-06-10",
    "match": 1,
@@ -77296,19 +76835,6 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency"
-  },
-  {
-   "company": "Deutsche Bahn",
-   "id": "12456-1253975-1-S",
-   "title": "Bauingenieur:in als leitende:r Bauüberwacher:in Bahn - Fahrbahn / KIB",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1253975-1-S",
-   "posted": "2024-07-01",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-30T22:27:31+00:00"
   },
   {
    "company": "Diehl",
@@ -77752,5 +77278,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-14T03:00:51+00:00"
+ "updated": "2026-11-14T06:33:47+00:00"
 }
