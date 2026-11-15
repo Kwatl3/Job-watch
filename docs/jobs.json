@@ -826,8 +826,8 @@
  "companies": {
   "CERN": {
    "ok": true,
-   "count": 16,
-   "raw": 54
+   "count": 15,
+   "raw": 53
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -1117,7 +1117,7 @@
   "Leonardo": {
    "ok": true,
    "count": 9,
-   "raw": 82
+   "raw": 80
   },
   "Fincantieri": {
    "ok": true,
@@ -1281,7 +1281,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 141,
+   "count": 142,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -3457,7 +3457,7 @@
   "Lufthansa Technik": {
    "ok": true,
    "count": 4,
-   "raw": 17
+   "raw": 16
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3472,7 +3472,7 @@
   "Liebherr-Aerospace": {
    "ok": true,
    "count": 33,
-   "raw": 61
+   "raw": 60
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3542,7 +3542,7 @@
   "Daher": {
    "ok": true,
    "count": 0,
-   "raw": 41
+   "raw": 39
   },
   "Latecoere": {
    "ok": true,
@@ -3566,8 +3566,8 @@
   },
   "FACC": {
    "ok": true,
-   "count": 1,
-   "raw": 2
+   "count": 0,
+   "raw": 1
   },
   "Hexcel": {
    "ok": true,
@@ -3576,8 +3576,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 9,
-   "raw": 183
+   "count": 29,
+   "raw": 57
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3702,7 +3702,7 @@
   "Tytan Technologies": {
    "ok": true,
    "count": 3,
-   "raw": 7
+   "raw": 6
   },
   "Isar Aerospace": {
    "ok": true,
@@ -3772,7 +3772,7 @@
   "Airbus (Workday, Germany)": {
    "ok": true,
    "count": 99,
-   "raw": 546
+   "raw": 544
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -3792,7 +3792,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 307
+   "raw": 306
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3917,7 +3917,7 @@
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 0
+   "raw": 3
   },
   "IONOS": {
    "ok": true,
@@ -4167,7 +4167,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 253
+   "raw": 252
   },
   "Saronic": {
    "ok": true,
@@ -4501,8 +4501,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 0,
-   "raw": 0
+   "count": 3,
+   "raw": 16
   },
   "Smart Photonics": {
    "ok": true,
@@ -4722,7 +4722,7 @@
   "Graphcore": {
    "ok": true,
    "count": 0,
-   "raw": 197
+   "raw": 196
   },
   "Scale AI": {
    "ok": true,
@@ -11989,8 +11989,7 @@
    "posted": "2026-11-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Jenoptik",
@@ -12001,8 +12000,7 @@
    "posted": "2026-11-12",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-12T03:45:18+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-11-12T03:45:18+00:00"
   },
   {
    "company": "Hensoldt",
@@ -12718,7 +12716,8 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Bosch",
@@ -13762,7 +13761,8 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Bertrandt",
@@ -14905,8 +14905,7 @@
    "posted": "2026-11-10",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-10T04:02:36+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-11-10T04:02:36+00:00"
   },
   {
    "company": "Hensoldt",
@@ -16878,8 +16877,7 @@
    "posted": "2026-11-07",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-07T03:07:00+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-11-07T03:07:00+00:00"
   },
   {
    "company": "Helsing",
@@ -23189,8 +23187,7 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-04T14:16:49+00:00",
-   "closed_at": "2026-11-14T16:42:25+00:00"
+   "first_seen": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "TKMS",
@@ -24824,8 +24821,7 @@
    "posted": "2026-11-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-03T02:35:22+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-11-03T02:35:22+00:00"
   },
   {
    "company": "Hensoldt",
@@ -28296,8 +28292,7 @@
    "posted": "2026-10-31",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-31T05:27:07+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-31T05:27:07+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -31027,8 +31022,7 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-30T01:49:18+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-30T01:49:18+00:00"
   },
   {
    "company": "Hensoldt",
@@ -33352,8 +33346,7 @@
    "posted": "2026-10-28",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-28T00:24:31+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-28T00:24:31+00:00"
   },
   {
    "company": "Tenstorrent",
@@ -38645,8 +38638,7 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "Jenoptik",
@@ -38657,8 +38649,7 @@
    "posted": "2026-10-22",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-22T01:44:54+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-22T01:44:54+00:00"
   },
   {
    "company": "Hensoldt",
@@ -41973,8 +41964,7 @@
    "posted": "2026-10-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-10-17T01:14:16+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-17T01:14:16+00:00"
   },
   {
    "company": "Hensoldt",
@@ -42673,18 +42663,6 @@
    "first_seen": "2026-10-16T11:33:16+00:00"
   },
   {
-   "company": "Airbus (Workday, Germany)",
-   "id": "/job/Donauwrth/XMLNAME--ET20A-Mechanical-System-Installation-Design-Engineer--d-f-m-_JR10447069",
-   "title": "#ET20A Mechanical System Installation Design Engineer (d/f/m)",
-   "location": "Donauwörth",
-   "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Donauwrth/XMLNAME--ET20A-Mechanical-System-Installation-Design-Engineer--d-f-m-_JR10447069",
-   "posted": "Posted 15 Days Ago",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-16T06:17:41+00:00",
-   "closed_at": "2026-10-31T23:38:01+00:00"
-  },
-  {
    "company": "Bertrandt",
    "id": "12288-4967325403-S",
    "title": "Technischer Produktdesigner (m/w/d) Mechanik 1",
@@ -42857,8 +42835,7 @@
    "posted": "2026-10-16",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-10-16T01:10:20+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-16T01:10:20+00:00"
   },
   {
    "company": "ESA",
@@ -42925,7 +42902,8 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "ACPS Automotive",
@@ -43245,7 +43223,8 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T11:38:46+00:00"
+   "first_seen": "2026-10-15T11:38:46+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Aumovio",
@@ -45879,7 +45858,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Jenoptik",
@@ -45890,7 +45870,8 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Agile Robots",
@@ -45913,7 +45894,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Jenoptik",
@@ -45924,7 +45906,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Jenoptik",
@@ -45935,7 +45918,8 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Jenoptik",
@@ -45946,7 +45930,8 @@
    "posted": "2026-10-22",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -46070,8 +46055,7 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -46082,8 +46066,7 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -46094,8 +46077,7 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -61837,19 +61819,6 @@
    "src": "agency"
   },
   {
-   "company": "Lufthansa Technik",
-   "id": "13348-1640972-1-S",
-   "title": "Certification Engineering - elektrische Systeme/Avionik (m/w/divers)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1640972-1-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T23:38:01+00:00"
-  },
-  {
    "company": "Lapp",
    "id": "12811-2353259-S",
    "title": "Bachelorand / Masterand (m/w/d) Advanced Technology, Stuttgart OL2",
@@ -61894,8 +61863,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Atlas Elektronik",
@@ -61957,8 +61925,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -61970,8 +61937,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -61995,8 +61961,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "General Dynamics",
@@ -62033,8 +61998,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -62097,8 +62061,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Vincorion",
@@ -62219,8 +62182,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -62365,8 +62327,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -62378,8 +62339,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -62668,8 +62628,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -62681,8 +62640,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -62706,8 +62664,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Moog",
@@ -62817,8 +62774,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -62891,8 +62847,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63025,7 +62980,8 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-15T01:15:26+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63133,8 +63089,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63197,19 +63152,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-02T02:17:59+00:00"
-  },
-  {
-   "company": "FACC",
-   "id": "11949-17296552-S",
-   "title": "Qualitätssicherungstechniker/in",
-   "location": "Breitenaich, Oberoesterreich",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17296552-S",
-   "posted": "2026-07-22",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-10-31T23:38:01+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -63341,8 +63283,7 @@
    "match": 1,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Jenoptik",
@@ -63354,8 +63295,7 @@
    "match": 2,
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-14T22:32:39+00:00"
+   "src": "agency"
   },
   {
    "company": "Lürssen",
@@ -70135,19 +70075,6 @@
    "src": "agency"
   },
   {
-   "company": "Rolls-Royce",
-   "id": "19146-100014265714-S",
-   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
-   "location": "Magdeburg, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
-   "posted": "2026-08-15",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T10:38:05+00:00"
-  },
-  {
    "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
@@ -70159,6 +70086,19 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-07T06:06:59+00:00"
+  },
+  {
+   "company": "Rolls-Royce",
+   "id": "19146-100014265714-S",
+   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
+   "location": "Magdeburg, Sachsen Anhalt",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
+   "posted": "2026-08-15",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "closed_at": "2026-11-07T10:38:05+00:00"
   },
   {
    "company": "Bilfinger",
@@ -74568,6 +74508,18 @@
    "src": "agency"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -74585,18 +74537,6 @@
    "title": "Produktionsmitarbeiter (m/w/d)",
    "location": "Mainz am Rhein, Rheinland Pfalz",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002419310-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
    "posted": "2026-03-06",
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
@@ -77164,5 +77104,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-14T22:32:39+00:00"
+ "updated": "2026-11-15T01:15:26+00:00"
 }
