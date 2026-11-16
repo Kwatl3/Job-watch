@@ -107,7 +107,7 @@ def fetch_arbeitsagentur(c: dict) -> list[dict]:
 
     The feed's own employer filter needs the exact registered name, so we search the company
     name as free text and keep only results whose employer name contains it as whole words."""
-    employer = c["employer"]
+    employer = c.get("employer", "")  # optional with any_employer: true (keyword search across all employers)
     wanted = [employer] + list(c.get("employer_match", []))
     size = 100
     out: dict[str, dict] = {}
@@ -127,7 +127,7 @@ def fetch_arbeitsagentur(c: dict) -> list[dict]:
         data = r.json()
         items = data.get("ergebnisliste") or []
         for it in items:
-            if not employer_matches(it.get("firma", ""), wanted):
+            if not c.get("any_employer") and not employer_matches(it.get("firma", ""), wanted):
                 continue
             ref = it.get("referenznummer")
             if not ref:
@@ -137,6 +137,7 @@ def fetch_arbeitsagentur(c: dict) -> list[dict]:
             out[ref] = {
                 "id": ref,
                 "title": (it.get("stellenangebotsTitel") or it.get("hauptberuf") or "").strip(),
+                "employer": (it.get("firma") or "").strip(),
                 "location": ", ".join(x for x in (adr.get("ort"), region) if x),
                 "url": f"https://www.arbeitsagentur.de/jobsuche/jobdetail/{ref}",
                 "posted": it.get("datumErsteVeroeffentlichung")
@@ -547,6 +548,12 @@ ADAPTERS = {
 
 # ----------------------------------------------------------------- filters ---
 
+BEAMTE_RE = re.compile(
+    r"beamt|verbeamt|besoldung|\ba ?(?:9|1[0-6])\b|laufbahn|bundesbeamt|landesbeamt|höherer dienst|gehobener dienst"
+    r"|\b(?:ober)?regierungs(?:rat|rätin|amtmann|amtfrau|direktor|inspektor|baurat|bauoberrat)"
+    r"|technische[rn]? (?:ober)?(?:amts)?(?:rat|rätin)", re.I)
+
+
 def title_has(term: str, title: str) -> bool:
     """Keyword match on a lower-case title. Short terms (<= 4 letters) must start a word,
     so 'lean' matches 'Lean Manager' but not 'Clean Room Engineer'."""
@@ -603,7 +610,7 @@ def merge(old: dict, fetched: dict[str, list[dict]], errors: dict[str, str],
             seen.add(key)
             prev = old_jobs.get(key)
             if prev:
-                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted", "match", "src") if k in j}}
+                entry = {**prev, **{k: j[k] for k in ("title", "location", "url", "posted", "match", "src", "beamte", "employer") if k in j}}
                 entry.pop("closed_at", None)  # reopened
             else:
                 entry = {"company": company, **j, "first_seen": now}
@@ -651,6 +658,9 @@ def run_company(c: dict, global_filters: dict, core: list[str]) -> tuple[str, li
         for j in jobs:  # 2 = strong match for your profile ("core" words), 1 = related
             j["match"] = 2 if any(title_has(k, j["title"].lower()) for k in core) else 1
             j["src"] = "agency" if ctype == "arbeitsagentur" else "site"  # own career site vs. job-agency feed
+        for j in jobs:  # Beamtenstellen category: public-service posts (civil-servant / Verbeamtung wording or a Beamte feed entry)
+            if c.get("beamte") or BEAMTE_RE.search(j["title"]):
+                j["beamte"] = True
         if c.get("only_core"):  # best matches only: keep just jobs that fit the CV (core words)
             jobs = [j for j in jobs if j["match"] == 2]
         return name, jobs, None

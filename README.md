@@ -64,6 +64,16 @@ Both lists are plain words you can add to or remove. The dashboard has a "Best m
 - **Commits**: `jobs.json` is only committed when something changed. The header shows the time of the
   last change; the Actions tab shows every run.
 
+## Beamtenstellen / public service
+
+The dashboard field **Beamtenstellen / public service** lists civil-service posts. Jobs get the green
+*Beamtenstelle* tag when they come from the "Beamte" entries at the bottom of `companies.yml` (keyword searches
+for Verbeamtung / Besoldungsgruppe / Regierungsrat, plus public authorities such as Luftfahrt-Bundesamt, BAAINBw,
+DLR, BAM, PTB, Land Baden-Württemberg, Stadt Stuttgart, Hamburg), or when the job title itself contains civil-servant
+wording (Beamter, Verbeamtung, Besoldung, A13, Regierungsrat, gehobener / höherer Dienst). Authorities also employ
+salaried staff, so the tag means "public-service employer", and the job text says whether Verbeamtung applies.
+Add more authorities with `beamte: true` and an `include` list (see the existing entries).
+
 ## Limits
 
 - GitHub scheduled workflows can start late, and GitHub pauses them after 60 days without repository
