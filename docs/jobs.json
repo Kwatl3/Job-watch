@@ -950,7 +950,7 @@
   },
   "Rheinmetall": {
    "ok": false,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.rheinmetall.com/de/karriere/aktuelle-stellenangebote?page=67",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.rheinmetall.com/de/karriere/aktuelle-stellenangebote?page=51",
    "count": 93
   },
   "MTU Aero Engines": {
@@ -1385,8 +1385,8 @@
   },
   "Bechtle": {
    "ok": true,
-   "count": 64,
-   "raw": 428
+   "count": 63,
+   "raw": 427
   },
   "Berner": {
    "ok": true,
@@ -1536,7 +1536,7 @@
   "Continental Aktiengesellschaft": {
    "ok": true,
    "count": 12,
-   "raw": 559
+   "raw": 560
   },
   "Cronimet": {
    "ok": true,
@@ -1616,7 +1616,7 @@
   "DSV": {
    "ok": true,
    "count": 15,
-   "raw": 289
+   "raw": 286
   },
   "Dunkermotoren": {
    "ok": true,
@@ -1980,7 +1980,7 @@
   },
   "Impact": {
    "ok": true,
-   "count": 65,
+   "count": 66,
    "raw": 297
   },
   "IMS Gear": {
@@ -2416,7 +2416,7 @@
   "Roche": {
    "ok": true,
    "count": 25,
-   "raw": 69
+   "raw": 72
   },
   "Roche Diagnostics": {
    "ok": true,
@@ -2496,7 +2496,7 @@
   "Schwäbisch Hall": {
    "ok": true,
    "count": 5,
-   "raw": 288
+   "raw": 287
   },
   "SchwörerHaus": {
    "ok": true,
@@ -2835,8 +2835,8 @@
   },
   "Walter": {
    "ok": true,
-   "count": 34,
-   "raw": 293
+   "count": 33,
+   "raw": 294
   },
   "Weishaupt": {
    "ok": true,
@@ -3305,8 +3305,8 @@
   },
   "Mercedes-Benz": {
    "ok": true,
-   "count": 30,
-   "raw": 94
+   "count": 28,
+   "raw": 92
   },
   "Metabowerke": {
    "ok": true,
@@ -3934,9 +3934,9 @@
    "raw": 20
   },
   "Northern Data": {
-   "ok": false,
-   "error": "RetryError: HTTPSConnectionPool(host='northerndata.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/northerndata/NorthernDataCareers/jobs (Caused by ResponseError('too many ",
-   "count": 0
+   "ok": true,
+   "count": 0,
+   "raw": 0
   },
   "IONOS": {
    "ok": true,
@@ -4146,7 +4146,7 @@
   "Wabtec": {
    "ok": true,
    "count": 13,
-   "raw": 721
+   "raw": 722
   },
   "Tenstorrent": {
    "ok": true,
@@ -4520,8 +4520,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 3,
-   "raw": 16
+   "count": 0,
+   "raw": 0
   },
   "Smart Photonics": {
    "ok": true,
@@ -4980,7 +4980,7 @@
   },
   "Bundeswehr (Bundeswehr-Karriere)": {
    "ok": true,
-   "count": 34,
+   "count": 35,
    "raw": 270
   },
   "Luftfahrt-Bundesamt": {
@@ -5045,6 +5045,19 @@
   }
  },
  "jobs": [
+  {
+   "company": "Bundeswehr (Bundeswehr-Karriere)",
+   "id": "13270-2026-00008895-1-S",
+   "title": "Meisterin / Meister Technisches Gebäudemanagement (m/w/d)",
+   "employer": "Bundeswehr Standort",
+   "location": "Strausberg, Brandenburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13270-2026-00008895-1-S",
+   "posted": "2026-10-30",
+   "match": 1,
+   "src": "agency",
+   "beamte": true,
+   "first_seen": "2026-11-16T22:12:27+00:00"
+  },
   {
    "company": "BAM (Bundesanstalt für Materialforschung)",
    "id": "20354-1653957-1-S",
@@ -16805,7 +16818,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-11T19:42:05+00:00",
-   "employer": "Walter-Fach-Kraft Personal GmbH"
+   "employer": "Walter-Fach-Kraft Personal GmbH",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Walter",
@@ -34803,7 +34817,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-30T13:07:56+00:00",
-   "closed_at": "2026-11-16T21:26:24+00:00"
+   "employer": "IMPACT GmbH HH Flexible Personalsysteme"
   },
   {
    "company": "Dekra",
@@ -49441,7 +49455,8 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Q.ANT",
@@ -49452,7 +49467,8 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Q.ANT",
@@ -49463,7 +49479,8 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -71771,7 +71788,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Bechtle AG"
+   "employer": "Bechtle AG",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Wolff & Müller",
@@ -75710,7 +75728,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung"
+   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Mercedes",
@@ -75736,7 +75755,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung"
+   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung",
+   "closed_at": "2026-11-16T22:12:27+00:00"
   },
   {
    "company": "Daimler Truck",
@@ -80623,5 +80643,5 @@
    "closed_at": "2026-11-03T10:42:52+00:00"
   }
  ],
- "updated": "2026-11-16T21:26:24+00:00"
+ "updated": "2026-11-16T22:12:27+00:00"
 }
