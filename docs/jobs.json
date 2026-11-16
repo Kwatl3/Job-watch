@@ -827,7 +827,7 @@
   "CERN": {
    "ok": true,
    "count": 15,
-   "raw": 53
+   "raw": 52
   },
   "Thales (Workday, Germany)": {
    "ok": true,
@@ -952,7 +952,7 @@
   "Hensoldt": {
    "ok": true,
    "count": 128,
-   "raw": 476
+   "raw": 479
   },
   "TKMS": {
    "ok": true,
@@ -962,7 +962,7 @@
   "RENK": {
    "ok": true,
    "count": 16,
-   "raw": 49
+   "raw": 48
   },
   "OHB": {
    "ok": true,
@@ -1046,8 +1046,8 @@
   },
   "ArianeGroup": {
    "ok": true,
-   "count": 2,
-   "raw": 7
+   "count": 1,
+   "raw": 1
   },
   "Thales Alenia Space": {
    "ok": true,
@@ -1117,7 +1117,7 @@
   "Leonardo": {
    "ok": true,
    "count": 9,
-   "raw": 80
+   "raw": 79
   },
   "Fincantieri": {
    "ok": true,
@@ -1222,7 +1222,7 @@
   "Rolls-Royce": {
    "ok": true,
    "count": 9,
-   "raw": 38
+   "raw": 37
   },
   "Babcock": {
    "ok": true,
@@ -3567,7 +3567,7 @@
   "FACC": {
    "ok": true,
    "count": 0,
-   "raw": 1
+   "raw": 0
   },
   "Hexcel": {
    "ok": true,
@@ -3771,8 +3771,8 @@
   },
   "Airbus (Workday, Germany)": {
    "ok": true,
-   "count": 99,
-   "raw": 544
+   "count": 96,
+   "raw": 537
   },
   "NXP Semiconductors": {
    "ok": false,
@@ -4167,7 +4167,7 @@
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 252
+   "raw": 251
   },
   "Saronic": {
    "ok": true,
@@ -4667,7 +4667,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 127
+   "raw": 125
   },
   "Krea": {
    "ok": true,
@@ -4697,7 +4697,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 837
+   "raw": 838
   },
   "ClickHouse": {
    "ok": true,
@@ -4737,7 +4737,7 @@
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 667
+   "raw": 664
   },
   "Vectara": {
    "ok": true,
@@ -13650,7 +13650,8 @@
    "posted": "Posted 5 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-10T20:25:20+00:00"
+   "first_seen": "2026-11-10T20:25:20+00:00",
+   "closed_at": "2026-11-16T00:57:05+00:00"
   },
   {
    "company": "Bertrandt",
@@ -25122,7 +25123,8 @@
    "posted": "Posted 13 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-16T00:57:05+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -25133,7 +25135,8 @@
    "posted": "Posted 13 Days Ago",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-02T20:11:45+00:00"
+   "first_seen": "2026-11-02T20:11:45+00:00",
+   "closed_at": "2026-11-16T00:57:05+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -31731,18 +31734,6 @@
    "src": "agency",
    "first_seen": "2026-10-29T16:51:15+00:00",
    "closed_at": "2026-11-10T20:25:20+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646635-7878-5756-S",
-   "title": "Ingenieur (m/w/d) Umwelttechnik - Geschäftsentwicklung (Personalvermittlung)",
-   "location": "Augsburg, Bayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646635-7878-5756-S",
-   "posted": "2026-10-29",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-29T16:51:15+00:00",
-   "closed_at": "2026-11-01T22:42:20+00:00"
   },
   {
    "company": "Bertrandt",
@@ -70319,7 +70310,8 @@
    "match": 1,
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
-   "src": "agency"
+   "src": "agency",
+   "closed_at": "2026-11-16T00:57:05+00:00"
   },
   {
    "company": "ZF Friedrichshafen",
@@ -77024,5 +77016,5 @@
    "closed_at": "2026-11-02T09:53:50+00:00"
   }
  ],
- "updated": "2026-11-15T20:58:26+00:00"
+ "updated": "2026-11-16T00:57:05+00:00"
 }
