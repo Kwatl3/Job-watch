@@ -845,8 +845,8 @@
  "companies": {
   "CERN": {
    "ok": true,
-   "count": 16,
-   "raw": 53
+   "count": 17,
+   "raw": 54
   },
   "Thales (Workday, Germany)": {
    "ok": false,
@@ -876,7 +876,7 @@
   "KNDS": {
    "ok": true,
    "count": 37,
-   "raw": 150
+   "raw": 149
   },
   "John Cockerill": {
    "ok": true,
@@ -956,7 +956,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 1,
-   "raw": 79
+   "raw": 78
   },
   "Diehl": {
    "ok": false,
@@ -980,8 +980,8 @@
   },
   "RENK": {
    "ok": true,
-   "count": 16,
-   "raw": 50
+   "count": 18,
+   "raw": 53
   },
   "OHB": {
    "ok": true,
@@ -991,12 +991,12 @@
   "Heckler & Koch": {
    "ok": true,
    "count": 20,
-   "raw": 71
+   "raw": 70
   },
   "Quantum Systems": {
    "ok": true,
    "count": 12,
-   "raw": 208
+   "raw": 211
   },
   "Terma": {
    "ok": true,
@@ -1300,7 +1300,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 138,
+   "count": 137,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -3475,8 +3475,8 @@
   },
   "Lufthansa Technik": {
    "ok": true,
-   "count": 4,
-   "raw": 17
+   "count": 6,
+   "raw": 19
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3490,8 +3490,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 41,
-   "raw": 70
+   "count": 40,
+   "raw": 66
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3561,7 +3561,7 @@
   "Daher": {
    "ok": true,
    "count": 0,
-   "raw": 44
+   "raw": 42
   },
   "Latecoere": {
    "ok": true,
@@ -3595,8 +3595,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 28,
-   "raw": 55
+   "count": 27,
+   "raw": 54
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3705,8 +3705,8 @@
   },
   "Helsing": {
    "ok": true,
-   "count": 65,
-   "raw": 178
+   "count": 67,
+   "raw": 177
   },
   "Stark Defence": {
    "ok": true,
@@ -3726,7 +3726,7 @@
   "Isar Aerospace": {
    "ok": true,
    "count": 54,
-   "raw": 144
+   "raw": 145
   },
   "Rocket Factory Augsburg": {
    "ok": true,
@@ -3735,8 +3735,8 @@
   },
   "The Exploration Company": {
    "ok": true,
-   "count": 71,
-   "raw": 125
+   "count": 72,
+   "raw": 127
   },
   "Autoflug": {
    "ok": true,
@@ -3751,7 +3751,7 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 71,
-   "raw": 177
+   "raw": 181
   },
   "Dornier": {
    "ok": true,
@@ -3806,12 +3806,12 @@
   "Lambda": {
    "ok": true,
    "count": 0,
-   "raw": 94
+   "raw": 95
   },
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 309
+   "raw": 311
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3934,9 +3934,9 @@
    "raw": 20
   },
   "Northern Data": {
-   "ok": false,
-   "error": "RetryError: HTTPSConnectionPool(host='northerndata.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/northerndata/NorthernDataCareers/jobs (Caused by ResponseError('too many ",
-   "count": 0
+   "ok": true,
+   "count": 0,
+   "raw": 5
   },
   "IONOS": {
    "ok": true,
@@ -4026,7 +4026,7 @@
   "Formlabs": {
    "ok": true,
    "count": 0,
-   "raw": 266
+   "raw": 268
   },
   "Carbon": {
    "ok": false,
@@ -4041,7 +4041,7 @@
   "Protolabs": {
    "ok": true,
    "count": 0,
-   "raw": 66
+   "raw": 65
   },
   "EOS (additive)": {
    "ok": true,
@@ -4151,12 +4151,12 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 133
+   "raw": 132
   },
   "Nebius": {
    "ok": true,
    "count": 13,
-   "raw": 372
+   "raw": 370
   },
   "Together AI": {
    "ok": true,
@@ -4166,17 +4166,17 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 535
+   "raw": 543
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 71
+   "raw": 70
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 323
+   "raw": 322
   },
   "Etched": {
    "ok": true,
@@ -4191,7 +4191,7 @@
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 276
+   "raw": 277
   },
   "Siemens Energy": {
    "ok": true,
@@ -4456,7 +4456,7 @@
   "Submer": {
    "ok": true,
    "count": 0,
-   "raw": 7
+   "raw": 9
   },
   "Vast Data": {
    "ok": true,
@@ -4481,7 +4481,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 385
+   "raw": 387
   },
   "EdgeConnex": {
    "ok": true,
@@ -4626,7 +4626,7 @@
   "Tacto": {
    "ok": true,
    "count": 0,
-   "raw": 20
+   "raw": 21
   },
   "Black Forest Labs": {
    "ok": true,
@@ -4641,12 +4641,12 @@
   "Sereact": {
    "ok": true,
    "count": 1,
-   "raw": 47
+   "raw": 49
   },
   "DeepL": {
    "ok": true,
    "count": 0,
-   "raw": 8
+   "raw": 9
   },
   "n8n": {
    "ok": true,
@@ -4661,7 +4661,7 @@
   "Langdock": {
    "ok": true,
    "count": 2,
-   "raw": 11
+   "raw": 12
   },
   "Axelera AI": {
    "ok": true,
@@ -4671,7 +4671,7 @@
   "Lumai": {
    "ok": true,
    "count": 0,
-   "raw": 8
+   "raw": 7
   },
   "Twenty": {
    "ok": true,
@@ -4681,12 +4681,12 @@
   "Synthesia": {
    "ok": true,
    "count": 1,
-   "raw": 29
+   "raw": 28
   },
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 128
+   "raw": 130
   },
   "Krea": {
    "ok": true,
@@ -4711,17 +4711,17 @@
   "Wayve": {
    "ok": true,
    "count": 0,
-   "raw": 153
+   "raw": 151
   },
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 836
+   "raw": 841
   },
   "ClickHouse": {
    "ok": true,
    "count": 3,
-   "raw": 204
+   "raw": 206
   },
   "Parloa": {
    "ok": false,
@@ -4751,12 +4751,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 897
+   "raw": 903
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 656
+   "raw": 648
   },
   "Vectara": {
    "ok": true,
@@ -4771,7 +4771,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 379
+   "raw": 377
   },
   "Merantix": {
    "ok": true,
@@ -4791,17 +4791,17 @@
   "Scaleway": {
    "ok": true,
    "count": 0,
-   "raw": 38
+   "raw": 37
   },
   "Neura Robotics": {
    "ok": true,
    "count": 5,
-   "raw": 234
+   "raw": 236
   },
   "Agile Robots": {
    "ok": true,
    "count": 1,
-   "raw": 67
+   "raw": 69
   },
   "Mercedes-Benz (Stuttgart region)": {
    "ok": true,
@@ -5047,14 +5047,164 @@
  "jobs": [
   {
    "company": "Helsing",
-   "id": "4820991101",
-   "title": "Produktionsmitarbeiter / Monteur",
+   "id": "4903759101",
+   "title": "IT Support Engineer",
    "location": "Munich",
-   "url": "https://helsing.ai/jobs/4820991101?gh_jid=4820991101",
-   "posted": "2026-11-18T04:20:41-05:00",
+   "url": "https://helsing.ai/jobs/4903759101?gh_jid=4903759101",
+   "posted": "2026-11-18T07:29:05-05:00",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-18T10:37:10+00:00"
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Helsing",
+   "id": "4893273101",
+   "title": "IT Support Engineer",
+   "location": "Munich",
+   "url": "https://helsing.ai/jobs/4893273101?gh_jid=4893273101",
+   "posted": "2026-11-18T07:29:04-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647350-7878-1858-S",
+   "title": "Versuchsingenieur Messtechnik (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Zweibrücken, Pfalz, Rheinland Pfalz",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647350-7878-1858-S",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "OHB",
+   "id": "9042",
+   "title": "System Engineer Earth Observation Applications & Data Processing (m/f/d)",
+   "location": "Weßling bei München, DE",
+   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/9042?c=career-ohb",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647339-7878-8527-S",
+   "title": "System Engineer (m/w/d) Windows & Citrix",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647339-7878-8527-S",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "RENK",
+   "id": "18121-0068816590-S",
+   "title": "Solution Engineer (m/w/d) Microsoft Dynamics CRM",
+   "employer": "RENK GmbH",
+   "location": "Augsburg, Bayern, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0068816590-S",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Lufthansa Technik",
+   "id": "13348-1655321-1-S",
+   "title": "Referent Qualitäts- & Regelwerkmanagement (m/w/divers)",
+   "employer": "Lufthansa Technik AG",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1655321-1-S",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "The Exploration Company",
+   "id": "26b62e72-05fa-484f-8ed9-2cfe0d893c8c",
+   "title": "Lead Performance & Development",
+   "location": "Munich, Germany",
+   "url": "https://jobs.ashbyhq.com/the-exploration-company/26b62e72-05fa-484f-8ed9-2cfe0d893c8c",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "CERN",
+   "id": "744000162291952",
+   "title": "Junior Materials Engineer (HSE-OHS-2026-261-GRAE)",
+   "location": "Geneva, CH",
+   "url": "https://jobs.smartrecruiters.com/CERN/744000162291952",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Lufthansa Technik",
+   "id": "13348-1654669-1-S",
+   "title": "Ingenieur Product Engineering Aircraft Components (m/w/divers)",
+   "employer": "Lufthansa Technik AG",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1654669-1-S",
+   "posted": "2026-11-18",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "RENK",
+   "id": "18121-0068816620-S",
+   "title": "IT Platform & Integration Engineer (m/w/d)",
+   "employer": "RENK GmbH",
+   "location": "Augsburg, Bayern, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0068816620-S",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647349-7878-1583-S",
+   "title": "CAD Konstrukteur Creo (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Roßdorf bei Darmstadt, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647349-7878-1583-S",
+   "posted": "2026-11-18",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Teilprojektleiter-Produktentwicklung-%28wmd%29-89077/1375984255/",
+   "title": "Teilprojektleiter Produktentwicklung (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Teilprojektleiter-Produktentwicklung-%28wmd%29-89077/1375984255/",
+   "posted": "2026-11-06",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Entwicklungsingenieurin-Elektronik-Naval-Solutions-%28wmd%29-73447/1167036155/",
+   "title": "Entwicklungsingenieur*in Elektronik Naval Solutions (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Entwicklungsingenieurin-Elektronik-Naval-Solutions-%28wmd%29-73447/1167036155/",
+   "posted": "2025-11-21",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Nebius",
@@ -5062,7 +5212,18 @@
    "title": "Senior/Staff Site Reliability Engineer (Server Infrastructure)",
    "location": "Amsterdam, Netherlands; Berlin, Germany; Finland; London, United Kingdom; Prague, Czech Republic; Remote",
    "url": "https://careers.nebius.com/?gh_jid=5040922101",
-   "posted": "2026-11-18T03:17:06-05:00",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T10:37:10+00:00"
+  },
+  {
+   "company": "Helsing",
+   "id": "4820991101",
+   "title": "Produktionsmitarbeiter / Monteur",
+   "location": "Munich",
+   "url": "https://helsing.ai/jobs/4820991101?gh_jid=4820991101",
+   "posted": "2026-11-18T04:20:41-05:00",
    "match": 1,
    "src": "site",
    "first_seen": "2026-11-18T10:37:10+00:00"
@@ -6586,6 +6747,28 @@
   },
   {
    "company": "Helsing",
+   "id": "5040443101",
+   "title": "Senior Warhead Engineer – Lethality Centre of Excellence",
+   "location": "Munich",
+   "url": "https://helsing.ai/jobs/5040443101?gh_jid=5040443101",
+   "posted": "2026-11-18T13:02:24-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-17T19:45:00+00:00"
+  },
+  {
+   "company": "Nebius",
+   "id": "5040676101",
+   "title": "Senior Site Reliability Engineer (Data Platform)",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; Israel; London, United Kingdom; Prague, Czech Republic; Remote",
+   "url": "https://careers.nebius.com/?gh_jid=5040676101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-17T19:45:00+00:00"
+  },
+  {
+   "company": "Helsing",
    "id": "5040418101",
    "title": "Qualitätstechniker - Produktion (m/w/d)",
    "location": "Munich",
@@ -6602,28 +6785,6 @@
    "location": "Munich",
    "url": "https://helsing.ai/jobs/5040299101?gh_jid=5040299101",
    "posted": "2026-11-18T04:17:33-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-11-17T19:45:00+00:00"
-  },
-  {
-   "company": "Nebius",
-   "id": "5040676101",
-   "title": "Senior Site Reliability Engineer (Data Platform)",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; Israel; London, United Kingdom; Prague, Czech Republic; Remote",
-   "url": "https://careers.nebius.com/?gh_jid=5040676101",
-   "posted": "2026-11-17T18:18:04-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-11-17T19:45:00+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "5040443101",
-   "title": "Senior Warhead Engineer – Lethality Centre of Excellence",
-   "location": "Munich",
-   "url": "https://helsing.ai/jobs/5040443101?gh_jid=5040443101",
-   "posted": "2026-11-17T10:57:23-05:00",
    "match": 1,
    "src": "site",
    "first_seen": "2026-11-17T19:45:00+00:00"
@@ -9647,23 +9808,23 @@
    "first_seen": "2026-11-16T18:18:22+00:00"
   },
   {
+   "company": "Nebius",
+   "id": "4811809101",
+   "title": "Senior Fullstack Engineer",
+   "location": "Amsterdam, Netherlands; Germany; Israel; Prague, Czech Republic; Remote - Europe; United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4811809101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-16T18:18:22+00:00"
+  },
+  {
    "company": "Isar Aerospace",
    "id": "5006037101",
    "title": "Director Quality and Continuous Improvement (m/f/d)",
    "location": "Parsdorf, Bavaria, Germany",
    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5006037101",
    "posted": "2026-11-16T11:19:20-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-11-16T18:18:22+00:00"
-  },
-  {
-   "company": "Nebius",
-   "id": "4811809101",
-   "title": "Senior Fullstack Engineer",
-   "location": "Amsterdam, Netherlands; Germany; Israel; Prague, Czech Republic; Remote - Europe; United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4811809101",
-   "posted": "2026-11-16T04:57:29-05:00",
    "match": 1,
    "src": "site",
    "first_seen": "2026-11-16T18:18:22+00:00"
@@ -11097,7 +11258,8 @@
    "posted": "2026-11-06",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-14T03:00:51+00:00"
+   "first_seen": "2026-11-14T03:00:51+00:00",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -13627,8 +13789,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T20:23:46+00:00",
-   "employer": "Bertrandt AG",
-   "closed_at": "2026-11-17T19:45:00+00:00"
+   "employer": "Bertrandt AG"
   },
   {
    "company": "Akkodis",
@@ -15993,7 +16154,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Bertrandt",
@@ -16537,7 +16699,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Bertrandt",
@@ -17081,8 +17244,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG",
-   "closed_at": "2026-11-18T10:37:10+00:00"
+   "employer": "Bertrandt AG"
   },
   {
    "company": "Bertrandt",
@@ -27828,7 +27990,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T16:43:16+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -28087,7 +28250,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T16:43:16+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -28210,7 +28374,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T16:43:16+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Vincorion",
@@ -28343,7 +28508,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T08:24:12+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "RENK",
@@ -28950,7 +29116,7 @@
    "title": "Senior Management & Technology Consultant - Manufacturing/Production",
    "location": "Munich, Germany",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/8196239003?gh_jid=8196239003",
-   "posted": "2026-11-16T11:31:30-05:00",
+   "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-11-05T01:25:30+00:00"
@@ -28961,7 +29127,7 @@
    "title": "Senior Digital Transformation & Process Optimisation Consultant - Manufacturing/Production",
    "location": "Munich, Germany",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/8196236003?gh_jid=8196236003",
-   "posted": "2026-11-16T11:31:29-05:00",
+   "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-11-05T01:25:30+00:00"
@@ -28983,7 +29149,7 @@
    "title": "Sr. Product Designer",
    "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8923866002",
-   "posted": "2026-11-17T17:59:38-05:00",
+   "posted": "2026-11-18T10:44:34-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-11-04T20:55:03+00:00"
@@ -36029,7 +36195,8 @@
    "posted": "2026-10-31",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-30T15:17:24+00:00"
+   "first_seen": "2026-10-30T15:17:24+00:00",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -41237,7 +41404,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-26T20:43:26+00:00",
-   "employer": "Liebherr-Aerospace Lindenberg GmbH"
+   "employer": "Liebherr-Aerospace Lindenberg GmbH",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "OHB",
@@ -41574,18 +41742,6 @@
   },
   {
    "company": "Akkodis",
-   "id": "12634-BB-643811-7878-7972-S",
-   "title": "Entwicklungsingenieur Flugregelung / Flight Control Systems (m/w/d)",
-   "location": "Schrobenhausen, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-643811-7878-7972-S",
-   "posted": "2026-10-26",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-26T15:06:17+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
-   "company": "Akkodis",
    "id": "12634-BB-646484-7878-2320-S",
    "title": "Entwicklungsingenieur Bremssysteme Radbremse (m/w/d)",
    "location": "München, Bayern",
@@ -41607,18 +41763,6 @@
    "src": "agency",
    "first_seen": "2026-10-26T15:06:17+00:00",
    "closed_at": "2026-11-04T20:55:03+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-644586-7878-5785-S",
-   "title": "EWIS Design Engineer (m/w/d) Luftfahrt",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-644586-7878-5785-S",
-   "posted": "2026-10-26",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-26T15:06:17+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "OHB",
@@ -42730,18 +42874,6 @@
    "closed_at": "2026-11-06T11:25:20+00:00"
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-646434-7878-3051-S",
-   "title": "Technischer Produktdesigner (m/w/d) Schiffbau",
-   "location": "Kiel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646434-7878-3051-S",
-   "posted": "2026-10-23",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-23T11:26:21+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
    "company": "TKMS",
    "id": "16604-974461-008-S",
    "title": "Konstruktionsmechaniker Ausrüstungstechnik (m/w/d)",
@@ -43798,18 +43930,6 @@
    "employer": "Airbus Defence and Space GmbH"
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-642549-7878-8389-S",
-   "title": "Mechatroniker Instandhaltung (m/w/d)",
-   "location": "Chemnitz, Sachsen, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-642549-7878-8389-S",
-   "posted": "2026-10-22",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-22T13:09:45+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
    "company": "Heckler & Koch",
    "id": "10000-1208383835-S",
    "title": "Gruppenleiter (m/w/d) Sondertechnologie I - Bereich Rundschleifen / Drehtechnik / Frästechnik",
@@ -43832,30 +43952,6 @@
    "src": "agency",
    "first_seen": "2026-10-22T13:09:45+00:00",
    "employer": "Airbus Defence and Space GmbH"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646405-7878-4372-S",
-   "title": "Elektroniker / Mechatroniker für Baugruppenmontage und Instandsetzung (w/m/d)",
-   "location": "Penzberg, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646405-7878-4372-S",
-   "posted": "2026-10-22",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-22T13:09:45+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-644563-7878-9779-S",
-   "title": "BIM Konstrukteur (m/w/d)",
-   "location": "Dresden, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-644563-7878-9779-S",
-   "posted": "2026-10-22",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-22T13:09:45+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "EUMETSAT",
@@ -44563,7 +44659,18 @@
    "title": "Staff Machine Learning Engineer, LLM Inference Optimization",
    "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom; Poland; Prague, Czech Republic; Zurich, Switzerland",
    "url": "https://careers.nebius.com/?gh_jid=5012275101",
-   "posted": "2026-11-13T15:35:02-05:00",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-21T15:01:27+00:00"
+  },
+  {
+   "company": "Nebius",
+   "id": "4986448101",
+   "title": "Senior Machine Learning Engineer, LLM Inference Optimization",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; Israel; Remote - Europe",
+   "url": "https://careers.nebius.com/?gh_jid=4986448101",
+   "posted": "2026-11-18T07:49:48-05:00",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T15:01:27+00:00"
@@ -44575,17 +44682,6 @@
    "location": "Parsdorf, Bavaria, Germany",
    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5012604101",
    "posted": "2026-11-03T06:32:40-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-21T15:01:27+00:00"
-  },
-  {
-   "company": "Nebius",
-   "id": "4986448101",
-   "title": "Senior Machine Learning Engineer, LLM Inference Optimization",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; Israel; Remote - Europe",
-   "url": "https://careers.nebius.com/?gh_jid=4986448101",
-   "posted": "2026-10-26T17:56:23-04:00",
    "match": 1,
    "src": "site",
    "first_seen": "2026-10-21T15:01:27+00:00"
@@ -45405,18 +45501,6 @@
    "src": "agency",
    "first_seen": "2026-10-20T12:04:10+00:00",
    "closed_at": "2026-11-09T11:16:24+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646334-7878-6482-S",
-   "title": "Elektrotechniker/ Elektroingenieur (m/w/d) Defence",
-   "location": "Traunstein, Oberbayern, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646334-7878-6482-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T12:04:10+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -48106,22 +48190,22 @@
   },
   {
    "company": "Databricks",
-   "id": "8892971002",
+   "id": "8892965002",
    "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-   "location": "Remote - Germany",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002",
-   "posted": "2026-11-17T17:59:38-05:00",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892965002",
+   "posted": "2026-11-18T14:20:39-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-15T19:21:55+00:00"
   },
   {
    "company": "Databricks",
-   "id": "8892965002",
+   "id": "8892971002",
    "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892965002",
-   "posted": "2026-11-17T17:59:38-05:00",
+   "location": "Remote - Germany",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002",
+   "posted": "2026-11-18T10:44:34-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-15T19:21:55+00:00"
@@ -51603,7 +51687,7 @@
    "title": "Senior Value Engineer - Manufacturing/Production",
    "location": "Munich, Germany",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7825970003?gh_jid=7825970003",
-   "posted": "2026-11-16T11:31:35-05:00",
+   "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T17:40:28+00:00",
@@ -51615,7 +51699,7 @@
    "title": "Senior Process Intelligence & Supply Chain Transformation Consultant - Manufacturing/Production",
    "location": "Munich, Germany",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7825969003?gh_jid=7825969003",
-   "posted": "2026-11-16T11:31:33-05:00",
+   "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T17:40:28+00:00",
@@ -51627,7 +51711,7 @@
    "title": "Enterprise Account Executive Benelux - High Tech/Manufacturing",
    "location": "Amsterdam, Netherlands",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7714633003?gh_jid=7714633003",
-   "posted": "2026-11-13T04:05:26-05:00",
+   "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-10T17:40:28+00:00",
@@ -51975,19 +52059,6 @@
    "src": "site",
    "first_seen": "2026-10-10T16:29:40+00:00",
    "seed": true
-  },
-  {
-   "company": "Black Semiconductor",
-   "id": "8ebb11d0-4dea-4841-b139-cc2dc5c76493",
-   "title": "Process Integration Engineer (f/m/d)",
-   "location": "Aachen, Germany",
-   "url": "https://jobs.ashbyhq.com/blacksemiconductor/8ebb11d0-4dea-4841-b139-cc2dc5c76493",
-   "posted": "2026-09-18",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-10T16:29:40+00:00",
-   "seed": true,
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "Rittal",
@@ -53219,6 +53290,102 @@
    "closed_at": "2026-11-13T19:49:47+00:00"
   },
   {
+   "company": "Nebius",
+   "id": "4967927101",
+   "title": "Senior/Tech Lead Backend Engineer (Managed Kubernetes)",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4967927101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4600919101",
+   "title": "Senior Site Reliability Engineer — Token Factory (Inference Platform)",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom; Prague, Czech Republic; Remote - Europe",
+   "url": "https://careers.nebius.com/?gh_jid=4600919101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4376374101",
+   "title": "Senior Site Reliability Engineer (SRE)",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; Germany; Israel; London, United Kingdom; Prague, Czech Republic; Remote - Europe; United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4376374101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4889227101",
+   "title": "Senior Site Reliability Engineer (DevTools)",
+   "location": "Amsterdam, Netherlands; Germany; Israel; London, United Kingdom; Remote - Europe; United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4889227101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4383057101",
+   "title": "Senior HPC Engineer, GPU Compute",
+   "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4383057101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4724503101",
+   "title": "Senior Data Engineer",
+   "location": "Germany; Israel; Netherlands; Prague, Czech Republic; Remote - Europe; United Kingdom",
+   "url": "https://careers.nebius.com/?gh_jid=4724503101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4558219101",
+   "title": "Senior Backend Engineer",
+   "location": "Germany",
+   "url": "https://careers.nebius.com/?gh_jid=4558219101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
+   "company": "Nebius",
+   "id": "4794437101",
+   "title": "L3 Support Engineer",
+   "location": "Béthune, Pas-de-Calais, France",
+   "url": "https://careers.nebius.com/?gh_jid=4794437101",
+   "posted": "2026-11-18T07:49:48-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T16:50:46+00:00",
+   "seed": true
+  },
+  {
    "company": "Parker Hannifin",
    "id": "13645-286427-S",
    "title": "Konstruktionsingenieur (w/m/d)",
@@ -53323,18 +53490,6 @@
    "employer": "Stadler Rail"
   },
   {
-   "company": "Nebius",
-   "id": "4383057101",
-   "title": "Senior HPC Engineer, GPU Compute",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4383057101",
-   "posted": "2026-10-28T13:04:39-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
    "company": "Salzgitter",
    "id": "12781-15918663-KAL-S",
    "title": "Kfz-Mechatroniker (w/m/d)",
@@ -53346,90 +53501,6 @@
    "first_seen": "2026-10-09T16:50:46+00:00",
    "seed": true,
    "closed_at": "2026-11-12T20:02:12+00:00"
-  },
-  {
-   "company": "Nebius",
-   "id": "4967927101",
-   "title": "Senior/Tech Lead Backend Engineer (Managed Kubernetes)",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4967927101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4600919101",
-   "title": "Senior Site Reliability Engineer — Token Factory (Inference Platform)",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; London, United Kingdom; Prague, Czech Republic; Remote - Europe",
-   "url": "https://careers.nebius.com/?gh_jid=4600919101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4376374101",
-   "title": "Senior Site Reliability Engineer (SRE)",
-   "location": "Amsterdam, Netherlands; Berlin, Germany; Germany; Israel; London, United Kingdom; Prague, Czech Republic; Remote - Europe; United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4376374101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4889227101",
-   "title": "Senior Site Reliability Engineer (DevTools)",
-   "location": "Amsterdam, Netherlands; Germany; Israel; London, United Kingdom; Remote - Europe; United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4889227101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4724503101",
-   "title": "Senior Data Engineer",
-   "location": "Germany; Israel; Netherlands; Prague, Czech Republic; Remote - Europe; United Kingdom",
-   "url": "https://careers.nebius.com/?gh_jid=4724503101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4558219101",
-   "title": "Senior Backend Engineer",
-   "location": "Germany",
-   "url": "https://careers.nebius.com/?gh_jid=4558219101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
-  },
-  {
-   "company": "Nebius",
-   "id": "4794437101",
-   "title": "L3 Support Engineer",
-   "location": "Béthune, Pas-de-Calais, France",
-   "url": "https://careers.nebius.com/?gh_jid=4794437101",
-   "posted": "2026-10-26T17:56:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T16:50:46+00:00",
-   "seed": true
   },
   {
    "company": "KUKA",
@@ -57009,7 +57080,8 @@
    "posted": "2026-10-08",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T13:07:35+00:00"
+   "first_seen": "2026-10-09T13:07:35+00:00",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "OHB",
@@ -61828,6 +61900,28 @@
    "closed_at": "2026-11-18T07:38:10+00:00"
   },
   {
+   "company": "Helsing",
+   "id": "4347030101",
+   "title": "Site Reliability Engineer",
+   "location": "Berlin; London; Munich; Paris",
+   "url": "https://helsing.ai/jobs/4347030101?gh_jid=4347030101",
+   "posted": "2026-11-18T11:51:19-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "The Exploration Company",
+   "id": "f6f0649e-5f4d-4feb-a436-7a9047856c9a",
+   "title": "Senior Environment Health & Safety Engineer",
+   "location": "Munich, Germany",
+   "url": "https://jobs.ashbyhq.com/the-exploration-company/f6f0649e-5f4d-4feb-a436-7a9047856c9a",
+   "posted": "2026-11-18",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Systemingenieur-Elektronik-Helicopter-Crew-Solutions-%28wmd%29-82256/1356612255/",
    "title": "Systemingenieur - Elektronik Helicopter Crew Solutions (w/m/d)",
@@ -62838,18 +62932,6 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-TRx-4D-Radare-mit-Schwerpunkt-Obsoleszenz-Bearbeitung-%28wmd%29-89077/1363109555/",
-   "title": "Systemingenieur für TRx-4D Radare mit Schwerpunkt Obsoleszenz Bearbeitung (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Systemingenieur-f%C3%BCr-TRx-4D-Radare-mit-Schwerpunkt-Obsoleszenz-Bearbeitung-%28wmd%29-89077/1363109555/",
-   "posted": "2026-11-01",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
-   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
    "location": "Bremen, DE, 28757 • Köln, DE, 51147 • Kiel, DE, 24114 • Koblenz, DE, 56073 • Hamburg, DE, 22335 • Bremen, DE, 28757 • Wilhelmshaven, DE, 26389 • Kiel, DE, 24145 • Köln, DE, 50676 • Fürstenfeldbruck, DE, 82256",
@@ -63578,18 +63660,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Taufkirchen-Projekt-Qualit%C3%A4tsmanager-%28wmd%29-82024/1350822555/",
-   "title": "Projekt-Qualitätsmanager (w/m/d)",
-   "location": "Taufkirchen, DE, 82024",
-   "url": "https://jobs.hensoldt.net/job/Taufkirchen-Projekt-Qualit%C3%A4tsmanager-%28wmd%29-82024/1350822555/",
-   "posted": "2026-10-09",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/fachteamleiter-m-w-d-cyber-security-engineering",
    "title": "Fachteamleiter (m/w/d)  Cyber Security Engineering",
@@ -64300,18 +64370,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Helsing",
-   "id": "4939591101",
-   "title": "Camera Engineer",
-   "location": "Berlin; London; Munich",
-   "url": "https://helsing.ai/jobs/4939591101?gh_jid=4939591101",
-   "posted": "2026-09-10T10:45:44-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
    "company": "The Exploration Company",
    "id": "96834ce5-c7f0-4542-8b83-5b8cc15a0069",
    "title": "Propulsion Functional Engineer",
@@ -64343,18 +64401,6 @@
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "The Exploration Company",
-   "id": "f6f0649e-5f4d-4feb-a436-7a9047856c9a",
-   "title": "Senior Environment Health & Safety Engineer",
-   "location": "Munich, Germany",
-   "url": "https://jobs.ashbyhq.com/the-exploration-company/f6f0649e-5f4d-4feb-a436-7a9047856c9a",
-   "posted": "2026-09-09",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -64431,7 +64477,8 @@
    "posted": "2026-09-04",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Diehl",
@@ -64758,18 +64805,6 @@
   },
   {
    "company": "Helsing",
-   "id": "4787205101",
-   "title": "Systems Engineer - Command and Control (Air)",
-   "location": "Munich",
-   "url": "https://helsing.ai/jobs/4787205101?gh_jid=4787205101",
-   "posted": "2026-08-20T04:41:13-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
-   "company": "Helsing",
    "id": "4776546101",
    "title": "(Senior) Systems Safety Engineer - Air",
    "location": "Munich",
@@ -64779,17 +64814,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-11-10T12:55:23+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "4347030101",
-   "title": "Site Reliability Engineer",
-   "location": "Berlin; London; Munich; Paris",
-   "url": "https://helsing.ai/jobs/4347030101?gh_jid=4347030101",
-   "posted": "2026-08-20T04:41:11-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Helsing",
@@ -66592,19 +66616,6 @@
   },
   {
    "company": "Airbus Defence and Space",
-   "id": "16947-975157521-S",
-   "title": "Lead Systems Engineer (d/f/m) Ground Support Systems",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-975157521-S",
-   "posted": "2026-10-06",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-04T14:16:49+00:00"
-  },
-  {
-   "company": "Airbus Defence and Space",
    "id": "16947-975148848-S",
    "title": "Lead Engineer (d/f/m) – Defence Digital Engineering (Offen)",
    "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
@@ -66692,7 +66703,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -67488,19 +67500,6 @@
    "seed": true,
    "src": "agency",
    "employer": "Dynamit Nobel Defence GmbH"
-  },
-  {
-   "company": "Airbus Defence and Space",
-   "id": "16947-967955356-S",
-   "title": "Prototypen Quality Prüfer - Level 3 - Bereich Mechanik (d/m/w)",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-967955356-S",
-   "posted": "2026-09-02",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69713,19 +69712,6 @@
    "src": "agency",
    "employer": "DSV Contract Logistics Krefeld GmbH",
    "closed_at": "2026-11-17T08:02:43+00:00"
-  },
-  {
-   "company": "TKMS",
-   "id": "16604-972319-008-S",
-   "title": "Vorrichtungskonstrukteur (m/w/d)",
-   "location": "Kiel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-972319-008-S",
-   "posted": "2026-10-01",
-   "match": 2,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-04T14:16:49+00:00"
   },
   {
    "company": "Fichtner",
@@ -81617,5 +81603,5 @@
    "closed_at": "2026-11-06T11:25:20+00:00"
   }
  ],
- "updated": "2026-11-18T10:37:10+00:00"
+ "updated": "2026-11-18T19:20:54+00:00"
 }
