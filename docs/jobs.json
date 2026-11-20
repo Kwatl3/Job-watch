@@ -855,8 +855,8 @@
   },
   "ESA": {
    "ok": true,
-   "count": 59,
-   "raw": 198
+   "count": 58,
+   "raw": 196
   },
   "EUMETSAT": {
    "ok": true,
@@ -956,7 +956,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 1,
-   "raw": 81
+   "raw": 80
   },
   "Diehl": {
    "ok": false,
@@ -3475,8 +3475,8 @@
   },
   "Lufthansa Technik": {
    "ok": true,
-   "count": 10,
-   "raw": 24
+   "count": 9,
+   "raw": 23
   },
   "Premium Aerotec": {
    "ok": true,
@@ -3491,7 +3491,7 @@
   "Liebherr-Aerospace": {
    "ok": true,
    "count": 39,
-   "raw": 62
+   "raw": 60
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3595,8 +3595,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 8,
-   "raw": 176
+   "count": 26,
+   "raw": 52
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3801,7 +3801,7 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 129
+   "raw": 130
   },
   "Lambda": {
    "ok": true,
@@ -3811,7 +3811,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 317
+   "raw": 316
   },
   "Infineon Technologies": {
    "ok": true,
@@ -3934,9 +3934,9 @@
    "raw": 18
   },
   "Northern Data": {
-   "ok": true,
-   "count": 0,
-   "raw": 0
+   "ok": false,
+   "error": "RetryError: HTTPSConnectionPool(host='northerndata.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/northerndata/NorthernDataCareers/jobs (Caused by ResponseError('too many ",
+   "count": 0
   },
   "IONOS": {
    "ok": true,
@@ -4025,8 +4025,8 @@
   },
   "Formlabs": {
    "ok": true,
-   "count": 0,
-   "raw": 272
+   "count": 2,
+   "raw": 275
   },
   "Carbon": {
    "ok": false,
@@ -4041,7 +4041,7 @@
   "Protolabs": {
    "ok": true,
    "count": 0,
-   "raw": 62
+   "raw": 63
   },
   "EOS (additive)": {
    "ok": true,
@@ -4156,7 +4156,7 @@
   "Nebius": {
    "ok": true,
    "count": 13,
-   "raw": 368
+   "raw": 367
   },
   "Together AI": {
    "ok": true,
@@ -4166,17 +4166,17 @@
   "Rocket Lab": {
    "ok": true,
    "count": 0,
-   "raw": 557
+   "raw": 556
   },
   "Lightmatter": {
    "ok": true,
    "count": 0,
-   "raw": 78
+   "raw": 86
   },
   "Crusoe": {
    "ok": true,
    "count": 0,
-   "raw": 324
+   "raw": 318
   },
   "Etched": {
    "ok": true,
@@ -4191,7 +4191,7 @@
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 291
+   "raw": 294
   },
   "Siemens Energy": {
    "ok": true,
@@ -4436,7 +4436,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 3,
-   "raw": 174
+   "raw": 175
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4461,7 +4461,7 @@
   "Vast Data": {
    "ok": true,
    "count": 0,
-   "raw": 203
+   "raw": 202
   },
   "Vantage Data Centers": {
    "ok": true,
@@ -4481,7 +4481,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 402
+   "raw": 404
   },
   "EdgeConnex": {
    "ok": true,
@@ -4520,8 +4520,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 0,
-   "raw": 0
+   "count": 3,
+   "raw": 14
   },
   "Smart Photonics": {
    "ok": true,
@@ -4686,7 +4686,7 @@
   "ElevenLabs": {
    "ok": true,
    "count": 0,
-   "raw": 124
+   "raw": 123
   },
   "Krea": {
    "ok": true,
@@ -4716,7 +4716,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 852
+   "raw": 851
   },
   "ClickHouse": {
    "ok": true,
@@ -4746,17 +4746,17 @@
   "Scale AI": {
    "ok": true,
    "count": 0,
-   "raw": 167
+   "raw": 168
   },
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 895
+   "raw": 897
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 639
+   "raw": 634
   },
   "Vectara": {
    "ok": true,
@@ -4771,7 +4771,7 @@
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 385
+   "raw": 383
   },
   "Merantix": {
    "ok": true,
@@ -5045,6 +5045,28 @@
   }
  },
  "jobs": [
+  {
+   "company": "Formlabs",
+   "id": "8407161",
+   "title": "Serviceingenieur im Außendienst - Remote (m/w/d)",
+   "location": "Munich, Germany",
+   "url": "https://careers.formlabs.com/job/8407161/apply/?gh_jid=8407161",
+   "posted": "2026-11-20T15:45:59-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-20T23:57:10+00:00"
+  },
+  {
+   "company": "Formlabs",
+   "id": "8407140",
+   "title": "Field Service Engineer - Remote",
+   "location": "Munich, Germany",
+   "url": "https://careers.formlabs.com/job/8407140/apply/?gh_jid=8407140",
+   "posted": "2026-11-20T15:43:27-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-20T23:57:10+00:00"
+  },
   {
    "company": "Impact",
    "id": "17510-6D6AQ73AHD6MESFB-S",
@@ -24927,8 +24949,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -24940,8 +24961,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -25717,7 +25737,8 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Bosch",
@@ -26280,7 +26301,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-11T16:02:43+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "KNDS",
@@ -28047,8 +28069,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-10T04:02:36+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -28988,8 +29009,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-09T21:37:00+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH",
-   "closed_at": "2026-11-20T17:58:37+00:00"
+   "employer": "Akkodis Germany Tech Experts GmbH"
   },
   {
    "company": "Akkodis",
@@ -30132,8 +30152,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-07T03:07:00+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Helsing",
@@ -31970,7 +31989,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-06T18:19:51+00:00",
-   "employer": "Lufthansa Technik AG"
+   "employer": "Lufthansa Technik AG",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Akkodis",
@@ -32102,7 +32122,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T18:19:51+00:00"
+   "first_seen": "2026-11-06T18:19:51+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -37477,8 +37498,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-03T02:35:22+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -40755,18 +40775,6 @@
    "closed_at": "2026-11-10T12:55:23+00:00"
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-644359-7878-7149-S",
-   "title": "ILS Engineer Instandhaltung & Ersatzteile Marinesysteme (m/w/d)",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-644359-7878-7149-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-30T15:17:24+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
    "company": "TKMS",
    "id": "16604-975013-008-S",
    "title": "Forward Deployed Engineer Procurement (m/w/d)",
@@ -41417,18 +41425,6 @@
   },
   {
    "company": "Akkodis",
-   "id": "12634-BB-646671-7878-4505-S",
-   "title": "Entwicklungsingenieur (m/w/d) militärische Bildverarbeitung / Computer Vision",
-   "location": "Schrobenhausen, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646671-7878-4505-S",
-   "posted": "2026-10-30",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-30T08:28:09+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
-   "company": "Akkodis",
    "id": "12634-BB-646674-7878-9753-S",
    "title": "Entwicklungsingenieur (m/w/d) Elektrotechnik",
    "location": "Kiel, Schleswig Holstein",
@@ -41450,18 +41446,6 @@
    "src": "agency",
    "first_seen": "2026-10-30T08:28:09+00:00",
    "closed_at": "2026-11-10T12:55:23+00:00"
-  },
-  {
-   "company": "Akkodis",
-   "id": "12634-BB-646682-7878-3311-S",
-   "title": "Cloud & Infrastructure Engineer (m/w/d)",
-   "location": "Nürnberg, Mittelfranken, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646682-7878-3311-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-30T08:28:09+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
   },
   {
    "company": "E. Zoller",
@@ -41545,8 +41529,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-30T01:49:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -43789,18 +43772,6 @@
   },
   {
    "company": "Bertrandt",
-   "id": "12288-4980526390-S",
-   "title": "Automatisierungsingenieur (m/w/d)",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4980526390-S",
-   "posted": "2026-10-27",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-27T20:54:18+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
-   "company": "Bertrandt",
    "id": "12288-4980529139-S",
    "title": "Applikationsingenieur Radarsysteme (m/w/d)",
    "location": "Berlin, Berlin",
@@ -44694,18 +44665,6 @@
    "first_seen": "2026-10-26T20:43:26+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-979301537-S",
-   "title": "Technologe für Funktionstestsysteme / Manufacturing Engineer – Functional Test (Avionik) (d/m/w)",
-   "location": "Buxtehude, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979301537-S",
-   "posted": "2026-10-26",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-26T20:43:26+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
    "company": "Liebherr-Aerospace",
    "id": "12288-4979419491-S",
    "title": "Teamleiter Wareneingangskontrolle im der Zahnradfertigung (m/w/d)",
@@ -44765,18 +44724,6 @@
    "src": "site",
    "first_seen": "2026-10-26T20:43:26+00:00",
    "closed_at": "2026-11-09T21:37:00+00:00"
-  },
-  {
-   "company": "Airbus Defence and Space",
-   "id": "16947-979304249-S",
-   "title": "Planer für Neu- und Serienfertigung und Fertigungssteuerung (d/m/w)",
-   "location": "Buxtehude, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979304249-S",
-   "posted": "2026-10-26",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-26T20:43:26+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
   },
   {
    "company": "Bertrandt",
@@ -47115,18 +47062,6 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   },
   {
-   "company": "EUMETSAT",
-   "id": "d1jredgs3wcwocqyymxrk3vlfnw74ni?career_page_search=page%3D2",
-   "title": "VN 26/44 Data Processing Testing Engineer",
-   "location": "Darmstadt",
-   "url": "https://eumetsat.onlyfy.jobs/en/job/d1jredgs3wcwocqyymxrk3vlfnw74ni?career_page_search=page%3D2",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-22T13:09:45+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
    "company": "Bechtle",
    "id": "12908-064733817-S",
    "title": "Senior SE IT Professional Service Engineer (w/m/d)",
@@ -47437,8 +47372,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -47450,8 +47384,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -48157,30 +48090,6 @@
    "first_seen": "2026-10-20T17:28:37+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4972379410-S",
-   "title": "Systemingenieur Integration Elektronische Systeme (m/w/d) Kiel",
-   "location": "Kiel, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4972379410-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:28:37+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4972353877-S",
-   "title": "Specialist Analytical Development Pharma & Tiermedizin (m/w/d)",
-   "location": "Ingelheim am Rhein, Rheinland Pfalz",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4972353877-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:28:37+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
    "company": "Airbus Defence and Space",
    "id": "16947-978013537-S",
    "title": "Simulation & Modelling Engineer (d/f/m) - Space Systems",
@@ -48191,30 +48100,6 @@
    "src": "agency",
    "first_seen": "2026-10-20T17:28:37+00:00",
    "closed_at": "2026-11-13T17:06:47+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4972360342-S",
-   "title": "Produktionsmitarbeiter (m/w/d) - industrielle Serienfertigung (Defence)",
-   "location": "Unterlüß, Niedersachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4972360342-S",
-   "posted": "2026-10-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:28:37+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
-   "company": "Bertrandt",
-   "id": "12288-4972366469-S",
-   "title": "Konstrukteur Mechanik Elektroniksysteme (m/w/d) - Defence",
-   "location": "Flintbek, Schleswig Holstein",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4972366469-S",
-   "posted": "2026-10-20",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-10-20T17:28:37+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
   },
   {
    "company": "Black Semiconductor",
@@ -49943,18 +49828,6 @@
    "first_seen": "2026-10-19T11:10:13+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-4970243908-S",
-   "title": "Testingenieur (m/w/d) Netzwerk Security",
-   "location": "Karlsruhe, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4970243908-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-19T11:10:13+00:00",
-   "closed_at": "2026-11-06T18:19:51+00:00"
-  },
-  {
    "company": "TKMS",
    "id": "16604-973524-008-S",
    "title": "Senior System Network Engineer (m/w/d)",
@@ -50107,8 +49980,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-17T01:14:16+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -50419,30 +50291,6 @@
    "match": 2,
    "src": "site",
    "first_seen": "2026-10-16T16:30:47+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Harwell-SatCom-AI-Technology-Lead/1448603833/",
-   "title": "SatCom AI Technology Lead",
-   "location": "Noordwijk, NL • Harwell, GB",
-   "url": "https://jobs.esa.int/job/Harwell-SatCom-AI-Technology-Lead/1448603833/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-16T16:30:47+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
-  },
-  {
-   "company": "ESA",
-   "id": "https://jobs.esa.int/job/Noordwijk-Power-Management-Engineer-%282-positions%29/1287165401/",
-   "title": "Power Management Engineer (2 positions)",
-   "location": "Noordwijk, NL",
-   "url": "https://jobs.esa.int/job/Noordwijk-Power-Management-Engineer-%282-positions%29/1287165401/",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-16T16:30:47+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
   },
   {
    "company": "RENK",
@@ -50802,19 +50650,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-10-16T01:10:20+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
-  },
-  {
-   "company": "Databricks",
-   "id": "8892971002",
-   "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-   "location": "Remote - Germany",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002",
-   "posted": "2026-11-19T16:47:39-05:00",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-15T19:21:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Databricks",
@@ -50822,6 +50658,17 @@
    "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
    "location": "Amsterdam, Netherlands",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892965002",
+   "posted": "2026-11-19T16:47:39-05:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-15T19:21:55+00:00"
+  },
+  {
+   "company": "Databricks",
+   "id": "8892971002",
+   "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
+   "location": "Remote - Germany",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002",
    "posted": "2026-11-19T16:47:39-05:00",
    "match": 2,
    "src": "site",
@@ -50870,7 +50717,8 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -53237,7 +53085,8 @@
    "posted": "2026-11-20",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53248,7 +53097,8 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53259,7 +53109,8 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Agile Robots",
@@ -53282,7 +53133,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53293,7 +53145,8 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53304,7 +53157,8 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-20T23:57:10+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -53404,8 +53258,7 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -53416,8 +53269,7 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -53428,8 +53280,7 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -59126,8 +58977,8 @@
   {
    "company": "OHB",
    "id": "8516",
-   "title": "Systems Engineering Manager Space System Studies (m/f/d)",
-   "location": "Bremen, DE, Weßling bei München",
+   "title": "Systems Engineering Manager Space System Studies (m/f/d) for European Space-based Defence Project",
+   "location": "Bremen, DE",
    "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8516?c=career-ohb",
    "posted": "2026-10-02",
    "match": 1,
@@ -64390,18 +64241,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Helsing",
-   "id": "4676357101",
-   "title": "AI Research Engineer - Reinforcement Learning",
-   "location": "Berlin; London; Munich; Paris",
-   "url": "https://helsing.ai/jobs/4676357101?gh_jid=4676357101",
-   "posted": "2026-11-03T08:42:56-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
-  },
-  {
    "company": "Isar Aerospace",
    "id": "4974666101",
    "title": "Turbopump Turbine Engineer (m/f/d)",
@@ -65280,18 +65119,6 @@
    "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
-   "company": "Helsing",
-   "id": "4334842101",
-   "title": "Staff AI Research Engineer -  Computer Vision",
-   "location": "Berlin; London; Munich",
-   "url": "https://helsing.ai/jobs/4334842101?gh_jid=4334842101",
-   "posted": "2026-10-19T14:49:23-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
-  },
-  {
    "company": "Diehl",
    "id": "https://new.diehl.com/career/de/jobs-bewerbung/stellenboerse/vacancies/it-affiner-physiker-m-w-d-mathematiker-m-w-d-oder-ingenieur-m-w-d-vorzugsweise-mit-promotion",
    "title": "IT-Affiner Physiker (m/w/d), Mathematiker (m/w/d) oder Ingenieur (m/w/d), vorzugsweise mit Promotion",
@@ -65447,18 +65274,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-10-12T15:36:16+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "4911999101",
-   "title": "Staff AI Research Engineer -  3D Computer Vision",
-   "location": "Berlin; London; Munich; Paris",
-   "url": "https://helsing.ai/jobs/4911999101?gh_jid=4911999101",
-   "posted": "2026-10-07T11:07:52-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
   },
   {
    "company": "Helsing",
@@ -66501,18 +66316,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-11-10T12:55:23+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "4372802101",
-   "title": "AI Research Engineer - ML & Signal Processing",
-   "location": "Berlin; Munich",
-   "url": "https://helsing.ai/jobs/4372802101?gh_jid=4372802101",
-   "posted": "2026-08-20T04:41:10-04:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-06T23:26:41+00:00"
   },
   {
    "company": "Diehl",
@@ -68228,8 +68031,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Atlas Elektronik",
@@ -68268,8 +68070,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -68282,8 +68083,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -68309,8 +68109,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "General Dynamics",
@@ -68363,8 +68162,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Vincorion",
@@ -68494,8 +68292,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Lürssen",
@@ -68641,8 +68438,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -68655,8 +68451,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Lürssen",
@@ -68955,8 +68750,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -68969,8 +68763,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -68996,8 +68789,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Moog",
@@ -69101,8 +68893,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69167,8 +68958,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69428,8 +69218,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69611,8 +69400,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -69625,8 +69413,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Lürssen",
@@ -69666,19 +69453,6 @@
    "seed": true,
    "src": "agency",
    "employer": "Lürssen Werft Rendsburg GmbH & Co. KG"
-  },
-  {
-   "company": "Airbus Defence and Space",
-   "id": "16947-953817160-S",
-   "title": "Satellite Ground Segment Crypto AIT & Operations Engineer (d/m/w) für nationale Kryptoverifizierung",
-   "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-953817160-S",
-   "posted": "2026-06-26",
-   "match": 1,
-   "first_seen": "2026-10-08T15:38:14+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-06T18:19:51+00:00"
   },
   {
    "company": "Dynamit Nobel Defence",
@@ -75518,19 +75292,6 @@
    "employer": "Robert Bosch GmbH"
   },
   {
-   "company": "Rolls-Royce",
-   "id": "19146-100014265714-S",
-   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
-   "location": "Magdeburg, Sachsen Anhalt",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
-   "posted": "2026-08-15",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T10:38:05+00:00"
-  },
-  {
    "company": "Rolls-Royce Power Systems",
    "id": "19146-100014265714-S",
    "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
@@ -75542,6 +75303,19 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-07T06:06:59+00:00"
+  },
+  {
+   "company": "Rolls-Royce",
+   "id": "19146-100014265714-S",
+   "title": "Fachkraft Produktion & Instandhaltung (m/w/d)",
+   "location": "Magdeburg, Sachsen Anhalt",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100014265714-S",
+   "posted": "2026-08-15",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "closed_at": "2026-11-07T10:38:05+00:00"
   },
   {
    "company": "Bilfinger",
@@ -80070,6 +79844,19 @@
    "employer": "Varta Aktiengesellschaft"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -80094,19 +79881,6 @@
    "seed": true,
    "src": "agency",
    "employer": "Leonardo PersonalKonzept GmbH"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
   },
   {
    "company": "SH",
@@ -82761,5 +82535,5 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   }
  ],
- "updated": "2026-11-20T20:28:42+00:00"
+ "updated": "2026-11-20T23:57:10+00:00"
 }
