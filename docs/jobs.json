@@ -950,8 +950,8 @@
   },
   "Rheinmetall": {
    "ok": true,
-   "count": 155,
-   "raw": 1077
+   "count": 151,
+   "raw": 1059
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -1405,8 +1405,8 @@
   },
   "Bilfinger": {
    "ok": true,
-   "count": 10,
-   "raw": 58
+   "count": 9,
+   "raw": 57
   },
   "Biologische Heilmittel Heel": {
    "ok": true,
@@ -1466,7 +1466,7 @@
   "Bürger": {
    "ok": true,
    "count": 12,
-   "raw": 121
+   "raw": 120
   },
   "Bürkert Fluid Control Systems": {
    "ok": true,
@@ -1565,8 +1565,8 @@
   },
   "Deutsche Bahn": {
    "ok": true,
-   "count": 96,
-   "raw": 298
+   "count": 99,
+   "raw": 299
   },
   "Deutsche Bausparkasse Badenia": {
    "ok": true,
@@ -1735,8 +1735,8 @@
   },
   "Exyte": {
    "ok": true,
-   "count": 42,
-   "raw": 146
+   "count": 40,
+   "raw": 143
   },
   "EY": {
    "ok": true,
@@ -2046,7 +2046,7 @@
   "Klinikum Esslingen": {
    "ok": true,
    "count": 0,
-   "raw": 6
+   "raw": 13
   },
   "Klinikum Mittelbaden gGmbH": {
    "ok": true,
@@ -2496,7 +2496,7 @@
   "Schwäbisch Hall": {
    "ok": true,
    "count": 5,
-   "raw": 287
+   "raw": 289
   },
   "SchwörerHaus": {
    "ok": true,
@@ -2655,7 +2655,7 @@
   },
   "SYNERGIE Personal": {
    "ok": true,
-   "count": 68,
+   "count": 67,
    "raw": 300
   },
   "Takeda": {
@@ -2800,8 +2800,8 @@
   },
   "Voith": {
    "ok": true,
-   "count": 11,
-   "raw": 77
+   "count": 12,
+   "raw": 78
   },
   "Volksbank pur": {
    "ok": true,
@@ -2826,7 +2826,7 @@
   "Waldburg-Zeil Kliniken": {
    "ok": true,
    "count": 3,
-   "raw": 31
+   "raw": 29
   },
   "Waldner": {
    "ok": true,
@@ -3281,7 +3281,7 @@
   "Konzelmann": {
    "ok": true,
    "count": 2,
-   "raw": 3
+   "raw": 2
   },
   "Lechler": {
    "ok": true,
@@ -3595,8 +3595,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 27,
-   "raw": 54
+   "count": 8,
+   "raw": 175
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3815,8 +3815,8 @@
   },
   "Infineon Technologies": {
    "ok": true,
-   "count": 66,
-   "raw": 125
+   "count": 64,
+   "raw": 123
   },
   "GlobalFoundries": {
    "ok": true,
@@ -3934,9 +3934,9 @@
    "raw": 18
   },
   "Northern Data": {
-   "ok": false,
-   "error": "RetryError: HTTPSConnectionPool(host='northerndata.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/northerndata/NorthernDataCareers/jobs (Caused by ResponseError('too many ",
-   "count": 0
+   "ok": true,
+   "count": 0,
+   "raw": 0
   },
   "IONOS": {
    "ok": true,
@@ -4136,7 +4136,7 @@
   "Bosch": {
    "ok": true,
    "count": 88,
-   "raw": 5181
+   "raw": 5179
   },
   "Aumovio": {
    "ok": true,
@@ -4146,7 +4146,7 @@
   "Wabtec": {
    "ok": true,
    "count": 13,
-   "raw": 707
+   "raw": 705
   },
   "Tenstorrent": {
    "ok": true,
@@ -4200,8 +4200,8 @@
   },
   "Siemens": {
    "ok": true,
-   "count": 107,
-   "raw": 440
+   "count": 106,
+   "raw": 443
   },
   "KUKA": {
    "ok": true,
@@ -4366,7 +4366,7 @@
   "Elbe Flugzeugwerke": {
    "ok": true,
    "count": 1,
-   "raw": 4
+   "raw": 3
   },
   "Fokker": {
    "ok": true,
@@ -4520,8 +4520,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 3,
-   "raw": 14
+   "count": 0,
+   "raw": 0
   },
   "Smart Photonics": {
    "ok": true,
@@ -4980,8 +4980,8 @@
   },
   "Bundeswehr (Bundeswehr-Karriere)": {
    "ok": true,
-   "count": 35,
-   "raw": 265
+   "count": 33,
+   "raw": 266
   },
   "Luftfahrt-Bundesamt": {
    "ok": true,
@@ -5026,7 +5026,7 @@
   "Landeshauptstadt Stuttgart": {
    "ok": true,
    "count": 13,
-   "raw": 97
+   "raw": 98
   },
   "Regierungspräsidium Stuttgart": {
    "ok": true,
@@ -5045,6 +5045,30 @@
   }
  },
  "jobs": [
+  {
+   "company": "Stadler",
+   "id": "14459-ISJH3J5YMQLOVQ2Y-S",
+   "title": "Monteur (m/w/d) Landmaschinenbau",
+   "employer": "Stadler Personalmanagement GmbH",
+   "location": "Tittmoning, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14459-ISJH3J5YMQLOVQ2Y-S",
+   "posted": "2026-11-21",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-21T19:23:57+00:00"
+  },
+  {
+   "company": "Voith",
+   "id": "17338-affe00339000f2c991-S",
+   "title": "Global Head of Group Data Governance & Data Quality (m w d)",
+   "employer": "Voith SE & Co. KG",
+   "location": "Heidenheim an der Brenz, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-affe00339000f2c991-S",
+   "posted": "2026-11-21",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-21T19:23:57+00:00"
+  },
   {
    "company": "Exyte",
    "id": "18069-44587562-1120-S",
@@ -5114,7 +5138,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-11-21T07:18:46+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -5159,7 +5184,8 @@
    "posted": "2026-11-21",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-21T06:54:46+00:00"
+   "first_seen": "2026-11-21T06:54:46+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Formlabs",
@@ -7265,7 +7291,8 @@
    "match": 1,
    "src": "agency",
    "beamte": true,
-   "first_seen": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-11-20T07:25:40+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Bundeswehr (Bundeswehr-Karriere)",
@@ -7278,7 +7305,8 @@
    "match": 1,
    "src": "agency",
    "beamte": true,
-   "first_seen": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-11-20T07:25:40+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Verallia",
@@ -7528,7 +7556,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-11-20T07:25:40+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -7539,7 +7568,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-11-20T07:25:40+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "The Exploration Company",
@@ -10047,7 +10077,8 @@
    "match": 1,
    "src": "agency",
    "beamte": true,
-   "first_seen": "2026-11-19T07:33:53+00:00"
+   "first_seen": "2026-11-19T07:33:53+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Dekra",
@@ -10083,8 +10114,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-19T07:33:53+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-11-19T07:33:53+00:00"
   },
   {
    "company": "Hensoldt",
@@ -11548,8 +11578,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-18T07:38:10+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-11-18T07:38:10+00:00"
   },
   {
    "company": "Hensoldt",
@@ -12356,7 +12385,8 @@
    "posted": "2026-11-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-17T21:07:46+00:00"
+   "first_seen": "2026-11-17T21:07:46+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Dekra",
@@ -12743,8 +12773,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-17T21:07:46+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-11-17T21:07:46+00:00"
   },
   {
    "company": "Siemens",
@@ -15259,8 +15288,7 @@
    "src": "agency",
    "beamte": true,
    "first_seen": "2026-11-16T21:26:24+00:00",
-   "seed": true,
-   "closed_at": "2026-11-19T20:44:51+00:00"
+   "seed": true
   },
   {
    "company": "Bundeswehr (Bundeswehr-Karriere)",
@@ -19794,8 +19822,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-13T06:53:24+00:00",
-   "closed_at": "2026-11-19T20:44:51+00:00"
+   "first_seen": "2026-11-13T06:53:24+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -20380,7 +20407,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T20:02:12+00:00",
-   "employer": "SYNERGIE Personal HR GmbH"
+   "employer": "SYNERGIE Personal HR GmbH",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "MT Aerospace",
@@ -22083,8 +22111,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-12T20:02:12+00:00",
-   "closed_at": "2026-11-19T20:44:51+00:00"
+   "first_seen": "2026-11-12T20:02:12+00:00"
   },
   {
    "company": "Siemens",
@@ -25064,7 +25091,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -25076,7 +25104,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -25220,8 +25249,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-11T19:42:05+00:00",
-   "employer": "Deutsche Bahn AG",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "employer": "Deutsche Bahn AG"
   },
   {
    "company": "HyImpulse",
@@ -25733,7 +25761,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-11T19:42:05+00:00",
-   "employer": "Infineon Technologies AG"
+   "employer": "Infineon Technologies AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -25853,8 +25882,7 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00"
   },
   {
    "company": "Bosch",
@@ -26098,8 +26126,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-11T19:42:05+00:00",
-   "employer": "Deutsche Bahn AG",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "employer": "Deutsche Bahn AG"
   },
   {
    "company": "Deutsche Bahn",
@@ -28183,7 +28210,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-10T04:02:36+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -30266,7 +30294,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-07T03:07:00+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Helsing",
@@ -32934,7 +32963,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-06T06:56:25+00:00"
+   "first_seen": "2026-11-06T06:56:25+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -33425,8 +33455,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T20:03:28+00:00",
-   "employer": "Deutsche Bahn AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Deutsche Bahn AG"
   },
   {
    "company": "MVV Energie",
@@ -37256,8 +37285,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-03T14:25:34+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-11-03T14:25:34+00:00"
   },
   {
    "company": "Airbus (Workday, Germany)",
@@ -37600,7 +37628,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-03T02:35:22+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -38220,18 +38249,6 @@
    "src": "agency",
    "first_seen": "2026-11-02T16:13:27+00:00",
    "employer": "Hoffmann GmbH Stanz- u. Erodiertechnik"
-  },
-  {
-   "company": "Walter",
-   "id": "12322-6XZI5ZEFDDG59Y9Y-S",
-   "title": "Produktionsmitarbeiter Montage (m/w/d)",
-   "location": "Mellrichstadt, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12322-6XZI5ZEFDDG59Y9Y-S",
-   "posted": "2026-11-02",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-02T16:13:27+00:00",
-   "closed_at": "2026-11-07T13:11:15+00:00"
   },
   {
    "company": "Walter",
@@ -41604,7 +41621,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-30T01:49:18+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -41855,7 +41873,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-29T22:51:16+00:00"
+   "first_seen": "2026-10-29T22:51:16+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -43071,7 +43090,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-28T05:51:02+00:00"
+   "first_seen": "2026-10-28T05:51:02+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -44426,8 +44446,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-26T22:46:07+00:00",
-   "employer": "DEKRA SE",
-   "closed_at": "2026-11-18T20:40:18+00:00"
+   "employer": "DEKRA SE"
   },
   {
    "company": "Impact",
@@ -46693,7 +46712,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T17:18:49+00:00",
-   "employer": "Infineon Technologies Dresden AG & Co. KG"
+   "employer": "Infineon Technologies Dresden AG & Co. KG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Porsche (Stuttgart region)",
@@ -47156,7 +47176,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T12:02:03+00:00",
-   "employer": "Stadler Personalmanagement GmbH"
+   "employer": "Stadler Personalmanagement GmbH",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rems-Murr-Kliniken gGmbH",
@@ -47264,8 +47285,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00",
-   "closed_at": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -47287,7 +47307,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-22T12:02:03+00:00"
+   "first_seen": "2026-10-22T12:02:03+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Siemens",
@@ -47429,7 +47450,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -47441,7 +47463,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -50039,7 +50062,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-17T01:14:16+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -50696,7 +50720,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-10-16T01:10:20+00:00",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Databricks",
@@ -50763,8 +50788,7 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -50931,7 +50955,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Hensoldt",
@@ -53129,8 +53154,7 @@
    "posted": "2026-11-20",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53141,8 +53165,7 @@
    "posted": "2026-11-04",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53153,8 +53176,7 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Agile Robots",
@@ -53177,8 +53199,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53189,8 +53210,7 @@
    "posted": "2026-10-27",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Jenoptik",
@@ -53201,8 +53221,7 @@
    "posted": "2026-10-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-21T15:15:04+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -53302,7 +53321,8 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Q.ANT",
@@ -53313,7 +53333,8 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Q.ANT",
@@ -53324,7 +53345,8 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -54705,8 +54727,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-10T06:00:48+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-10T06:00:48+00:00"
   },
   {
    "company": "Siemens",
@@ -55265,7 +55286,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T17:10:08+00:00"
+   "first_seen": "2026-10-09T17:10:08+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Siemens",
@@ -55314,10 +55336,10 @@
   },
   {
    "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513714",
+   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513713",
    "title": "DFMA Project Manager (w/m/d) Design for Manufacturing and Automation",
-   "location": "Berlin , Berlin , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513714",
+   "location": "Frankfurt am Main , Hessen , Germany",
+   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513713",
    "posted": "",
    "match": 2,
    "src": "site",
@@ -55325,10 +55347,10 @@
   },
   {
    "company": "Siemens",
-   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513713",
+   "id": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513714",
    "title": "DFMA Project Manager (w/m/d) Design for Manufacturing and Automation",
-   "location": "Frankfurt am Main , Hessen , Germany",
-   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513713",
+   "location": "Berlin , Berlin , Germany",
+   "url": "https://jobs.siemens.com/de_DE/externaljobs/JobDetail/513714",
    "posted": "",
    "match": 2,
    "src": "site",
@@ -60367,19 +60389,6 @@
    "employer": "KLA-TENCOR MIE GMBH"
   },
   {
-   "company": "GlobalFoundries",
-   "id": "13645-286857-S",
-   "title": "Engineer eNVM Device Data Analysis (m/w/d)",
-   "location": "Dresden, Sachsen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286857-S",
-   "posted": "2026-10-25",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "seed": true,
-   "closed_at": "2026-11-07T13:11:15+00:00"
-  },
-  {
    "company": "Walter",
    "id": "10001-1003832384-S",
    "title": "Team Walter sucht Produktionsmitarbeiter (m/w/d)",
@@ -62067,7 +62076,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62111,8 +62121,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62158,8 +62167,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T12:10:16+00:00",
-   "closed_at": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-10-09T12:10:16+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62529,8 +62537,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62541,8 +62548,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62553,8 +62559,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62565,8 +62570,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00",
-   "closed_at": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62599,7 +62603,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62633,7 +62638,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62644,7 +62650,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:46:00+00:00"
+   "first_seen": "2026-10-09T06:46:00+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62771,8 +62778,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62787,17 +62793,6 @@
   },
   {
    "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
-   "title": "Technischer Konfigurationsmanager (m/w/d)",
-   "location": "Rheinmetall Landsysteme GmbH | Kiel",
-   "url": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
-   "posted": "",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
-  },
-  {
-   "company": "Rheinmetall",
    "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1112225",
    "title": "Technischer Konfigurationsmanager (m/w/d)",
    "location": "Rheinmetall Landsysteme GmbH | Kassel",
@@ -62805,8 +62800,19 @@
    "posted": "",
    "match": 2,
    "src": "site",
+   "first_seen": "2026-10-09T06:15:45+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
+   "title": "Technischer Konfigurationsmanager (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Kiel",
+   "url": "https://www.rheinmetall.com/de/job/technischer_konfigurationsmanager__m_w_d_/1016888",
+   "posted": "",
+   "match": 2,
+   "src": "site",
    "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62817,7 +62823,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62872,8 +62879,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62907,8 +62913,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62963,7 +62968,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62974,7 +62980,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62985,7 +62992,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -62996,7 +63004,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63018,7 +63027,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63029,7 +63039,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63108,7 +63119,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63142,6 +63154,18 @@
    "posted": "",
    "match": 1,
    "src": "site",
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
+  },
+  {
+   "company": "Rheinmetall",
+   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1170611",
+   "title": "Projektqualitätsmanager (m/w/d)",
+   "location": "Rheinmetall Landsysteme GmbH | Unterlüß",
+   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1170611",
+   "posted": "",
+   "match": 1,
+   "src": "site",
    "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
@@ -63153,20 +63177,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
-  },
-  {
-   "company": "Rheinmetall",
-   "id": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1170611",
-   "title": "Projektqualitätsmanager (m/w/d)",
-   "location": "Rheinmetall Landsysteme GmbH | Unterlüß",
-   "url": "https://www.rheinmetall.com/de/job/projektqualitaetsmanager__m_w_d_/1170611",
-   "posted": "",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63268,7 +63279,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63279,7 +63291,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63290,8 +63303,7 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-20T07:25:40+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63302,7 +63314,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63347,7 +63360,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63369,8 +63383,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63448,7 +63461,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63459,7 +63473,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -63470,8 +63485,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:15:45+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:15:45+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67379,7 +67393,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67401,8 +67416,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67413,8 +67427,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67536,8 +67549,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67637,7 +67649,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67648,7 +67661,8 @@
    "posted": "",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67693,8 +67707,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-19T20:44:51+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67727,8 +67740,7 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00",
-   "closed_at": "2026-11-21T07:18:46+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -67739,7 +67751,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Rheinmetall",
@@ -68028,7 +68041,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Atlas Elektronik",
@@ -68067,7 +68081,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -68080,7 +68095,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -68106,7 +68122,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "General Dynamics",
@@ -68159,7 +68176,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Vincorion",
@@ -68289,7 +68307,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Lürssen",
@@ -68435,7 +68454,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -68448,7 +68468,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Lürssen",
@@ -68747,7 +68768,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -68760,7 +68782,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -68786,7 +68809,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Moog",
@@ -68890,7 +68914,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -68955,7 +68980,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69215,7 +69241,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Airbus Defence and Space",
@@ -69397,7 +69424,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Jenoptik",
@@ -69410,7 +69438,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG"
+   "employer": "Jenoptik AG",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Lürssen",
@@ -70456,32 +70485,6 @@
    "employer": "TRUMPF Werkzeugmaschinen SE + Co. KG"
   },
   {
-   "company": "Franz & Wach Personalservice",
-   "id": "11864-HSKYK6UV7OLIHXST-S",
-   "title": "Produktionshelfer *  Montagehelfer *  in Schichtarbeit  bei P&G Walldürn",
-   "location": "Walldürn, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11864-HSKYK6UV7OLIHXST-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T13:11:15+00:00"
-  },
-  {
-   "company": "Franz & Wach Personalservice",
-   "id": "11864-PR3X2DL40X4OSW13-S",
-   "title": "Produktionshelfer *",
-   "location": "Gundelsheim, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11864-PR3X2DL40X4OSW13-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T13:11:15+00:00"
-  },
-  {
    "company": "Maschinenfabrik ALFING Kessler",
    "id": "10001-1003828057-S",
    "title": "Produktionsassistent (m/w/d) im Bereich Power Components",
@@ -70506,19 +70509,6 @@
    "seed": true,
    "src": "agency",
    "closed_at": "2026-11-08T06:11:16+00:00"
-  },
-  {
-   "company": "Franz & Wach Personalservice",
-   "id": "11864-QZFQA1DLGWIRZ5EA-S",
-   "title": "Kältetechniker *  Kältemechatroniker *  Anlagenmechaniker *",
-   "location": "Mosbach, Baden, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11864-QZFQA1DLGWIRZ5EA-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "closed_at": "2026-11-07T13:11:15+00:00"
   },
   {
    "company": "EY",
@@ -74524,7 +74514,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "exyte Management GmbH"
+   "employer": "exyte Management GmbH",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Robert Bosch",
@@ -74576,7 +74567,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "exyte Management GmbH"
+   "employer": "exyte Management GmbH",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Datagroup",
@@ -77437,7 +77429,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Bilfinger E&M GmbH"
+   "employer": "Bilfinger E&M GmbH",
+   "closed_at": "2026-11-21T19:23:57+00:00"
   },
   {
    "company": "Robert Bosch",
@@ -79788,19 +79781,6 @@
    "employer": "Varta Aktiengesellschaft"
   },
   {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
-  },
-  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -79825,6 +79805,19 @@
    "seed": true,
    "src": "agency",
    "employer": "Leonardo PersonalKonzept GmbH"
+  },
+  {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
   },
   {
    "company": "SH",
@@ -82479,5 +82472,5 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   }
  ],
- "updated": "2026-11-21T15:15:04+00:00"
+ "updated": "2026-11-21T19:23:57+00:00"
 }
