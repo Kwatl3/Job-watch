@@ -22,11 +22,18 @@ profile:
          entwicklungsingenieur, development engineer, konstrukteur, konstruktion, design engineer,
          product engineer, catia, solidworks, solid works, 3dx, 3dexperience, 3d experience, plm,
          fertigungsentwickl, produktionsentwickl, manufacturing development, product design,
-         produktdesign, mechanical design, design engineering]
+         produktdesign, mechanical design, design engineering,
+         manufacturing engineer, production planner, fertigungssteuer, arbeitsplaner, prozessoptimier, process optim,
+         continuous improvement, industrial engineering, produktionsleiter, fertigungsleiter, head of manufacturing,
+         manufacturing manager, production manager, fertigungsprozess, prozessmanag, process manager, composite, cfk,
+         flugzeugbau, aerostructure, airframe, engineering change, stückliste, bom, montageleiter, technologieentwickl,
+         mes engineer, digital manufacturing, smart factory, industrie 4.0, werkzeugbau, tooling]
   related: [change manag, r&d, f&e, forschung und entwicklung, ingenieur, engineer, prozess, process, fertigung, produktion, production, industrial, qualit,
             technolog, mechanical, maschinenbau, mechatronik, systemingenieur, systems engineer,
             system engineer, projektingenieur, project engineer, entwicklung, development,
-            montageingenieur, assembly engineer, aerospace, luftfahrt, raumfahrt, prüfingenieur, test engineer]
+            montageingenieur, assembly engineer, aerospace, luftfahrt, raumfahrt, prüfingenieur, test engineer,
+            assembly, montage, flugzeug, aircraft, satellit, werkstoff, materials, zerspan, blech,
+            supply chain, lieferant, supplier, projektleiter, project manager]
 
 filters:
   # Jobs whose title contains one of these words are dropped (checked after the profile words above).
@@ -907,6 +914,128 @@ companies:
   - {name: "BALLUFF", type: arbeitsagentur, employer: "BALLUFF", where: "Stuttgart", radius_km: 50, tier: slow}
   - {name: "Erwin Renz Metallwarenfabrik", type: arbeitsagentur, employer: "Erwin Renz", where: "Stuttgart", radius_km: 50, tier: slow}
   - {name: "Andreas Maier (AMF)", type: arbeitsagentur, employer: "Andreas Maier", where: "Stuttgart", radius_km: 50, tier: slow}
+
+  # ---- Nov 2026 expansion: more Stuttgart-region employers (50 km), engineering service firms and research ----
+  - {name: "Siemens (Stuttgart region)", type: arbeitsagentur, employer: "Siemens", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "Siemens Mobility (Stuttgart region)", type: arbeitsagentur, employer: "Siemens Mobility", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Bosch Rexroth (Stuttgart region)", type: arbeitsagentur, employer: "Bosch Rexroth", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Bosch Power Tools (Leinfelden)", type: arbeitsagentur, employer: "Robert Bosch Power Tools", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Thales (Stuttgart region)", type: arbeitsagentur, employer: "Thales", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Hensoldt (Stuttgart region)", type: arbeitsagentur, employer: "Hensoldt", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Diehl (Stuttgart region)", type: arbeitsagentur, employer: "Diehl", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "ElringKlinger (Dettingen)", type: arbeitsagentur, employer: "ElringKlinger", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Index-Werke (Esslingen)", type: arbeitsagentur, employer: "INDEX", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Heller (Nürtingen)", type: arbeitsagentur, employer: "Heller", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Schuler (Göppingen)", type: arbeitsagentur, employer: "Schuler", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Hahn Automation / Hahn+Kolb", type: arbeitsagentur, employer: "Hahn", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Voith (Stuttgart region)", type: arbeitsagentur, employer: "Voith", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Liebherr (Stuttgart region)", type: arbeitsagentur, employer: "Liebherr", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "ZF (Stuttgart region)", type: arbeitsagentur, employer: "ZF", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Behr / Mahle Behr", type: arbeitsagentur, employer: "Mahle Behr", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Kolbenschmidt / Rheinmetall Automotive", type: arbeitsagentur, employer: "Rheinmetall", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "EDAG (Stuttgart region)", type: arbeitsagentur, employer: "EDAG", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Segula (Stuttgart region)", type: arbeitsagentur, employer: "Segula", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "ASAP (Stuttgart region)", type: arbeitsagentur, employer: "ASAP", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Expleo (Stuttgart region)", type: arbeitsagentur, employer: "Expleo", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Alten (Stuttgart region)", type: arbeitsagentur, employer: "Alten", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Ferchau (Stuttgart region)", type: arbeitsagentur, employer: "Ferchau", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Brunel (Stuttgart region)", type: arbeitsagentur, employer: "Brunel", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Bertrandt (Stuttgart region)", type: arbeitsagentur, employer: "Bertrandt", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "Akkodis (Stuttgart region)", type: arbeitsagentur, employer: "Akkodis", where: "Stuttgart", radius_km: 50, max_pages: 4, tier: slow}
+  - {name: "MBTech / Daimler Truck Engineering", type: arbeitsagentur, employer: "MBtech", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Fraunhofer IPA/IAO (Stuttgart)", type: arbeitsagentur, employer: "Fraunhofer", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "DLR Stuttgart (Institute of Aerospace)", type: arbeitsagentur, employer: "DLR", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Universität Stuttgart (technical)", type: arbeitsagentur, employer: "Universität Stuttgart", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Lilium (Stuttgart region)", type: arbeitsagentur, employer: "Lilium", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Airbus (Stuttgart region)", type: arbeitsagentur, employer: "Airbus", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Dornier (Stuttgart region)", type: arbeitsagentur, employer: "Dornier", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Zeppelin (Stuttgart region)", type: arbeitsagentur, employer: "Zeppelin", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Kuka (Stuttgart region)", type: arbeitsagentur, employer: "KUKA", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Fanuc (Stuttgart region)", type: arbeitsagentur, employer: "Fanuc", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Eisenmann (Böblingen)", type: arbeitsagentur, employer: "Eisenmann", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Heidenhain", type: arbeitsagentur, employer: "Heidenhain", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Mercedes-AMG", type: arbeitsagentur, employer: "Mercedes-AMG", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Daimler Buses (Stuttgart region)", type: arbeitsagentur, employer: "Daimler Buses", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Bosch Engineering (Stuttgart region)", type: arbeitsagentur, employer: "Bosch Engineering", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Webasto (Stuttgart region)", type: arbeitsagentur, employer: "Webasto", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Hella (Stuttgart region)", type: arbeitsagentur, employer: "Hella", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Continental (Stuttgart region)", type: arbeitsagentur, employer: "Continental", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Schaeffler (Stuttgart region)", type: arbeitsagentur, employer: "Schaeffler", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Knorr-Bremse (Stuttgart region)", type: arbeitsagentur, employer: "Knorr-Bremse", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Liebherr Verzahntechnik", type: arbeitsagentur, employer: "Liebherr-Verzahntechnik", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Wieland", type: arbeitsagentur, employer: "Wieland", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Hitachi Energy (Stuttgart region)", type: arbeitsagentur, employer: "Hitachi Energy", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Hensoldt Optronics (Oberkochen)", type: arbeitsagentur, employer: "Hensoldt Optronics", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Zeiss Optronics", type: arbeitsagentur, employer: "Zeiss Optronics", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Mahle Filter", type: arbeitsagentur, employer: "Mahle", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Sick AG", type: arbeitsagentur, employer: "SICK", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Rolls-Royce Solutions (Friedrichshafen)", type: arbeitsagentur, employer: "Rolls-Royce Power Systems", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Liebherr-Aerospace Lindenberg", type: arbeitsagentur, employer: "Liebherr-Aerospace", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "Airbus Defence and Space (Immenstaad)", type: arbeitsagentur, employer: "Airbus Defence and Space", where: "Stuttgart", radius_km: 50, max_pages: 3, tier: slow}
+  - {name: "EOS (additive, Krailling)", type: arbeitsagentur, employer: "EOS", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+  - {name: "Trumpf Additive", type: arbeitsagentur, employer: "TRUMPF Additive", where: "Stuttgart", radius_km: 50, max_pages: 2, tier: slow}
+
+  # ---- Nov 2026 expansion: more aerospace / space / aviation / MRO / CAx and additive-manufacturing employers (nationwide) ----
+  # (Dassault Aviation and Safran are deliberately not added.)
+  - {name: "Parker Hannifin (Aerospace)", type: arbeitsagentur, employer: "Parker Hannifin", tier: slow}
+  - {name: "Woodward", type: arbeitsagentur, employer: "Woodward", tier: slow}
+  - {name: "Triumph Group", type: arbeitsagentur, employer: "Triumph", tier: slow}
+  - {name: "Senior Aerospace", type: arbeitsagentur, employer: "Senior Aerospace", tier: slow}
+  - {name: "Magellan Aerospace", type: arbeitsagentur, employer: "Magellan Aerospace", tier: slow}
+  - {name: "Howmet Aerospace", type: arbeitsagentur, employer: "Howmet", tier: slow}
+  - {name: "Curtiss-Wright", type: arbeitsagentur, employer: "Curtiss-Wright", tier: slow}
+  - {name: "Aciturri", type: arbeitsagentur, employer: "Aciturri", tier: slow}
+  - {name: "Fokker Technologies / GKN Fokker", type: arbeitsagentur, employer: "Fokker", tier: slow}
+  - {name: "Stelia Aerospace", type: arbeitsagentur, employer: "Stelia", tier: slow}
+  - {name: "Elbe Flugzeugwerke (EFW)", type: arbeitsagentur, employer: "Elbe Flugzeugwerke", tier: slow}
+  - {name: "Aviation Industries / Lufthansa Aerospace", type: arbeitsagentur, employer: "Lufthansa Aerospace", tier: slow}
+  - {name: "MTU Maintenance", type: arbeitsagentur, employer: "MTU Maintenance", tier: slow}
+  - {name: "Pratt & Whitney Deutschland", type: arbeitsagentur, employer: "Pratt & Whitney Deutschland", tier: slow}
+  - {name: "Rolls-Royce Deutschland", type: arbeitsagentur, employer: "Rolls-Royce Deutschland", tier: slow}
+  - {name: "Airbus Operations", type: arbeitsagentur, employer: "Airbus Operations", tier: slow}
+  - {name: "Airbus Commercial Aircraft", type: arbeitsagentur, employer: "Airbus Commercial", tier: slow}
+  - {name: "Airbus Atlantic", type: arbeitsagentur, employer: "Airbus Atlantic", tier: slow}
+  - {name: "Jet Aviation", type: arbeitsagentur, employer: "Jet Aviation", tier: slow}
+  - {name: "Atmos Space Cargo", type: arbeitsagentur, employer: "Atmos Space Cargo", tier: slow}
+  - {name: "ICEYE", type: arbeitsagentur, employer: "ICEYE", tier: slow}
+  - {name: "Vertical Aerospace", type: arbeitsagentur, employer: "Vertical Aerospace", tier: slow}
+  - {name: "EASA", type: arbeitsagentur, employer: "EASA", tier: slow}
+  - {name: "Eurocontrol", type: arbeitsagentur, employer: "Eurocontrol", tier: slow}
+  - {name: "Deutsche Flugsicherung", type: arbeitsagentur, employer: "Deutsche Flugsicherung", tier: slow}
+  - {name: "DLR (Deutsches Zentrum für Luft- und Raumfahrt)", type: arbeitsagentur, employer: "Deutsches Zentrum für Luft- und Raumfahrt", tier: slow}
+  - {name: "Fraunhofer (Luft- und Raumfahrt)", type: arbeitsagentur, employer: "Fraunhofer", tier: slow}
+  - {name: "Airbus Defence and Space Friedrichshafen", type: arbeitsagentur, employer: "Airbus Defence", tier: slow}
+  - {name: "Hensoldt Sensors", type: arbeitsagentur, employer: "Hensoldt Sensors", tier: slow}
+  - {name: "Hensoldt Optronics", type: arbeitsagentur, employer: "Hensoldt Optronics", tier: slow}
+  - {name: "Mühlbauer Technologies", type: arbeitsagentur, employer: "Mühlbauer", tier: slow}
+  - {name: "Lufthansa Technik Logistik", type: arbeitsagentur, employer: "Lufthansa Technik Logistik", tier: slow}
+  - {name: "Stemme", type: arbeitsagentur, employer: "Stemme", tier: slow}
+  - {name: "Grob Aircraft", type: arbeitsagentur, employer: "Grob Aircraft", tier: slow}
+  - {name: "Meyer Werft", type: arbeitsagentur, employer: "Meyer Werft", tier: slow}
+  - {name: "Aernnova Germany", type: arbeitsagentur, employer: "Aernnova", tier: slow}
+  - {name: "Renishaw", type: arbeitsagentur, employer: "Renishaw", tier: slow}
+  - {name: "Velo3D", type: arbeitsagentur, employer: "Velo3D", tier: slow}
+  - {name: "Nikon SLM", type: arbeitsagentur, employer: "Nikon SLM", tier: slow}
+  - {name: "GKN Additive", type: arbeitsagentur, employer: "GKN Additive", tier: slow}
+
+  # ---- Nov 2026 expansion: aerospace employers, searched per site so the national page cap cannot hide local jobs ----
+  - {name: "Airbus (Hamburg)", type: arbeitsagentur, employer: "Airbus", where: "Hamburg", radius_km: 50, max_pages: 6}
+  - {name: "Airbus (Bremen)", type: arbeitsagentur, employer: "Airbus", where: "Bremen", radius_km: 50, max_pages: 4}
+  - {name: "Airbus (Stade/Buxtehude)", type: arbeitsagentur, employer: "Airbus", where: "Stade", radius_km: 40, max_pages: 3}
+  - {name: "Airbus Defence and Space (Bremen)", type: arbeitsagentur, employer: "Airbus Defence and Space", where: "Bremen", radius_km: 50, max_pages: 4}
+  - {name: "Airbus Defence and Space (Munich/Ottobrunn)", type: arbeitsagentur, employer: "Airbus Defence and Space", where: "München", radius_km: 50, max_pages: 4}
+  - {name: "Airbus Helicopters (Donauwörth)", type: arbeitsagentur, employer: "Airbus Helicopters", where: "Donauwörth", radius_km: 50, max_pages: 3}
+  - {name: "Lufthansa Technik (Hamburg)", type: arbeitsagentur, employer: "Lufthansa Technik", where: "Hamburg", radius_km: 50, max_pages: 4}
+  - {name: "Premium Aerotec (Varel/Bremen)", type: arbeitsagentur, employer: "Premium Aerotec", where: "Bremen", radius_km: 60, max_pages: 3}
+  - {name: "Premium Aerotec (Augsburg)", type: arbeitsagentur, employer: "Premium Aerotec", where: "Augsburg", radius_km: 50, max_pages: 3}
+  - {name: "MTU Aero Engines (Munich)", type: arbeitsagentur, employer: "MTU Aero Engines", where: "München", radius_km: 50, max_pages: 4}
+  - {name: "MTU Aero Engines (Hannover)", type: arbeitsagentur, employer: "MTU Aero Engines", where: "Hannover", radius_km: 50, max_pages: 3}
+  - {name: "Rolls-Royce (Dahlewitz/Berlin)", type: arbeitsagentur, employer: "Rolls-Royce", where: "Berlin", radius_km: 50, max_pages: 3}
+  - {name: "Diehl Aviation (Hamburg)", type: arbeitsagentur, employer: "Diehl Aviation", where: "Hamburg", radius_km: 50, max_pages: 3}
+  - {name: "Liebherr-Aerospace (Lindenberg)", type: arbeitsagentur, employer: "Liebherr-Aerospace", where: "Lindenberg", radius_km: 50, max_pages: 3}
+  - {name: "Hensoldt (Ulm/Oberkochen)", type: arbeitsagentur, employer: "Hensoldt", where: "Ulm", radius_km: 60, max_pages: 3}
+  - {name: "OHB (Bremen)", type: arbeitsagentur, employer: "OHB", where: "Bremen", radius_km: 50, max_pages: 3}
+  - {name: "ArianeGroup (Bremen/Ottobrunn)", type: arbeitsagentur, employer: "ArianeGroup", where: "Bremen", radius_km: 50, max_pages: 3}
 
   # ---- Beamtenstellen / public service (Nov 2026): you hold German citizenship, so civil-servant posts are open to you ----
   # Source: the Bundesagentur feed (public authorities post there too). Jobs from these entries get the 'Beamtenstelle' tag and the
