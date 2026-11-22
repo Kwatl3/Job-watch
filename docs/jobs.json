@@ -1064,9 +1064,9 @@
    "raw": 0
   },
   "Rheinmetall": {
-   "ok": true,
-   "count": 189,
-   "raw": 1066
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.rheinmetall.com/de/karriere/aktuelle-stellenangebote?page=112",
+   "count": 189
   },
   "MTU Aero Engines": {
    "ok": true,
@@ -1501,7 +1501,7 @@
   "Bechtle": {
    "ok": true,
    "count": 74,
-   "raw": 448
+   "raw": 447
   },
   "Berner": {
    "ok": true,
@@ -1680,8 +1680,8 @@
   },
   "Deutsche Bahn": {
    "ok": true,
-   "count": 105,
-   "raw": 299
+   "count": 108,
+   "raw": 300
   },
   "Deutsche Bausparkasse Badenia": {
    "ok": true,
@@ -2611,7 +2611,7 @@
   "Schwäbisch Hall": {
    "ok": true,
    "count": 6,
-   "raw": 289
+   "raw": 288
   },
   "SchwörerHaus": {
    "ok": true,
@@ -3420,8 +3420,8 @@
   },
   "Mercedes-Benz": {
    "ok": true,
-   "count": 29,
-   "raw": 87
+   "count": 31,
+   "raw": 89
   },
   "Metabowerke": {
    "ok": true,
@@ -3491,7 +3491,7 @@
   "Robert Bosch": {
    "ok": true,
    "count": 108,
-   "raw": 403
+   "raw": 404
   },
   "Rolf Benz": {
    "ok": true,
@@ -4051,7 +4051,7 @@
   "Northern Data": {
    "ok": true,
    "count": 0,
-   "raw": 4
+   "raw": 0
   },
   "IONOS": {
    "ok": true,
@@ -4635,8 +4635,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 3,
-   "raw": 14
+   "count": 0,
+   "raw": 0
   },
   "Smart Photonics": {
    "ok": true,
@@ -5736,6 +5736,30 @@
  },
  "jobs": [
   {
+   "company": "Deutsche Bahn",
+   "id": "12456-1650065-1-S",
+   "title": "Teilprojektleiter:in im Großprojekt VDE 8.1 Güterzugstrecke",
+   "employer": "Deutsche Bahn AG",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1650065-1-S",
+   "posted": "2026-11-03",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:47:25+00:00"
+  },
+  {
+   "company": "Deutsche Bahn",
+   "id": "12456-1600774-2-S",
+   "title": "Projektleiter:in für die Planung und Realisierung in den Korridorsanierungen (w/m/d)",
+   "employer": "Deutsche Bahn AG",
+   "location": "Hannover, Niedersachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1600774-2-S",
+   "posted": "2026-11-03",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:47:25+00:00"
+  },
+  {
    "company": "SYNERGIE Personal",
    "id": "12704-SAKXEBNH491JW6PK-S",
    "title": "Tischler (m/w/d) Flugzeugbau",
@@ -6129,19 +6153,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-985065976-S",
-   "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985065976-S",
-   "posted": "2026-11-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-985065976-S",
    "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
@@ -6156,6 +6167,19 @@
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-985065976-S",
+   "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985065976-S",
+   "posted": "2026-11-20",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Hamburg)",
    "id": "16947-985059618-S",
    "title": "System Safety Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -6168,7 +6192,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-985059618-S",
    "title": "System Safety Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -6737,7 +6761,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984750348-S",
    "title": "Supply Chain Business Improvement Manager (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -6750,7 +6774,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-984750348-S",
    "title": "Supply Chain Business Improvement Manager (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -6801,24 +6825,24 @@
    "seed": true
   },
   {
-   "company": "Bilfinger",
-   "id": "11949-17426402-S",
-   "title": "Projektleiter/in",
-   "employer": "Bilfinger Industrial Services GmbH",
-   "location": "Linz, Oberoesterreich",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17426402-S",
-   "posted": "2026-11-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "FACC",
    "id": "11949-17407876-S",
    "title": "Projektleiter/in",
    "employer": "FACC Operations GmbH",
    "location": "Ried im Innkreis, Oberoesterreich",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17407876-S",
+   "posted": "2026-11-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
+  },
+  {
+   "company": "Bilfinger",
+   "id": "11949-17426402-S",
+   "title": "Projektleiter/in",
+   "employer": "Bilfinger Industrial Services GmbH",
+   "location": "Linz, Oberoesterreich",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17426402-S",
    "posted": "2026-11-19",
    "match": 1,
    "src": "agency",
@@ -6933,7 +6957,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-984786654-S",
    "title": "PhD-position on  Multiscale Simulation of Cold Gas Spraying Processes (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -6946,7 +6970,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-984786654-S",
    "title": "PhD-position on  Multiscale Simulation of Cold Gas Spraying Processes (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -7058,7 +7082,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984751367-S",
    "title": "Electromagnetic Hazards Lightning Direct Effects Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -7071,7 +7095,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-984751367-S",
    "title": "Electromagnetic Hazards Lightning Direct Effects Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -7425,7 +7449,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984332343-S",
    "title": "IT Product & Service Manager Aircraft Delivery (w/d/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -7438,7 +7462,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-984332343-S",
    "title": "IT Product & Service Manager Aircraft Delivery (w/d/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -7904,7 +7928,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984297295-S",
    "title": "IT Solution Architect – AI & Quality Transformation (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -7917,7 +7941,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-984297295-S",
    "title": "IT Solution Architect – AI & Quality Transformation (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -8704,7 +8728,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-983044287-S",
    "title": "Processes, Methods & Tools (PMT) Focal for Flight Test Installation (FTI) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -8717,7 +8741,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-983044287-S",
    "title": "Processes, Methods & Tools (PMT) Focal for Flight Test Installation (FTI) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -8743,7 +8767,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-983012892-S",
    "title": "Navigation Signal Experimentation Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -8756,7 +8780,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-983012892-S",
    "title": "Navigation Signal Experimentation Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -9276,7 +9300,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-982849173-S",
    "title": "MODEL BASED SYSTEMS ENGINEER (D/F/M)",
    "employer": "Airbus Defence and Space GmbH",
@@ -9289,7 +9313,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-982849173-S",
    "title": "MODEL BASED SYSTEMS ENGINEER (D/F/M)",
    "employer": "Airbus Defence and Space GmbH",
@@ -10687,7 +10711,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Bremen)",
    "id": "16947-981713873-S",
    "title": "Electrical Lab Test Means Design & Build Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -10700,7 +10724,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Bremen)",
+   "company": "Airbus Operations",
    "id": "16947-981713873-S",
    "title": "Electrical Lab Test Means Design & Build Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -11961,7 +11985,7 @@
    "seed": true
   },
   {
-   "company": "Hensoldt Sensors",
+   "company": "Hensoldt (Ulm/Oberkochen)",
    "id": "14225-4d4fe404f959e883-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
    "employer": "HENSOLDT Sensors GmbH",
@@ -11974,7 +11998,7 @@
    "seed": true
   },
   {
-   "company": "Hensoldt (Ulm/Oberkochen)",
+   "company": "Hensoldt Sensors",
    "id": "14225-4d4fe404f959e883-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
    "employer": "HENSOLDT Sensors GmbH",
@@ -12653,7 +12677,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-979710724-S",
    "title": "IT Cloud Engineer  (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -12666,7 +12690,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-979710724-S",
    "title": "IT Cloud Engineer  (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13047,7 +13071,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-979277131-S",
    "title": "Flugdynamik‑Ingenieur für Satellitenbetrieb (m/w/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13060,7 +13084,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-979277131-S",
    "title": "Flugdynamik‑Ingenieur für Satellitenbetrieb (m/w/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13799,19 +13823,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-976730261-S",
-   "title": "Mechanical Systems Integration Engineer (d/m/w)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976730261-S",
-   "posted": "2026-10-14",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus (Bremen)",
    "id": "16947-976730261-S",
    "title": "Mechanical Systems Integration Engineer (d/m/w)",
@@ -13826,6 +13837,19 @@
   },
   {
    "company": "Airbus Defence and Space (Bremen)",
+   "id": "16947-976730261-S",
+   "title": "Mechanical Systems Integration Engineer (d/m/w)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976730261-S",
+   "posted": "2026-10-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-976730261-S",
    "title": "Mechanical Systems Integration Engineer (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13951,7 +13975,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-976249940-S",
    "title": "Qualitätsprüfer (D/M/W)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13964,7 +13988,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-976249940-S",
    "title": "Qualitätsprüfer (D/M/W)",
    "employer": "Airbus Defence and Space GmbH",
@@ -14487,7 +14511,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-975668542-S",
    "title": "Digital Project Manager (d/f/m) SAP S/4HANA Finance",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -14500,7 +14524,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-975668542-S",
    "title": "Digital Project Manager (d/f/m) SAP S/4HANA Finance",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -15376,7 +15400,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Bremen)",
    "id": "16947-973469994-S",
    "title": "Engineer for Aerodynamics (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -15389,7 +15413,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Bremen)",
+   "company": "Airbus Operations",
    "id": "16947-973469994-S",
    "title": "Engineer for Aerodynamics (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -15901,7 +15925,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-971295829-S",
    "title": "Entwicklungsingenieur Statik/Festigkeit Composite - Design Task Responsible (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -15914,7 +15938,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-971295829-S",
    "title": "Entwicklungsingenieur Statik/Festigkeit Composite - Design Task Responsible (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -15950,7 +15974,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-971063638-S",
    "title": "Process & Performance Manager - Technical Integration & SAP S/4HANA (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -15963,7 +15987,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-971063638-S",
    "title": "Process & Performance Manager - Technical Integration & SAP S/4HANA (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -16274,7 +16298,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-969396108-S",
    "title": "Supply Chain & Quality Manager - Cabin Seat  (f/m/d)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -16287,7 +16311,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-969396108-S",
    "title": "Supply Chain & Quality Manager - Cabin Seat  (f/m/d)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -16735,7 +16759,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-967925952-S",
    "title": "PICM3-Supply Chain and Quality Manager (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -16748,7 +16772,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-967925952-S",
    "title": "PICM3-Supply Chain and Quality Manager (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17156,7 +17180,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-966127702-S",
    "title": "SAP BI Technology Specialist in Germany  (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17169,7 +17193,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-966127702-S",
    "title": "SAP BI Technology Specialist in Germany  (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17221,7 +17245,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-966378032-S",
    "title": "Fatigue & Damage Tolerance Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17234,7 +17258,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-966378032-S",
    "title": "Fatigue & Damage Tolerance Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17398,7 +17422,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-964877187-S",
    "title": "Structural Analysis Engineer VTP (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17411,7 +17435,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-964877187-S",
    "title": "Structural Analysis Engineer VTP (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17555,19 +17579,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-963958075-S",
-   "title": "F&DT Structural Analysis Engineer (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963958075-S",
-   "posted": "2026-08-14",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus (Hamburg)",
    "id": "16947-963958075-S",
    "title": "F&DT Structural Analysis Engineer (d/f/m)",
@@ -17582,6 +17593,19 @@
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-963958075-S",
+   "title": "F&DT Structural Analysis Engineer (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963958075-S",
+   "posted": "2026-08-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Hamburg)",
    "id": "16947-963957852-S",
    "title": "F&DT Stress Engineer for Fuselage (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17594,7 +17618,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-963957852-S",
    "title": "F&DT Stress Engineer for Fuselage (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17645,7 +17669,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-963094831-S",
    "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -17658,7 +17682,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-963094831-S",
    "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -17757,19 +17781,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
-   "id": "16947-962176442-S",
-   "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
-   "employer": "Airbus Operations GmbH Werk Bremen",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962176442-S",
-   "posted": "2026-08-06",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus (Hamburg)",
    "id": "16947-962176442-S",
    "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
@@ -17784,11 +17795,11 @@
   },
   {
    "company": "Airbus Operations",
-   "id": "16947-962168090-S",
-   "title": "Maler, Lackierer und Verfahrensmechaniker für die A320 Single Aisle / Final Assembly Line  (d/m/w)",
+   "id": "16947-962176442-S",
+   "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
    "employer": "Airbus Operations GmbH Werk Bremen",
    "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962168090-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962176442-S",
    "posted": "2026-08-06",
    "match": 1,
    "src": "agency",
@@ -17810,6 +17821,19 @@
   },
   {
    "company": "Airbus Operations",
+   "id": "16947-962168090-S",
+   "title": "Maler, Lackierer und Verfahrensmechaniker für die A320 Single Aisle / Final Assembly Line  (d/m/w)",
+   "employer": "Airbus Operations GmbH Werk Bremen",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962168090-S",
+   "posted": "2026-08-06",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus (Hamburg)",
    "id": "16947-962167729-S",
    "title": "Maler und Lackierer (d/w/m) für die A320 Single Aisle / Final Assembly Line in Hamburg",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17822,7 +17846,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-962167729-S",
    "title": "Maler und Lackierer (d/w/m) für die A320 Single Aisle / Final Assembly Line in Hamburg",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17870,7 +17894,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-961564511-S",
    "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17883,7 +17907,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-961564511-S",
    "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17931,7 +17955,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-961602684-S",
    "title": "F&DT Lead Engineer for Fuselage Primary Structure (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17944,7 +17968,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-961602684-S",
    "title": "F&DT Lead Engineer for Fuselage Primary Structure (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -18424,7 +18448,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-956959207-S",
    "title": "Lead Engineer Network Systems for Satellite Communication Systems (m/f/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -18437,7 +18461,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-956959207-S",
    "title": "Lead Engineer Network Systems for Satellite Communication Systems (m/f/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -18512,7 +18536,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-956112533-S",
    "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -18525,7 +18549,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-956112533-S",
    "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -19115,7 +19139,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-941111555-S",
    "title": "Digital SAP Business Analyst - Quality (QM) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -19128,7 +19152,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-941111555-S",
    "title": "Digital SAP Business Analyst - Quality (QM) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -19302,6 +19326,19 @@
    "seed": true
   },
   {
+   "company": "Hensoldt (Ulm/Oberkochen)",
+   "id": "10000-1206067891-S",
+   "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
+   "employer": "HENSOLDT Sensors GmbH",
+   "location": "Laichingen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206067891-S",
+   "posted": "2026-04-02",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Hensoldt (Stuttgart region)",
    "id": "10000-1206067891-S",
    "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
@@ -19316,19 +19353,6 @@
   },
   {
    "company": "Hensoldt Sensors",
-   "id": "10000-1206067891-S",
-   "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
-   "employer": "HENSOLDT Sensors GmbH",
-   "location": "Laichingen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206067891-S",
-   "posted": "2026-04-02",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Hensoldt (Ulm/Oberkochen)",
    "id": "10000-1206067891-S",
    "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
    "employer": "HENSOLDT Sensors GmbH",
@@ -24207,8 +24231,7 @@
    "posted": "2026-11-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-19T20:44:51+00:00",
-   "closed_at": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-19T20:44:51+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -24379,8 +24402,7 @@
    "posted": "2026-11-19",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-19T20:44:51+00:00",
-   "closed_at": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-19T20:44:51+00:00"
   },
   {
    "company": "Dekra",
@@ -30350,7 +30372,8 @@
    "posted": "2026-11-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-16T21:26:24+00:00"
+   "first_seen": "2026-11-16T21:26:24+00:00",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Bundeswehr (Bundeswehr-Karriere)",
@@ -30766,7 +30789,8 @@
    "posted": "2026-11-16",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-16T21:26:24+00:00"
+   "first_seen": "2026-11-16T21:26:24+00:00",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Siemens Energy",
@@ -49444,8 +49468,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-05T20:03:28+00:00",
-   "employer": "Deutsche Bahn AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Deutsche Bahn AG"
   },
   {
    "company": "Roche",
@@ -52510,8 +52533,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-03T23:29:19+00:00",
-   "employer": "Deutsche Bahn AG",
-   "closed_at": "2026-11-20T20:28:42+00:00"
+   "employer": "Deutsche Bahn AG"
   },
   {
    "company": "Walter",
@@ -69286,7 +69308,8 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Q.ANT",
@@ -69297,7 +69320,8 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Q.ANT",
@@ -69308,7 +69332,8 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -93500,8 +93525,7 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung",
-   "closed_at": "2026-11-22T19:38:54+00:00"
+   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung"
   },
   {
    "company": "Mercedes",
@@ -93527,8 +93551,7 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung",
-   "closed_at": "2026-11-22T19:38:54+00:00"
+   "employer": "Autohaus Matthes GmbH Autorisierter Mercedes-Benz Service und Vermittlung"
   },
   {
    "company": "Daimler Truck",
@@ -98142,7 +98165,8 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Beständig GmbH Autorisierter Mercedes-Benz Nutzfahrzeug u. Unimog Service"
+   "employer": "Beständig GmbH Autorisierter Mercedes-Benz Nutzfahrzeug u. Unimog Service",
+   "closed_at": "2026-11-22T19:47:25+00:00"
   },
   {
    "company": "Diehl",
@@ -98245,5 +98269,5 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   }
  ],
- "updated": "2026-11-22T19:38:54+00:00"
+ "updated": "2026-11-22T19:47:25+00:00"
 }
