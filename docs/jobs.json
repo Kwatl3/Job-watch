@@ -3916,7 +3916,7 @@
   "Cerebras": {
    "ok": true,
    "count": 0,
-   "raw": 132
+   "raw": 136
   },
   "Lambda": {
    "ok": true,
@@ -4266,7 +4266,7 @@
   "Tenstorrent": {
    "ok": true,
    "count": 3,
-   "raw": 146
+   "raw": 147
   },
   "Nebius": {
    "ok": true,
@@ -4296,17 +4296,17 @@
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 118
+   "raw": 117
   },
   "Fluidstack": {
    "ok": true,
    "count": 0,
-   "raw": 243
+   "raw": 242
   },
   "Saronic": {
    "ok": true,
    "count": 0,
-   "raw": 294
+   "raw": 295
   },
   "Siemens Energy": {
    "ok": true,
@@ -4596,7 +4596,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 401
+   "raw": 400
   },
   "EdgeConnex": {
    "ok": true,
@@ -4831,7 +4831,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 851
+   "raw": 852
   },
   "ClickHouse": {
    "ok": true,
@@ -4866,7 +4866,7 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 893
+   "raw": 895
   },
   "Anthropic": {
    "ok": true,
@@ -5828,6 +5828,17 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-22T19:47:25+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Integrated-Product-Support-Sanit%C3%A4t-%28wmd%29-82256/1362543455/",
+   "title": "Projektleiter Integrated Product Support Sanität (w/m/d)",
+   "location": "Fürstenfeldbruck, DE, 82256",
+   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Integrated-Product-Support-Sanit%C3%A4t-%28wmd%29-82256/1362543455/",
+   "posted": "2026-11-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "SYNERGIE Personal",
@@ -10513,7 +10524,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-im-Bereich-Hubschrauber-%28Programm-CH-47F%29-%28wmd%29-82256/1370941955/",
    "title": "Projektleiter im Bereich Hubschrauber (Programm CH-47F) (w/m/d)",
-   "location": "Koblenz, DE, 56073 • Herzberg/Elster, DE, 04916 • Fürstenfeldbruck, DE, 82256",
+   "location": "Herzberg/Elster, DE, 04916 • Koblenz, DE, 56073 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-im-Bereich-Hubschrauber-%28Programm-CH-47F%29-%28wmd%29-82256/1370941955/",
    "posted": "2026-11-06",
    "match": 1,
@@ -13094,7 +13105,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Wilhelmshaven-Techn_-Projektleiter-Maritime-%28Technische-Systemintegration%29-%28wmd%29-26389/1374371155/",
    "title": "Techn. Projektleiter Maritime (Technische Systemintegration) (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Rostock, DE, 18057 • Kiel, DE, 24145 • Fürstenfeldbruck, DE, 82256 • Hamburg, DE, 22335 • Kiel, DE, 24114 • Wilhelmshaven, DE, 26389",
+   "location": "Fürstenfeldbruck, DE, 82256 • Kiel, DE, 24114 • Kiel, DE, 24145 • Fürstenfeldbruck, DE, 82256 • Rostock, DE, 18057 • Fürstenfeldbruck, DE, 82256 • Hamburg, DE, 22335 • Fürstenfeldbruck, DE, 82256 • Wilhelmshaven, DE, 26389",
    "url": "https://jobs.hensoldt.net/job/Wilhelmshaven-Techn_-Projektleiter-Maritime-%28Technische-Systemintegration%29-%28wmd%29-26389/1374371155/",
    "posted": "2026-10-26",
    "match": 1,
@@ -13176,17 +13187,6 @@
    "posted": "2026-10-26",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Integrated-Product-Support-Sanit%C3%A4t-%28wmd%29-82256/1362543455/",
-   "title": "Projektleiter Integrated Product Support Sanität (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256",
-   "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Projektleiter-Integrated-Product-Support-Sanit%C3%A4t-%28wmd%29-82256/1362543455/",
-   "posted": "2026-10-25",
-   "match": 1,
-   "src": "site",
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
@@ -53805,6 +53805,17 @@
    "employer": "TKMS Wismar GmbH"
   },
   {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Teamleiter-Projektmanagement-Test-System-Entwicklung-%28mwd%29-89077/1365899955/",
+   "title": "Teamleiter Projektmanagement - Test-System Entwicklung (m/w/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Teamleiter-Projektmanagement-Test-System-Entwicklung-%28mwd%29-89077/1365899955/",
+   "posted": "2026-11-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-03T02:35:22+00:00"
+  },
+  {
    "company": "Jenoptik",
    "id": "16012-44546945-112-S",
    "title": "Application Security Engineer (m/w/d)",
@@ -53847,17 +53858,6 @@
    "url": "https://jobs.hensoldt.net/job/Ulm-SAP-PLM-Sachbearbeiter-%28wmd%29-89077/1374365455/",
    "posted": "2026-10-26",
    "match": 2,
-   "src": "site",
-   "first_seen": "2026-11-03T02:35:22+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Teamleiter-Projektmanagement-Test-System-Entwicklung-%28mwd%29-89077/1365899955/",
-   "title": "Teamleiter Projektmanagement - Test-System Entwicklung (m/w/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Teamleiter-Projektmanagement-Test-System-Entwicklung-%28mwd%29-89077/1365899955/",
-   "posted": "2026-10-25",
-   "match": 1,
    "src": "site",
    "first_seen": "2026-11-03T02:35:22+00:00"
   },
@@ -59987,7 +59987,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Koblenz, DE, 56073 • Kiel, DE, 24145 • Köln, DE, 51147 • Bonn, DE, 53175 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
+   "location": "Köln, DE, 51147 • Kiel, DE, 24145 • Koblenz, DE, 56073 • Bonn, DE, 53175 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334924355/",
    "posted": "2026-11-01",
    "match": 1,
@@ -79480,6 +79480,39 @@
   },
   {
    "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-Laser-Elektronik-%28wmd%29-73447/1164442155/",
+   "title": "Systemingenieur für Laser-Elektronik (w/m/d)",
+   "location": "Oberkochen, DE, 73447",
+   "url": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-Laser-Elektronik-%28wmd%29-73447/1164442155/",
+   "posted": "2026-11-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Wilhelmshaven-Senior-Expert-Maritime-Systems-Engineering-%28wmd%29-26389/1340895855/",
+   "title": "Senior Expert Maritime Systems Engineering (w/m/d)",
+   "location": "Wilhelmshaven, DE, 26389",
+   "url": "https://jobs.hensoldt.net/job/Wilhelmshaven-Senior-Expert-Maritime-Systems-Engineering-%28wmd%29-26389/1340895855/",
+   "posted": "2026-11-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Testsystem-Entwicklung-%28wmd%29-89077/1164279955/",
+   "title": "Projektleiter Testsystem-Entwicklung (w/m/d)",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Testsystem-Entwicklung-%28wmd%29-89077/1164279955/",
+   "posted": "2026-11-23",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-10-09T06:06:52+00:00"
+  },
+  {
+   "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Pforzheim-System-Engineer-%28mwd%29-75179/1369588555/",
    "title": "System Engineer (m/w/d)",
    "location": "Pforzheim, DE, 75179",
@@ -79647,7 +79680,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "title": "Finance Accountant Process Specialist (w/m/d)",
-   "location": "Taufkirchen, DE, 82024 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
+   "location": "Fürstenfeldbruck, DE, 82256 • Taufkirchen, DE, 82024 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Finance-Accountant-Process-Specialist-%28wmd%29-89077/1353693555/",
    "posted": "2026-11-19",
    "match": 1,
@@ -79956,7 +79989,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "title": "Chief Engineer (w/m/d)",
-   "location": "Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Chief-Engineer-%28wmd%29-89077/1355586655/",
    "posted": "2026-11-12",
    "match": 1,
@@ -80123,7 +80156,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
+   "location": "Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077",
    "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-89077/1355587355/",
    "posted": "2026-11-08",
    "match": 1,
@@ -80202,7 +80235,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "title": "Senior Systems Engineer Avionics / Communication Systems (w/m/d)",
-   "location": "Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256",
+   "location": "Fürstenfeldbruck, DE, 82256 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256 • Ulm, DE, 89077 • Ulm, DE, 89077 • Ulm, DE, 89077 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Senior-Systems-Engineer-Avionics-Communication-Systems-%28wmd%29-82256/1349445655/",
    "posted": "2026-11-06",
    "match": 1,
@@ -80676,10 +80709,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -80687,10 +80720,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -80722,7 +80755,7 @@
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "title": "Musterprüfingenieur Electrics / Avionics (w/m/d)",
-   "location": "Köln, DE, 51147 • Koblenz, DE, 56073 • Hamburg, DE, 22335 • Bremen, DE, 28757 • Kiel, DE, 24114 • Wilhelmshaven, DE, 26389 • Köln, DE, 50676 • Bremen, DE, 28757 • Kiel, DE, 24145 • Fürstenfeldbruck, DE, 82256",
+   "location": "Kiel, DE, 24145 • Wilhelmshaven, DE, 26389 • Koblenz, DE, 56073 • Hamburg, DE, 22335 • Bremen, DE, 28757 • Köln, DE, 50676 • Köln, DE, 51147 • Bremen, DE, 28757 • Kiel, DE, 24114 • Fürstenfeldbruck, DE, 82256",
    "url": "https://jobs.hensoldt.net/job/F%C3%BCrstenfeldbruck-Musterpr%C3%BCfingenieur-Electrics-Avionics-%28wmd%29-82256/1334923755/",
    "posted": "2026-11-01",
    "match": 1,
@@ -80965,39 +80998,6 @@
    "src": "site",
    "first_seen": "2026-10-09T06:06:52+00:00",
    "closed_at": "2026-11-17T19:45:00+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-Laser-Elektronik-%28wmd%29-73447/1164442155/",
-   "title": "Systemingenieur für Laser-Elektronik (w/m/d)",
-   "location": "Oberkochen, DE, 73447",
-   "url": "https://jobs.hensoldt.net/job/Oberkochen-Systemingenieur-f%C3%BCr-Laser-Elektronik-%28wmd%29-73447/1164442155/",
-   "posted": "2026-10-25",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Wilhelmshaven-Senior-Expert-Maritime-Systems-Engineering-%28wmd%29-26389/1340895855/",
-   "title": "Senior Expert Maritime Systems Engineering (w/m/d)",
-   "location": "Wilhelmshaven, DE, 26389",
-   "url": "https://jobs.hensoldt.net/job/Wilhelmshaven-Senior-Expert-Maritime-Systems-Engineering-%28wmd%29-26389/1340895855/",
-   "posted": "2026-10-25",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Testsystem-Entwicklung-%28wmd%29-89077/1164279955/",
-   "title": "Projektleiter Testsystem-Entwicklung (w/m/d)",
-   "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Projektleiter-Testsystem-Entwicklung-%28wmd%29-89077/1164279955/",
-   "posted": "2026-10-25",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
   },
   {
    "company": "Hensoldt",
@@ -98322,5 +98322,5 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   }
  ],
- "updated": "2026-11-22T23:30:31+00:00"
+ "updated": "2026-11-23T03:58:37+00:00"
 }
