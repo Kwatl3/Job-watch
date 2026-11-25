@@ -961,7 +961,7 @@
   "CERN": {
    "ok": true,
    "count": 19,
-   "raw": 58
+   "raw": 57
   },
   "Thales (Workday, Germany)": {
    "ok": false,
@@ -970,13 +970,13 @@
   },
   "ESA": {
    "ok": true,
-   "count": 62,
-   "raw": 198
+   "count": 63,
+   "raw": 199
   },
   "EUMETSAT": {
    "ok": true,
-   "count": 7,
-   "raw": 20
+   "count": 6,
+   "raw": 19
   },
   "Astos Solutions": {
    "ok": true,
@@ -991,7 +991,7 @@
   "KNDS": {
    "ok": true,
    "count": 51,
-   "raw": 143
+   "raw": 142
   },
   "John Cockerill": {
    "ok": true,
@@ -1071,7 +1071,7 @@
   "MTU Aero Engines": {
    "ok": true,
    "count": 1,
-   "raw": 85
+   "raw": 86
   },
   "Diehl": {
    "ok": false,
@@ -1085,23 +1085,23 @@
   },
   "Hensoldt": {
    "ok": true,
-   "count": 168,
-   "raw": 478
+   "count": 167,
+   "raw": 475
   },
   "TKMS": {
    "ok": true,
-   "count": 118,
-   "raw": 250
+   "count": 120,
+   "raw": 253
   },
   "RENK": {
    "ok": true,
-   "count": 24,
-   "raw": 51
+   "count": 25,
+   "raw": 52
   },
   "OHB": {
    "ok": true,
-   "count": 129,
-   "raw": 266
+   "count": 130,
+   "raw": 269
   },
   "Heckler & Koch": {
    "ok": true,
@@ -1111,7 +1111,7 @@
   "Quantum Systems": {
    "ok": true,
    "count": 12,
-   "raw": 203
+   "raw": 205
   },
   "Terma": {
    "ok": true,
@@ -1415,7 +1415,7 @@
   },
   "Akkodis": {
    "ok": true,
-   "count": 136,
+   "count": 140,
    "raw": 300
   },
   "ALB Fils Klinikum": {
@@ -1510,8 +1510,8 @@
   },
   "Bertrandt": {
    "ok": true,
-   "count": 130,
-   "raw": 298
+   "count": 135,
+   "raw": 300
   },
   "Beurer": {
    "ok": true,
@@ -3605,8 +3605,8 @@
   },
   "Liebherr-Aerospace": {
    "ok": true,
-   "count": 35,
-   "raw": 49
+   "count": 36,
+   "raw": 55
   },
   "Collins Aerospace": {
    "ok": true,
@@ -3676,7 +3676,7 @@
   "Daher": {
    "ok": true,
    "count": 0,
-   "raw": 37
+   "raw": 36
   },
   "Latecoere": {
    "ok": true,
@@ -3710,8 +3710,8 @@
   },
   "Jenoptik": {
    "ok": true,
-   "count": 9,
-   "raw": 176
+   "count": 29,
+   "raw": 50
   },
   "Carl Zeiss Optronics": {
    "ok": true,
@@ -3731,12 +3731,12 @@
   "Atlas Elektronik": {
    "ok": true,
    "count": 22,
-   "raw": 44
+   "raw": 45
   },
   "Vincorion": {
    "ok": true,
-   "count": 21,
-   "raw": 38
+   "count": 20,
+   "raw": 37
   },
   "NVL Group": {
    "ok": true,
@@ -3755,8 +3755,8 @@
   },
   "Lürssen": {
    "ok": true,
-   "count": 22,
-   "raw": 49
+   "count": 21,
+   "raw": 48
   },
   "Rheinmetall Landsysteme": {
    "ok": true,
@@ -3820,7 +3820,7 @@
   },
   "Helsing": {
    "ok": true,
-   "count": 68,
+   "count": 67,
    "raw": 176
   },
   "Stark Defence": {
@@ -3866,12 +3866,12 @@
   "Airbus Defence and Space": {
    "ok": true,
    "count": 93,
-   "raw": 193
+   "raw": 187
   },
   "Dornier": {
    "ok": true,
-   "count": 3,
-   "raw": 13
+   "count": 2,
+   "raw": 12
   },
   "Diamond Aircraft": {
    "ok": true,
@@ -3926,7 +3926,7 @@
   "CoreWeave": {
    "ok": true,
    "count": 0,
-   "raw": 318
+   "raw": 322
   },
   "Infineon Technologies": {
    "ok": true,
@@ -4049,9 +4049,9 @@
    "raw": 15
   },
   "Northern Data": {
-   "ok": true,
-   "count": 0,
-   "raw": 0
+   "ok": false,
+   "error": "RetryError: HTTPSConnectionPool(host='northerndata.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/northerndata/NorthernDataCareers/jobs (Caused by ResponseError('too many ",
+   "count": 0
   },
   "IONOS": {
    "ok": true,
@@ -4141,7 +4141,7 @@
   "Formlabs": {
    "ok": true,
    "count": 2,
-   "raw": 272
+   "raw": 278
   },
   "Carbon": {
    "ok": false,
@@ -4156,7 +4156,7 @@
   "Protolabs": {
    "ok": true,
    "count": 0,
-   "raw": 65
+   "raw": 68
   },
   "EOS (additive)": {
    "ok": true,
@@ -4271,12 +4271,12 @@
   "Nebius": {
    "ok": true,
    "count": 13,
-   "raw": 348
+   "raw": 346
   },
   "Together AI": {
    "ok": true,
    "count": 0,
-   "raw": 81
+   "raw": 80
   },
   "Rocket Lab": {
    "ok": true,
@@ -4296,7 +4296,7 @@
   "Etched": {
    "ok": true,
    "count": 0,
-   "raw": 118
+   "raw": 117
   },
   "Fluidstack": {
    "ok": true,
@@ -4551,7 +4551,7 @@
   "Astera Labs": {
    "ok": true,
    "count": 2,
-   "raw": 181
+   "raw": 180
   },
   "Black Semiconductor": {
    "ok": true,
@@ -4596,7 +4596,7 @@
   "Pure Storage": {
    "ok": true,
    "count": 2,
-   "raw": 389
+   "raw": 390
   },
   "EdgeConnex": {
    "ok": true,
@@ -4635,8 +4635,8 @@
   },
   "Q.ANT": {
    "ok": true,
-   "count": 0,
-   "raw": 0
+   "count": 3,
+   "raw": 15
   },
   "Smart Photonics": {
    "ok": true,
@@ -4796,7 +4796,7 @@
   "Synthesia": {
    "ok": true,
    "count": 0,
-   "raw": 26
+   "raw": 24
   },
   "ElevenLabs": {
    "ok": true,
@@ -4831,7 +4831,7 @@
   "OpenAI": {
    "ok": true,
    "count": 0,
-   "raw": 877
+   "raw": 876
   },
   "ClickHouse": {
    "ok": true,
@@ -4846,17 +4846,17 @@
   "Celonis": {
    "ok": true,
    "count": 11,
-   "raw": 258
+   "raw": 260
   },
   "Dataiku": {
    "ok": true,
    "count": 0,
-   "raw": 15
+   "raw": 16
   },
   "Graphcore": {
    "ok": true,
    "count": 0,
-   "raw": 185
+   "raw": 183
   },
   "Scale AI": {
    "ok": true,
@@ -4866,12 +4866,12 @@
   "Databricks": {
    "ok": true,
    "count": 3,
-   "raw": 889
+   "raw": 875
   },
   "Anthropic": {
    "ok": true,
    "count": 0,
-   "raw": 636
+   "raw": 635
   },
   "Vectara": {
    "ok": true,
@@ -4881,12 +4881,12 @@
   "Peak AI": {
    "ok": true,
    "count": 0,
-   "raw": 62
+   "raw": 63
   },
   "Elastic": {
    "ok": true,
    "count": 0,
-   "raw": 390
+   "raw": 389
   },
   "Merantix": {
    "ok": true,
@@ -4906,17 +4906,17 @@
   "Scaleway": {
    "ok": true,
    "count": 0,
-   "raw": 37
+   "raw": 36
   },
   "Neura Robotics": {
    "ok": true,
-   "count": 7,
+   "count": 8,
    "raw": 230
   },
   "Agile Robots": {
    "ok": true,
    "count": 1,
-   "raw": 71
+   "raw": 69
   },
   "Mercedes-Benz (Stuttgart region)": {
    "ok": true,
@@ -5650,13 +5650,13 @@
   },
   "Airbus (Hamburg)": {
    "ok": true,
-   "count": 26,
-   "raw": 56
+   "count": 25,
+   "raw": 52
   },
   "Airbus (Bremen)": {
    "ok": true,
    "count": 5,
-   "raw": 18
+   "raw": 17
   },
   "Airbus (Stade/Buxtehude)": {
    "ok": true,
@@ -5666,12 +5666,12 @@
   "Airbus Defence and Space (Bremen)": {
    "ok": true,
    "count": 3,
-   "raw": 15
+   "raw": 14
   },
   "Airbus Defence and Space (Munich/Ottobrunn)": {
    "ok": true,
-   "count": 6,
-   "raw": 27
+   "count": 7,
+   "raw": 26
   },
   "Airbus Helicopters (Donauwörth)": {
    "ok": true,
@@ -5696,7 +5696,7 @@
   "MTU Aero Engines (Munich)": {
    "ok": true,
    "count": 10,
-   "raw": 35
+   "raw": 37
   },
   "MTU Aero Engines (Hannover)": {
    "ok": true,
@@ -5721,7 +5721,7 @@
   "Hensoldt (Ulm/Oberkochen)": {
    "ok": true,
    "count": 13,
-   "raw": 41
+   "raw": 39
   },
   "OHB (Bremen)": {
    "ok": true,
@@ -5735,6 +5735,698 @@
   }
  },
  "jobs": [
+  {
+   "company": "TKMS",
+   "id": "16604-977639-008-S",
+   "title": "Verfahrensingenieur (m/w/d)",
+   "employer": "TKMS ATLAS ELEKTRONIK GmbH",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977639-008-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Atlas Elektronik",
+   "id": "16604-977639-008-S",
+   "title": "Verfahrensingenieur (m/w/d)",
+   "employer": "TKMS ATLAS ELEKTRONIK GmbH",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977639-008-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647571-7878-2697-S",
+   "title": "Technischer Projektleiter/ AIT Manager (d/m/w)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Stuttgart, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647571-7878-2697-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004068149-S",
+   "title": "Technischer Projektleiter / AIT Manager (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Backnang, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004068149-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647576-7878-9353-S",
+   "title": "Technischer Produktdesigner (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Wangen im Allgäu, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647576-7878-9353-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010638609-S",
+   "title": "Systemingenieur Fahrzeugelektrik und E/E-Architektur (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Neuenstein, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010638609-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647579-7878-2745-S",
+   "title": "System Test Engineer (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Gilching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647579-7878-2745-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010686968-S",
+   "title": "Spezialist (m/w/d) Entwicklung Mobilhydraulik",
+   "employer": "Bertrandt AG",
+   "location": "Neuenstein, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010686968-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010607799-S",
+   "title": "Sicherheitsingenieur / Fachkraft für Arbeitssicherheit (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010607799-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010612849-S",
+   "title": "Senior Konstruktionsexperte Stahlbau und Schweißtechnik (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Neuenstein, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010612849-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010608865-S",
+   "title": "Senior Entwicklungsingenieur Verbindungstechnologien (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010608865-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Liebherr-Aerospace",
+   "id": "12288-5010673883-S",
+   "title": "Senior Application Manager PLM/ CAD im Bereich Solution Management (m/w/d)",
+   "employer": "Liebherr-Aerospace Lindenberg GmbH",
+   "location": "Lindenberg im Allgäu, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010673883-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-645578-7878-1164-S",
+   "title": "Referent (m/w/d) HR-Projekte & Organisationsentwicklung",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-645578-7878-1164-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010795867-S",
+   "title": "Prozessingenieur Kunststofftechnik (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Nagold, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010795867-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-645061-7878-6259-S",
+   "title": "Projektleiter:in TGA/HKLS",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-645061-7878-6259-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-645016-7878-2747-S",
+   "title": "Projektleiter:in Elektrotechnik",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-645016-7878-2747-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647542-7878-9576-S",
+   "title": "Projektleiter Sondermaschinenbau (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Straßlach-Dingharting, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647542-7878-9576-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-641656-7878-3071-S",
+   "title": "Projektleiter (m/w/d) Maschinenbau, Lieferantenmanagement",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-641656-7878-3071-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646410-7878-2798-S",
+   "title": "Projektingenieur Kraftwerks- und Anlagentechnik (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646410-7878-2798-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010638483-S",
+   "title": "Projektierungsingenieur Sonderfahrzeuge und Kundenlösungen (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Neuenstein, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010638483-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-977646-008-S",
+   "title": "Project Manager Operation (m/w/d)",
+   "employer": "TKMS GmbH",
+   "location": "Kiel, Schleswig Holstein",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977646-008-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010826033-S",
+   "title": "Produktionsmitarbeiter (m/w/d) Montage",
+   "employer": "Bertrandt AG",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010826033-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004068199-S",
+   "title": "Produktionsingenieur Optik (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Backnang, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004068199-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010661690-S",
+   "title": "Produktentwicklungsingenieur Fahrzeugsysteme (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Neuenstein, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010661690-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010795638-S",
+   "title": "Process Engineer (m/w/d) Mikrooptik",
+   "employer": "Bertrandt AG",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010795638-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010811083-S",
+   "title": "Process Engineer (m/w/d) Automatisierungstechnik",
+   "employer": "Bertrandt AG",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010811083-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-646921-7878-9303-S",
+   "title": "Planungsingenieur (m/w/d) Verfahrenstechnik, Galvanikanlagen",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646921-7878-9303-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004067150-S",
+   "title": "Mechatroniker (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Magdeburg, Sachsen Anhalt",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004067150-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004067105-S",
+   "title": "Mechatroniker (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Erfurt, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004067105-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010785050-S",
+   "title": "Mechanical Engineer (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010785050-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647545-7878-8121-S",
+   "title": "Maschinenbauingenieur / Maschinenbautechniker (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Regensburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647545-7878-8121-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647572-7878-4662-S",
+   "title": "Manufacturing Engineer (d/m/w) Optics",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Stuttgart, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647572-7878-4662-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010839491-S",
+   "title": "Leiter Prüftechnik u. Qualitätssicherung (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010839491-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "TKMS",
+   "id": "16604-977679-008-S",
+   "title": "Konstruktionsmechaniker Schweißen Schiffbauliche Ausrüstung (m/w/d)",
+   "employer": "TKMS Wismar GmbH",
+   "location": "Wismar, Mecklenburg, Mecklenburg Vorpommern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977679-008-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004066493-S",
+   "title": "Konstrukteur Kryotechnik (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Dresden, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004066493-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647535-7878-5383-S",
+   "title": "Ingenieur Maschinenbau, Feinwerktechnik - Entwicklung Creo (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Ulm, Donau, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647535-7878-5383-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010788072-S",
+   "title": "IT System Engineer - Schwerpunkt Server / Infrastruktur (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Frankfurt am Main, Hessen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010788072-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010711546-S",
+   "title": "Fertigungssteuerer (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Oberkochen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010711546-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010622456-S",
+   "title": "FEM Berechnungsingenieur (m/w/d) Werkzeuge und Handhabungssysteme",
+   "employer": "Bertrandt AG",
+   "location": "Mülheim an der Ruhr, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010622456-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647577-7878-8362-S",
+   "title": "Entwicklungsingenieur Integration Rahmenanbauteile (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647577-7878-8362-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647588-7878-7882-S",
+   "title": "Entwicklungsingenieur HydroDrive (w/m/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647588-7878-7882-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647581-7878-6496-S",
+   "title": "Entwicklungsingenieur Bremssysteme Radbremse (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647581-7878-6496-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647536-7878-8450-S",
+   "title": "Entwicklungsingenieur (m/w/d) - Hochfrequenzmess- und Prüftechnik",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Memmingen, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647536-7878-8450-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010808185-S",
+   "title": "Elektroniker / Mechatroniker für Automatisierungstechnik (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Leipzig, Sachsen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010808185-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647547-7878-1918-S",
+   "title": "Elektrokonstrukteur (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Rosenheim, Oberbayern, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647547-7878-1918-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647547-7878-1170-S",
+   "title": "Elektrokonstrukteur (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Regensburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647547-7878-1170-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "10001-1004067228-S",
+   "title": "Elektrokonstrukteur (m/w/d)",
+   "employer": "Bertrandt Services GmbH",
+   "location": "Gera, Thueringen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004067228-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5010683650-S",
+   "title": "Elektroingenieur Hochfrequenz (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Nürnberg, Mittelfranken, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010683650-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647544-7878-9177-S",
+   "title": "Documentation Engineer (m/w/d) - Technische Dokumentation & XML",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647544-7878-9177-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647546-7878-3547-S",
+   "title": "Berufseinsteiger (m/w/d) Entwicklung",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Regensburg, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647546-7878-3547-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647541-7878-3418-S",
+   "title": "Additive Manufacturing Engineer (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Berlin, Berlin",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647541-7878-3418-S",
+   "posted": "2026-11-25",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647537-7878-5506-S",
+   "title": "AOCS/GNC Engineer (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Friedrichshafen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647537-7878-5506-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-986549415-S",
+   "title": "AI & Machine Learning Scientist – Materials Research (d/m/w)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-986549415-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "id": "16947-986549415-S",
+   "title": "AI & Machine Learning Scientist – Materials Research (d/m/w)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-986549415-S",
+   "posted": "2026-11-25",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "OHB",
+   "id": "9006",
+   "title": "Senior Engineer Power and Analog Electronics (m/f/d)",
+   "location": "Weßling bei München, DE",
+   "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/9006?c=career-ohb",
+   "posted": "2026-11-24",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Produktion-%28wmd%29-Laichingen-89077/1377838155/",
+   "title": "Auftragsverantwortlicher Produktion (w/m/d) - Laichingen",
+   "location": "Ulm, DE, 89077",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Auftragsverantwortlicher-Produktion-%28wmd%29-Laichingen-89077/1377838155/",
+   "posted": "2026-11-21",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "ESA",
+   "id": "https://jobs.esa.int/job/Darmstadt-Radar-Engineer/1460768133/",
+   "title": "Radar Engineer",
+   "location": "Madrid, ES • Darmstadt, DE",
+   "url": "https://jobs.esa.int/job/Darmstadt-Radar-Engineer/1460768133/",
+   "posted": "",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Neura Robotics",
+   "id": "https://jobs.neura-robotics.com/offer-redirect/?offerApiId=MTBlODUyNmQtNjA0NC00OGFmLTk2ZDItNTQxNTEyZmY0ZGZi&showApplicationForm=false",
+   "title": "Project Manager Industrialization (Human)",
+   "location": "Neura Robotics (Germany)",
+   "url": "https://jobs.neura-robotics.com/offer-redirect/?offerApiId=MTBlODUyNmQtNjA0NC00OGFmLTk2ZDItNTQxNTEyZmY0ZGZi&showApplicationForm=false",
+   "posted": "",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-11-25T15:58:31+00:00"
+  },
   {
    "company": "SYNERGIE Personal",
    "id": "12704-U5PNZIB5ZZ2E9E9P-S",
@@ -6115,8 +6807,7 @@
    "posted": "2026-11-25",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-25T05:21:32+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-25T05:21:32+00:00"
   },
   {
    "company": "Jenoptik",
@@ -6128,8 +6819,7 @@
    "posted": "2026-11-25",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-25T05:21:32+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-25T05:21:32+00:00"
   },
   {
    "company": "Hensoldt (Ulm/Oberkochen)",
@@ -6141,17 +6831,6 @@
    "posted": "2026-11-25",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-25T05:21:32+00:00"
-  },
-  {
-   "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Pforzheim-Testingenieur-f%C3%BCr-Validation-&-Verification-%28mwd%29-75179/1377362755/",
-   "title": "Testingenieur für Validation & Verification (m/w/d)",
-   "location": "Pforzheim, DE, 75179",
-   "url": "https://jobs.hensoldt.net/job/Pforzheim-Testingenieur-f%C3%BCr-Validation-&-Verification-%28mwd%29-75179/1377362755/",
-   "posted": "2026-11-17",
-   "match": 1,
-   "src": "site",
    "first_seen": "2026-11-25T05:21:32+00:00"
   },
   {
@@ -6171,6 +6850,17 @@
    "title": "Testingenieur für Validation & Verification (m/w/d)",
    "location": "Pforzheim, DE, 75179",
    "url": "https://jobs.hensoldt.net/job/Pforzheim-Testingenieur-f%C3%BCr-Validation-&-Verification-%28mwd%29-75179/1377345855/",
+   "posted": "2026-11-17",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-25T05:21:32+00:00"
+  },
+  {
+   "company": "Hensoldt",
+   "id": "https://jobs.hensoldt.net/job/Pforzheim-Testingenieur-f%C3%BCr-Validation-&-Verification-%28mwd%29-75179/1377362755/",
+   "title": "Testingenieur für Validation & Verification (m/w/d)",
+   "location": "Pforzheim, DE, 75179",
+   "url": "https://jobs.hensoldt.net/job/Pforzheim-Testingenieur-f%C3%BCr-Validation-&-Verification-%28mwd%29-75179/1377362755/",
    "posted": "2026-11-17",
    "match": 1,
    "src": "site",
@@ -6514,7 +7204,8 @@
    "posted": "2026-11-24",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-24T22:32:38+00:00"
+   "first_seen": "2026-11-24T22:32:38+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Dekra",
@@ -8901,7 +9592,8 @@
    "posted": "2026-11-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-24T00:00:15+00:00"
+   "first_seen": "2026-11-24T00:00:15+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Leonhard Weiss",
@@ -10065,7 +10757,8 @@
    "posted": "2026-11-12",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-23T14:26:24+00:00"
+   "first_seen": "2026-11-23T14:26:24+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -10865,8 +11558,7 @@
    "posted": "2026-10-30",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T23:30:31+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-22T23:30:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -10878,8 +11570,7 @@
    "posted": "2026-10-21",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T23:30:31+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-22T23:30:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -10891,8 +11582,7 @@
    "posted": "2026-09-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T23:30:31+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-22T23:30:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -10904,8 +11594,7 @@
    "posted": "2026-09-03",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T23:30:31+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-22T23:30:31+00:00"
   },
   {
    "company": "Deutsche Bahn",
@@ -11020,7 +11709,8 @@
    "posted": "2026-11-23",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Rau",
@@ -11289,24 +11979,24 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Bertrandt",
-   "id": "12288-5006786319-S",
-   "title": "Zerspanungsmechaniker (m/w/d)",
-   "employer": "Bertrandt AG",
-   "location": "Ahlen, Westfalen, Nordrhein Westfalen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5006786319-S",
-   "posted": "2026-11-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Walter",
    "id": "12322-UWRKAY11G79RDYRP-S",
    "title": "Zerspanungsmechaniker (m/w/d)",
    "employer": "Walter-Fach-Kraft Bayern GmbH",
    "location": "Ingolstadt, Donau, Bayern",
    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12322-UWRKAY11G79RDYRP-S",
+   "posted": "2026-11-20",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
+  },
+  {
+   "company": "Bertrandt",
+   "id": "12288-5006786319-S",
+   "title": "Zerspanungsmechaniker (m/w/d)",
+   "employer": "Bertrandt AG",
+   "location": "Ahlen, Westfalen, Nordrhein Westfalen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5006786319-S",
    "posted": "2026-11-20",
    "match": 1,
    "src": "agency",
@@ -11417,6 +12107,20 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-985065976-S",
+   "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "München, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985065976-S",
+   "posted": "2026-11-20",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true,
+   "closed_at": "2026-11-24T00:00:15+00:00"
+  },
+  {
    "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-985065976-S",
    "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
@@ -11432,20 +12136,6 @@
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-985065976-S",
-   "title": "Systems Engineer Optical Subsystems (d/f/m) (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "München, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985065976-S",
-   "posted": "2026-11-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true,
-   "closed_at": "2026-11-24T00:00:15+00:00"
-  },
-  {
-   "company": "Airbus (Hamburg)",
    "id": "16947-985059618-S",
    "title": "System Safety Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -11458,7 +12148,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-985059618-S",
    "title": "System Safety Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -11612,18 +12302,6 @@
    "closed_at": "2026-11-24T22:32:38+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-985085756-S",
-   "title": "Projektleiter Baumanagement (d/m/w)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985085756-S",
-   "posted": "2026-11-20",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-985085756-S",
    "title": "Projektleiter Baumanagement (d/m/w)",
@@ -11635,6 +12313,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-985085756-S",
+   "title": "Projektleiter Baumanagement (d/m/w)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985085756-S",
+   "posted": "2026-11-20",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -11995,31 +12685,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-984750348-S",
-   "title": "Supply Chain Business Improvement Manager (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984750348-S",
-   "posted": "2026-11-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
-   "company": "Airbus (Hamburg)",
-   "id": "16947-984750348-S",
-   "title": "Supply Chain Business Improvement Manager (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984750348-S",
-   "posted": "2026-11-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-984750348-S",
    "title": "Supply Chain Business Improvement Manager (d/f/m)",
@@ -12032,6 +12697,33 @@
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true,
    "closed_at": "2026-11-25T08:45:55+00:00"
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-984750348-S",
+   "title": "Supply Chain Business Improvement Manager (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984750348-S",
+   "posted": "2026-11-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
+  },
+  {
+   "company": "Airbus (Hamburg)",
+   "id": "16947-984750348-S",
+   "title": "Supply Chain Business Improvement Manager (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984750348-S",
+   "posted": "2026-11-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true,
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "TKMS",
@@ -12070,18 +12762,6 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
-  },
-  {
-   "company": "FACC",
-   "id": "11949-17407876-S",
-   "title": "Projektleiter/in",
-   "employer": "FACC Operations GmbH",
-   "location": "Ried im Innkreis, Oberoesterreich",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17407876-S",
-   "posted": "2026-11-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Bilfinger",
@@ -12156,6 +12836,18 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
+   "company": "FACC",
+   "id": "11949-17407876-S",
+   "title": "Projektleiter/in",
+   "employer": "FACC Operations GmbH",
+   "location": "Ried im Innkreis, Oberoesterreich",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11949-17407876-S",
+   "posted": "2026-11-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
+  },
+  {
    "company": "Leonhard Weiss",
    "id": "12811-2381472-S",
    "title": "Projektleiter Umspannwerke 380 kV (m/w/d), LEONHARD WEISS GmbH & Co. KG",
@@ -12179,6 +12871,19 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-984752334-S",
+   "title": "Project Manager Eurofighter Simulation (d/w/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984752334-S",
+   "posted": "2026-11-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus Defence and Space",
    "id": "16947-984752334-S",
    "title": "Project Manager Eurofighter Simulation (d/w/m)",
@@ -12192,19 +12897,6 @@
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-984752334-S",
-   "title": "Project Manager Eurofighter Simulation (d/w/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984752334-S",
-   "posted": "2026-11-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-984786654-S",
    "title": "PhD-position on  Multiscale Simulation of Cold Gas Spraying Processes (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -12217,7 +12909,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-984786654-S",
    "title": "PhD-position on  Multiscale Simulation of Cold Gas Spraying Processes (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -12330,7 +13022,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-984751367-S",
    "title": "Electromagnetic Hazards Lightning Direct Effects Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -12343,7 +13035,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984751367-S",
    "title": "Electromagnetic Hazards Lightning Direct Effects Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -12369,10 +13061,10 @@
   },
   {
    "company": "Celonis",
-   "id": "8201407003",
+   "id": "8201411003",
    "title": "Senior Value Engineer - AI & Process Optimization",
-   "location": "Munich, Germany",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8201407003?gh_jid=8201407003",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/8201411003?gh_jid=8201411003",
    "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
@@ -12380,10 +13072,10 @@
   },
   {
    "company": "Celonis",
-   "id": "8201411003",
+   "id": "8201407003",
    "title": "Senior Value Engineer - AI & Process Optimization",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8201411003?gh_jid=8201411003",
+   "location": "Munich, Germany",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/8201407003?gh_jid=8201407003",
    "posted": "2026-11-18T13:05:52-05:00",
    "match": 2,
    "src": "site",
@@ -12698,7 +13390,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-984332343-S",
    "title": "IT Product & Service Manager Aircraft Delivery (w/d/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -12711,7 +13403,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984332343-S",
    "title": "IT Product & Service Manager Aircraft Delivery (w/d/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -13178,7 +13870,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-984297295-S",
    "title": "IT Solution Architect – AI & Quality Transformation (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13191,7 +13883,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-984297295-S",
    "title": "IT Solution Architect – AI & Quality Transformation (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -13429,18 +14121,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-983955180-S",
-   "title": "RISK & PERFORMANCE PROJECT MANAGER (D/M/F)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-983955180-S",
-   "posted": "2026-11-16",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-983955180-S",
    "title": "RISK & PERFORMANCE PROJECT MANAGER (D/M/F)",
@@ -13452,6 +14132,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-983955180-S",
+   "title": "RISK & PERFORMANCE PROJECT MANAGER (D/M/F)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Donauwörth, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-983955180-S",
+   "posted": "2026-11-16",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Woodward",
@@ -13728,7 +14420,8 @@
    "posted": "2026-11-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -13740,7 +14433,8 @@
    "posted": "2026-11-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Ed. Züblin",
@@ -13764,7 +14458,8 @@
    "posted": "2026-11-15",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Curtiss-Wright",
@@ -13984,7 +14679,7 @@
    "closed_at": "2026-11-24T22:43:07+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-983044287-S",
    "title": "Processes, Methods & Tools (PMT) Focal for Flight Test Installation (FTI) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -13997,7 +14692,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-983044287-S",
    "title": "Processes, Methods & Tools (PMT) Focal for Flight Test Installation (FTI) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -14023,7 +14718,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-983012892-S",
    "title": "Navigation Signal Experimentation Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -14036,7 +14731,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-983012892-S",
    "title": "Navigation Signal Experimentation Engineer (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -14248,19 +14943,6 @@
    "seed": true
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-647173-7878-1953-S",
-   "title": "Data & AI Business Analyst Lieferantenregress (m/w/d)",
-   "employer": "Akkodis Germany Tech Experts GmbH",
-   "location": "Stuttgart, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647173-7878-1953-S",
-   "posted": "2026-11-13",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "closed_at": "2026-11-24T12:19:51+00:00"
-  },
-  {
    "company": "Akkodis (Stuttgart region)",
    "id": "12634-BB-647173-7878-1953-S",
    "title": "Data & AI Business Analyst Lieferantenregress (m/w/d)",
@@ -14272,6 +14954,19 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Akkodis",
+   "id": "12634-BB-647173-7878-1953-S",
+   "title": "Data & AI Business Analyst Lieferantenregress (m/w/d)",
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "location": "Stuttgart, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-647173-7878-1953-S",
+   "posted": "2026-11-13",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "closed_at": "2026-11-24T12:19:51+00:00"
   },
   {
    "company": "OHB",
@@ -14565,7 +15260,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-982849173-S",
    "title": "MODEL BASED SYSTEMS ENGINEER (D/F/M)",
    "employer": "Airbus Defence and Space GmbH",
@@ -14578,7 +15273,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-982849173-S",
    "title": "MODEL BASED SYSTEMS ENGINEER (D/F/M)",
    "employer": "Airbus Defence and Space GmbH",
@@ -15982,7 +16677,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Bremen)",
+   "company": "Airbus Operations",
    "id": "16947-981713873-S",
    "title": "Electrical Lab Test Means Design & Build Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -15995,7 +16690,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Bremen)",
    "id": "16947-981713873-S",
    "title": "Electrical Lab Test Means Design & Build Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -17248,7 +17943,7 @@
    "closed_at": "2026-11-24T10:02:06+00:00"
   },
   {
-   "company": "Hensoldt (Ulm/Oberkochen)",
+   "company": "Hensoldt Sensors",
    "id": "14225-4d4fe404f959e883-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
    "employer": "HENSOLDT Sensors GmbH",
@@ -17261,7 +17956,7 @@
    "seed": true
   },
   {
-   "company": "Hensoldt Sensors",
+   "company": "Hensoldt (Ulm/Oberkochen)",
    "id": "14225-4d4fe404f959e883-S",
    "title": "Wirtschaftsingenieur (m/w/d)",
    "employer": "HENSOLDT Sensors GmbH",
@@ -17560,18 +18255,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-980206759-S",
-   "title": "A400M Fluggerätmechaniker / Aircraft Mechanic (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-980206759-S",
-   "posted": "2026-10-30",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-980206759-S",
    "title": "A400M Fluggerätmechaniker / Aircraft Mechanic (d/f/m)",
@@ -17583,6 +18266,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-980206759-S",
+   "title": "A400M Fluggerätmechaniker / Aircraft Mechanic (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-980206759-S",
+   "posted": "2026-10-30",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Siemens Energy",
@@ -17952,7 +18647,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-979710724-S",
    "title": "IT Cloud Engineer  (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -17965,7 +18660,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-979710724-S",
    "title": "IT Cloud Engineer  (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -18307,7 +19002,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-979277131-S",
    "title": "Flugdynamik‑Ingenieur für Satellitenbetrieb (m/w/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -18320,7 +19015,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-979277131-S",
    "title": "Flugdynamik‑Ingenieur für Satellitenbetrieb (m/w/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -18718,18 +19413,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-977798221-S",
-   "title": "Project Manager Electronic Warfare Ground Systems (m/f/d)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-977798221-S",
-   "posted": "2026-10-19",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-977798221-S",
    "title": "Project Manager Electronic Warfare Ground Systems (m/f/d)",
@@ -18741,6 +19424,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-977798221-S",
+   "title": "Project Manager Electronic Warfare Ground Systems (m/f/d)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-977798221-S",
+   "posted": "2026-10-19",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "OHB (Bremen)",
@@ -19050,6 +19745,19 @@
    "seed": true
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-976730261-S",
+   "title": "Mechanical Systems Integration Engineer (d/m/w)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Bremen, Bremen",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976730261-S",
+   "posted": "2026-10-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus (Bremen)",
    "id": "16947-976730261-S",
    "title": "Mechanical Systems Integration Engineer (d/m/w)",
@@ -19064,19 +19772,6 @@
   },
   {
    "company": "Airbus Defence and Space (Bremen)",
-   "id": "16947-976730261-S",
-   "title": "Mechanical Systems Integration Engineer (d/m/w)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Bremen, Bremen",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976730261-S",
-   "posted": "2026-10-14",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-976730261-S",
    "title": "Mechanical Systems Integration Engineer (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -19202,6 +19897,19 @@
    "seed": true
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-976249940-S",
+   "title": "Qualitätsprüfer (D/M/W)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976249940-S",
+   "posted": "2026-10-12",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus (Hamburg)",
    "id": "16947-976249940-S",
    "title": "Qualitätsprüfer (D/M/W)",
@@ -19216,11 +19924,11 @@
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-976249940-S",
-   "title": "Qualitätsprüfer (D/M/W)",
+   "id": "16947-976237853-S",
+   "title": "Project Manager (d/m/w) Integrated Air and Missile Defence",
    "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976249940-S",
+   "location": "Ulm, Donau, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976237853-S",
    "posted": "2026-10-12",
    "match": 1,
    "src": "agency",
@@ -19238,19 +19946,6 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
-   "company": "Airbus Defence and Space Friedrichshafen",
-   "id": "16947-976237853-S",
-   "title": "Project Manager (d/m/w) Integrated Air and Missile Defence",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-976237853-S",
-   "posted": "2026-10-12",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
   },
   {
    "company": "MTU Maintenance",
@@ -19514,7 +20209,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Rolls-Royce",
+   "company": "Rolls-Royce Power Systems",
    "id": "19146-100015711920-S",
    "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
    "employer": "Rolls-Royce Power Systems AG",
@@ -19526,7 +20221,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Rolls-Royce Power Systems",
+   "company": "Rolls-Royce",
    "id": "19146-100015711920-S",
    "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
    "employer": "Rolls-Royce Power Systems AG",
@@ -19624,18 +20319,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-975633461-S",
-   "title": "Senior Project Manager Defence - Air C2 (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-975633461-S",
-   "posted": "2026-10-08",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-975633461-S",
    "title": "Senior Project Manager Defence - Air C2 (d/f/m)",
@@ -19647,6 +20330,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-975633461-S",
+   "title": "Senior Project Manager Defence - Air C2 (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Immenstaad am Bodensee, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-975633461-S",
+   "posted": "2026-10-08",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "OHB (Bremen)",
@@ -19739,7 +20434,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-975668542-S",
    "title": "Digital Project Manager (d/f/m) SAP S/4HANA Finance",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -19752,7 +20447,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-975668542-S",
    "title": "Digital Project Manager (d/f/m) SAP S/4HANA Finance",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -19852,18 +20547,6 @@
    "seed": true
   },
   {
-   "company": "Rolls-Royce",
-   "id": "10001-1003820316-S",
-   "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
-   "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
-   "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003820316-S",
-   "posted": "2026-10-07",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Rolls-Royce Deutschland",
    "id": "10001-1003820316-S",
    "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
@@ -19878,11 +20561,11 @@
   },
   {
    "company": "Rolls-Royce",
-   "id": "10001-1003819893-S",
-   "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
+   "id": "10001-1003820316-S",
+   "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
    "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
    "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003819893-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003820316-S",
    "posted": "2026-10-07",
    "match": 1,
    "src": "agency",
@@ -19900,6 +20583,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Rolls-Royce",
+   "id": "10001-1003819893-S",
+   "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
+   "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
+   "location": "Friedrichshafen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003819893-S",
+   "posted": "2026-10-07",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Würth",
@@ -20456,18 +21151,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-973945090-S",
-   "title": "Procurement Manager Aerostructures - Fast Track & Special Programmes",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-973945090-S",
-   "posted": "2026-09-30",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-973945090-S",
    "title": "Procurement Manager Aerostructures - Fast Track & Special Programmes",
@@ -20479,6 +21162,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-973945090-S",
+   "title": "Procurement Manager Aerostructures - Fast Track & Special Programmes",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-973945090-S",
+   "posted": "2026-09-30",
+   "match": 2,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Fraunhofer (Luft- und Raumfahrt)",
@@ -20629,7 +21324,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Bremen)",
+   "company": "Airbus Operations",
    "id": "16947-973469994-S",
    "title": "Engineer for Aerodynamics (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -20642,7 +21337,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Bremen)",
    "id": "16947-973469994-S",
    "title": "Engineer for Aerodynamics (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -21156,7 +21851,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-971295829-S",
    "title": "Entwicklungsingenieur Statik/Festigkeit Composite - Design Task Responsible (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -21169,7 +21864,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-971295829-S",
    "title": "Entwicklungsingenieur Statik/Festigkeit Composite - Design Task Responsible (d/m/w)",
    "employer": "Airbus Defence and Space GmbH",
@@ -21206,7 +21901,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-971063638-S",
    "title": "Process & Performance Manager - Technical Integration & SAP S/4HANA (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -21219,7 +21914,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-971063638-S",
    "title": "Process & Performance Manager - Technical Integration & SAP S/4HANA (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -21403,18 +22098,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Rolls-Royce",
-   "id": "10001-1003682985-S",
-   "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
-   "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
-   "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003682985-S",
-   "posted": "2026-09-10",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Rolls-Royce Deutschland",
    "id": "10001-1003682985-S",
    "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
@@ -21429,11 +22112,11 @@
   },
   {
    "company": "Rolls-Royce",
-   "id": "10001-1003682948-S",
-   "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
+   "id": "10001-1003682985-S",
+   "title": "Mitarbeiter Motorenmontage BR 4000 - unbefristet und befristet (m/w/d)",
    "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
    "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003682948-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003682985-S",
    "posted": "2026-09-10",
    "match": 1,
    "src": "agency",
@@ -21451,6 +22134,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Rolls-Royce",
+   "id": "10001-1003682948-S",
+   "title": "Mitarbeiter (m/w/d) für unsere Motoren und Boxenmontage BR 4000",
+   "employer": "Rolls-Royce Deutschland Ltd & Co. KG",
+   "location": "Friedrichshafen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003682948-S",
+   "posted": "2026-09-10",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Alten (Stuttgart region)",
@@ -21531,7 +22226,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-969396108-S",
    "title": "Supply Chain & Quality Manager - Cabin Seat  (f/m/d)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -21544,7 +22239,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-969396108-S",
    "title": "Supply Chain & Quality Manager - Cabin Seat  (f/m/d)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -21683,18 +22378,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-969063803-S",
-   "title": "Project Manager (d/m/w) Ground Based Air Defence",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Ulm, Donau, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-969063803-S",
-   "posted": "2026-09-07",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-969063803-S",
    "title": "Project Manager (d/m/w) Ground Based Air Defence",
@@ -21706,6 +22389,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-969063803-S",
+   "title": "Project Manager (d/m/w) Ground Based Air Defence",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Ulm, Donau, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-969063803-S",
+   "posted": "2026-09-07",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Airbus Defence and Space Friedrichshafen",
@@ -21994,7 +22689,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-967925952-S",
    "title": "PICM3-Supply Chain and Quality Manager (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -22007,7 +22702,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-967925952-S",
    "title": "PICM3-Supply Chain and Quality Manager (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -22256,18 +22951,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-967401125-S",
-   "title": "Zerspanungsmechaniker (m/w/d)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-967401125-S",
-   "posted": "2026-08-31",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-967401125-S",
    "title": "Zerspanungsmechaniker (m/w/d)",
@@ -22279,6 +22962,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-967401125-S",
+   "title": "Zerspanungsmechaniker (m/w/d)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Donauwörth, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-967401125-S",
+   "posted": "2026-08-31",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Heraeus",
@@ -22415,7 +23110,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-966127702-S",
    "title": "SAP BI Technology Specialist in Germany  (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22428,7 +23123,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-966127702-S",
    "title": "SAP BI Technology Specialist in Germany  (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22480,7 +23175,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-966378032-S",
    "title": "Fatigue & Damage Tolerance Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -22493,7 +23188,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-966378032-S",
    "title": "Fatigue & Damage Tolerance Engineer (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -22558,18 +23253,6 @@
    "closed_at": "2026-11-23T07:48:00+00:00"
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-965827395-S",
-   "title": "Projektleiter Ground Support Equipment (d/w/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Manching, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-965827395-S",
-   "posted": "2026-08-24",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-965827395-S",
    "title": "Projektleiter Ground Support Equipment (d/w/m)",
@@ -22581,6 +23264,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-965827395-S",
+   "title": "Projektleiter Ground Support Equipment (d/w/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Manching, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-965827395-S",
+   "posted": "2026-08-24",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "Dynamit Nobel Defence",
@@ -22659,7 +23354,7 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-964877187-S",
    "title": "Structural Analysis Engineer VTP (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22672,7 +23367,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-964877187-S",
    "title": "Structural Analysis Engineer VTP (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22816,19 +23511,6 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
-   "id": "16947-963958075-S",
-   "title": "F&DT Structural Analysis Engineer (d/f/m)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963958075-S",
-   "posted": "2026-08-14",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-963958075-S",
    "title": "F&DT Structural Analysis Engineer (d/f/m)",
@@ -22843,6 +23525,19 @@
   },
   {
    "company": "Airbus (Hamburg)",
+   "id": "16947-963958075-S",
+   "title": "F&DT Structural Analysis Engineer (d/f/m)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963958075-S",
+   "posted": "2026-08-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-963957852-S",
    "title": "F&DT Stress Engineer for Fuselage (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22855,7 +23550,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus (Hamburg)",
    "id": "16947-963957852-S",
    "title": "F&DT Stress Engineer for Fuselage (d/f/m)",
    "employer": "Airbus Defence and Space GmbH",
@@ -22894,6 +23589,19 @@
    "seed": true
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-963094831-S",
+   "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963094831-S",
+   "posted": "2026-08-11",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus Defence and Space",
    "id": "16947-963094831-S",
    "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
@@ -22907,19 +23615,6 @@
   },
   {
    "company": "Airbus (Hamburg)",
-   "id": "16947-963094831-S",
-   "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-963094831-S",
-   "posted": "2026-08-11",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-963094831-S",
    "title": "Ausrüstungselektriker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -23018,19 +23713,6 @@
    "seed": true
   },
   {
-   "company": "Airbus (Hamburg)",
-   "id": "16947-962176442-S",
-   "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
-   "employer": "Airbus Operations GmbH Werk Bremen",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962176442-S",
-   "posted": "2026-08-06",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Airbus Operations",
    "id": "16947-962176442-S",
    "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
@@ -23045,11 +23727,11 @@
   },
   {
    "company": "Airbus (Hamburg)",
-   "id": "16947-962168090-S",
-   "title": "Maler, Lackierer und Verfahrensmechaniker für die A320 Single Aisle / Final Assembly Line  (d/m/w)",
+   "id": "16947-962176442-S",
+   "title": "Prüfer (D/M/W) für Funktionstests Final Assembly Line",
    "employer": "Airbus Operations GmbH Werk Bremen",
    "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962168090-S",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962176442-S",
    "posted": "2026-08-06",
    "match": 1,
    "src": "agency",
@@ -23071,6 +23753,19 @@
   },
   {
    "company": "Airbus (Hamburg)",
+   "id": "16947-962168090-S",
+   "title": "Maler, Lackierer und Verfahrensmechaniker für die A320 Single Aisle / Final Assembly Line  (d/m/w)",
+   "employer": "Airbus Operations GmbH Werk Bremen",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-962168090-S",
+   "posted": "2026-08-06",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Airbus Operations",
    "id": "16947-962167729-S",
    "title": "Maler und Lackierer (d/w/m) für die A320 Single Aisle / Final Assembly Line in Hamburg",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -23083,7 +23778,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-962167729-S",
    "title": "Maler und Lackierer (d/w/m) für die A320 Single Aisle / Final Assembly Line in Hamburg",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -23119,6 +23814,19 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-961564511-S",
+   "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-961564511-S",
+   "posted": "2026-08-04",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus Defence and Space",
    "id": "16947-961564511-S",
    "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
@@ -23132,19 +23840,6 @@
   },
   {
    "company": "Airbus (Hamburg)",
-   "id": "16947-961564511-S",
-   "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-961564511-S",
-   "posted": "2026-08-04",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-961564511-S",
    "title": "Strukturmechaniker (d/m/w) für die Strukturmontage in Hamburg (Generische)",
    "employer": "Airbus Defence and Space GmbH",
@@ -23192,7 +23887,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-961602684-S",
    "title": "F&DT Lead Engineer for Fuselage Primary Structure (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -23205,7 +23900,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-961602684-S",
    "title": "F&DT Lead Engineer for Fuselage Primary Structure (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -23636,18 +24331,6 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space",
-   "id": "16947-957312658-S",
-   "title": "Zerspanungsmechaniker (m/w/d)",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Donauwörth, Bayern",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-957312658-S",
-   "posted": "2026-07-14",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00"
-  },
-  {
    "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-957312658-S",
    "title": "Zerspanungsmechaniker (m/w/d)",
@@ -23659,6 +24342,18 @@
    "src": "agency",
    "first_seen": "2026-11-22T19:38:54+00:00",
    "seed": true
+  },
+  {
+   "company": "Airbus Defence and Space",
+   "id": "16947-957312658-S",
+   "title": "Zerspanungsmechaniker (m/w/d)",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Donauwörth, Bayern",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-957312658-S",
+   "posted": "2026-07-14",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
    "company": "ASML",
@@ -23686,7 +24381,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
+   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-956959207-S",
    "title": "Lead Engineer Network Systems for Satellite Communication Systems (m/f/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -23699,7 +24394,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Defence and Space Friedrichshafen",
+   "company": "Airbus Defence and Space (Munich/Ottobrunn)",
    "id": "16947-956959207-S",
    "title": "Lead Engineer Network Systems for Satellite Communication Systems (m/f/d)",
    "employer": "Airbus Defence and Space GmbH",
@@ -23762,6 +24457,19 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
+   "company": "Airbus Defence and Space Friedrichshafen",
+   "id": "16947-956112533-S",
+   "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
+   "employer": "Airbus Defence and Space GmbH",
+   "location": "Hamburg, Hamburg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-956112533-S",
+   "posted": "2026-07-08",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
    "company": "Airbus Defence and Space",
    "id": "16947-956112533-S",
    "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
@@ -23775,19 +24483,6 @@
   },
   {
    "company": "Airbus (Hamburg)",
-   "id": "16947-956112533-S",
-   "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
-   "employer": "Airbus Defence and Space GmbH",
-   "location": "Hamburg, Hamburg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-956112533-S",
-   "posted": "2026-07-08",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
-   "company": "Airbus Defence and Space Friedrichshafen",
    "id": "16947-956112533-S",
    "title": "Ausrüstungsmechaniker (d/m/w) für die Ausrüstungsmontage in Hamburg",
    "employer": "Airbus Defence and Space GmbH",
@@ -24379,7 +25074,7 @@
    "first_seen": "2026-11-22T19:38:54+00:00"
   },
   {
-   "company": "Airbus (Hamburg)",
+   "company": "Airbus Operations",
    "id": "16947-941111555-S",
    "title": "Digital SAP Business Analyst - Quality (QM) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -24392,7 +25087,7 @@
    "seed": true
   },
   {
-   "company": "Airbus Operations",
+   "company": "Airbus (Hamburg)",
    "id": "16947-941111555-S",
    "title": "Digital SAP Business Analyst - Quality (QM) (d/f/m)",
    "employer": "Airbus Operations GmbH Werk Bremen",
@@ -24566,19 +25261,6 @@
    "seed": true
   },
   {
-   "company": "Hensoldt (Ulm/Oberkochen)",
-   "id": "10000-1206067891-S",
-   "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
-   "employer": "HENSOLDT Sensors GmbH",
-   "location": "Laichingen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206067891-S",
-   "posted": "2026-04-02",
-   "match": 1,
-   "src": "agency",
-   "first_seen": "2026-11-22T19:38:54+00:00",
-   "seed": true
-  },
-  {
    "company": "Hensoldt (Stuttgart region)",
    "id": "10000-1206067891-S",
    "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
@@ -24593,6 +25275,19 @@
   },
   {
    "company": "Hensoldt Sensors",
+   "id": "10000-1206067891-S",
+   "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
+   "employer": "HENSOLDT Sensors GmbH",
+   "location": "Laichingen, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206067891-S",
+   "posted": "2026-04-02",
+   "match": 1,
+   "src": "agency",
+   "first_seen": "2026-11-22T19:38:54+00:00",
+   "seed": true
+  },
+  {
+   "company": "Hensoldt (Ulm/Oberkochen)",
    "id": "10000-1206067891-S",
    "title": "Mitarbeiter Produktion Elektronikmontage (w/m/d) - Laichingen",
    "employer": "HENSOLDT Sensors GmbH",
@@ -26575,8 +27270,7 @@
    "posted": "2026-11-21",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-21T06:54:46+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-11-21T06:54:46+00:00"
   },
   {
    "company": "Formlabs",
@@ -32538,6 +33232,17 @@
    "first_seen": "2026-11-18T20:40:18+00:00"
   },
   {
+   "company": "Helsing",
+   "id": "4893273101",
+   "title": "IT Engineer",
+   "location": "Munich",
+   "url": "https://helsing.ai/jobs/4893273101?gh_jid=4893273101",
+   "posted": "2026-11-25T10:23:32-05:00",
+   "match": 1,
+   "src": "site",
+   "first_seen": "2026-11-18T19:20:54+00:00"
+  },
+  {
    "company": "Hensoldt",
    "id": "https://jobs.hensoldt.net/job/Oberkochen-Entwicklungsingenieurin-Elektronik-Naval-Solutions-%28wmd%29-73447/1167036155/",
    "title": "Entwicklungsingenieur*in Elektronik Naval Solutions (w/m/d)",
@@ -32559,17 +33264,6 @@
    "src": "site",
    "first_seen": "2026-11-18T19:20:54+00:00",
    "closed_at": "2026-11-19T18:35:14+00:00"
-  },
-  {
-   "company": "Helsing",
-   "id": "4893273101",
-   "title": "IT Support Engineer",
-   "location": "Munich",
-   "url": "https://helsing.ai/jobs/4893273101?gh_jid=4893273101",
-   "posted": "2026-11-18T07:29:04-05:00",
-   "match": 1,
-   "src": "site",
-   "first_seen": "2026-11-18T19:20:54+00:00"
   },
   {
    "company": "Akkodis",
@@ -32793,7 +33487,8 @@
    "posted": "2026-11-18",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-18T10:37:10+00:00"
+   "first_seen": "2026-11-18T10:37:10+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "TKMS",
@@ -32841,7 +33536,8 @@
    "posted": "2026-11-18",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-18T10:37:10+00:00"
+   "first_seen": "2026-11-18T10:37:10+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -34753,8 +35449,7 @@
    "posted": "2026-11-17",
    "match": 2,
    "src": "agency",
-   "first_seen": "2026-11-17T19:45:00+00:00",
-   "closed_at": "2026-11-25T05:21:32+00:00"
+   "first_seen": "2026-11-17T19:45:00+00:00"
   },
   {
    "company": "Akkodis",
@@ -34896,7 +35591,8 @@
    "posted": "2026-11-17",
    "match": 1,
    "src": "agency",
-   "first_seen": "2026-11-17T10:38:17+00:00"
+   "first_seen": "2026-11-17T10:38:17+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "TKMS",
@@ -37513,7 +38209,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "TKMS",
@@ -37538,7 +38235,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -37644,7 +38342,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -37776,7 +38475,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -37800,7 +38500,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -37836,7 +38537,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-16T18:18:22+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "CERN",
@@ -38750,7 +39452,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-15T08:22:44+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -40527,7 +41230,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-13T17:06:47+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -40539,7 +41243,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-13T17:06:47+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -40677,7 +41382,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-13T17:06:47+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Liebherr-Aerospace",
@@ -40798,7 +41504,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-13T08:41:08+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -41006,7 +41713,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-13T08:41:08+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -41018,7 +41726,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-13T08:41:08+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -41105,7 +41814,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-13T08:41:08+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -44204,7 +44914,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -44459,7 +45170,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -44752,7 +45464,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -44777,7 +45490,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45043,7 +45757,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45107,7 +45822,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45119,7 +45835,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45220,7 +45937,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45396,7 +46114,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45432,7 +46151,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45469,7 +46189,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45506,7 +46227,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45531,7 +46253,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45582,7 +46305,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45594,7 +46318,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45745,7 +46470,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bertrandt",
@@ -45936,7 +46662,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T12:29:36+00:00",
-   "employer": "Bertrandt AG"
+   "employer": "Bertrandt AG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -46704,8 +47431,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -46717,8 +47443,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-12T03:45:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -47499,7 +48224,8 @@
    "posted": "2026-11-11",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-11-11T19:42:05+00:00"
+   "first_seen": "2026-11-11T19:42:05+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Bosch",
@@ -47835,7 +48561,8 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-11-11T16:02:43+00:00",
-   "employer": "Akkodis Germany Tech Experts GmbH"
+   "employer": "Akkodis Germany Tech Experts GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Akkodis",
@@ -49825,8 +50552,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-10T04:02:36+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -51882,8 +52608,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-07T03:07:00+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Helsing",
@@ -53455,7 +54180,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-06T11:25:20+00:00",
-   "employer": "TKMS ATLAS ELEKTRONIK GmbH"
+   "employer": "TKMS ATLAS ELEKTRONIK GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Atlas Elektronik",
@@ -53467,7 +54193,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-11-06T11:25:20+00:00",
-   "employer": "TKMS ATLAS ELEKTRONIK GmbH"
+   "employer": "TKMS ATLAS ELEKTRONIK GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "TKMS",
@@ -58545,18 +59272,6 @@
    "first_seen": "2026-11-02T20:11:45+00:00"
   },
   {
-   "company": "Akkodis",
-   "id": "12634-BB-646767-7878-1493-S",
-   "title": "Betriebsmittelkonstrukteur im Bereich Technische Methoden (m/w/d)",
-   "location": "Friedrichshafen, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12634-BB-646767-7878-1493-S",
-   "posted": "2026-11-02",
-   "match": 2,
-   "src": "agency",
-   "first_seen": "2026-11-02T20:11:45+00:00",
-   "closed_at": "2026-11-11T07:40:37+00:00"
-  },
-  {
    "company": "ESA",
    "id": "https://jobs.esa.int/job/Noordwijk-In-Orbit-Servicing-Performance-Engineer/1400234033/",
    "title": "In-Orbit Servicing Performance Engineer",
@@ -61735,8 +62450,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-30T01:49:18+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -63916,7 +64630,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-27T16:23:40+00:00",
-   "employer": "VINCORION Advanced Systems GmbH"
+   "employer": "VINCORION Advanced Systems GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "OHB",
@@ -63950,7 +64665,8 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-27T16:23:40+00:00",
-   "employer": "Dornier Seawings GmbH"
+   "employer": "Dornier Seawings GmbH",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "ESA",
@@ -66805,7 +67521,8 @@
    "posted": "",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-22T13:09:45+00:00"
+   "first_seen": "2026-10-22T13:09:45+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "EUMETSAT",
@@ -67119,8 +67836,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -67132,8 +67848,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-22T01:44:54+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -69494,8 +70209,7 @@
    "match": 1,
    "src": "agency",
    "first_seen": "2026-10-17T01:14:16+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Hensoldt",
@@ -70120,19 +70834,7 @@
    "match": 2,
    "src": "agency",
    "first_seen": "2026-10-16T01:10:20+00:00",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
-  },
-  {
-   "company": "Databricks",
-   "id": "8892965002",
-   "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892965002",
-   "posted": "2026-11-19T16:47:39-05:00",
-   "match": 2,
-   "src": "site",
-   "first_seen": "2026-10-15T19:21:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Databricks",
@@ -70140,6 +70842,17 @@
    "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
    "location": "Remote - Germany",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892971002",
+   "posted": "2026-11-19T16:47:39-05:00",
+   "match": 2,
+   "src": "site",
+   "first_seen": "2026-10-15T19:21:55+00:00"
+  },
+  {
+   "company": "Databricks",
+   "id": "8892965002",
+   "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892965002",
    "posted": "2026-11-19T16:47:39-05:00",
    "match": 2,
    "src": "site",
@@ -70188,7 +70901,8 @@
    "posted": "2026-11-13",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-15T17:08:24+00:00"
+   "first_seen": "2026-10-15T17:08:24+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Infineon Technologies",
@@ -72494,7 +73208,8 @@
    "posted": "2026-11-25",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -72505,7 +73220,8 @@
    "posted": "2026-11-25",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Agile Robots",
@@ -72528,7 +73244,8 @@
    "posted": "2026-11-22",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -72539,7 +73256,8 @@
    "posted": "2026-11-20",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Jenoptik",
@@ -72562,7 +73280,8 @@
    "posted": "2026-11-01",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -72651,8 +73370,7 @@
    "posted": "2026-05-15",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -72663,8 +73381,7 @@
    "posted": "2026-04-23",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Q.ANT",
@@ -72675,8 +73392,7 @@
    "posted": "2026-03-12",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-12T18:29:50+00:00",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "first_seen": "2026-10-12T18:29:50+00:00"
   },
   {
    "company": "Quantum Systems",
@@ -82347,7 +83063,8 @@
    "posted": "2026-11-25",
    "match": 2,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Helsing",
@@ -83558,10 +84275,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -83569,10 +84286,10 @@
   },
   {
    "company": "Hensoldt",
-   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "id": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "title": "Senior Systemingenieur luftgestützte Aufklärung (w/m/d)",
    "location": "Ulm, DE, 89077",
-   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1330050455/",
+   "url": "https://jobs.hensoldt.net/job/Ulm-Senior-Systemingenieur-luftgest%C3%BCtzte-Aufkl%C3%A4rung-%28wmd%29-89077/1370452655/",
    "posted": "2026-11-03",
    "match": 1,
    "src": "site",
@@ -84532,7 +85249,8 @@
    "posted": "2026-09-14T09:35:32-04:00",
    "match": 1,
    "src": "site",
-   "first_seen": "2026-10-09T06:06:52+00:00"
+   "first_seen": "2026-10-09T06:06:52+00:00",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Helsing",
@@ -86720,8 +87438,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Atlas Elektronik",
@@ -86760,8 +87477,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -86774,8 +87490,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -86801,8 +87516,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "General Dynamics",
@@ -86855,8 +87569,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Vincorion",
@@ -86973,8 +87686,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Lürssen",
@@ -87436,8 +88148,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -87450,8 +88161,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -87477,8 +88187,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Moog",
@@ -87569,8 +88278,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -87896,8 +88604,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Airbus Defence and Space",
@@ -88079,8 +88786,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Jenoptik",
@@ -88093,8 +88799,7 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "Jenoptik AG",
-   "closed_at": "2026-11-25T08:45:55+00:00"
+   "employer": "Jenoptik AG"
   },
   {
    "company": "Lürssen",
@@ -88264,7 +88969,8 @@
    "first_seen": "2026-10-08T15:38:14+00:00",
    "seed": true,
    "src": "agency",
-   "employer": "F.-O. Lürssen Baumschulen GmbH & Co.KG"
+   "employer": "F.-O. Lürssen Baumschulen GmbH & Co.KG",
+   "closed_at": "2026-11-25T15:58:31+00:00"
   },
   {
    "company": "Safran Electronics",
@@ -93743,7 +94449,7 @@
    "first_seen": "2026-10-08T13:38:18+00:00",
    "seed": true,
    "src": "agency",
-   "closed_at": "2026-11-13T01:25:56+00:00"
+   "employer": "RENK GmbH"
   },
   {
    "company": "Verallia",
@@ -98237,6 +98943,19 @@
    "employer": "Varta Aktiengesellschaft"
   },
   {
+   "company": "Telegärtner Karl Gärtner",
+   "id": "10000-1205751782-S",
+   "title": "Produktionsmitarbeiter (m/w/d)",
+   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
+   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
+   "posted": "2026-03-06",
+   "match": 1,
+   "first_seen": "2026-10-08T13:38:18+00:00",
+   "seed": true,
+   "src": "agency",
+   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
+  },
+  {
    "company": "Leonardo",
    "id": "10001-1002419245-S",
    "title": "Produktionsmitarbeiter (m/w/d)",
@@ -98261,19 +98980,6 @@
    "seed": true,
    "src": "agency",
    "employer": "Leonardo PersonalKonzept GmbH"
-  },
-  {
-   "company": "Telegärtner Karl Gärtner",
-   "id": "10000-1205751782-S",
-   "title": "Produktionsmitarbeiter (m/w/d)",
-   "location": "Steinenbronn, Württemberg, Baden Wuerttemberg",
-   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205751782-S",
-   "posted": "2026-03-06",
-   "match": 1,
-   "first_seen": "2026-10-08T13:38:18+00:00",
-   "seed": true,
-   "src": "agency",
-   "employer": "Telegärtner Karl Gärtner GmbH Fernmeldetechnik"
   },
   {
    "company": "SH",
@@ -100905,5 +101611,5 @@
    "closed_at": "2026-11-12T12:29:36+00:00"
   }
  ],
- "updated": "2026-11-25T08:45:55+00:00"
+ "updated": "2026-11-25T15:58:31+00:00"
 }
